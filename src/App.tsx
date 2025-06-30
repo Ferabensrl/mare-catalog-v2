@@ -30,13 +30,17 @@ interface LoginData {
   nombreCliente: string;
 }
 
-// Convertir enlace de Google Drive a imagen directa
+// Convertir enlace de Google Drive a imagen directa o manejar rutas locales
 const convertGoogleDriveUrl = (url: string): string => {
   if (url.includes('drive.google.com')) {
     const match = url.match(/\/d\/([a-zA-Z0-9-_]+)/);
     if (match) {
       return `https://drive.google.com/uc?export=view&id=${match[1]}`;
     }
+  }
+  // Si no es de Drive, es una ruta local, agregar /imagenes/
+  if (!url.startsWith('http') && !url.startsWith('/imagenes/')) {
+    return `/imagenes/${url}`;
   }
   return url;
 };
