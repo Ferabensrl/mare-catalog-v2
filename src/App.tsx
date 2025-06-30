@@ -483,7 +483,6 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
                 <span className="text-sm font-medium" style={{ color: '#8F6A50' }}>{option}</span>
                 <div className="flex items-center gap-2">
                   <button
-                  <button
                     onClick={() => handleQuantityChange(option, -1)}
                     className="p-1 rounded"
                     style={{ backgroundColor: '#E3D4C1', color: '#8F6A50' }}
