@@ -8,10 +8,10 @@
     "precio": 135,
     "estado": "visible",
     "imagenes": [
-      "https://drive.google.com/file/d/1OrrozIA1QDrCnZ6S4bSF5Kv8WH5QbVX9/view?usp=sharing",
-      "https://drive.google.com/file/d/1Ai1Zm9xS0bRjURKdNtLKoyKbG92IFpaA/view?usp=sharing"
+      "LB010 1.jpg",
+      "LB010 2.jpg"
     ],
-    "imagenVariantes": "https://drive.google.com/file/d/1OrrozIA1QDrCnZ6S4bSF5Kv8WH5QbVX9/view?usp=sharing",
+    "imagenVariantes": "LB010 VARIANTES.jpg",
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {
@@ -32,10 +32,10 @@
     "precio": 165,
     "estado": "visible",
     "imagenes": [
-      "https://drive.google.com/file/d/1EJQ6KnhBZhIm4Hbw1W5WNdYVKYB9o7k7/view?usp=sharing",
-      "https://drive.google.com/file/d/1vXToeNF16GRZiKv2FC_qgiRE40ty7-ap/view?usp=sharing"
+      "LB011 1.jpg",
+      "LB011 2.jpg"
     ],
-    "imagenVariantes": "https://drive.google.com/file/d/1pWOlLBKjSZpQa-sr0jLT02aojOQars7R/view?usp=sharing",
+    "imagenVariantes": "LB011 VARIANTES.jpg",
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {
@@ -55,7 +55,7 @@
     "precio": 85,
     "estado": "visible",
     "imagenes": [
-      "https://drive.google.com/file/d/1ABC123/view?usp=sharing"
+      "100324 1.jpg"
     ],
     "sinColor": true,
     "permitirSurtido": false,
