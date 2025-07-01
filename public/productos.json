@@ -12,9 +12,9 @@
       "LB010 2.jpg",
       "LB010 3.jpg",
       "LB010 4.jpg",
-      "LB010 5.jpg"
+      "LB010 5.jpg",
+      "LB010 6.jpg"
     ],
-    "imagenVariantes": "LB010 VARIANTES.jpg",
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {
@@ -24,7 +24,8 @@
       "Marron Claro": true,
       "Marron Oscuro": true
     },
-    "variantes": {}
+    "variantes": {},
+    "imagenVariantes": "LB010 VARIANTES.jpg"
   },
   {
     "codigo": "LB011",
@@ -41,7 +42,6 @@
       "LB011 4.jpg",
       "LB011 5.jpg"
     ],
-    "imagenVariantes": "LB011 VARIANTES.jpg",
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {
@@ -50,15 +50,1823 @@
       "Marron Claro": true,
       "Gris": true
     },
-    "variantes": {}
+    "variantes": {},
+    "imagenVariantes": "LB011 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB012",
+    "nombre": "Cinto de dama",
+    "descripcion": "Cinto de dama",
+    "categoria": "Cinto de dama",
+    "medidas": "105cm",
+    "precio": 155,
+    "estado": "visible",
+    "imagenes": [
+      "LB012 1.jpg",
+      "LB012 2.jpg",
+      "LB012 3.jpg",
+      "LB012 4.jpg",
+      "LB012 5.jpg",
+      "LB012 6.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Beige": true,
+      "Marron Claro": true,
+      "Gris": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB012 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB001",
+    "nombre": "Cinto elastizado",
+    "descripcion": "Cinto elastizado",
+    "categoria": "Cinto de dama",
+    "medidas": "100cm",
+    "precio": 175,
+    "estado": "visible",
+    "imagenes": [
+      "LB001 1.jpg",
+      "LB001 2.jpg",
+      "LB001 3.jpg",
+      "LB001 4.jpg",
+      "LB001 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos pastel": true,
+      "Beige": true,
+      "Combinado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB001 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB005",
+    "nombre": "Cinto de dama",
+    "descripcion": "Cinto de dama",
+    "categoria": "Cinto de dama",
+    "medidas": "105cm",
+    "precio": 135,
+    "estado": "visible",
+    "imagenes": [
+      "LB005 1.jpg",
+      "LB005 2.jpg",
+      "LB005 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB005 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB006",
+    "nombre": "Cinto de dama",
+    "descripcion": "Cinto de dama",
+    "categoria": "Cinto de dama",
+    "medidas": "105cm",
+    "precio": 170,
+    "estado": "visible",
+    "imagenes": [
+      "LB006 1.jpg",
+      "LB006 2.jpg",
+      "LB006 3.jpg",
+      "LB006 4.jpg",
+      "LB006 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB006 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB008",
+    "nombre": "Cinto elastizado",
+    "descripcion": "Cinto elastizado",
+    "categoria": "Cinto de dama",
+    "medidas": "105cm",
+    "precio": 150,
+    "estado": "visible",
+    "imagenes": [
+      "LB008 1.jpg",
+      "LB008 2.jpg",
+      "LB008 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Nude": true,
+      "Beige": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB008 VARIANTES.jpg"
+  },
+  {
+    "codigo": "MB001",
+    "nombre": "Cinto hombre",
+    "descripcion": "Cinto hombre",
+    "categoria": "Caballero",
+    "medidas": "115 - 120cm",
+    "precio": 185,
+    "estado": "visible",
+    "imagenes": [
+      "MB001 1.jpg",
+      "MB001 2.jpg",
+      "MB001 3.jpg",
+      "MB001 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
+    "imagenVariantes": "MB001 VARIANTES.jpg"
+  },
+  {
+    "codigo": "MB020",
+    "nombre": "Cinto hombre",
+    "descripcion": "Cinto hombre",
+    "categoria": "Caballero",
+    "medidas": "120cm",
+    "precio": 150,
+    "estado": "visible",
+    "imagenes": [
+      "MB020 1.jpg",
+      "MB020 2.jpg",
+      "MB020 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "MB020 VARIANTES.jpg"
+  },
+  {
+    "codigo": "MB3891",
+    "nombre": "Cinto hombre",
+    "descripcion": "Cinto hombre",
+    "categoria": "Caballero",
+    "medidas": "120cm",
+    "precio": 180,
+    "estado": "visible",
+    "imagenes": [
+      "MB3891 1.jpg",
+      "MB3891 2.jpg",
+      "MB3891 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "MB3891 VARIANTES.jpg"
+  },
+  {
+    "codigo": "MB3893",
+    "nombre": "Cinto hombre",
+    "descripcion": "Cinto hombre",
+    "categoria": "Caballero",
+    "medidas": "120cm",
+    "precio": 180,
+    "estado": "visible",
+    "imagenes": [
+      "MB3893 1.jpg",
+      "MB3893 2.jpg",
+      "MB3893 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "MB3893 VARIANTES.jpg"
+  },
+  {
+    "codigo": "MB005",
+    "nombre": "Cinto hombre",
+    "descripcion": "Cinto hombre",
+    "categoria": "Caballero",
+    "medidas": "120cm",
+    "precio": 180,
+    "estado": "visible",
+    "imagenes": [
+      "MB005 1.jpg",
+      "MB005 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "MB005 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W128",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama Larga",
+    "categoria": "Billetera dama Larga",
+    "medidas": "20 X 10,5 X 2,5cm",
+    "precio": 150,
+    "estado": "visible",
+    "imagenes": [
+      "W128 1.jpg",
+      "W128 2.jpg",
+      "W128 3.jpg",
+      "W128 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Marron Claro": true,
+      "Bordeaux": true,
+      "Rojo": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W128 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W274",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama Larga",
+    "categoria": "Billetera dama Larga",
+    "medidas": "19 X 9,8 X 2,5CM",
+    "precio": 190,
+    "estado": "visible",
+    "imagenes": [
+      "W274 1.jpg",
+      "W274 2.jpg",
+      "W274 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Plateado": true,
+      "Verde": true,
+      "Celeste": true,
+      "Marron Claro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W274 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W140",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama Larga",
+    "categoria": "Billetera dama Larga",
+    "medidas": "19,5 X 10 X 2,5CM",
+    "precio": 235,
+    "estado": "visible",
+    "imagenes": [
+      "W140 1.jpg",
+      "W140 2.jpg",
+      "W140 3.jpg",
+      "W140 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Verde": true,
+      "Lila": true,
+      "Beige": true,
+      "Marron Claro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W140 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W253",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama Larga",
+    "categoria": "Billetera dama Larga",
+    "medidas": "19 X 10,5 X 2CM",
+    "precio": 175,
+    "estado": "visible",
+    "imagenes": [
+      "W253 1.jpg",
+      "W253 2.jpg",
+      "W253 3.jpg",
+      "W253 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Celeste": true,
+      "Marron Claro": true,
+      "Rojo": true,
+      "Rosa Viejo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W253 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W801",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama Larga",
+    "categoria": "Billetera dama Larga",
+    "medidas": "19,5 X 9,5 X 2,5",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "W801 1.jpg",
+      "W801 2.jpg",
+      "W801 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Rojo": true,
+      "Rosa Viejo": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W801 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W252",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama Larga",
+    "categoria": "Billetera dama Larga",
+    "medidas": "",
+    "precio": 295,
+    "estado": "visible",
+    "imagenes": [
+      "W252 1.jpg",
+      "W252 2.jpg",
+      "W252 3.jpg",
+      "W252 4.jpg",
+      "W252 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Rosado": true,
+      "Marron Claro": true,
+      "Gris": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W252 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W254",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama Larga",
+    "categoria": "Billetera dama Larga",
+    "medidas": "14,8 X 9 X 2,2CM",
+    "precio": 260,
+    "estado": "visible",
+    "imagenes": [
+      "W254 1.jpg",
+      "W254 2.jpg",
+      "W254 3.jpg",
+      "W254 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Gris": true,
+      "Rojo": true,
+      "Rosa Viejo": true,
+      "Azul": true,
+      "Mostaza": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W254 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W802",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama Larga",
+    "categoria": "Billetera dama Larga",
+    "medidas": "20 X 5 X 12,5CM",
+    "precio": 250,
+    "estado": "visible",
+    "imagenes": [
+      "W802 1.jpg",
+      "W802 2.jpg",
+      "W802 3.jpg",
+      "W802 4.jpg",
+      "W802 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Marron Claro": true,
+      "Rojo": true,
+      "Rosa Viejo": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W802 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W292",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera Juvenil",
+    "categoria": "Billetera dama corta",
+    "medidas": "11,5 x 9,3 x 3cm",
+    "precio": 235,
+    "estado": "visible",
+    "imagenes": [
+      "W292 1.jpg",
+      "W292 2.jpg",
+      "W292 3.jpg",
+      "W292 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Amarillo": true,
+      "Verde": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Beige": true,
+      "Rojo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W292 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W002",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama corta",
+    "categoria": "Billetera dama corta",
+    "medidas": "11,5 x 10,5 x 2cm",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "W002 1.jpg",
+      "W002 2.jpg",
+      "W002 3.jpg",
+      "W002 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Celeste": true,
+      "Marron Claro": true,
+      "Rojo": true,
+      "Rosa Viejo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W002 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W0005",
+    "nombre": "Billetera dama",
+    "descripcion": "Tarjetero / Monedero",
+    "categoria": "Billetera dama corta",
+    "medidas": "11,5 x 8 x 4cm",
+    "precio": 235,
+    "estado": "visible",
+    "imagenes": [
+      "W0005 1.jpg",
+      "W0005 2.jpg",
+      "W0005 3.jpg",
+      "W0005 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true,
+      "Bordeaux": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W0005 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W2126",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera / Tarjetero",
+    "categoria": "Billetera dama corta",
+    "medidas": "11,5 X 2,3 X 8,5CM",
+    "precio": 105,
+    "estado": "visible",
+    "imagenes": [
+      "W2126 1.jpg",
+      "W2126 2.jpg",
+      "W2126 3.jpg",
+      "W2126 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true
+    },
+    "imagenVariantes": "W2126 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W307-2B",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama corta",
+    "categoria": "Billetera dama corta",
+    "medidas": "11,5 x 9 x 2cm",
+    "precio": 235,
+    "estado": "visible",
+    "imagenes": [
+      "W307-2B 1.jpg",
+      "W307-2B 2.jpg",
+      "W307-2B 3.jpg",
+      "W307-2B 4.jpg",
+      "W307-2B 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Celeste": true,
+      "Beige": true,
+      "Marron Claro": true,
+      "Bordeaux": true,
+      "Verde Agua": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W307-2B VARIANTES.jpg"
+  },
+  {
+    "codigo": "W219",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama corta",
+    "categoria": "Billetera dama corta",
+    "medidas": "14 X 9,5 X 2CM",
+    "precio": 135,
+    "estado": "visible",
+    "imagenes": [
+      "W219 1.jpg",
+      "W219 2.jpg",
+      "W219 3.jpg",
+      "W219 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Rojo": true,
+      "Rosa Viejo": true,
+      "Verde Agua": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W219 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W807 B",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama corta",
+    "categoria": "Billetera dama corta",
+    "medidas": "12,5 X 3 X 10CM",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "W807 B 1.jpg",
+      "W807 B 2.jpg",
+      "W807 B 3.jpg",
+      "W807 B 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Fucsia": true,
+      "Marron Claro": true,
+      "Rojo": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W807 B VARIANTES.jpg"
+  },
+  {
+    "codigo": "W808",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama corta",
+    "categoria": "Billetera dama corta",
+    "medidas": "11 X 9 X 3CM",
+    "precio": 265,
+    "estado": "visible",
+    "imagenes": [
+      "W808 1.jpg",
+      "W808 2.jpg",
+      "W808 3.jpg",
+      "W808 4.jpg",
+      "W808 5.jpg",
+      "W808 6.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Verde Agua": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W808 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W0028",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama corta",
+    "categoria": "Billetera dama corta",
+    "medidas": "11 X 8 X 4CM",
+    "precio": 235,
+    "estado": "visible",
+    "imagenes": [
+      "W0028 1.jpg",
+      "W0028 2.jpg",
+      "W0028 3.jpg",
+      "W0028 4.jpg",
+      "W0028 5.jpg",
+      "W0028 6.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Gris": true,
+      "Rojo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W0028 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W865",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama corta",
+    "categoria": "Billetera dama corta",
+    "medidas": "11 X 3 X 9CM",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "W865 1.jpg",
+      "W865 2.jpg",
+      "W865 3.jpg",
+      "W865 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Rosado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W865 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W280",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama corta",
+    "categoria": "Billetera dama corta",
+    "medidas": "11,5 X 2 X 9CM",
+    "precio": 105,
+    "estado": "visible",
+    "imagenes": [
+      "W280 1.jpg",
+      "W280 2.jpg",
+      "W280 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true
+    },
+    "imagenVariantes": "W280 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W286",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera / Tarjetero",
+    "categoria": "Billetera dama corta",
+    "medidas": "10,5 X 8 X 2,5CM",
+    "precio": 105,
+    "estado": "visible",
+    "imagenes": [
+      "W286 1.jpg",
+      "W286 2.jpg",
+      "W286 3.jpg",
+      "W286 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Verde": true,
+      "Rosado": true,
+      "Marron Claro": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W286 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W291",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama corta",
+    "categoria": "Billetera dama corta",
+    "medidas": "11,5 X 9 X 3CM",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "W291 1.jpg",
+      "W291 2.jpg",
+      "W291 3.jpg",
+      "W291 4.jpg",
+      "W291 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Lila": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Beige": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W291 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W293",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama Larga",
+    "categoria": "Billetera dama Larga",
+    "medidas": "18,6 X 9,5 X 3,2CM",
+    "precio": 235,
+    "estado": "visible",
+    "imagenes": [
+      "W293 1.jpg",
+      "W293 2.jpg",
+      "W293 3.jpg",
+      "W293 4.jpg",
+      "W293 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Beige": true,
+      "Marron Claro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W293 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W1008",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama Larga",
+    "categoria": "Billetera dama Larga",
+    "medidas": "19 X 10 X 2CM",
+    "precio": 175,
+    "estado": "visible",
+    "imagenes": [
+      "W1008 1.jpg",
+      "W1008 2.jpg",
+      "W1008 3.jpg",
+      "W1008 4.jpg",
+      "W1008 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Rosado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W1008 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W266",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama Larga",
+    "categoria": "Billetera dama Larga",
+    "medidas": "19 X 10 X 3CM",
+    "precio": 185,
+    "estado": "visible",
+    "imagenes": [
+      "W266 1.jpg",
+      "W266 2.jpg",
+      "W266 3.jpg",
+      "W266 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true
+    },
+    "imagenVariantes": "W266 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W297",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama Larga",
+    "categoria": "Billetera dama Larga",
+    "medidas": "19 X 10 X 2,5CM",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "W297 1.jpg",
+      "W297 2.jpg",
+      "W297 3.jpg",
+      "W297 4.jpg",
+      "W297 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Nude": true,
+      "Celeste": true,
+      "Marron Claro": true,
+      "Verde claro": true,
+      "Rosa Viejo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W297 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W383-1",
+    "nombre": "Bandolera Juvenil",
+    "descripcion": "Bandolera/Billetera juvenil",
+    "categoria": "Bandolera infantil",
+    "medidas": "13 x 11 x 1cm",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "W383-1 1.jpg",
+      "W383-1 2.jpg",
+      "W383-1 3.jpg",
+      "W383-1 4.jpg",
+      "W383-1 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true
+    },
+    "imagenVariantes": "W383-1 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W271",
+    "nombre": "Billetera dama",
+    "descripcion": "Tarjetero / Monedero",
+    "categoria": "Billetera dama corta",
+    "medidas": "10,7 X 8 X 2,5CM",
+    "precio": 120,
+    "estado": "visible",
+    "imagenes": [
+      "W271 1.jpg",
+      "W271 2.jpg",
+      "W271 3.jpg",
+      "W271 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Beige": true,
+      "Marron Oscuro": true,
+      "Rosa Viejo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W271 VARIANTES.jpg"
+  },
+  {
+    "codigo": "H001",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera para celular",
+    "categoria": "Bandolera",
+    "medidas": "19,5 X 11 X 4,5CM",
+    "precio": 175,
+    "estado": "visible",
+    "imagenes": [
+      "H001 1.jpg",
+      "H001 2.jpg",
+      "H001 3.jpg",
+      "H001 4.jpg",
+      "H001 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Gris": true,
+      "Verde claro": true,
+      "Rojo": true,
+      "Rosa Viejo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "H001 VARIANTES.jpg"
+  },
+  {
+    "codigo": "H002",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera para celular",
+    "categoria": "Bandolera",
+    "medidas": "18 X 13,5 X 2CM",
+    "precio": 130,
+    "estado": "visible",
+    "imagenes": [
+      "H002 1.jpg",
+      "H002 2.jpg",
+      "H002 3.jpg",
+      "H002 4.jpg",
+      "H002 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Rosado": true,
+      "Gris": true,
+      "Rojo": true,
+      "Rosa Viejo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "H002 VARIANTES.jpg"
+  },
+  {
+    "codigo": "H003",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera para celular",
+    "categoria": "Bandolera",
+    "medidas": "18 X 11,5 X 2CM",
+    "precio": 130,
+    "estado": "visible",
+    "imagenes": [
+      "H003 1.jpg",
+      "H003 2.jpg",
+      "H003 3.jpg",
+      "H003 4.jpg",
+      "H003 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Lila": true,
+      "Rosado": true,
+      "Rojo": true,
+      "Rosa Viejo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "H003 VARIANTES.jpg"
+  },
+  {
+    "codigo": "H004",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera para celular",
+    "categoria": "Bandolera",
+    "medidas": "19 X 10,5 X 4CM",
+    "precio": 395,
+    "estado": "visible",
+    "imagenes": [
+      "H004 1.jpg",
+      "H004 2.jpg",
+      "H004 3.jpg",
+      "H004 4.jpg",
+      "H004 5.jpg",
+      "H004 6.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Gris": true,
+      "Rojo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "H004 VARIANTES.jpg"
+  },
+  {
+    "codigo": "H005",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera para celular",
+    "categoria": "Bandolera",
+    "medidas": "18 X 11,5 X 6CM",
+    "precio": 295,
+    "estado": "visible",
+    "imagenes": [
+      "H005 1.jpg",
+      "H005 2.jpg",
+      "H005 3.jpg",
+      "H005 4.jpg",
+      "H005 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Marron Claro": true,
+      "Rojo": true,
+      "Verde Agua": true
+    },
+    "variantes": {},
+    "imagenVariantes": "H005 VARIANTES.jpg"
+  },
+  {
+    "codigo": "H006",
+    "nombre": "Llavero / Lapiz labial",
+    "descripcion": "Llavero / Lapiz labial",
+    "categoria": "Llavero",
+    "medidas": "9,5 x 5 x 5cm",
+    "precio": 95,
+    "estado": "visible",
+    "imagenes": [
+      "H006 1.jpg",
+      "H006 2.jpg",
+      "H006 3.jpg",
+      "H006 4.jpg",
+      "H006 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Marron Claro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "H006 VARIANTES.jpg"
+  },
+  {
+    "codigo": "H007",
+    "nombre": "Llavero / Lapiz labial",
+    "descripcion": "Llavero / Lapiz labial",
+    "categoria": "Llavero",
+    "medidas": "9,5 x 5 x 5cm",
+    "precio": 95,
+    "estado": "visible",
+    "imagenes": [
+      "H007 1.jpg",
+      "H007 2.jpg",
+      "H007 3.jpg",
+      "H007 4.jpg",
+      "H007 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Verde": true,
+      "Rosado": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "H007 VARIANTES.jpg"
+  },
+  {
+    "codigo": "H008",
+    "nombre": "Llavero / Lapiz labial",
+    "descripcion": "Llavero / Lapiz labial",
+    "categoria": "Llavero",
+    "medidas": "9,5 x 5 x 5cm",
+    "precio": 95,
+    "estado": "visible",
+    "imagenes": [
+      "H008 1.jpg",
+      "H008 2.jpg",
+      "H008 3.jpg",
+      "H008 4.jpg",
+      "H008 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Amarillo": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Verde Agua": true
+    },
+    "variantes": {},
+    "imagenVariantes": "H008 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BILLH009",
+    "nombre": "Billetera de hombre",
+    "descripcion": "Billetera de hombre",
+    "categoria": "Caballero",
+    "medidas": "11,5 X 9,5 X 2,5cm",
+    "precio": 285,
+    "estado": "visible",
+    "imagenes": [
+      "BILLH009 1.jpg",
+      "BILLH009 2.jpg",
+      "BILLH009 3.jpg",
+      "BILLH009 4.jpg",
+      "BILLH009 5.jpg",
+      "BILLH009 6.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Marron Claro": true,
+      "Gris": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BILLH009 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BILLH008",
+    "nombre": "Billetera de hombre",
+    "descripcion": "Billetera de hombre",
+    "categoria": "Caballero",
+    "medidas": "12 X 9,7 X 2CM",
+    "precio": 265,
+    "estado": "visible",
+    "imagenes": [
+      "BILLH008 1.jpg",
+      "BILLH008 2.jpg",
+      "BILLH008 3.jpg",
+      "BILLH008 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BILLH008 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BILLH9031",
+    "nombre": "Billetera de hombre",
+    "descripcion": "Billetera de hombre",
+    "categoria": "Caballero",
+    "medidas": "11,5 X 9,5 X 1,5cm",
+    "precio": 235,
+    "estado": "visible",
+    "imagenes": [
+      "BILLH9031 1.jpg",
+      "BILLH9031 2.jpg",
+      "BILLH9031 3.jpg",
+      "BILLH9031 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BILLH9031 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BILLH9037",
+    "nombre": "Billetera de hombre",
+    "descripcion": "Billetera de hombre",
+    "categoria": "Caballero",
+    "medidas": "11,5 X 9,5 X 2cm",
+    "precio": 235,
+    "estado": "visible",
+    "imagenes": [
+      "BILLH9037 1.jpg",
+      "BILLH9037 2.jpg",
+      "BILLH9037 3.jpg",
+      "BILLH9037 4.jpg",
+      "BILLH9037 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BILLH9037 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BILLH016",
+    "nombre": "Billetera de hombre",
+    "descripcion": "Billetera de hombre",
+    "categoria": "Caballero",
+    "medidas": "11,5 X 9,5 X 2cm",
+    "precio": 235,
+    "estado": "visible",
+    "imagenes": [
+      "BILLH016 1.jpg",
+      "BILLH016 2.jpg",
+      "BILLH016 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BILLH016 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BILLH022",
+    "nombre": "Billetera de hombre",
+    "descripcion": "Billetera de hombre",
+    "categoria": "Caballero",
+    "medidas": "12,5 X 9,5 X 2,5CM",
+    "precio": 235,
+    "estado": "visible",
+    "imagenes": [
+      "BILLH022 1.jpg",
+      "BILLH022 2.jpg",
+      "BILLH022 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BILLH022 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BILLH2712",
+    "nombre": "Billetera de hombre",
+    "descripcion": "Billetera de hombre",
+    "categoria": "Caballero",
+    "medidas": "11,6 X 10 X 3CM",
+    "precio": 235,
+    "estado": "visible",
+    "imagenes": [
+      "BILLH2712 1.jpg",
+      "BILLH2712 2.jpg",
+      "BILLH2712 3.jpg",
+      "BILLH2712 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Plateado": true,
+      "Marron Oscuro": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BILLH2712 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BILLH5502",
+    "nombre": "Billetera de hombre",
+    "descripcion": "Billetera de hombre",
+    "categoria": "Caballero",
+    "medidas": "12 X 9,5 X 2,5CM",
+    "precio": 265,
+    "estado": "visible",
+    "imagenes": [
+      "BILLH5502 1.jpg",
+      "BILLH5502 2.jpg",
+      "BILLH5502 3.jpg",
+      "BILLH5502 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BILLH5502 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BILLH5505",
+    "nombre": "Billetera de hombre",
+    "descripcion": "Billetera de hombre",
+    "categoria": "Caballero",
+    "medidas": "11,5 X 9,5 X 2,5CM",
+    "precio": 265,
+    "estado": "visible",
+    "imagenes": [
+      "BILLH5505 1.jpg",
+      "BILLH5505 2.jpg",
+      "BILLH5505 3.jpg",
+      "BILLH5505 4.jpg",
+      "BILLH5505 5.jpg",
+      "BILLH5505 6.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BILLH5505 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BILLH5506",
+    "nombre": "Billetera de hombre",
+    "descripcion": "Billetera de hombre",
+    "categoria": "Caballero",
+    "medidas": "12 X 10 X 3CM",
+    "precio": 265,
+    "estado": "visible",
+    "imagenes": [
+      "BILLH5506 1.jpg",
+      "BILLH5506 2.jpg",
+      "BILLH5506 3.jpg",
+      "BILLH5506 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BILLH5506 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BILLH3913",
+    "nombre": "Billetera de hombre",
+    "descripcion": "Billetera de hombre",
+    "categoria": "Caballero",
+    "medidas": "12 X 9,5 X 1,9CM",
+    "precio": 265,
+    "estado": "visible",
+    "imagenes": [
+      "BILLH3913 1.jpg",
+      "BILLH3913 2.jpg",
+      "BILLH3913 3.jpg",
+      "BILLH3913 4.jpg",
+      "BILLH3913 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Oscuro": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BILLH3913 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LD7044",
+    "nombre": "Bolso de dama",
+    "descripcion": "Bolso de dama impermeable",
+    "categoria": "Bolsos",
+    "medidas": "37 x 16 x 32 Cm",
+    "precio": 595,
+    "estado": "visible",
+    "imagenes": [
+      "LD7044 1.jpg",
+      "LD7044 2.jpg",
+      "LD7044 3.jpg",
+      "LD7044 4.jpg",
+      "LD7044 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Beige": true,
+      "Marron Claro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LD7044 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN8104",
+    "nombre": "Bandolera Juvenil",
+    "descripcion": "Bolsito gatita",
+    "categoria": "Bandolera infantil",
+    "medidas": "17,5 x 14 x 6cm",
+    "precio": 295,
+    "estado": "visible",
+    "imagenes": [
+      "FN8104 1.jpg",
+      "FN8104 2.jpg",
+      "FN8104 3.jpg",
+      "FN8104 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Blanco": true,
+      "Rosado": true,
+      "Fucsia": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FN8104 VARIANTES.jpg"
+  },
+  {
+    "codigo": "CBB008",
+    "nombre": "Bandolera Juvenil",
+    "descripcion": "Bolsito silicona",
+    "categoria": "Bandolera infantil",
+    "medidas": "",
+    "precio": 295,
+    "estado": "visible",
+    "imagenes": [
+      "CBB008 1.jpg",
+      "CBB008 2.jpg",
+      "CBB008 3.jpg",
+      "CBB008 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
+    "imagenVariantes": "CBB008 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LD1207",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera",
+    "categoria": "Bandolera",
+    "medidas": "20 X 16 X 12CM",
+    "precio": 495,
+    "estado": "visible",
+    "imagenes": [
+      "LD1207 1.jpg",
+      "LD1207 2.jpg",
+      "LD1207 3.jpg",
+      "LD1207 4.jpg",
+      "LD1207 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Nude": true,
+      "Verde claro": true,
+      "Bordeaux": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LD1207 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LD214",
+    "nombre": "Bolso de dama",
+    "descripcion": "Bolso de tela",
+    "categoria": "Bolsos",
+    "medidas": "30 x 27 x 10cm",
+    "precio": 850,
+    "estado": "visible",
+    "imagenes": [
+      "LD214 1.jpg",
+      "LD214 2.jpg",
+      "LD214 3.jpg",
+      "LD214 4.jpg",
+      "LD214 5.jpg",
+      "LD214 6.jpg",
+      "LD214 7.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Marron Oscuro": true,
+      "Gris": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LD214 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LD6305",
+    "nombre": "Bolso de dama",
+    "descripcion": "Bolso / Mochila",
+    "categoria": "Bolsos",
+    "medidas": "",
+    "precio": 695,
+    "estado": "visible",
+    "imagenes": [
+      "LD6305 1.jpg",
+      "LD6305 2.jpg",
+      "LD6305 3.jpg",
+      "LD6305 4.jpg",
+      "LD6305 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Beige": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LD6305 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LD8861",
+    "nombre": "Bolso de dama",
+    "descripcion": "Bolso casual / urban",
+    "categoria": "Bolsos",
+    "medidas": "35 x 27 x 12cm",
+    "precio": 850,
+    "estado": "visible",
+    "imagenes": [
+      "LD8861 1.jpg",
+      "LD8861 2.jpg",
+      "LD8861 3.jpg",
+      "LD8861 4.jpg",
+      "LD8861 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Beige": true,
+      "Azul": true,
+      "Mostaza": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LD8861 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LD305",
+    "nombre": "Morral Hombre",
+    "descripcion": "Morral sport",
+    "categoria": "Morral hombre",
+    "medidas": "28 X 20 X 10CM",
+    "precio": 490,
+    "estado": "visible",
+    "imagenes": [
+      "LD305 1.jpg",
+      "LD305 2.jpg",
+      "LD305 3.jpg",
+      "LD305 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Gris": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LD305 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB5531",
+    "nombre": "Mochila dama",
+    "descripcion": "Mochila lisa impermeable",
+    "categoria": "Mochilas",
+    "medidas": "27 x 22 x 12cm",
+    "precio": 695,
+    "estado": "visible",
+    "imagenes": [
+      "LB5531 1.jpg",
+      "LB5531 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Gris": true,
+      "Verde claro": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB5531 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LD8076",
+    "nombre": "Morral Hombre",
+    "descripcion": "Morral sport / casual",
+    "categoria": "Morral hombre",
+    "medidas": "31 X 26 X 11CM",
+    "precio": 585,
+    "estado": "visible",
+    "imagenes": [
+      "LD8076 1.jpg",
+      "LD8076 2.jpg",
+      "LD8076 3.jpg",
+      "LD8076 4.jpg",
+      "LD8076 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Gris": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LD8076 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LD8075",
+    "nombre": "Morral Hombre",
+    "descripcion": "Morral sport / casual",
+    "categoria": "Morral hombre",
+    "medidas": "31 X 26 X 11CM",
+    "precio": 585,
+    "estado": "visible",
+    "imagenes": [
+      "LD8075 1.jpg",
+      "LD8075 2.jpg",
+      "LD8075 3.jpg",
+      "LD8075 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Gris": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LD8075 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB6620",
+    "nombre": "Bolsito de dama",
+    "descripcion": "Bolso / Bandolera",
+    "categoria": "Bandolera",
+    "medidas": "",
+    "precio": 595,
+    "estado": "visible",
+    "imagenes": [
+      "LB6620 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Beige": true,
+      "Terracota": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB6620 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB676",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera de dama",
+    "categoria": "Bandolera",
+    "medidas": "",
+    "precio": 390,
+    "estado": "visible",
+    "imagenes": [
+      "LB676 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Beige": true,
+      "Bordeaux": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB676 VARIANTES.jpg"
+  },
+  {
+    "codigo": "3216",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas 20pcs",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 49,
+    "estado": "visible",
+    "imagenes": [
+      "3216 1.jpg",
+      "3216 2.jpg",
+      "3216 3.jpg",
+      "3216 4.jpg",
+      "3216 5.jpg",
+      "3216 6.jpg",
+      "3216 7.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Tonos pastel": true,
+      "Varios colores": true
+    },
+    "variantes": {},
+    "imagenVariantes": "3216 VARIANTES.jpg"
   },
   {
     "codigo": "100324",
     "nombre": "Set de pinzas",
-    "descripcion": "Set de pinzas para cabello",
+    "descripcion": "Set x 6 pinzas chicas",
     "categoria": "Accesorios para pelo",
-    "medidas": "Varios tamaños",
-    "precio": 85,
+    "medidas": "",
+    "precio": 65,
     "estado": "visible",
     "imagenes": [
       "100324 1.jpg",
@@ -68,6 +1876,3757 @@
     ],
     "sinColor": true,
     "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "PELOH004",
+    "nombre": "Set de ondulines",
+    "descripcion": "Set de ondulines",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 25,
+    "estado": "visible",
+    "imagenes": [
+      "PELOH004 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "H0011",
+    "nombre": "Set pinzas x4",
+    "descripcion": "Set pinzas x 4",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 42,
+    "estado": "visible",
+    "imagenes": [
+      "H0011 1.jpg",
+      "H0011 2.jpg",
+      "H0011 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
+    "imagenVariantes": "H0011 VARIANTES.jpg"
+  },
+  {
+    "codigo": "H0018",
+    "nombre": "Set x 3 pinzas",
+    "descripcion": "Set x 3 pinzas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 75,
+    "estado": "visible",
+    "imagenes": [
+      "H0018 1.jpg",
+      "H0018 2.jpg",
+      "H0018 3.jpg",
+      "H0018 4.jpg",
+      "H0018 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true
+    },
+    "variantes": {},
+    "imagenVariantes": "H0018 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB007",
+    "nombre": "Cinto de dama",
+    "descripcion": "Cinto de dama faja",
+    "categoria": "Cinto de dama",
+    "medidas": "105cm",
+    "precio": 490,
+    "estado": "visible",
+    "imagenes": [
+      "LB007 1.jpg",
+      "LB007 2.jpg",
+      "LB007 3.jpg",
+      "LB007 4.jpg",
+      "LB007 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB007 VARIANTES.jpg"
+  },
+  {
+    "codigo": "100305",
+    "nombre": "Set colitas x 10",
+    "descripcion": "Set colitas x 10",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 40,
+    "estado": "visible",
+    "imagenes": [
+      "100305 1.jpg",
+      "100305 2.jpg",
+      "100305 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Varios colores": true
+    },
+    "variantes": {},
+    "imagenVariantes": "100305 VARIANTES.jpg"
+  },
+  {
+    "codigo": "100390",
+    "nombre": "Set x3 pinzas",
+    "descripcion": "Set x3 pinzas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 49,
+    "estado": "visible",
+    "imagenes": [
+      "100390 1.jpg",
+      "100390 2.jpg",
+      "100390 3.jpg",
+      "100390 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true
+    },
+    "imagenVariantes": "100390 VARIANTES.jpg"
+  },
+  {
+    "codigo": "100325",
+    "nombre": "Set x3 pinzas",
+    "descripcion": "Set x3 pinzas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 39,
+    "estado": "visible",
+    "imagenes": [
+      "100325 1.jpg",
+      "100325 2.jpg",
+      "100325 3.jpg",
+      "100325 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
+    "imagenVariantes": "100325 VARIANTES.jpg"
+  },
+  {
+    "codigo": "100387",
+    "nombre": "Set x 2 pinzas",
+    "descripcion": "Set x 2 pinzas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "100387 1.jpg",
+      "100387 2.jpg",
+      "100387 3.jpg",
+      "100387 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true
+    },
+    "imagenVariantes": "100387 VARIANTES.jpg"
+  },
+  {
+    "codigo": "100301",
+    "nombre": "Set x 5 colitas",
+    "descripcion": "Set x 5 colitas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "100301 1.jpg",
+      "100301 2.jpg",
+      "100301 3.jpg",
+      "100301 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true
+    },
+    "imagenVariantes": "100301 VARIANTES.jpg"
+  },
+  {
+    "codigo": "SL0077",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 130,
+    "estado": "visible",
+    "imagenes": [
+      "SL0077 1.jpg",
+      "SL0077 2.jpg",
+      "SL0077 3.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "XL00079",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero plateado",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 85,
+    "estado": "visible",
+    "imagenes": [
+      "XL00079 1.jpg",
+      "XL00079 2.jpg",
+      "XL00079 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "XL00079-2",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero dorado",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 90,
+    "estado": "visible",
+    "imagenes": [
+      "XL00079-2 1.jpg",
+      "XL00079-2 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "SZ989-2",
+    "nombre": "Brazalete acero",
+    "descripcion": "Brazalete acero dorado",
+    "categoria": "Brazalete acero",
+    "medidas": "",
+    "precio": 169,
+    "estado": "visible",
+    "imagenes": [
+      "SZ989-2 1.jpg",
+      "SZ989-2 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "SL0256",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero dorado",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 185,
+    "estado": "visible",
+    "imagenes": [
+      "SL0256 1.jpg",
+      "SL0256 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "SL0165-12",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero dorado",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 65,
+    "estado": "visible",
+    "imagenes": [
+      "SL0165-12 1.jpg",
+      "SL0165-12 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "SL0165-1",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero plateado",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "SL0165-1 1.jpg",
+      "SL0165-1 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "SZ0154",
+    "nombre": "Brazalete acero",
+    "descripcion": "Brazalete acero dorado",
+    "categoria": "Brazalete acero",
+    "medidas": "",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "SZ0154 1.jpg",
+      "SZ0154 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "SZ0078",
+    "nombre": "Brazalete acero",
+    "descripcion": "Brazalete acero dorado",
+    "categoria": "Brazalete acero",
+    "medidas": "",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "SZ0078 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "SZ0136",
+    "nombre": "Brazalete acero",
+    "descripcion": "Brazalete acero dorado",
+    "categoria": "Brazalete acero",
+    "medidas": "",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "SZ0136 1.jpg",
+      "SZ0136 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true
+    },
+    "variantes": {},
+    "imagenVariantes": "SZ0136 VARIANTES.jpg"
+  },
+  {
+    "codigo": "SZ0092",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero dorado",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 125,
+    "estado": "visible",
+    "imagenes": [
+      "SZ0092 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "SZ0467",
+    "nombre": "Brazalete acero",
+    "descripcion": "Brazalete acero dorado",
+    "categoria": "Brazalete acero",
+    "medidas": "",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "SZ0467 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "ED00423",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero dorado",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 135,
+    "estado": "visible",
+    "imagenes": [
+      "ED00423 1.jpg",
+      "ED00423 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "XL1087-1",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero plateado",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 135,
+    "estado": "visible",
+    "imagenes": [
+      "XL1087-1 1.jpg",
+      "XL1087-1 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "XL1087-1 VARIANTES.jpg"
+  },
+  {
+    "codigo": "XL1087-2",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero dorado",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "XL1087-2 1.jpg",
+      "XL1087-2 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "XL1087-2 VARIANTES.jpg"
+  },
+  {
+    "codigo": "XL1421-1",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero plateado",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 95,
+    "estado": "visible",
+    "imagenes": [
+      "XL1421-1 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "XL1421-2",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero dorado",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 105,
+    "estado": "visible",
+    "imagenes": [
+      "XL1421-2 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "SL00130",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero dorado",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 149,
+    "estado": "visible",
+    "imagenes": [
+      "SL00130 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "SL0074",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "SL0074 1.jpg",
+      "SL0074 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Dorado": true,
+      "Plateado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "SL0074 VARIANTES.jpg"
+  },
+  {
+    "codigo": "XL00384",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "XL00384 1.jpg",
+      "XL00384 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Dorado": true,
+      "Plateado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "XL00384 VARIANTES.jpg"
+  },
+  {
+    "codigo": "EA8246",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero dorado",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 95,
+    "estado": "visible",
+    "imagenes": [
+      "EA8246 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-22",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 130,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-22 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-23",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero dorado",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-23 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-24",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 130,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-24 1.jpg",
+      "NK5294-24 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-25",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero dorado",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-25 1.jpg",
+      "NK5294-25 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "SL0259",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero dorado",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "SL0259 1.jpg",
+      "SL0259 2.jpg",
+      "SL0259 3.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "SZ0162",
+    "nombre": "Brazalete acero",
+    "descripcion": "Brazalete acero dorado",
+    "categoria": "Brazalete acero",
+    "medidas": "",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "SZ0162 1.jpg",
+      "SZ0162 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK0008-2MM/50",
+    "nombre": "Cadena acero",
+    "descripcion": "Cadena acero rolo cuadrado",
+    "categoria": "Cadena acero",
+    "medidas": "2mm / 50cm",
+    "precio": 65,
+    "estado": "visible",
+    "imagenes": [
+      "NK0008-2MM/50 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK0055-0.4MM/50",
+    "nombre": "Cadena acero",
+    "descripcion": "Cadena acero finita",
+    "categoria": "Cadena acero",
+    "medidas": "0,4mm / 50cm",
+    "precio": 39,
+    "estado": "visible",
+    "imagenes": [
+      "NK0055-0.4MM/50 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK0055-0.6MM/50",
+    "nombre": "Cadena acero",
+    "descripcion": "Cadena acero fina",
+    "categoria": "Cadena acero",
+    "medidas": "0,6mm / 50cm",
+    "precio": 49,
+    "estado": "visible",
+    "imagenes": [
+      "NK0055-0.6MM/50 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK0065-6MM/60",
+    "nombre": "Cadena acero",
+    "descripcion": "Cadena acero gruesa",
+    "categoria": "Cadena acero",
+    "medidas": "6mm / 60cm",
+    "precio": 95,
+    "estado": "visible",
+    "imagenes": [
+      "NK0065-6MM/60 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK0122-2MM/50",
+    "nombre": "Cadena acero",
+    "descripcion": "Cadena acero turbillon",
+    "categoria": "Cadena acero",
+    "medidas": "2mm / 50cm",
+    "precio": 75,
+    "estado": "visible",
+    "imagenes": [
+      "NK0122-2MM/50 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK0122-2.5MM/50",
+    "nombre": "Cadena acero",
+    "descripcion": "Cadena acero turbillon",
+    "categoria": "Cadena acero",
+    "medidas": "2,5mm / 50cm",
+    "precio": 80,
+    "estado": "visible",
+    "imagenes": [
+      "NK0122-2.5MM/50 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK0128-0.5MM/45",
+    "nombre": "Cadena acero",
+    "descripcion": "Cadena acero finita",
+    "categoria": "Cadena acero",
+    "medidas": "0,5mm / 45cm",
+    "precio": 39,
+    "estado": "visible",
+    "imagenes": [
+      "NK0128-0.5MM/45 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK0128-0.6MM/50",
+    "nombre": "Cadena acero",
+    "descripcion": "Cadena acero finita",
+    "categoria": "Cadena acero",
+    "medidas": "0,6mm / 50cm",
+    "precio": 48,
+    "estado": "visible",
+    "imagenes": [
+      "NK0128-0.6MM/50 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK0128-0.8MM/50",
+    "nombre": "Cadena acero",
+    "descripcion": "Cadena acero fina",
+    "categoria": "Cadena acero",
+    "medidas": "0,8mm / 50cm",
+    "precio": 59,
+    "estado": "visible",
+    "imagenes": [
+      "NK0128-0.8MM/50 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR3013",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero varios diseños",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "BR3013 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA33001-10",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero dorado",
+    "categoria": "Caravanas acero",
+    "medidas": "10mm",
+    "precio": 48,
+    "estado": "visible",
+    "imagenes": [
+      "EA33001-10 1.jpg",
+      "EA33001-10 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA22003-2",
+    "nombre": "Caravanas acero",
+    "descripcion": "Aros acero dorado",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 48,
+    "estado": "visible",
+    "imagenes": [
+      "EA22003-2 1.jpg",
+      "EA22003-2 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA22001",
+    "nombre": "Aros acero",
+    "descripcion": "Aros acero cruz",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 75,
+    "estado": "visible",
+    "imagenes": [
+      "EA22001 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA22003-1",
+    "nombre": "Aros acero",
+    "descripcion": "Aros acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 40,
+    "estado": "visible",
+    "imagenes": [
+      "EA22003-1 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA33001-8",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero dorado",
+    "categoria": "Caravanas acero",
+    "medidas": "8mm",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "EA33001-8 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA22002-10",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero plateado",
+    "categoria": "Caravanas acero",
+    "medidas": "10mm",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "EA22002-10 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA22002-8",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero plateado",
+    "categoria": "Caravanas acero",
+    "medidas": "8mm",
+    "precio": 40,
+    "estado": "visible",
+    "imagenes": [
+      "EA22002-8 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA22004-8MM",
+    "nombre": "Aros acero",
+    "descripcion": "Aros acero 8mm",
+    "categoria": "Caravanas acero",
+    "medidas": "8mm",
+    "precio": 22,
+    "estado": "visible",
+    "imagenes": [
+      "EA22004-8MM 1.jpg",
+      "EA22004-8MM 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA22004-12MM",
+    "nombre": "Aros acero",
+    "descripcion": "Aros acero 12mm",
+    "categoria": "Caravanas acero",
+    "medidas": "12mm",
+    "precio": 25,
+    "estado": "visible",
+    "imagenes": [
+      "EA22004-12MM 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA22004-16MM",
+    "nombre": "Aros acero",
+    "descripcion": "Aros acero 16mm",
+    "categoria": "Caravanas acero",
+    "medidas": "16mm",
+    "precio": 28,
+    "estado": "visible",
+    "imagenes": [
+      "EA22004-16MM 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "24005",
+    "nombre": "Aros acero",
+    "descripcion": "Aros acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 50,
+    "estado": "visible",
+    "imagenes": [
+      "24005 1.jpg",
+      "24005 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "24005-2",
+    "nombre": "Aros acero",
+    "descripcion": "Aros acero dorado",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "24005-2 1.jpg",
+      "24005-2 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "ER0018",
+    "nombre": "Aros acero",
+    "descripcion": "Aros acero dorado",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 105,
+    "estado": "visible",
+    "imagenes": [
+      "ER0018 1.jpg",
+      "ER0018 2.jpg",
+      "ER0018 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true,
+      "C7": true
+    },
+    "imagenVariantes": "ER0018 VARIANTES.jpg"
+  },
+  {
+    "codigo": "ER0014",
+    "nombre": "Aros acero",
+    "descripcion": "Aros acero combinado",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 125,
+    "estado": "visible",
+    "imagenes": [
+      "ER0014 1.jpg",
+      "ER0014 2.jpg",
+      "ER0014 3.jpg",
+      "ER0014 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
+    "imagenVariantes": "ER0014 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BOX007",
+    "nombre": "Caja pulsera",
+    "descripcion": "Caja pulsera paquete x12",
+    "categoria": "Estuches",
+    "medidas": "21 X 4 X 2,5CM",
+    "precio": 360,
+    "estado": "visible",
+    "imagenes": [
+      "BOX007 1.jpg",
+      "BOX007 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BOX008",
+    "nombre": "Caja conjunto",
+    "descripcion": "Caja conjunto chica",
+    "categoria": "Estuches",
+    "medidas": "5 X 8 X 2.8CM",
+    "precio": 20,
+    "estado": "visible",
+    "imagenes": [
+      "BOX008 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BOX009",
+    "nombre": "Caja anillo",
+    "descripcion": "Caja anillo",
+    "categoria": "Estuches",
+    "medidas": "5 X 5 X 3CM",
+    "precio": 15,
+    "estado": "visible",
+    "imagenes": [
+      "BOX009 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BOX006",
+    "nombre": "Caja conjunto",
+    "descripcion": "Caja conjunto grande",
+    "categoria": "Estuches",
+    "medidas": "7 X 9 X 3CM",
+    "precio": 25,
+    "estado": "visible",
+    "imagenes": [
+      "BOX006 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "CAJRE008",
+    "nombre": "Caja relojes",
+    "descripcion": "Caja relojes",
+    "categoria": "Estuches",
+    "medidas": "9,2 x 8,7 x 5,7cm",
+    "precio": 40,
+    "estado": "visible",
+    "imagenes": [
+      "CAJRE008 1.jpg",
+      "CAJRE008 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {},
+    "imagenVariantes": "CAJRE008 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B003",
+    "nombre": "Colero",
+    "descripcion": "Colero cuadrille",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "B003 1.jpg",
+      "B003 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Tonos marrones": true,
+      "Beige": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B003 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B004",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x3",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B004 1.jpg",
+      "B004 2.jpg",
+      "B004 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B006",
+    "nombre": "Set scrunchies",
+    "descripcion": "Set scrunchies x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B006 1.jpg",
+      "B006 2.jpg",
+      "B006 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Beige": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "B007",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x5",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 28,
+    "estado": "visible",
+    "imagenes": [
+      "B007 1.jpg",
+      "B007 2.jpg",
+      "B007 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B007 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B016",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x4",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B016 1.jpg",
+      "B016 2.jpg",
+      "B016 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Varios colores": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B016 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B018",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B018 1.jpg",
+      "B018 2.jpg",
+      "B018 3.jpg",
+      "B018 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B024",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B024 1.jpg",
+      "B024 2.jpg",
+      "B024 3.jpg",
+      "B024 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B029",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x3",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B029 1.jpg",
+      "B029 2.jpg",
+      "B029 3.jpg",
+      "B029 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B033",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x3",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B033 1.jpg",
+      "B033 2.jpg",
+      "B033 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B040",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B040 1.jpg",
+      "B040 2.jpg",
+      "B040 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B045",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x6",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B045 1.jpg",
+      "B045 2.jpg",
+      "B045 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B049",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B049 1.jpg",
+      "B049 2.jpg",
+      "B049 3.jpg",
+      "B049 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B070",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B070 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B061",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 29,
+    "estado": "visible",
+    "imagenes": [
+      "B061 1.jpg",
+      "B061 2.jpg",
+      "B061 3.jpg",
+      "B061 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B071",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B071 1.jpg",
+      "B071 2.jpg",
+      "B071 3.jpg",
+      "B071 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B072",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B072 1.jpg",
+      "B072 2.jpg",
+      "B072 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B087",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B087 1.jpg",
+      "B087 2.jpg",
+      "B087 3.jpg",
+      "B087 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B097",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B097 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B098",
+    "nombre": "Set scrunchies",
+    "descripcion": "Set scrunchies x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B098 1.jpg",
+      "B098 2.jpg",
+      "B098 3.jpg",
+      "B098 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B103",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x10",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 40,
+    "estado": "visible",
+    "imagenes": [
+      "B103 1.jpg",
+      "B103 2.jpg",
+      "B103 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Varios colores": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "B104",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B104 1.jpg",
+      "B104 2.jpg",
+      "B104 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true
+    },
+    "imagenVariantes": "B104 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B129",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B129 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B137",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x5",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "B137 1.jpg",
+      "B137 2.jpg",
+      "B137 3.jpg",
+      "B137 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Varios colores": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "B139",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B139 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "B140",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 39,
+    "estado": "visible",
+    "imagenes": [
+      "B140 1.jpg",
+      "B140 2.jpg",
+      "B140 3.jpg",
+      "B140 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B153",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B153 1.jpg",
+      "B153 2.jpg",
+      "B153 3.jpg",
+      "B153 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B161",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x7",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "B161 1.jpg",
+      "B161 2.jpg",
+      "B161 3.jpg",
+      "B161 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Tonos pastel": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "B027",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B027 1.jpg",
+      "B027 2.jpg",
+      "B027 3.jpg",
+      "B027 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Tonos pastel": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "B171",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B171 1.jpg",
+      "B171 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Tonos pastel": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "B179",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "B179 1.jpg",
+      "B179 2.jpg",
+      "B179 3.jpg",
+      "B179 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Beige": true,
+      "Marron Claro": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "B188",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x20",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 29,
+    "estado": "visible",
+    "imagenes": [
+      "B188 1.jpg",
+      "B188 2.jpg",
+      "B188 3.jpg",
+      "B188 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Tonos pastel": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "B196",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x5",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "B196 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true
+    }
+  },
+  {
+    "codigo": "B203",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x6",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 23,
+    "estado": "visible",
+    "imagenes": [
+      "B203 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B204",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B204 1.jpg",
+      "B204 2.jpg",
+      "B204 3.jpg",
+      "B204 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B211",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x3",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B211 1.jpg",
+      "B211 2.jpg",
+      "B211 3.jpg",
+      "B211 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Varios colores": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "B215",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B215 1.jpg",
+      "B215 2.jpg",
+      "B215 3.jpg",
+      "B215 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B162",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B162 1.jpg",
+      "B162 2.jpg",
+      "B162 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {},
+    "imagenVariantes": "B162 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B233",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B233 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "B246",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x5",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 39,
+    "estado": "visible",
+    "imagenes": [
+      "B246 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Tonos pastel": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "B269",
+    "nombre": "Colero",
+    "descripcion": "Set 2 Coleros con detalles",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 40,
+    "estado": "visible",
+    "imagenes": [
+      "B269 1.jpg",
+      "B269 2.jpg",
+      "B269 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B277",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x3",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B277 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B309",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x3",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B309 1.jpg",
+      "B309 2.jpg",
+      "B309 3.jpg",
+      "B309 4.jpg",
+      "B309 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B313",
+    "nombre": "Set scrunchies",
+    "descripcion": "Set x 2 scrunchies",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 39,
+    "estado": "visible",
+    "imagenes": [
+      "B313 1.jpg",
+      "B313 2.jpg",
+      "B313 3.jpg",
+      "B313 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B332",
+    "nombre": "Colero",
+    "descripcion": "Colero",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 22,
+    "estado": "visible",
+    "imagenes": [
+      "B332 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B362",
+    "nombre": "Colero",
+    "descripcion": "Colero",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 25,
+    "estado": "visible",
+    "imagenes": [
+      "B362 1.jpg",
+      "B362 2.jpg",
+      "B362 3.jpg",
+      "B362 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B375",
+    "nombre": "Colero",
+    "descripcion": "Colero c perlas y cristal",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 49,
+    "estado": "visible",
+    "imagenes": [
+      "B375 1.jpg",
+      "B375 2.jpg",
+      "B375 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B379",
+    "nombre": "Set colitas",
+    "descripcion": "Set coleros x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B379 1.jpg",
+      "B379 2.jpg",
+      "B379 3.jpg",
+      "B379 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B425",
+    "nombre": "Set colitas",
+    "descripcion": "Set coleros x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "B425 1.jpg",
+      "B425 2.jpg",
+      "B425 3.jpg",
+      "B425 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B428",
+    "nombre": "Colero",
+    "descripcion": "Colero",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 49,
+    "estado": "visible",
+    "imagenes": [
+      "B428 1.jpg",
+      "B428 2.jpg",
+      "B428 3.jpg",
+      "B428 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Amarillo": true,
+      "Verde": true,
+      "Lila": true,
+      "Celeste": true,
+      "Rosado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B428 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B433",
+    "nombre": "Colero",
+    "descripcion": "Colero con brillitos",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "B433 1.jpg",
+      "B433 2.jpg",
+      "B433 3.jpg",
+      "B433 4.jpg",
+      "B433 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B446",
+    "nombre": "Colero",
+    "descripcion": "Colero con encaje",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B446 1.jpg",
+      "B446 2.jpg",
+      "B446 3.jpg",
+      "B446 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B451",
+    "nombre": "Colero",
+    "descripcion": "Colero",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "B451 1.jpg",
+      "B451 2.jpg",
+      "B451 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B451 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B452",
+    "nombre": "Set colitas",
+    "descripcion": "Set coleros x4",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B452 1.jpg",
+      "B452 2.jpg",
+      "B452 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Tonos pastel": true,
+      "Varios colores": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "B458",
+    "nombre": "Set colitas",
+    "descripcion": "Set coleros x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B458 1.jpg",
+      "B458 2.jpg",
+      "B458 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "B461",
+    "nombre": "Set colitas",
+    "descripcion": "Set coleros x3",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B461 1.jpg",
+      "B461 2.jpg",
+      "B461 3.jpg",
+      "B461 4.jpg",
+      "B461 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B474",
+    "nombre": "Set colitas",
+    "descripcion": "Set coleros x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B474 1.jpg",
+      "B474 2.jpg",
+      "B474 3.jpg",
+      "B474 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B476",
+    "nombre": "Set colitas",
+    "descripcion": "Caja de 100 pcs",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 65,
+    "estado": "visible",
+    "imagenes": [
+      "B476 1.jpg",
+      "B476 2.jpg",
+      "B476 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true
+    },
+    "imagenVariantes": "B476 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B477",
+    "nombre": "Set colitas",
+    "descripcion": "Caja de 32 colitas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 89,
+    "estado": "visible",
+    "imagenes": [
+      "B477 1.jpg",
+      "B477 2.jpg",
+      "B477 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Tonos pastel": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B477 VARIANTES.jpg"
+  },
+  {
+    "codigo": "D004",
+    "nombre": "Set sapitos",
+    "descripcion": "Set sapitos x2 grandes",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "D004 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true
+    }
+  },
+  {
+    "codigo": "D009",
+    "nombre": "Set sapitos",
+    "descripcion": "Set sapitos x2 grandes",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "D009 1.jpg",
+      "D009 2.jpg",
+      "D009 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true
+    },
+    "imagenVariantes": "D009 VARIANTES.jpg"
+  },
+  {
+    "codigo": "D035",
+    "nombre": "Pinza",
+    "descripcion": "Pinza 10cm",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 50,
+    "estado": "visible",
+    "imagenes": [
+      "D035 1.jpg",
+      "D035 2.jpg",
+      "D035 3.jpg",
+      "D035 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D045",
+    "nombre": "Set sapitos",
+    "descripcion": "Set sapitos x2 grandes",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 39,
+    "estado": "visible",
+    "imagenes": [
+      "D045 1.jpg",
+      "D045 2.jpg",
+      "D045 3.jpg",
+      "D045 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "D046",
+    "nombre": "Set sapitos",
+    "descripcion": "Set sapitos x4",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 39,
+    "estado": "visible",
+    "imagenes": [
+      "D046 1.jpg",
+      "D046 2.jpg",
+      "D046 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D061",
+    "nombre": "Set pinzas chicas",
+    "descripcion": "Set pinzas x2 chicas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "D061 1.jpg",
+      "D061 2.jpg",
+      "D061 3.jpg",
+      "D061 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Blanco": true,
+      "Rosado": true,
+      "Fucsia": true,
+      "Rojo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "D061 VARIANTES.jpg"
+  },
+  {
+    "codigo": "D063",
+    "nombre": "Set pinzas",
+    "descripcion": "Set pinzas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "D063 1.jpg",
+      "D063 2.jpg",
+      "D063 3.jpg",
+      "D063 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
+    "imagenVariantes": "D063 VARIANTES.jpg"
+  },
+  {
+    "codigo": "D089",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 29,
+    "estado": "visible",
+    "imagenes": [
+      "D089 1.jpg",
+      "D089 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Marron Claro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "D089 VARIANTES.jpg"
+  },
+  {
+    "codigo": "D138",
+    "nombre": "Set sapitos",
+    "descripcion": "Set sapitos x2 estampado",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "D138 1.jpg",
+      "D138 2.jpg",
+      "D138 3.jpg",
+      "D138 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D131",
+    "nombre": "Pinza",
+    "descripcion": "Pinza varios diseños",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "D131 1.jpg",
+      "D131 2.jpg",
+      "D131 3.jpg",
+      "D131 4.jpg",
+      "D131 5.jpg",
+      "D131 6.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Oscuro": true,
+      "Salmon": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "D141",
+    "nombre": "Pinza",
+    "descripcion": "Pinza perlas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 55,
+    "estado": "visible",
+    "imagenes": [
+      "D141 1.jpg",
+      "D141 2.jpg",
+      "D141 3.jpg",
+      "D141 4.jpg",
+      "D141 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
+    "imagenVariantes": "D141 VARIANTES.jpg"
+  },
+  {
+    "codigo": "D146",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "D146 1.jpg",
+      "D146 2.jpg",
+      "D146 3.jpg",
+      "D146 4.jpg",
+      "D146 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D153",
+    "nombre": "Pinza",
+    "descripcion": "Pinza grande",
+    "categoria": "Accesorios para pelo",
+    "medidas": "12cm",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "D153 1.jpg",
+      "D153 2.jpg",
+      "D153 3.jpg",
+      "D153 4.jpg",
+      "D153 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D156",
+    "nombre": "Pinza",
+    "descripcion": "Pinza grande",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "D156 1.jpg",
+      "D156 2.jpg",
+      "D156 3.jpg",
+      "D156 4.jpg",
+      "D156 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D180",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "6cm",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "D180 1.jpg",
+      "D180 2.jpg",
+      "D180 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D187",
+    "nombre": "Pinza",
+    "descripcion": "Pinza perlas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "7,5cm",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "D187 1.jpg",
+      "D187 2.jpg",
+      "D187 3.jpg",
+      "D187 4.jpg",
+      "D187 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D149",
+    "nombre": "Set sapitos",
+    "descripcion": "Set sapitos x2 grandes",
+    "categoria": "Accesorios para pelo",
+    "medidas": "7cm",
+    "precio": 50,
+    "estado": "visible",
+    "imagenes": [
+      "D149 1.jpg",
+      "D149 2.jpg",
+      "D149 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D263",
+    "nombre": "Set sapitos",
+    "descripcion": "Set sapitos x2 grandes",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "D263 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D230",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 50,
+    "estado": "visible",
+    "imagenes": [
+      "D230 1.jpg",
+      "D230 2.jpg",
+      "D230 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D241",
+    "nombre": "Set pinzas",
+    "descripcion": "Set x 2 pinzas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "D241 1.jpg",
+      "D241 2.jpg",
+      "D241 3.jpg",
+      "D241 4.jpg",
+      "D241 5.jpg",
+      "D241 6.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D248",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 50,
+    "estado": "visible",
+    "imagenes": [
+      "D248 1.jpg",
+      "D248 2.jpg",
+      "D248 3.jpg",
+      "D248 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {},
+    "imagenVariantes": "D248 VARIANTES.jpg"
+  },
+  {
+    "codigo": "D251",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 50,
+    "estado": "visible",
+    "imagenes": [
+      "D251 1.jpg",
+      "D251 2.jpg",
+      "D251 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {},
+    "imagenVariantes": "D251 VARIANTES.jpg"
+  },
+  {
+    "codigo": "D218",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 50,
+    "estado": "visible",
+    "imagenes": [
+      "D218 1.jpg",
+      "D218 2.jpg",
+      "D218 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {},
+    "imagenVariantes": "D218 VARIANTES.jpg"
+  },
+  {
+    "codigo": "D284",
+    "nombre": "Set 2 sapitos",
+    "descripcion": "Set sapitos x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "D284 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D286",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 75,
+    "estado": "visible",
+    "imagenes": [
+      "D286 1.jpg",
+      "D286 2.jpg",
+      "D286 3.jpg",
+      "D286 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D289",
+    "nombre": "Set 2 sapitos",
+    "descripcion": "Set sapitos x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "D289 1.jpg",
+      "D289 2.jpg",
+      "D289 3.jpg",
+      "D289 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D290",
+    "nombre": "Set 2 sapitos",
+    "descripcion": "Set sapitos x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 38,
+    "estado": "visible",
+    "imagenes": [
+      "D290 1.jpg",
+      "D290 2.jpg",
+      "D290 3.jpg",
+      "D290 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "D291",
+    "nombre": "Set pinzas",
+    "descripcion": "Set x 2 pinzas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 65,
+    "estado": "visible",
+    "imagenes": [
+      "D291 1.jpg",
+      "D291 2.jpg",
+      "D291 3.jpg",
+      "D291 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D292",
+    "nombre": "Set pinzas",
+    "descripcion": "Set x 2 pinzas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 49,
+    "estado": "visible",
+    "imagenes": [
+      "D292 1.jpg",
+      "D292 2.jpg",
+      "D292 3.jpg",
+      "D292 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "G02",
+    "nombre": "Banditas elasticas",
+    "descripcion": "100pcs banditas elasticas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 25,
+    "estado": "visible",
+    "imagenes": [
+      "G02 1.jpg",
+      "G02 2.jpg",
+      "G02 3.jpg",
+      "G02 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {},
+    "imagenVariantes": "G02 VARIANTES.jpg"
+  },
+  {
+    "codigo": "G05",
+    "nombre": "Set ondulines",
+    "descripcion": "Set ondulines 20pcs",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "G05 1.jpg",
+      "G05 2.jpg",
+      "G05 3.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "G06",
+    "nombre": "Set 3 sapitos",
+    "descripcion": "Set sapitos x3",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 30,
+    "estado": "visible",
+    "imagenes": [
+      "G06 1.jpg",
+      "G06 2.jpg",
+      "G06 3.jpg",
+      "G06 4.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "G08",
+    "nombre": "Set 3 sapitos",
+    "descripcion": "Set sapitos x3",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 30,
+    "estado": "visible",
+    "imagenes": [
+      "G08 1.jpg",
+      "G08 2.jpg",
+      "G08 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {},
+    "imagenVariantes": "G08 VARIANTES.jpg"
+  },
+  {
+    "codigo": "G11",
+    "nombre": "Set 4 sapitos",
+    "descripcion": "Set sapitos x4",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "G11 1.jpg",
+      "G11 2.jpg",
+      "G11 3.jpg",
+      "G11 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Varios colores": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "G14",
+    "nombre": "Set 3 sapitos",
+    "descripcion": "Set sapitos x3",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "G14 1.jpg",
+      "G14 2.jpg",
+      "G14 3.jpg",
+      "G14 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Varios colores": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "G20",
+    "nombre": "Set 2 pinzas",
+    "descripcion": "Set pinzas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 49,
+    "estado": "visible",
+    "imagenes": [
+      "G20 1.jpg",
+      "G20 2.jpg",
+      "G20 3.jpg",
+      "G20 4.jpg",
+      "G20 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "G26",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x6",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 28,
+    "estado": "visible",
+    "imagenes": [
+      "G26 1.jpg",
+      "G26 2.jpg",
+      "G26 3.jpg",
+      "G26 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Varios colores": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "G41",
+    "nombre": "Set 3 pinzas",
+    "descripcion": "Set pinzas x3",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 48,
+    "estado": "visible",
+    "imagenes": [
+      "G41 1.jpg",
+      "G41 2.jpg",
+      "G41 3.jpg",
+      "G41 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "G52",
+    "nombre": "Set 2 pinzas",
+    "descripcion": "Set pinzas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 42,
+    "estado": "visible",
+    "imagenes": [
+      "G52 1.jpg",
+      "G52 2.jpg",
+      "G52 3.jpg",
+      "G52 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "G54",
+    "nombre": "Set 2 pinzas",
+    "descripcion": "Set pinzas x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "G54 1.jpg",
+      "G54 2.jpg",
+      "G54 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true
+    },
+    "imagenVariantes": "G54 VARIANTES.jpg"
+  },
+  {
+    "codigo": "G55",
+    "nombre": "Set 3 pinzas",
+    "descripcion": "Set pinzas x3",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "G55 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true
+    }
+  },
+  {
+    "codigo": "B043",
+    "nombre": "Set colitas",
+    "descripcion": "Set colitas x3",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B043 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "C042",
+    "nombre": "Tiaras",
+    "descripcion": "Tiaras",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 75,
+    "estado": "visible",
+    "imagenes": [
+      "C042 1.jpg",
+      "C042 2.jpg",
+      "C042 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Rosado": true,
+      "Beige": true
+    },
+    "variantes": {},
+    "imagenVariantes": "C042 VARIANTES.jpg"
+  },
+  {
+    "codigo": "D023",
+    "nombre": "Set 3 sapitos",
+    "descripcion": "Set sapitos x3",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "D023 1.jpg",
+      "D023 2.jpg",
+      "D023 3.jpg",
+      "D023 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "G40",
+    "nombre": "Set 2 sapitos",
+    "descripcion": "Set sapitos x2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "G40 1.jpg",
+      "G40 2.jpg",
+      "G40 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "C071",
+    "nombre": "Diademas",
+    "descripcion": "Diademas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 79,
+    "estado": "visible",
+    "imagenes": [
+      "C071 1.jpg",
+      "C071 2.jpg",
+      "C071 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Gris": true,
+      "Rojo": true,
+      "Verde Agua": true,
+      "Salmon": true
+    },
+    "variantes": {},
+    "imagenVariantes": "C071 VARIANTES.jpg"
+  },
+  {
+    "codigo": "C069",
+    "nombre": "Diademas",
+    "descripcion": "Diademas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 79,
+    "estado": "visible",
+    "imagenes": [
+      "C069 1.jpg",
+      "C069 2.jpg",
+      "C069 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "C113",
+    "nombre": "Diademas",
+    "descripcion": "Diademas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 59,
+    "estado": "visible",
+    "imagenes": [
+      "C113 1.jpg",
+      "C113 2.jpg",
+      "C113 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "C024",
+    "nombre": "Diademas",
+    "descripcion": "Diademas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 75,
+    "estado": "visible",
+    "imagenes": [
+      "C024 1.jpg",
+      "C024 2.jpg",
+      "C024 3.jpg",
+      "C024 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "C038",
+    "nombre": "Vincha",
+    "descripcion": "Vincha",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 29,
+    "estado": "visible",
+    "imagenes": [
+      "C038 1.jpg",
+      "C038 2.jpg",
+      "C038 3.jpg",
+      "C038 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "C040",
+    "nombre": "Diademas",
+    "descripcion": "Diademas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 125,
+    "estado": "visible",
+    "imagenes": [
+      "C040 1.jpg",
+      "C040 2.jpg",
+      "C040 3.jpg",
+      "C040 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "C078",
+    "nombre": "Diademas",
+    "descripcion": "Diademas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 59,
+    "estado": "visible",
+    "imagenes": [
+      "C078 1.jpg",
+      "C078 2.jpg",
+      "C078 3.jpg",
+      "C078 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "C037",
+    "nombre": "Diademas",
+    "descripcion": "Diademas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 85,
+    "estado": "visible",
+    "imagenes": [
+      "C037 1.jpg",
+      "C037 2.jpg",
+      "C037 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {},
+    "imagenVariantes": "C037 VARIANTES.jpg"
+  },
+  {
+    "codigo": "C013",
+    "nombre": "Vincha",
+    "descripcion": "Vincha negra plastico lisa",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 20,
+    "estado": "visible",
+    "imagenes": [
+      "C013 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "C013-1",
+    "nombre": "Vincha",
+    "descripcion": "Vincha negra plastico ancha",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 24,
+    "estado": "visible",
+    "imagenes": [
+      "C013-1 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH001-A",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH001-A 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH001-B",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH001-B 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH001-C",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH001-C 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH002-A",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre goma",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH002-A 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH002-B",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre goma",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH002-B 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH002-C",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre goma",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH002-C 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH003-A",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH003-A 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH003-B",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH003-B 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH003-C",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH003-C 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH007-A",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre goma",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH007-A 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH007-B",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre goma",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH007-B 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH007-C",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre goma",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH007-C 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH008-A",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre metal",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH008-A 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH008-B",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre metal",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH008-B 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH008-C",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre metal",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH008-C 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH008-D",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre metal",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH008-D 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH008-E",
+    "nombre": "Reloj hombre",
+    "descripcion": "Reloj hombre metal",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELH008-E 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW002-A",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELW002-A 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW002-B",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [
+      "RELW002-B 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
     "colores": {},
     "variantes": {}
   }
