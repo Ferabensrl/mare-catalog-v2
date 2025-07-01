@@ -1323,6 +1323,7 @@ const App = () => {
           onUpdateComment={updateCartItemComment}
           onGenerateWhatsApp={generateWhatsAppMessage}
           onClearCart={clearCart}
+          onConfirmClearCart={confirmClearCart}
           totalPrice={getTotalPrice()}
           clientName={loginData?.nombreCliente || ''}
         />
