@@ -1,6 +1,7 @@
-// Modal del carrito - OPTIMIZADO PARA MÓVIL
-const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onimport React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { ShoppingCart, Plus, Minus, Filter, X, Eye, MessageCircle, Mail, Search, Grid, List, ZoomIn, ChevronLeft, ChevronRight } from 'lucide-react';
+
+// Tipos TypeScript
 
 // Tipos TypeScript
 interface Product {
