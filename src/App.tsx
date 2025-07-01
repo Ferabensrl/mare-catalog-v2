@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+// Modal del carrito - OPTIMIZADO PARA MÓVIL
+const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onimport React, { useState, useEffect } from 'react';
 import { ShoppingCart, Plus, Minus, Filter, X, Eye, MessageCircle, Mail, Search, Grid, List, ZoomIn, ChevronLeft, ChevronRight } from 'lucide-react';
 
 // Tipos TypeScript
@@ -682,13 +683,14 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
 };
 
 // Modal del carrito - OPTIMIZADO PARA MÓVIL
-const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWhatsApp, onClearCart, totalPrice, clientName }: {
+const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWhatsApp, onClearCart, onConfirmClearCart, totalPrice, clientName }: {
   cart: CartItem[];
   onClose: () => void;
   onRemoveItem: (index: number) => void;
   onUpdateComment: (index: number, comentario: string) => void;
   onGenerateWhatsApp: (comentarioFinal: string) => string;
   onClearCart: () => void;
+  onConfirmClearCart?: () => void;
   totalPrice: number;
   clientName: string;
 }) => {
@@ -738,9 +740,23 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
         {/* Header fijo */}
         <div className="flex items-center justify-between p-4 sm:p-6 border-b bg-white sticky top-0 z-10">
           <h2 className="text-lg sm:text-xl font-bold" style={{ color: '#8F6A50' }}>Tu Pedido</h2>
-          <button onClick={onClose} className="hover:opacity-70" style={{ color: '#8F6A50' }}>
-            <X size={24} />
-          </button>
+          <div className="flex items-center gap-2">
+            {/* Botón Limpiar Pedido en el modal */}
+            {cart.length > 0 && onConfirmClearCart && (
+              <button
+                onClick={onConfirmClearCart}
+                className="px-3 py-1 rounded text-xs font-medium hover:opacity-80 transition-all"
+                style={{ backgroundColor: '#f87171', color: 'white' }}
+                disabled={isLoading}
+                title="Limpiar todo el pedido"
+              >
+                🧹 Limpiar
+              </button>
+            )}
+            <button onClick={onClose} className="hover:opacity-70" style={{ color: '#8F6A50' }}>
+              <X size={24} />
+            </button>
+          </div>
         </div>
 
         {/* Total fijo en móvil - aparece arriba */}
@@ -757,7 +773,12 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
         <div className="flex-1 overflow-y-auto">
           <div className="p-4 sm:p-6">
             {cart.length === 0 ? (
-              <p className="text-center py-8" style={{ color: '#8F6A50' }}>Tu pedido está vacío</p>
+              <div className="text-center py-8">
+                <p className="text-lg mb-4" style={{ color: '#8F6A50' }}>Tu pedido está vacío</p>
+                <p className="text-sm opacity-70" style={{ color: '#8F6A50' }}>
+                  💾 Los productos que agregues se guardan automáticamente
+                </p>
+              </div>
             ) : (
               <div className="space-y-4">
                 {cart.map((item, index) => (
@@ -887,6 +908,49 @@ const App = () => {
   const [showFilters, setShowFilters] = useState(false);
   const [loading, setLoading] = useState(true);
 
+  // 💾 PERSISTENCIA DEL CARRITO - Cargar al iniciar
+  useEffect(() => {
+    const savedCart = localStorage.getItem('mare-cart');
+    const savedLoginData = localStorage.getItem('mare-login');
+    
+    if (savedCart) {
+      try {
+        const parsedCart = JSON.parse(savedCart);
+        setCart(parsedCart);
+      } catch (error) {
+        console.error('Error cargando carrito guardado:', error);
+        localStorage.removeItem('mare-cart');
+      }
+    }
+    
+    if (savedLoginData) {
+      try {
+        const parsedLogin = JSON.parse(savedLoginData);
+        setLoginData(parsedLogin);
+        setIsLoggedIn(true);
+      } catch (error) {
+        console.error('Error cargando login guardado:', error);
+        localStorage.removeItem('mare-login');
+      }
+    }
+  }, []);
+
+  // 💾 PERSISTENCIA DEL CARRITO - Guardar cuando cambia
+  useEffect(() => {
+    if (cart.length > 0) {
+      localStorage.setItem('mare-cart', JSON.stringify(cart));
+    } else {
+      localStorage.removeItem('mare-cart');
+    }
+  }, [cart]);
+
+  // 💾 PERSISTENCIA DEL LOGIN - Guardar cuando cambia
+  useEffect(() => {
+    if (loginData) {
+      localStorage.setItem('mare-login', JSON.stringify(loginData));
+    }
+  }, [loginData]);
+
   // Cargar productos reales desde JSON
   useEffect(() => {
     const loadProducts = async () => {
@@ -967,9 +1031,44 @@ const App = () => {
     setCart(newCart);
   };
 
-  // Nueva función para limpiar todo el carrito
+  // 🧹 FUNCIÓN PARA LIMPIAR TODO EL CARRITO CON CONFIRMACIÓN
+  const confirmClearCart = () => {
+    if (cart.length === 0) {
+      alert('El carrito ya está vacío.');
+      return;
+    }
+    
+    const confirmed = window.confirm(
+      `⚠️ ¿Estás seguro que quieres limpiar todo el pedido?\n\n` +
+      `Se perderán ${getTotalItems()} productos del carrito.\n\n` +
+      `Esta acción no se puede deshacer.`
+    );
+    
+    if (confirmed) {
+      setCart([]);
+      setShowCart(false);
+      alert('🧹 Pedido limpiado correctamente.\n\n¡Puedes empezar un nuevo pedido!');
+    }
+  };
+
+  // Nueva función para limpiar todo el carrito (sin confirmación, para después de enviar)
   const clearCart = () => {
     setCart([]);
+  };
+
+  // 🚪 FUNCIÓN PARA CERRAR SESIÓN
+  const handleLogout = () => {
+    const confirmed = window.confirm(
+      `¿Estás seguro que quieres cerrar sesión?\n\n` +
+      `${cart.length > 0 ? `⚠️ ATENCIÓN: Tienes ${getTotalItems()} productos en el carrito.\nSe guardarán automáticamente para cuando vuelvas a iniciar sesión.` : 'Tu sesión se cerrará completamente.'}`
+    );
+    
+    if (confirmed) {
+      localStorage.removeItem('mare-login');
+      setIsLoggedIn(false);
+      setLoginData(null);
+      // NO limpiamos el carrito - se mantiene guardado
+    }
   };
 
   const getTotalItems = () => {
@@ -1025,23 +1124,83 @@ const App = () => {
       <header className="bg-white shadow-sm border-b border-stone-200 sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold" style={{ color: '#8F6A50' }}>MARÉ</h1>
-            
-            {/* Carrito flotante */}
-            <button
-              onClick={() => setShowCart(true)}
-              className="relative text-white p-3 rounded-full hover:opacity-90 transition-all"
-              style={{ backgroundColor: '#8F6A50' }}
-              title="Ver tu pedido"
-            >
-              <ShoppingCart size={24} />
-              {getTotalItems() > 0 && (
-                <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full w-6 h-6 flex items-center justify-center">
-                  {getTotalItems()}
-                </span>
+            <div className="flex items-center gap-4">
+              <h1 className="text-2xl font-bold" style={{ color: '#8F6A50' }}>MARÉ</h1>
+              {loginData && (
+                <div className="hidden sm:block">
+                  <p className="text-sm" style={{ color: '#8F6A50' }}>
+                    👤 {loginData.nombreCliente}
+                  </p>
+                </div>
               )}
-            </button>
+            </div>
+            
+            <div className="flex items-center gap-2">
+              {/* Botón Limpiar Pedido */}
+              {cart.length > 0 && (
+                <button
+                  onClick={confirmClearCart}
+                  className="hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium hover:opacity-80 transition-all"
+                  style={{ backgroundColor: '#f87171', color: 'white' }}
+                  title="Limpiar todo el pedido"
+                >
+                  🧹 Limpiar
+                </button>
+              )}
+              
+              {/* Carrito flotante */}
+              <button
+                onClick={() => setShowCart(true)}
+                className="relative text-white p-3 rounded-full hover:opacity-90 transition-all"
+                style={{ backgroundColor: '#8F6A50' }}
+                title="Ver tu pedido"
+              >
+                <ShoppingCart size={24} />
+                {getTotalItems() > 0 && (
+                  <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full w-6 h-6 flex items-center justify-center">
+                    {getTotalItems()}
+                  </span>
+                )}
+              </button>
+              
+              {/* Botón Cerrar Sesión */}
+              <button
+                onClick={handleLogout}
+                className="hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium hover:opacity-80 transition-all"
+                style={{ backgroundColor: '#6b7280', color: 'white' }}
+                title="Cerrar sesión"
+              >
+                🚪 Salir
+              </button>
+            </div>
           </div>
+          
+          {/* Info del usuario en móvil */}
+          {loginData && (
+            <div className="sm:hidden mt-2 flex items-center justify-between">
+              <p className="text-sm" style={{ color: '#8F6A50' }}>
+                👤 {loginData.nombreCliente}
+              </p>
+              <div className="flex gap-2">
+                {cart.length > 0 && (
+                  <button
+                    onClick={confirmClearCart}
+                    className="px-2 py-1 rounded text-xs font-medium"
+                    style={{ backgroundColor: '#f87171', color: 'white' }}
+                  >
+                    🧹 Limpiar
+                  </button>
+                )}
+                <button
+                  onClick={handleLogout}
+                  className="px-2 py-1 rounded text-xs font-medium"
+                  style={{ backgroundColor: '#6b7280', color: 'white' }}
+                >
+                  🚪 Salir
+                </button>
+              </div>
+            </div>
+          )}
           
           {/* Barra de búsqueda y filtros */}
           <div className="mt-4 flex flex-col sm:flex-row gap-4">
@@ -1109,6 +1268,15 @@ const App = () => {
                   </button>
                 ))}
               </div>
+            </div>
+          )}
+          
+          {/* Indicador de carrito guardado */}
+          {cart.length > 0 && (
+            <div className="mt-2 p-2 bg-green-50 border border-green-200 rounded-lg">
+              <p className="text-xs text-green-700 text-center">
+                💾 Pedido guardado automáticamente • {getTotalItems()} productos • ${getTotalPrice().toLocaleString()}
+              </p>
             </div>
           )}
         </div>
