@@ -423,25 +423,27 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
             <ZoomIn className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" size={32} />
           </div>
 
-          {/* Flechas de navegación - NUEVA FUNCIONALIDAD */}
+          {/* Flechas de navegación - MEJORADAS PARA MÓVIL */}
           {product.imagenes.length > 1 && (
             <>
               {/* Flecha izquierda */}
               <button
                 onClick={prevImage}
-                className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full opacity-0 group-hover:opacity-100 hover:bg-opacity-70 transition-all duration-300 z-10"
+                className="absolute left-1 sm:left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-60 text-white p-3 sm:p-2 rounded-full opacity-80 sm:opacity-0 sm:group-hover:opacity-100 hover:bg-opacity-80 transition-all duration-300 z-10 touch-manipulation"
                 style={{ fontSize: '0px' }}
               >
-                <ChevronLeft size={20} />
+                <ChevronLeft size={24} className="sm:hidden" />
+                <ChevronLeft size={20} className="hidden sm:block" />
               </button>
               
               {/* Flecha derecha */}
               <button
                 onClick={nextImage}
-                className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full opacity-0 group-hover:opacity-100 hover:bg-opacity-70 transition-all duration-300 z-10"
+                className="absolute right-1 sm:right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-60 text-white p-3 sm:p-2 rounded-full opacity-80 sm:opacity-0 sm:group-hover:opacity-100 hover:bg-opacity-80 transition-all duration-300 z-10 touch-manipulation"
                 style={{ fontSize: '0px' }}
               >
-                <ChevronRight size={20} />
+                <ChevronRight size={24} className="sm:hidden" />
+                <ChevronRight size={20} className="hidden sm:block" />
               </button>
             </>
           )}
@@ -474,11 +476,11 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
           <p className="text-lg font-bold" style={{ color: '#8F6A50' }}>${product.precio}</p>
         </div>
 
-        {/* Imagen de variantes MEJORADA */}
+        {/* Imagen de variantes MEJORADA Y MÁS GRANDE */}
         {product.imagenVariantes && (
           <div className="border rounded-lg overflow-hidden bg-gray-50">
-            <div className="p-2">
-              <p className="text-xs font-medium mb-2" style={{ color: '#8F6A50' }}>Variantes disponibles:</p>
+            <div className="p-3">
+              <p className="text-xs font-medium mb-3" style={{ color: '#8F6A50' }}>Variantes disponibles:</p>
               <div 
                 className="cursor-pointer hover:opacity-80 transition-opacity"
                 onClick={() => setShowVariantesModal(true)}
@@ -486,14 +488,14 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
                 <img
                   src={convertGoogleDriveUrl(product.imagenVariantes)}
                   alt="Variantes disponibles"
-                  className="w-full h-24 object-contain"
+                  className="w-full h-32 sm:h-36 object-contain"
                   onError={(e) => {
                     e.currentTarget.style.display = 'none';
                   }}
                 />
               </div>
-              <p className="text-xs text-center mt-1 opacity-70" style={{ color: '#8F6A50' }}>
-                Clic para ver en grande
+              <p className="text-xs text-center mt-2 opacity-70" style={{ color: '#8F6A50' }}>
+                👆 Clic para ver en grande
               </p>
             </div>
           </div>
