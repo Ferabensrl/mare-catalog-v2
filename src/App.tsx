@@ -430,7 +430,6 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
               <button
                 onClick={prevImage}
                 className="absolute left-1 sm:left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-60 text-white p-3 sm:p-2 rounded-full opacity-80 sm:opacity-0 sm:group-hover:opacity-100 hover:bg-opacity-80 transition-all duration-300 z-10 touch-manipulation"
-                style={{ fontSize: '0px' }}
               >
                 <ChevronLeft size={24} className="sm:hidden" />
                 <ChevronLeft size={20} className="hidden sm:block" />
@@ -440,7 +439,6 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
               <button
                 onClick={nextImage}
                 className="absolute right-1 sm:right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-60 text-white p-3 sm:p-2 rounded-full opacity-80 sm:opacity-0 sm:group-hover:opacity-100 hover:bg-opacity-80 transition-all duration-300 z-10 touch-manipulation"
-                style={{ fontSize: '0px' }}
               >
                 <ChevronRight size={24} className="sm:hidden" />
                 <ChevronRight size={20} className="hidden sm:block" />
