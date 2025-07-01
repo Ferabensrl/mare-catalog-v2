@@ -761,79 +761,15 @@ const App = () => {
     const loadProducts = async () => {
       setLoading(true);
       try {
-        // En producción, esto cargará desde /productos.json
-        // Por ahora usamos datos de ejemplo que coinciden con la estructura real
-        const sampleProducts: Product[] = [
-          {
-            codigo: 'LB010',
-            nombre: 'Cinto de dama',
-            descripcion: 'Cinto de dama',
-            categoria: 'Cinto de dama',
-            medidas: '105cm',
-            precio: 135,
-            imagenes: [
-              'https://drive.google.com/file/d/1OrrozIA1QDrCnZ6S4bSF5Kv8WH5QbVX9/view?usp=sharing',
-              'https://drive.google.com/file/d/1Ai1Zm9xS0bRjURKdNtLKoyKbG92IFpaA/view?usp=sharing'
-            ],
-            imagenVariantes: 'https://drive.google.com/file/d/1OrrozIA1QDrCnZ6S4bSF5Kv8WH5QbVX9/view?usp=sharing',
-            sinColor: false,
-            permitirSurtido: true,
-            estado: 'visible',
-            colores: {
-              'Negro': true,
-              'Blanco': true,
-              'Beige': true,
-              'Marron Claro': true,
-              'Marron Oscuro': true
-            },
-            variantes: {}
-          },
-          {
-            codigo: '100324',
-            nombre: 'Set de pinzas',
-            descripcion: 'Set de pinzas para cabello',
-            categoria: 'Accesorios para pelo',
-            medidas: 'Varios tamaños',
-            precio: 85,
-            imagenes: ['https://drive.google.com/file/d/1EJQ6KnhBZhIm4Hbw1W5WNdYVKYB9o7k7/view?usp=sharing'],
-            sinColor: true,
-            permitirSurtido: false,
-            estado: 'visible',
-            colores: {},
-            variantes: {}
-          },
-          {
-            codigo: 'MB001',
-            nombre: 'Cinto hombre',
-            descripcion: 'Cinto para caballero',
-            categoria: 'Caballero',
-            medidas: '110cm',
-            precio: 180,
-            imagenes: [
-              'https://drive.google.com/file/d/1vXToeNF16GRZiKv2FC_qgiRE40ty7-ap/view?usp=sharing',
-              'https://drive.google.com/file/d/1867Nm2ekCNTa1ubsegts1N7ZPbA9pk9N/view?usp=sharing'
-            ],
-            imagenVariantes: 'https://drive.google.com/file/d/1pWOlLBKjSZpQa-sr0jLT02aojOQars7R/view?usp=sharing',
-            sinColor: false,
-            permitirSurtido: true,
-            estado: 'visible',
-            colores: {},
-            variantes: {
-              'C1': true,
-              'C2': true,
-              'C3': true,
-              'C4': true,
-              'C5': true,
-              'C6': true
-            }
-          }
-        ];
+        // Cargar productos reales desde JSON
+        const response = await fetch('/productos.json');
+        const productosReales = await response.json();
 
-        setProducts(sampleProducts);
-        setFilteredProducts(sampleProducts);
+        setProducts(productosReales);
+        setFilteredProducts(productosReales);
         
         // Extraer categorías únicas
-        const uniqueCategories = Array.from(new Set(sampleProducts.map(p => p.categoria)));
+        const uniqueCategories = Array.from(new Set(productosReales.map(p => p.categoria)));
         setCategories(uniqueCategories);
       } catch (error) {
         console.error('Error cargando productos:', error);
