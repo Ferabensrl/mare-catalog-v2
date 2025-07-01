@@ -9,7 +9,10 @@
     "estado": "visible",
     "imagenes": [
       "LB010 1.jpg",
-      "LB010 2.jpg"
+      "LB010 2.jpg",
+      "LB010 3.jpg",
+      "LB010 4.jpg",
+      "LB010 5.jpg"
     ],
     "imagenVariantes": "LB010 VARIANTES.jpg",
     "sinColor": false,
@@ -33,7 +36,10 @@
     "estado": "visible",
     "imagenes": [
       "LB011 1.jpg",
-      "LB011 2.jpg"
+      "LB011 2.jpg",
+      "LB011 3.jpg",
+      "LB011 4.jpg",
+      "LB011 5.jpg"
     ],
     "imagenVariantes": "LB011 VARIANTES.jpg",
     "sinColor": false,
@@ -55,7 +61,10 @@
     "precio": 85,
     "estado": "visible",
     "imagenes": [
-      "100324 1.jpg"
+      "100324 1.jpg",
+      "100324 2.jpg",
+      "100324 3.jpg",
+      "100324 4.jpg"
     ],
     "sinColor": true,
     "permitirSurtido": false,
