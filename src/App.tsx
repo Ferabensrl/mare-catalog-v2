@@ -769,7 +769,7 @@ const App = () => {
         setFilteredProducts(productosReales);
         
         // Extraer categorías únicas
-        const uniqueCategories = Array.from(new Set(productosReales.map((p: Product) => p.categoria)));
+        const uniqueCategories: string[] = Array.from(new Set(productosReales.map((p: Product) => p.categoria)));
         setCategories(uniqueCategories);
       } catch (error) {
         console.error('Error cargando productos:', error);
