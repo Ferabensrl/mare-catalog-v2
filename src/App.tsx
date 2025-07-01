@@ -337,7 +337,7 @@ const ImageGalleryModal = ({ product, isOpen, onClose, initialImageIndex = 0 }: 
   );
 };
 
-// Componente de tarjeta de producto
+// Componente de tarjeta de producto MEJORADO
 const ProductCard = ({ product, onAddToCart, viewMode }: {
   product: Product;
   onAddToCart: (producto: Product, selecciones: { [key: string]: number }, surtido?: number, comentario?: string) => void;
@@ -349,6 +349,7 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
   const [comentario, setComentario] = useState('');
   const [showDetails, setShowDetails] = useState(false);
   const [showImageModal, setShowImageModal] = useState(false);
+  const [showVariantesModal, setShowVariantesModal] = useState(false);
 
   // Obtener opciones disponibles (colores o variantes)
   const getAvailableOptions = () => {
@@ -387,14 +388,25 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
     }
   };
 
+  // Funciones para navegación del carrusel
+  const nextImage = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentImageIndex((prev) => (prev + 1) % product.imagenes.length);
+  };
+
+  const prevImage = (e: React.MouseEvent) => {
+    e.stopPropagation();
+    setCurrentImageIndex((prev) => (prev - 1 + product.imagenes.length) % product.imagenes.length);
+  };
+
   return (
     <div className={`bg-white rounded-xl shadow-sm border border-stone-200 overflow-hidden hover:shadow-md transition-shadow ${
       viewMode === 'list' ? 'flex' : ''
     }`}>
-      {/* Imágenes */}
-      <div className="relative">
+      {/* Imágenes con carrusel mejorado */}
+      <div className="relative group">
         <div 
-          className={`${viewMode === 'grid' ? 'aspect-square' : 'aspect-video'} bg-stone-100 rounded-lg overflow-hidden cursor-pointer group`}
+          className={`${viewMode === 'grid' ? 'aspect-square' : 'aspect-video w-64'} bg-stone-100 rounded-lg overflow-hidden cursor-pointer relative`}
           onClick={() => setShowImageModal(true)}
         >
           <img
@@ -410,16 +422,42 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
           <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-300 flex items-center justify-center">
             <ZoomIn className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300" size={32} />
           </div>
+
+          {/* Flechas de navegación - NUEVA FUNCIONALIDAD */}
+          {product.imagenes.length > 1 && (
+            <>
+              {/* Flecha izquierda */}
+              <button
+                onClick={prevImage}
+                className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full opacity-0 group-hover:opacity-100 hover:bg-opacity-70 transition-all duration-300 z-10"
+                style={{ fontSize: '0px' }}
+              >
+                <ChevronLeft size={20} />
+              </button>
+              
+              {/* Flecha derecha */}
+              <button
+                onClick={nextImage}
+                className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full opacity-0 group-hover:opacity-100 hover:bg-opacity-70 transition-all duration-300 z-10"
+                style={{ fontSize: '0px' }}
+              >
+                <ChevronRight size={20} />
+              </button>
+            </>
+          )}
         </div>
         
-        {/* Navegación de imágenes */}
+        {/* Indicadores de navegación mejorados */}
         {product.imagenes.length > 1 && (
           <div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex gap-1">
             {product.imagenes.map((_, index) => (
               <button
                 key={index}
-                onClick={() => setCurrentImageIndex(index)}
-                className={`w-2 h-2 rounded-full ${
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setCurrentImageIndex(index);
+                }}
+                className={`w-2 h-2 rounded-full transition-all ${
                   index === currentImageIndex ? 'bg-white' : 'bg-white/50'
                 }`}
               />
@@ -429,24 +467,35 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
       </div>
 
       {/* Información del producto */}
-      <div className="p-4 space-y-3">
+      <div className="p-4 space-y-3 flex-1">
         <div>
           <h3 className="font-semibold" style={{ color: '#8F6A50' }}>{product.nombre}</h3>
           <p className="text-sm opacity-80" style={{ color: '#8F6A50' }}>{product.codigo}</p>
           <p className="text-lg font-bold" style={{ color: '#8F6A50' }}>${product.precio}</p>
         </div>
 
-        {/* Imagen de variantes */}
+        {/* Imagen de variantes MEJORADA */}
         {product.imagenVariantes && (
-          <div className="border rounded-lg overflow-hidden">
-            <img
-              src={convertGoogleDriveUrl(product.imagenVariantes)}
-              alt="Variantes disponibles"
-              className="w-full h-20 object-cover"
-              onError={(e) => {
-                e.currentTarget.style.display = 'none';
-              }}
-            />
+          <div className="border rounded-lg overflow-hidden bg-gray-50">
+            <div className="p-2">
+              <p className="text-xs font-medium mb-2" style={{ color: '#8F6A50' }}>Variantes disponibles:</p>
+              <div 
+                className="cursor-pointer hover:opacity-80 transition-opacity"
+                onClick={() => setShowVariantesModal(true)}
+              >
+                <img
+                  src={convertGoogleDriveUrl(product.imagenVariantes)}
+                  alt="Variantes disponibles"
+                  className="w-full h-24 object-contain"
+                  onError={(e) => {
+                    e.currentTarget.style.display = 'none';
+                  }}
+                />
+              </div>
+              <p className="text-xs text-center mt-1 opacity-70" style={{ color: '#8F6A50' }}>
+                Clic para ver en grande
+              </p>
+            </div>
           </div>
         )}
 
@@ -600,138 +649,220 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
         onClose={() => setShowImageModal(false)}
         initialImageIndex={currentImageIndex}
       />
+
+      {/* Modal de imagen de variantes */}
+      {product.imagenVariantes && (
+        <div 
+          className={`fixed inset-0 bg-black bg-opacity-75 z-50 flex items-center justify-center p-4 transition-opacity ${
+            showVariantesModal ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
+          }`}
+          onClick={() => setShowVariantesModal(false)}
+        >
+          <div className="relative max-w-4xl max-h-full">
+            <button
+              onClick={() => setShowVariantesModal(false)}
+              className="absolute -top-10 right-0 text-white hover:text-gray-300 z-10"
+            >
+              <X size={32} />
+            </button>
+            <img
+              src={convertGoogleDriveUrl(product.imagenVariantes)}
+              alt="Variantes disponibles"
+              className="max-w-full max-h-full object-contain rounded-lg"
+              onClick={(e) => e.stopPropagation()}
+              onError={(e) => {
+                e.currentTarget.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZjNmNGY2Ii8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOCIgZmlsbD0iIzk5YTNhZiIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkltYWdlbiBubyBkaXNwb25pYmxlPC90ZXh0Pjwvc3ZnPg==';
+              }}
+            />
+          </div>
+        </div>
+      )}
     </div>
   );
 };
 
-// Modal del carrito
-const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWhatsApp, totalPrice, clientName }: {
+// Modal del carrito - OPTIMIZADO PARA MÓVIL
+const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWhatsApp, onClearCart, totalPrice, clientName }: {
   cart: CartItem[];
   onClose: () => void;
   onRemoveItem: (index: number) => void;
   onUpdateComment: (index: number, comentario: string) => void;
   onGenerateWhatsApp: (comentarioFinal: string) => string;
+  onClearCart: () => void;
   totalPrice: number;
   clientName: string;
 }) => {
   const [comentarioFinal, setComentarioFinal] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
 
-  const handleWhatsAppSend = () => {
+  const handleWhatsAppSend = async () => {
+    setIsLoading(true);
     const message = onGenerateWhatsApp(comentarioFinal);
+    
+    // Abrir WhatsApp
     window.open(`https://wa.me/?text=${message}`, '_blank');
+    
+    // Mostrar mensaje de confirmación y resetear después de un momento
+    setTimeout(() => {
+      setIsLoading(false);
+      onClearCart(); // Limpiar el carrito
+      onClose(); // Cerrar el modal
+      
+      // Mostrar notificación de éxito
+      alert('¡Pedido enviado por WhatsApp! 🎉\n\nLa aplicación se ha reiniciado para un nuevo pedido.');
+    }, 1500);
   };
 
-  const handleEmailSend = () => {
+  const handleEmailSend = async () => {
+    setIsLoading(true);
     const subject = `Nuevo Pedido - ${clientName}`;
     const body = decodeURIComponent(onGenerateWhatsApp(comentarioFinal));
+    
+    // Abrir cliente de email
     window.open(`mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, '_blank');
+    
+    // Mostrar mensaje de confirmación y resetear después de un momento
+    setTimeout(() => {
+      setIsLoading(false);
+      onClearCart(); // Limpiar el carrito
+      onClose(); // Cerrar el modal
+      
+      // Mostrar notificación de éxito
+      alert('¡Pedido enviado por Email! 📧\n\nLa aplicación se ha reiniciado para un nuevo pedido.');
+    }, 1500);
   };
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
-      <div className="bg-white rounded-xl max-w-2xl w-full max-h-[90vh] overflow-hidden">
-        {/* Header */}
-        <div className="flex items-center justify-between p-6 border-b">
-          <h2 className="text-xl font-bold" style={{ color: '#8F6A50' }}>Tu Pedido</h2>
+    <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4">
+      <div className="bg-white w-full sm:max-w-2xl sm:rounded-xl h-full sm:h-auto sm:max-h-[90vh] overflow-hidden flex flex-col">
+        {/* Header fijo */}
+        <div className="flex items-center justify-between p-4 sm:p-6 border-b bg-white sticky top-0 z-10">
+          <h2 className="text-lg sm:text-xl font-bold" style={{ color: '#8F6A50' }}>Tu Pedido</h2>
           <button onClick={onClose} className="hover:opacity-70" style={{ color: '#8F6A50' }}>
             <X size={24} />
           </button>
         </div>
 
-        {/* Contenido del carrito */}
-        <div className="p-6 overflow-y-auto max-h-96">
-          {cart.length === 0 ? (
-            <p className="text-center py-8" style={{ color: '#8F6A50' }}>Tu pedido está vacío</p>
-          ) : (
-            <div className="space-y-4">
-              {cart.map((item, index) => (
-                <div key={index} className="border rounded-lg p-4" style={{ borderColor: '#E3D4C1' }}>
-                  <div className="flex justify-between items-start mb-3">
-                    <div>
-                      <h3 className="font-semibold" style={{ color: '#8F6A50' }}>{item.producto.nombre}</h3>
-                      <p className="text-sm opacity-80" style={{ color: '#8F6A50' }}>{item.producto.codigo}</p>
-                      <p className="text-sm font-medium" style={{ color: '#8F6A50' }}>${item.producto.precio}</p>
-                    </div>
-                    <button
-                      onClick={() => onRemoveItem(index)}
-                      className="text-red-500 hover:text-red-700"
-                    >
-                      <X size={20} />
-                    </button>
-                  </div>
-
-                  {/* Selecciones */}
-                  <div className="space-y-1 mb-3">
-                    {Object.entries(item.selecciones).map(([opcion, cantidad]) => (
-                      cantidad > 0 && (
-                        <div key={opcion} className="flex justify-between text-sm">
-                          <span>{opcion}:</span>
-                          <span className="font-medium">{cantidad}</span>
-                        </div>
-                      )
-                    ))}
-                    {item.surtido && item.surtido > 0 && (
-                      <div className="flex justify-between text-sm">
-                        <span>Surtido:</span>
-                        <span className="font-medium">{item.surtido}</span>
-                      </div>
-                    )}
-                  </div>
-
-                  {/* Campo de comentario */}
-                  <textarea
-                    placeholder="Comentario para este producto..."
-                    value={item.comentario || ''}
-                    onChange={(e) => onUpdateComment(index, e.target.value)}
-                    className="w-full border rounded px-3 py-2 text-sm resize-none"
-                    style={{ borderColor: '#8F6A50', color: '#8F6A50' }}
-                    rows={2}
-                  />
-                </div>
-              ))}
+        {/* Total fijo en móvil - aparece arriba */}
+        {cart.length > 0 && (
+          <div className="sm:hidden bg-white border-b p-4 sticky top-16 z-10">
+            <div className="flex justify-between items-center text-lg font-bold">
+              <span style={{ color: '#8F6A50' }}>Total:</span>
+              <span style={{ color: '#8F6A50' }}>${totalPrice.toLocaleString()}</span>
             </div>
-          )}
+          </div>
+        )}
+
+        {/* Contenido del carrito - scrolleable */}
+        <div className="flex-1 overflow-y-auto">
+          <div className="p-4 sm:p-6">
+            {cart.length === 0 ? (
+              <p className="text-center py-8" style={{ color: '#8F6A50' }}>Tu pedido está vacío</p>
+            ) : (
+              <div className="space-y-4">
+                {cart.map((item, index) => (
+                  <div key={index} className="border rounded-lg p-3 sm:p-4" style={{ borderColor: '#E3D4C1' }}>
+                    <div className="flex justify-between items-start mb-3">
+                      <div className="flex-1 pr-2">
+                        <h3 className="font-semibold text-sm sm:text-base" style={{ color: '#8F6A50' }}>{item.producto.nombre}</h3>
+                        <p className="text-xs sm:text-sm opacity-80" style={{ color: '#8F6A50' }}>{item.producto.codigo}</p>
+                        <p className="text-sm font-medium" style={{ color: '#8F6A50' }}>${item.producto.precio}</p>
+                      </div>
+                      <button
+                        onClick={() => onRemoveItem(index)}
+                        className="text-red-500 hover:text-red-700 p-1"
+                        disabled={isLoading}
+                      >
+                        <X size={18} />
+                      </button>
+                    </div>
+
+                    {/* Selecciones */}
+                    <div className="space-y-1 mb-3">
+                      {Object.entries(item.selecciones).map(([opcion, cantidad]) => (
+                        cantidad > 0 && (
+                          <div key={opcion} className="flex justify-between text-xs sm:text-sm">
+                            <span>{opcion}:</span>
+                            <span className="font-medium">{cantidad}</span>
+                          </div>
+                        )
+                      ))}
+                      {item.surtido && item.surtido > 0 && (
+                        <div className="flex justify-between text-xs sm:text-sm">
+                          <span>Surtido:</span>
+                          <span className="font-medium">{item.surtido}</span>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Campo de comentario */}
+                    <textarea
+                      placeholder="Comentario para este producto..."
+                      value={item.comentario || ''}
+                      onChange={(e) => onUpdateComment(index, e.target.value)}
+                      className="w-full border rounded px-2 sm:px-3 py-2 text-xs sm:text-sm resize-none"
+                      style={{ borderColor: '#8F6A50', color: '#8F6A50' }}
+                      rows={2}
+                      disabled={isLoading}
+                    />
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
         </div>
 
-        {/* Footer del carrito */}
+        {/* Footer fijo - siempre visible */}
         {cart.length > 0 && (
-          <div className="border-t p-6 space-y-4">
+          <div className="border-t bg-white p-4 sm:p-6 space-y-3 sm:space-y-4 sticky bottom-0">
             {/* Comentario final */}
             <div>
-              <label className="block text-sm font-medium mb-2" style={{ color: '#8F6A50' }}>
+              <label className="block text-xs sm:text-sm font-medium mb-2" style={{ color: '#8F6A50' }}>
                 Comentario final del pedido
               </label>
               <textarea
                 placeholder="Observaciones generales del pedido..."
                 value={comentarioFinal}
                 onChange={(e) => setComentarioFinal(e.target.value)}
-                className="w-full border rounded px-3 py-2 text-sm resize-none"
+                className="w-full border rounded px-2 sm:px-3 py-2 text-xs sm:text-sm resize-none"
                 style={{ borderColor: '#8F6A50', color: '#8F6A50' }}
-                rows={3}
+                rows={2}
+                disabled={isLoading}
               />
             </div>
 
-            {/* Total */}
-            <div className="flex justify-between items-center text-lg font-bold">
+            {/* Total en desktop */}
+            <div className="hidden sm:flex justify-between items-center text-lg font-bold">
               <span style={{ color: '#8F6A50' }}>Total:</span>
               <span style={{ color: '#8F6A50' }}>${totalPrice.toLocaleString()}</span>
             </div>
 
-            {/* Botones de envío */}
-            <div className="flex flex-col sm:flex-row gap-3">
+            {/* Mensaje de estado de envío */}
+            {isLoading && (
+              <div className="text-center p-3 bg-green-50 rounded-lg border border-green-200">
+                <p className="text-green-700 font-medium text-sm">
+                  📤 Enviando pedido... ¡Por favor espera!
+                </p>
+              </div>
+            )}
+
+            {/* Botones de envío - siempre visibles */}
+            <div className="flex flex-col gap-2 sm:gap-3">
               <button
                 onClick={handleWhatsAppSend}
-                className="flex-1 bg-green-600 text-white py-3 rounded-lg font-medium hover:bg-green-700 transition-colors flex items-center justify-center gap-2"
+                disabled={isLoading}
+                className="w-full bg-green-600 text-white py-3 sm:py-3 rounded-lg font-medium hover:bg-green-700 disabled:bg-green-400 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
               >
-                <MessageCircle size={20} />
-                Enviar por WhatsApp
+                <MessageCircle size={18} />
+                {isLoading ? 'Enviando...' : 'Enviar por WhatsApp'}
               </button>
               <button
                 onClick={handleEmailSend}
-                className="flex-1 bg-blue-600 text-white py-3 rounded-lg font-medium hover:bg-blue-700 transition-colors flex items-center justify-center gap-2"
+                disabled={isLoading}
+                className="w-full bg-blue-600 text-white py-3 sm:py-3 rounded-lg font-medium hover:bg-blue-700 disabled:bg-blue-400 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
               >
-                <Mail size={20} />
-                Enviar por Email
+                <Mail size={18} />
+                {isLoading ? 'Enviando...' : 'Enviar por Email'}
               </button>
             </div>
           </div>
@@ -834,6 +965,11 @@ const App = () => {
     const newCart = [...cart];
     newCart[index].comentario = comentario;
     setCart(newCart);
+  };
+
+  // Nueva función para limpiar todo el carrito
+  const clearCart = () => {
+    setCart([]);
   };
 
   const getTotalItems = () => {
@@ -1018,6 +1154,7 @@ const App = () => {
           onRemoveItem={removeFromCart}
           onUpdateComment={updateCartItemComment}
           onGenerateWhatsApp={generateWhatsAppMessage}
+          onClearCart={clearCart}
           totalPrice={getTotalPrice()}
           clientName={loginData?.nombreCliente || ''}
         />
