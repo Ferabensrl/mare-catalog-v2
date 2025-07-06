@@ -339,11 +339,12 @@ const ImageGalleryModal = ({ product, isOpen, onClose, initialImageIndex = 0 }: 
   );
 };
 
-// Componente de tarjeta de producto MEJORADO
-const ProductCard = ({ product, onAddToCart, viewMode }: {
+// Componente de tarjeta de producto MEJORADO con feedback visual
+const ProductCard = ({ product, onAddToCart, viewMode, cart }: {
   product: Product;
   onAddToCart: (producto: Product, selecciones: { [key: string]: number }, surtido?: number, comentario?: string) => void;
   viewMode: 'grid' | 'list';
+  cart: CartItem[]; // ← NUEVA PROP para detectar productos en carrito
 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [selecciones, setSelecciones] = useState<{ [key: string]: number }>({});
@@ -352,6 +353,19 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
   const [showDetails, setShowDetails] = useState(false);
   const [showImageModal, setShowImageModal] = useState(false);
   const [showVariantesModal, setShowVariantesModal] = useState(false);
+  
+  // 🎯 NUEVO: Estado para feedback del botón "Agregado"
+  const [isAdding, setIsAdding] = useState(false);
+  const [justAdded, setJustAdded] = useState(false);
+
+  // 🛒 NUEVO: Detectar si el producto está en el carrito
+  const isInCart = cart.some(item => item.producto.codigo === product.codigo);
+  const cartItemsCount = cart
+    .filter(item => item.producto.codigo === product.codigo)
+    .reduce((total, item) => {
+      const itemTotal = Object.values(item.selecciones).reduce((sum, qty) => sum + qty, 0) + (item.surtido || 0);
+      return total + itemTotal;
+    }, 0);
 
   // Obtener opciones disponibles (colores o variantes)
   const getAvailableOptions = () => {
@@ -379,15 +393,32 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
     }));
   };
 
-  const handleAddToCart = () => {
+  // 🎯 MEJORADO: Función para agregar al carrito con feedback visual
+  const handleAddToCart = async () => {
     const hasQuantities = Object.values(selecciones).some(q => q > 0) || surtido > 0;
-    if (hasQuantities) {
-      onAddToCart(product, selecciones, surtido, comentario);
+    if (!hasQuantities) return;
+
+    // Iniciar animación
+    setIsAdding(true);
+    
+    // Agregar al carrito
+    onAddToCart(product, selecciones, surtido, comentario);
+    
+    // Simular pequeño delay para mejor UX
+    setTimeout(() => {
+      setIsAdding(false);
+      setJustAdded(true);
+      
       // Limpiar formulario después de agregar
       setSelecciones({});
       setSurtido(0);
       setComentario('');
-    }
+      
+      // Volver al estado normal después de 2 segundos
+      setTimeout(() => {
+        setJustAdded(false);
+      }, 2000);
+    }, 300);
   };
 
   // Funciones para navegación del carrusel
@@ -402,9 +433,25 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
   };
 
   return (
-    <div className={`bg-white rounded-xl shadow-sm border border-stone-200 overflow-hidden hover:shadow-md transition-shadow ${
+    <div className={`bg-white rounded-xl shadow-sm border-2 overflow-hidden hover:shadow-md transition-all duration-300 relative ${
       viewMode === 'list' ? 'flex' : ''
+    } ${
+      // 🛒 NUEVO: Borde especial si está en el carrito
+      isInCart ? 'border-amber-400 shadow-amber-100' : 'border-stone-200'
     }`}>
+      
+      {/* 🛒 NUEVO: Indicador de producto en carrito */}
+      {isInCart && (
+        <div className="absolute top-3 right-3 z-20 bg-amber-500 text-white rounded-full p-2 shadow-lg">
+          <ShoppingCart size={16} />
+          {cartItemsCount > 0 && (
+            <span className="absolute -top-1 -right-1 bg-red-500 text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-bold">
+              {cartItemsCount}
+            </span>
+          )}
+        </div>
+      )}
+
       {/* Imágenes con carrusel mejorado */}
       <div className="relative group">
         <div 
@@ -611,17 +658,41 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
           />
         </div>
 
-        {/* Botón agregar al pedido */}
+        {/* 🎯 MEJORADO: Botón agregar al pedido con feedback visual */}
         <button
           onClick={handleAddToCart}
-          disabled={!Object.values(selecciones).some(q => q > 0) && surtido === 0}
-          className="w-full text-white py-3 rounded-lg font-medium hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed transition-all"
-          style={{ backgroundColor: '#8F6A50' }}
+          disabled={(!Object.values(selecciones).some(q => q > 0) && surtido === 0) || isAdding}
+          className={`w-full py-3 rounded-lg font-medium transition-all duration-300 flex items-center justify-center gap-2 ${
+            justAdded 
+              ? 'bg-green-500 text-white transform scale-105' 
+              : isAdding
+              ? 'bg-amber-400 text-white'
+              : 'text-white hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed'
+          }`}
+          style={{ 
+            backgroundColor: justAdded ? '#22c55e' : isAdding ? '#f59e0b' : '#8F6A50' 
+          }}
         >
-          {Object.values(selecciones).some(q => q > 0) || surtido > 0 
-            ? `Agregar al Pedido (${Object.values(selecciones).reduce((sum, qty) => sum + qty, 0) + surtido} unidades)`
-            : 'Agregar al Pedido'
-          }
+          {justAdded ? (
+            <>
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+              ¡Agregado!
+            </>
+          ) : isAdding ? (
+            <>
+              <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin"></div>
+              Agregando...
+            </>
+          ) : (
+            <>
+              {Object.values(selecciones).some(q => q > 0) || surtido > 0 
+                ? `Agregar al Pedido (${Object.values(selecciones).reduce((sum, qty) => sum + qty, 0) + surtido} unidades)`
+                : 'Agregar al Pedido'
+              }
+            </>
+          )}
         </button>
 
         {/* Botón ver detalles */}
@@ -1302,6 +1373,7 @@ const App = () => {
                   product={product} 
                   onAddToCart={addToCart}
                   viewMode={viewMode}
+                  cart={cart} // ← NUEVA PROP agregada
                 />
               ))}
             </div>
