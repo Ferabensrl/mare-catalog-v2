@@ -1,6 +1,7 @@
-// convertir-excel.js - Script para convertir Excel a JSON
+// convertir-excel.js - Script para convertir Excel a JSON con búsqueda automática de imágenes
 import * as XLSX from 'xlsx';
-import { writeFileSync } from 'fs';
+import { writeFileSync, existsSync, readdirSync } from 'fs';
+import { join } from 'path';
 
 // MAPEO EXACTO DE COLORES (U-BC = índices 20-54)
 const COLORES = [
@@ -15,6 +16,133 @@ const COLORES = [
 // MAPEO VARIANTES (BD-BM = índices 55-64)
 const VARIANTES = ['C1', 'C2', 'C3', 'C4', 'C5', 'C6', 'C7', 'C8', 'C9', 'C10'];
 
+// Caché de archivos para optimizar búsquedas
+let archivosImagenes = null;
+
+function cargarArchivosImagenes() {
+    const carpetaImagenes = './public/imagenes';
+    
+    if (!existsSync(carpetaImagenes)) {
+        console.log('⚠️  Carpeta /public/imagenes no existe, creándola...');
+        return [];
+    }
+    
+    try {
+        const archivos = readdirSync(carpetaImagenes);
+        const imagenesValidas = archivos.filter(archivo => 
+            archivo.toLowerCase().endsWith('.jpg') || 
+            archivo.toLowerCase().endsWith('.jpeg') || 
+            archivo.toLowerCase().endsWith('.png') ||
+            archivo.toLowerCase().endsWith('.webp')
+        );
+        
+        console.log(`📁 Encontradas ${imagenesValidas.length} imágenes en /public/imagenes`);
+        return imagenesValidas;
+    } catch (error) {
+        console.log('❌ Error leyendo carpeta de imágenes:', error.message);
+        return [];
+    }
+}
+
+function buscarImagenesAutomaticas(codigo) {
+    if (!archivosImagenes) {
+        archivosImagenes = cargarArchivosImagenes();
+    }
+    
+    const imagenesEncontradas = [];
+    const variacionesCodigo = [
+        codigo,                          // Código exacto
+        codigo.replace(/-/g, ''),        // Sin guiones
+        codigo.replace(/-/g, ' '),       // Guiones como espacios
+    ];
+    
+    // Buscar imágenes numeradas (1.jpg, 2.jpg, etc.)
+    for (let i = 1; i <= 15; i++) {
+        let encontrada = false;
+        
+        for (const codigoVar of variacionesCodigo) {
+            const posiblesNombres = [
+                `${codigoVar} ${i}.jpg`,
+                `${codigoVar} ${i}.jpeg`,
+                `${codigoVar} ${i}.png`,
+                `${codigoVar} ${i}.webp`,
+                `${codigoVar}_${i}.jpg`,
+                `${codigoVar}_${i}.jpeg`,
+                `${codigoVar}-${i}.jpg`,
+                `${codigoVar}-${i}.jpeg`,
+            ];
+            
+            for (const nombre of posiblesNombres) {
+                if (archivosImagenes.includes(nombre)) {
+                    imagenesEncontradas.push(nombre);
+                    encontrada = true;
+                    break;
+                }
+            }
+            
+            if (encontrada) break;
+        }
+    }
+    
+    // Buscar imagen principal sin número
+    if (imagenesEncontradas.length === 0) {
+        for (const codigoVar of variacionesCodigo) {
+            const posiblesNombres = [
+                `${codigoVar}.jpg`,
+                `${codigoVar}.jpeg`,
+                `${codigoVar}.png`,
+                `${codigoVar}.webp`,
+            ];
+            
+            for (const nombre of posiblesNombres) {
+                if (archivosImagenes.includes(nombre)) {
+                    imagenesEncontradas.push(nombre);
+                    break;
+                }
+            }
+        }
+    }
+    
+    return imagenesEncontradas;
+}
+
+function buscarImagenVariantes(codigo) {
+    if (!archivosImagenes) {
+        archivosImagenes = cargarArchivosImagenes();
+    }
+    
+    const variacionesCodigo = [
+        codigo,
+        codigo.replace(/-/g, ''),
+        codigo.replace(/-/g, ' '),
+    ];
+    
+    for (const codigoVar of variacionesCodigo) {
+        const posiblesNombres = [
+            `${codigoVar} VARIANTES.jpg`,
+            `${codigoVar} VARIANTES.jpeg`,
+            `${codigoVar} VARIANTES.png`,
+            `${codigoVar} VARIANTES.webp`,
+            `${codigoVar}_VARIANTES.jpg`,
+            `${codigoVar}_VARIANTES.jpeg`,
+            `${codigoVar}-VARIANTES.jpg`,
+            `${codigoVar}-VARIANTES.jpeg`,
+            `${codigoVar} variantes.jpg`,
+            `${codigoVar} variantes.jpeg`,
+            `${codigoVar}_variantes.jpg`,
+            `${codigoVar}_variantes.jpeg`,
+        ];
+        
+        for (const nombre of posiblesNombres) {
+            if (archivosImagenes.includes(nombre)) {
+                return nombre;
+            }
+        }
+    }
+    
+    return null;
+}
+
 function convertirExcel() {
     console.log('🔄 Leyendo Excel...');
     
@@ -26,6 +154,8 @@ function convertirExcel() {
         const productos = [];
         let convertidos = 0;
         let errores = 0;
+        let imagenesAutomaticas = 0;
+        let variantesAutomaticas = 0;
 
         console.log(`📊 Procesando ${jsonData.length - 1} filas...`);
 
@@ -53,16 +183,40 @@ function convertirExcel() {
                     variantes: {}
                 };
 
-                // Imágenes (G-P = índices 6-15)
+                // PASO 1: Intentar obtener imágenes del Excel (G-P = índices 6-15)
+                let imagenesDelExcel = [];
                 for (let img = 6; img <= 15; img++) {
                     if (row[img] && String(row[img]).trim()) {
-                        producto.imagenes.push(String(row[img]).trim());
+                        imagenesDelExcel.push(String(row[img]).trim());
                     }
                 }
 
-                // Imagen de variantes (Q = índice 16)
+                // PASO 2: Si hay imágenes en Excel, usarlas. Si no, buscar automáticamente
+                if (imagenesDelExcel.length > 0) {
+                    producto.imagenes = imagenesDelExcel;
+                    console.log(`📋 ${producto.codigo}: Usando ${imagenesDelExcel.length} imágenes del Excel`);
+                } else {
+                    const imagenesEncontradas = buscarImagenesAutomaticas(producto.codigo);
+                    producto.imagenes = imagenesEncontradas;
+                    if (imagenesEncontradas.length > 0) {
+                        imagenesAutomaticas++;
+                        console.log(`🔍 ${producto.codigo}: Encontradas ${imagenesEncontradas.length} imágenes automáticamente`);
+                    } else {
+                        console.log(`⚠️  ${producto.codigo}: No se encontraron imágenes`);
+                    }
+                }
+
+                // PASO 3: Imagen de variantes (Q = índice 16)
                 if (row[16] && String(row[16]).trim()) {
                     producto.imagenVariantes = String(row[16]).trim();
+                    console.log(`📋 ${producto.codigo}: Usando imagen de variantes del Excel`);
+                } else {
+                    const variantesEncontrada = buscarImagenVariantes(producto.codigo);
+                    if (variantesEncontrada) {
+                        producto.imagenVariantes = variantesEncontrada;
+                        variantesAutomaticas++;
+                        console.log(`🔍 ${producto.codigo}: Encontrada imagen de variantes automáticamente`);
+                    }
                 }
 
                 // Colores (U-BC = índices 20-54)
@@ -93,11 +247,16 @@ function convertirExcel() {
         
         console.log(`\n✅ CONVERSIÓN COMPLETADA:`);
         console.log(`   📦 Productos convertidos: ${convertidos}`);
+        console.log(`   🔍 Imágenes encontradas automáticamente: ${imagenesAutomaticas}`);
+        console.log(`   🖼️  Variantes encontradas automáticamente: ${variantesAutomaticas}`);
         console.log(`   ❌ Errores: ${errores}`);
         console.log(`   📂 Archivo generado: public/productos.json`);
         
         // Estadísticas
         const stats = {
+            conImagenes: productos.filter(p => p.imagenes.length > 0).length,
+            sinImagenes: productos.filter(p => p.imagenes.length === 0).length,
+            conVariantesImg: productos.filter(p => p.imagenVariantes).length,
             conColores: productos.filter(p => Object.keys(p.colores).length > 0).length,
             sinColor: productos.filter(p => p.sinColor).length,
             conVariantes: productos.filter(p => Object.keys(p.variantes).length > 0).length,
@@ -106,11 +265,25 @@ function convertirExcel() {
         };
 
         console.log(`\n📊 ESTADÍSTICAS:`);
+        console.log(`   - Con imágenes: ${stats.conImagenes}`);
+        console.log(`   - Sin imágenes: ${stats.sinImagenes}`);
+        console.log(`   - Con imagen de variantes: ${stats.conVariantesImg}`);
         console.log(`   - Con colores: ${stats.conColores}`);
         console.log(`   - Sin color: ${stats.sinColor}`);
         console.log(`   - Con variantes C1-C10: ${stats.conVariantes}`);
         console.log(`   - Permiten surtido: ${stats.conSurtido}`);
         console.log(`   - Categorías únicas: ${stats.categorias}`);
+
+        // Recomendaciones
+        if (stats.sinImagenes > 0) {
+            console.log(`\n💡 RECOMENDACIONES:`);
+            console.log(`   - ${stats.sinImagenes} productos sin imágenes`);
+            console.log(`   - Verifica que las imágenes estén en /public/imagenes/`);
+            console.log(`   - Formatos soportados: .jpg, .jpeg, .png, .webp`);
+            console.log(`   - Convenciones de nombres:`);
+            console.log(`     • CODIGO 1.jpg, CODIGO 2.jpg, etc.`);
+            console.log(`     • CODIGO VARIANTES.jpg`);
+        }
 
         return productos;
 
