@@ -17,13 +17,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Blanco": true,
-      "Beige": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LB010 VARIANTES.jpg"
   },
@@ -44,12 +38,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Beige": true,
-      "Marron Claro": true,
-      "Gris": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LB011 VARIANTES.jpg"
   },
@@ -71,13 +60,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Beige": true,
-      "Marron Claro": true,
-      "Gris": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LB012 VARIANTES.jpg"
   },
@@ -98,12 +81,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos pastel": true,
-      "Beige": true,
-      "Combinado": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LB001 VARIANTES.jpg"
   },
@@ -122,11 +100,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LB005 VARIANTES.jpg"
   },
@@ -147,12 +121,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Blanco": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LB006 VARIANTES.jpg"
   },
@@ -171,12 +140,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Nude": true,
-      "Beige": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LB008 VARIANTES.jpg"
   },
@@ -197,14 +161,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true,
-      "C4": true,
-      "C5": true,
-      "C6": true
-    },
+    "variantes": {},
     "imagenVariantes": "MB001 VARIANTES.jpg"
   },
   {
@@ -222,11 +179,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "MB020 VARIANTES.jpg"
   },
@@ -245,11 +198,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "MB3891 VARIANTES.jpg"
   },
@@ -268,11 +217,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "MB3893 VARIANTES.jpg"
   },
@@ -290,11 +235,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "MB005 VARIANTES.jpg"
   },
@@ -314,14 +255,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Rosado": true,
-      "Marron Claro": true,
-      "Bordeaux": true,
-      "Rojo": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W128 VARIANTES.jpg"
   },
@@ -340,13 +274,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Plateado": true,
-      "Verde": true,
-      "Celeste": true,
-      "Marron Claro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W274 VARIANTES.jpg"
   },
@@ -366,14 +294,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Blanco": true,
-      "Verde": true,
-      "Lila": true,
-      "Beige": true,
-      "Marron Claro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W140 VARIANTES.jpg"
   },
@@ -393,14 +314,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Verde": true,
-      "Celeste": true,
-      "Marron Claro": true,
-      "Rojo": true,
-      "Rosa Viejo": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W253 VARIANTES.jpg"
   },
@@ -419,14 +333,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Celeste": true,
-      "Rosado": true,
-      "Rojo": true,
-      "Rosa Viejo": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W801 VARIANTES.jpg"
   },
@@ -447,13 +354,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Blanco": true,
-      "Rosado": true,
-      "Marron Claro": true,
-      "Gris": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W252 VARIANTES.jpg"
   },
@@ -473,15 +374,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Rosado": true,
-      "Gris": true,
-      "Rojo": true,
-      "Rosa Viejo": true,
-      "Azul": true,
-      "Mostaza": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W254 VARIANTES.jpg"
   },
@@ -502,14 +395,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Rosado": true,
-      "Marron Claro": true,
-      "Rojo": true,
-      "Rosa Viejo": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W802 VARIANTES.jpg"
   },
@@ -529,15 +415,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Amarillo": true,
-      "Verde": true,
-      "Celeste": true,
-      "Rosado": true,
-      "Beige": true,
-      "Rojo": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W292 VARIANTES.jpg"
   },
@@ -557,14 +435,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Verde": true,
-      "Celeste": true,
-      "Marron Claro": true,
-      "Rojo": true,
-      "Rosa Viejo": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W002 VARIANTES.jpg"
   },
@@ -584,13 +455,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true,
-      "Bordeaux": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W0005 VARIANTES.jpg"
   },
@@ -611,12 +476,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true,
-      "C4": true
-    },
+    "variantes": {},
     "imagenVariantes": "W2126 VARIANTES.jpg"
   },
   {
@@ -636,15 +496,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Lila": true,
-      "Celeste": true,
-      "Beige": true,
-      "Marron Claro": true,
-      "Bordeaux": true,
-      "Verde Agua": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W307-2B VARIANTES.jpg"
   },
@@ -664,14 +516,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Celeste": true,
-      "Rosado": true,
-      "Rojo": true,
-      "Rosa Viejo": true,
-      "Verde Agua": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W219 VARIANTES.jpg"
   },
@@ -691,14 +536,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Rosado": true,
-      "Fucsia": true,
-      "Marron Claro": true,
-      "Rojo": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W807 B VARIANTES.jpg"
   },
@@ -720,13 +558,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Lila": true,
-      "Celeste": true,
-      "Rosado": true,
-      "Verde Agua": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W808 VARIANTES.jpg"
   },
@@ -748,12 +580,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Rosado": true,
-      "Gris": true,
-      "Rojo": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W0028 VARIANTES.jpg"
   },
@@ -773,11 +600,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Celeste": true,
-      "Rosado": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W865 VARIANTES.jpg"
   },
@@ -797,11 +620,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true
-    },
+    "variantes": {},
     "imagenVariantes": "W280 VARIANTES.jpg"
   },
   {
@@ -820,14 +639,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Blanco": true,
-      "Verde": true,
-      "Rosado": true,
-      "Marron Claro": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W286 VARIANTES.jpg"
   },
@@ -848,14 +660,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Verde": true,
-      "Lila": true,
-      "Celeste": true,
-      "Rosado": true,
-      "Beige": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W291 VARIANTES.jpg"
   },
@@ -876,13 +681,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Celeste": true,
-      "Rosado": true,
-      "Beige": true,
-      "Marron Claro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W293 VARIANTES.jpg"
   },
@@ -903,11 +702,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Celeste": true,
-      "Rosado": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W1008 VARIANTES.jpg"
   },
@@ -928,10 +723,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true
-    },
+    "variantes": {},
     "imagenVariantes": "W266 VARIANTES.jpg"
   },
   {
@@ -951,15 +743,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Blanco": true,
-      "Nude": true,
-      "Celeste": true,
-      "Marron Claro": true,
-      "Verde claro": true,
-      "Rosa Viejo": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W297 VARIANTES.jpg"
   },
@@ -981,13 +765,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true,
-      "C4": true,
-      "C5": true
-    },
+    "variantes": {},
     "imagenVariantes": "W383-1 VARIANTES.jpg"
   },
   {
@@ -1006,13 +784,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Rosado": true,
-      "Beige": true,
-      "Marron Oscuro": true,
-      "Rosa Viejo": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "W271 VARIANTES.jpg"
   },
@@ -1033,14 +805,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Rosado": true,
-      "Gris": true,
-      "Verde claro": true,
-      "Rojo": true,
-      "Rosa Viejo": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "H001 VARIANTES.jpg"
   },
@@ -1061,14 +826,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Lila": true,
-      "Rosado": true,
-      "Gris": true,
-      "Rojo": true,
-      "Rosa Viejo": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "H002 VARIANTES.jpg"
   },
@@ -1089,14 +847,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Verde": true,
-      "Lila": true,
-      "Rosado": true,
-      "Rojo": true,
-      "Rosa Viejo": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "H003 VARIANTES.jpg"
   },
@@ -1118,12 +869,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Rosado": true,
-      "Gris": true,
-      "Rojo": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "H004 VARIANTES.jpg"
   },
@@ -1144,13 +890,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Rosado": true,
-      "Marron Claro": true,
-      "Rojo": true,
-      "Verde Agua": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "H005 VARIANTES.jpg"
   },
@@ -1171,13 +911,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Blanco": true,
-      "Celeste": true,
-      "Rosado": true,
-      "Marron Claro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "H006 VARIANTES.jpg"
   },
@@ -1198,13 +932,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Blanco": true,
-      "Verde": true,
-      "Rosado": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "H007 VARIANTES.jpg"
   },
@@ -1225,14 +953,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Blanco": true,
-      "Amarillo": true,
-      "Celeste": true,
-      "Rosado": true,
-      "Verde Agua": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "H008 VARIANTES.jpg"
   },
@@ -1254,12 +975,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Celeste": true,
-      "Marron Claro": true,
-      "Gris": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "BILLH009 VARIANTES.jpg"
   },
@@ -1279,12 +995,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "BILLH008 VARIANTES.jpg"
   },
@@ -1304,11 +1015,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "BILLH9031 VARIANTES.jpg"
   },
@@ -1329,12 +1036,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "BILLH9037 VARIANTES.jpg"
   },
@@ -1353,11 +1055,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "BILLH016 VARIANTES.jpg"
   },
@@ -1376,11 +1074,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "BILLH022 VARIANTES.jpg"
   },
@@ -1400,12 +1094,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Plateado": true,
-      "Marron Oscuro": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "BILLH2712 VARIANTES.jpg"
   },
@@ -1425,11 +1114,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "BILLH5502 VARIANTES.jpg"
   },
@@ -1451,11 +1136,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "BILLH5505 VARIANTES.jpg"
   },
@@ -1475,12 +1156,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "BILLH5506 VARIANTES.jpg"
   },
@@ -1501,11 +1177,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Marron Oscuro": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "BILLH3913 VARIANTES.jpg"
   },
@@ -1526,11 +1198,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Beige": true,
-      "Marron Claro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LD7044 VARIANTES.jpg"
   },
@@ -1550,11 +1218,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Blanco": true,
-      "Rosado": true,
-      "Fucsia": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "FN8104 VARIANTES.jpg"
   },
@@ -1575,14 +1239,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true,
-      "C4": true,
-      "C5": true,
-      "C6": true
-    },
+    "variantes": {},
     "imagenVariantes": "CBB008 VARIANTES.jpg"
   },
   {
@@ -1602,12 +1259,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Nude": true,
-      "Verde claro": true,
-      "Bordeaux": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LD1207 VARIANTES.jpg"
   },
@@ -1630,12 +1282,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Blanco": true,
-      "Marron Oscuro": true,
-      "Gris": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LD214 VARIANTES.jpg"
   },
@@ -1656,10 +1303,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Beige": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LD6305 VARIANTES.jpg"
   },
@@ -1680,13 +1324,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Verde": true,
-      "Beige": true,
-      "Azul": true,
-      "Mostaza": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LD8861 VARIANTES.jpg"
   },
@@ -1706,12 +1344,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Verde": true,
-      "Gris": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LD305 VARIANTES.jpg"
   },
@@ -1729,12 +1362,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Gris": true,
-      "Verde claro": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LB5531 VARIANTES.jpg"
   },
@@ -1755,11 +1383,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Gris": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LD8076 VARIANTES.jpg"
   },
@@ -1779,11 +1403,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Gris": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LD8075 VARIANTES.jpg"
   },
@@ -1800,13 +1420,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Blanco": true,
-      "Beige": true,
-      "Terracota": true,
-      "Azul": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LB6620 VARIANTES.jpg"
   },
@@ -1823,12 +1437,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Blanco": true,
-      "Beige": true,
-      "Bordeaux": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LB676 VARIANTES.jpg"
   },
@@ -1851,12 +1460,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true,
-      "Tonos pastel": true,
-      "Varios colores": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "3216 VARIANTES.jpg"
   },
@@ -1911,14 +1515,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true,
-      "C4": true,
-      "C5": true,
-      "C6": true
-    },
+    "variantes": {},
     "imagenVariantes": "H0011 VARIANTES.jpg"
   },
   {
@@ -1938,10 +1535,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "H0018 VARIANTES.jpg"
   },
@@ -1962,11 +1556,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Blanco": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "LB007 VARIANTES.jpg"
   },
@@ -1985,11 +1575,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true,
-      "Varios colores": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "100305 VARIANTES.jpg"
   },
@@ -2010,12 +1596,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true,
-      "C4": true
-    },
+    "variantes": {},
     "imagenVariantes": "100390 VARIANTES.jpg"
   },
   {
@@ -2035,14 +1616,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true,
-      "C4": true,
-      "C5": true,
-      "C6": true
-    },
+    "variantes": {},
     "imagenVariantes": "100325 VARIANTES.jpg"
   },
   {
@@ -2062,11 +1636,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true
-    },
+    "variantes": {},
     "imagenVariantes": "100387 VARIANTES.jpg"
   },
   {
@@ -2086,11 +1656,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true
-    },
+    "variantes": {},
     "imagenVariantes": "100301 VARIANTES.jpg"
   },
   {
@@ -2126,9 +1692,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {
-      "Plateado": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -2145,9 +1709,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {
-      "Dorado": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -2198,9 +1760,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {
-      "Dorado": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -2217,9 +1777,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {
-      "Plateado": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -2252,9 +1810,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {
-      "Dorado": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -2271,10 +1827,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Blanco": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "SZ0136 VARIANTES.jpg"
   },
@@ -2291,9 +1844,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {
-      "Dorado": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -2343,9 +1894,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {
-      "Plateado": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "XL1087-1 VARIANTES.jpg"
   },
@@ -2363,9 +1912,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {
-      "Dorado": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "XL1087-2 VARIANTES.jpg"
   },
@@ -2382,9 +1929,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {
-      "Plateado": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -2400,9 +1945,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {
-      "Dorado": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -2435,10 +1978,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Dorado": true,
-      "Plateado": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "SL0074 VARIANTES.jpg"
   },
@@ -2456,10 +1996,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Dorado": true,
-      "Plateado": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "XL00384 VARIANTES.jpg"
   },
@@ -2953,15 +2490,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true,
-      "C4": true,
-      "C5": true,
-      "C6": true,
-      "C7": true
-    },
+    "variantes": {},
     "imagenVariantes": "ER0018 VARIANTES.jpg"
   },
   {
@@ -2981,14 +2510,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true,
-      "C4": true,
-      "C5": true,
-      "C6": true
-    },
+    "variantes": {},
     "imagenVariantes": "ER0014 VARIANTES.jpg"
   },
   {
@@ -3088,10 +2610,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Tonos marrones": true,
-      "Beige": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "B003 VARIANTES.jpg"
   },
@@ -3128,10 +2647,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Beige": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -3149,10 +2665,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "B007 VARIANTES.jpg"
   },
@@ -3171,11 +2684,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true,
-      "Varios colores": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "B016 VARIANTES.jpg"
   },
@@ -3450,11 +2959,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true,
-      "Varios colores": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -3473,10 +2978,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true
-    },
+    "variantes": {},
     "imagenVariantes": "B104 VARIANTES.jpg"
   },
   {
@@ -3511,10 +3013,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Varios colores": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -3530,10 +3029,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -3590,11 +3086,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true,
-      "Tonos pastel": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -3613,11 +3105,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true,
-      "Tonos pastel": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -3634,11 +3122,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true,
-      "Tonos pastel": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -3657,11 +3141,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Beige": true,
-      "Marron Claro": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -3680,11 +3160,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true,
-      "Tonos pastel": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -3701,11 +3177,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true
-    }
+    "variantes": {}
   },
   {
     "codigo": "B203",
@@ -3758,10 +3230,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Varios colores": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -3815,10 +3284,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -3834,11 +3300,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true,
-      "Tonos pastel": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -4021,13 +3483,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Amarillo": true,
-      "Verde": true,
-      "Lila": true,
-      "Celeste": true,
-      "Rosado": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "B428 VARIANTES.jpg"
   },
@@ -4085,12 +3541,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Blanco": true,
-      "Marron Claro": true,
-      "Marron Oscuro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "B451 VARIANTES.jpg"
   },
@@ -4109,12 +3560,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true,
-      "Tonos pastel": true,
-      "Varios colores": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -4132,10 +3578,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -4193,12 +3636,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true,
-      "C4": true
-    },
+    "variantes": {},
     "imagenVariantes": "B476 VARIANTES.jpg"
   },
   {
@@ -4216,11 +3654,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true,
-      "Tonos pastel": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "B477 VARIANTES.jpg"
   },
@@ -4238,12 +3672,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true,
-      "C4": true
-    }
+    "variantes": {}
   },
   {
     "codigo": "D009",
@@ -4261,11 +3690,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true
-    },
+    "variantes": {},
     "imagenVariantes": "D009 VARIANTES.jpg"
   },
   {
@@ -4303,10 +3728,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -4343,12 +3765,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Blanco": true,
-      "Rosado": true,
-      "Fucsia": true,
-      "Rojo": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "D061 VARIANTES.jpg"
   },
@@ -4369,14 +3786,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true,
-      "C4": true,
-      "C5": true,
-      "C6": true
-    },
+    "variantes": {},
     "imagenVariantes": "D063 VARIANTES.jpg"
   },
   {
@@ -4393,11 +3803,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Blanco": true,
-      "Marron Claro": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "D089 VARIANTES.jpg"
   },
@@ -4438,11 +3844,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Marron Oscuro": true,
-      "Salmon": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -4463,14 +3865,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true,
-      "C4": true,
-      "C5": true,
-      "C6": true
-    },
+    "variantes": {},
     "imagenVariantes": "D141 VARIANTES.jpg"
   },
   {
@@ -4772,10 +4167,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -4908,10 +4300,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Varios colores": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -4930,11 +4319,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Tonos marrones": true,
-      "Varios colores": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -4973,10 +4358,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Varios colores": true
-    },
+    "colores": {},
     "variantes": {}
   },
   {
@@ -5033,11 +4415,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true
-    },
+    "variantes": {},
     "imagenVariantes": "G54 VARIANTES.jpg"
   },
   {
@@ -5054,11 +4432,7 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {
-      "C1": true,
-      "C2": true,
-      "C3": true
-    }
+    "variantes": {}
   },
   {
     "codigo": "B043",
@@ -5091,12 +4465,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Verde": true,
-      "Rosado": true,
-      "Beige": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "C042 VARIANTES.jpg"
   },
@@ -5152,14 +4521,7 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Lila": true,
-      "Gris": true,
-      "Rojo": true,
-      "Verde Agua": true,
-      "Salmon": true
-    },
+    "colores": {},
     "variantes": {},
     "imagenVariantes": "C071 VARIANTES.jpg"
   },
@@ -5625,6 +4987,216 @@
     "imagenes": [
       "RELW002-B 1.jpg"
     ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW002-C",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW002-D",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW002-E",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW003-A",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW003-B",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW003-C",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW003-D",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW003-E",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW003-F",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW003-G",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW003-G",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama cuero",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW006-A",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama goma",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW006-B",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama goma",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW006-C",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama goma",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW006-D",
+    "nombre": "Reloj dama",
+    "descripcion": "Reloj dama goma",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "visible",
+    "imagenes": [],
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
