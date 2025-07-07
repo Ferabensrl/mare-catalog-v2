@@ -5791,7 +5791,7 @@
     "variantes": {}
   },
   {
-    "codigo": "RELW003-G",
+    "codigo": "RELW003-H",
     "nombre": "Reloj dama",
     "descripcion": "Reloj dama cuero",
     "categoria": "Relojes",
@@ -5799,7 +5799,7 @@
     "precio": 1,
     "estado": "visible",
     "imagenes": [
-      "RELW003-G 1.jpg"
+      "RELW003-H 1.jpg"
     ],
     "sinColor": false,
     "permitirSurtido": true,
