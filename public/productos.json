@@ -17,7 +17,13 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Beige": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
     "variantes": {},
     "imagenVariantes": "LB010 VARIANTES.jpg"
   },
@@ -38,7 +44,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Beige": true,
+      "Marron Claro": true,
+      "Gris": true
+    },
     "variantes": {},
     "imagenVariantes": "LB011 VARIANTES.jpg"
   },
@@ -60,7 +71,13 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Beige": true,
+      "Marron Claro": true,
+      "Gris": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "LB012 VARIANTES.jpg"
   },
@@ -81,7 +98,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos pastel": true,
+      "Beige": true,
+      "Combinado": true
+    },
     "variantes": {},
     "imagenVariantes": "LB001 VARIANTES.jpg"
   },
@@ -100,7 +122,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
     "variantes": {},
     "imagenVariantes": "LB005 VARIANTES.jpg"
   },
@@ -121,7 +147,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
     "variantes": {},
     "imagenVariantes": "LB006 VARIANTES.jpg"
   },
@@ -140,7 +171,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Nude": true,
+      "Beige": true,
+      "Marron Oscuro": true
+    },
     "variantes": {},
     "imagenVariantes": "LB008 VARIANTES.jpg"
   },
@@ -161,7 +197,14 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
     "imagenVariantes": "MB001 VARIANTES.jpg"
   },
   {
@@ -179,7 +222,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
     "variantes": {},
     "imagenVariantes": "MB020 VARIANTES.jpg"
   },
@@ -198,7 +245,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
     "variantes": {},
     "imagenVariantes": "MB3891 VARIANTES.jpg"
   },
@@ -217,7 +268,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
     "variantes": {},
     "imagenVariantes": "MB3893 VARIANTES.jpg"
   },
@@ -235,7 +290,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
     "variantes": {},
     "imagenVariantes": "MB005 VARIANTES.jpg"
   },
@@ -255,7 +314,14 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Marron Claro": true,
+      "Bordeaux": true,
+      "Rojo": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "W128 VARIANTES.jpg"
   },
@@ -274,7 +340,13 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Plateado": true,
+      "Verde": true,
+      "Celeste": true,
+      "Marron Claro": true
+    },
     "variantes": {},
     "imagenVariantes": "W274 VARIANTES.jpg"
   },
@@ -294,7 +366,14 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Verde": true,
+      "Lila": true,
+      "Beige": true,
+      "Marron Claro": true
+    },
     "variantes": {},
     "imagenVariantes": "W140 VARIANTES.jpg"
   },
@@ -314,7 +393,14 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Celeste": true,
+      "Marron Claro": true,
+      "Rojo": true,
+      "Rosa Viejo": true
+    },
     "variantes": {},
     "imagenVariantes": "W253 VARIANTES.jpg"
   },
@@ -333,7 +419,14 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Rojo": true,
+      "Rosa Viejo": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "W801 VARIANTES.jpg"
   },
@@ -354,7 +447,13 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Rosado": true,
+      "Marron Claro": true,
+      "Gris": true
+    },
     "variantes": {},
     "imagenVariantes": "W252 VARIANTES.jpg"
   },
@@ -374,7 +473,15 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Gris": true,
+      "Rojo": true,
+      "Rosa Viejo": true,
+      "Azul": true,
+      "Mostaza": true
+    },
     "variantes": {},
     "imagenVariantes": "W254 VARIANTES.jpg"
   },
@@ -395,7 +502,14 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Marron Claro": true,
+      "Rojo": true,
+      "Rosa Viejo": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "W802 VARIANTES.jpg"
   },
@@ -415,7 +529,15 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Amarillo": true,
+      "Verde": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Beige": true,
+      "Rojo": true
+    },
     "variantes": {},
     "imagenVariantes": "W292 VARIANTES.jpg"
   },
@@ -435,7 +557,14 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Celeste": true,
+      "Marron Claro": true,
+      "Rojo": true,
+      "Rosa Viejo": true
+    },
     "variantes": {},
     "imagenVariantes": "W002 VARIANTES.jpg"
   },
@@ -455,7 +584,13 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true,
+      "Bordeaux": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "W0005 VARIANTES.jpg"
   },
@@ -476,7 +611,12 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true
+    },
     "imagenVariantes": "W2126 VARIANTES.jpg"
   },
   {
@@ -496,7 +636,15 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Celeste": true,
+      "Beige": true,
+      "Marron Claro": true,
+      "Bordeaux": true,
+      "Verde Agua": true
+    },
     "variantes": {},
     "imagenVariantes": "W307-2B VARIANTES.jpg"
   },
@@ -516,7 +664,14 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Rojo": true,
+      "Rosa Viejo": true,
+      "Verde Agua": true
+    },
     "variantes": {},
     "imagenVariantes": "W219 VARIANTES.jpg"
   },
@@ -536,7 +691,14 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Fucsia": true,
+      "Marron Claro": true,
+      "Rojo": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "W807 B VARIANTES.jpg"
   },
@@ -558,7 +720,13 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Verde Agua": true
+    },
     "variantes": {},
     "imagenVariantes": "W808 VARIANTES.jpg"
   },
@@ -580,7 +748,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Gris": true,
+      "Rojo": true
+    },
     "variantes": {},
     "imagenVariantes": "W0028 VARIANTES.jpg"
   },
@@ -600,7 +773,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Rosado": true
+    },
     "variantes": {},
     "imagenVariantes": "W865 VARIANTES.jpg"
   },
@@ -620,7 +797,11 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true
+    },
     "imagenVariantes": "W280 VARIANTES.jpg"
   },
   {
@@ -639,7 +820,14 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Verde": true,
+      "Rosado": true,
+      "Marron Claro": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "W286 VARIANTES.jpg"
   },
@@ -660,7 +848,14 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Lila": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Beige": true
+    },
     "variantes": {},
     "imagenVariantes": "W291 VARIANTES.jpg"
   },
@@ -681,7 +876,13 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Beige": true,
+      "Marron Claro": true
+    },
     "variantes": {},
     "imagenVariantes": "W293 VARIANTES.jpg"
   },
@@ -702,7 +903,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Rosado": true
+    },
     "variantes": {},
     "imagenVariantes": "W1008 VARIANTES.jpg"
   },
@@ -723,7 +928,10 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true
+    },
     "imagenVariantes": "W266 VARIANTES.jpg"
   },
   {
@@ -743,7 +951,15 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Nude": true,
+      "Celeste": true,
+      "Marron Claro": true,
+      "Verde claro": true,
+      "Rosa Viejo": true
+    },
     "variantes": {},
     "imagenVariantes": "W297 VARIANTES.jpg"
   },
@@ -765,7 +981,13 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true
+    },
     "imagenVariantes": "W383-1 VARIANTES.jpg"
   },
   {
@@ -784,7 +1006,13 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Beige": true,
+      "Marron Oscuro": true,
+      "Rosa Viejo": true
+    },
     "variantes": {},
     "imagenVariantes": "W271 VARIANTES.jpg"
   },
@@ -805,7 +1033,14 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Gris": true,
+      "Verde claro": true,
+      "Rojo": true,
+      "Rosa Viejo": true
+    },
     "variantes": {},
     "imagenVariantes": "H001 VARIANTES.jpg"
   },
@@ -826,7 +1061,14 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Rosado": true,
+      "Gris": true,
+      "Rojo": true,
+      "Rosa Viejo": true
+    },
     "variantes": {},
     "imagenVariantes": "H002 VARIANTES.jpg"
   },
@@ -847,7 +1089,14 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Lila": true,
+      "Rosado": true,
+      "Rojo": true,
+      "Rosa Viejo": true
+    },
     "variantes": {},
     "imagenVariantes": "H003 VARIANTES.jpg"
   },
@@ -869,7 +1118,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Gris": true,
+      "Rojo": true
+    },
     "variantes": {},
     "imagenVariantes": "H004 VARIANTES.jpg"
   },
@@ -890,7 +1144,13 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Marron Claro": true,
+      "Rojo": true,
+      "Verde Agua": true
+    },
     "variantes": {},
     "imagenVariantes": "H005 VARIANTES.jpg"
   },
@@ -911,7 +1171,13 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Marron Claro": true
+    },
     "variantes": {},
     "imagenVariantes": "H006 VARIANTES.jpg"
   },
@@ -932,7 +1198,13 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Verde": true,
+      "Rosado": true,
+      "Marron Oscuro": true
+    },
     "variantes": {},
     "imagenVariantes": "H007 VARIANTES.jpg"
   },
@@ -953,7 +1225,14 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Amarillo": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Verde Agua": true
+    },
     "variantes": {},
     "imagenVariantes": "H008 VARIANTES.jpg"
   },
@@ -975,7 +1254,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Marron Claro": true,
+      "Gris": true
+    },
     "variantes": {},
     "imagenVariantes": "BILLH009 VARIANTES.jpg"
   },
@@ -995,7 +1279,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "BILLH008 VARIANTES.jpg"
   },
@@ -1015,7 +1304,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
     "variantes": {},
     "imagenVariantes": "BILLH9031 VARIANTES.jpg"
   },
@@ -1036,7 +1329,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "BILLH9037 VARIANTES.jpg"
   },
@@ -1055,7 +1353,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
     "variantes": {},
     "imagenVariantes": "BILLH016 VARIANTES.jpg"
   },
@@ -1074,7 +1376,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
     "variantes": {},
     "imagenVariantes": "BILLH022 VARIANTES.jpg"
   },
@@ -1094,7 +1400,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Plateado": true,
+      "Marron Oscuro": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "BILLH2712 VARIANTES.jpg"
   },
@@ -1114,7 +1425,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
     "variantes": {},
     "imagenVariantes": "BILLH5502 VARIANTES.jpg"
   },
@@ -1136,7 +1451,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
     "variantes": {},
     "imagenVariantes": "BILLH5505 VARIANTES.jpg"
   },
@@ -1156,7 +1475,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "BILLH5506 VARIANTES.jpg"
   },
@@ -1177,7 +1501,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Marron Oscuro": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "BILLH3913 VARIANTES.jpg"
   },
@@ -1198,7 +1526,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Beige": true,
+      "Marron Claro": true
+    },
     "variantes": {},
     "imagenVariantes": "LD7044 VARIANTES.jpg"
   },
@@ -1218,7 +1550,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Blanco": true,
+      "Rosado": true,
+      "Fucsia": true
+    },
     "variantes": {},
     "imagenVariantes": "FN8104 VARIANTES.jpg"
   },
@@ -1239,7 +1575,14 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
     "imagenVariantes": "CBB008 VARIANTES.jpg"
   },
   {
@@ -1259,7 +1602,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Nude": true,
+      "Verde claro": true,
+      "Bordeaux": true
+    },
     "variantes": {},
     "imagenVariantes": "LD1207 VARIANTES.jpg"
   },
@@ -1282,7 +1630,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Marron Oscuro": true,
+      "Gris": true
+    },
     "variantes": {},
     "imagenVariantes": "LD214 VARIANTES.jpg"
   },
@@ -1303,7 +1656,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Beige": true
+    },
     "variantes": {},
     "imagenVariantes": "LD6305 VARIANTES.jpg"
   },
@@ -1324,7 +1680,13 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Beige": true,
+      "Azul": true,
+      "Mostaza": true
+    },
     "variantes": {},
     "imagenVariantes": "LD8861 VARIANTES.jpg"
   },
@@ -1344,7 +1706,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Gris": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "LD305 VARIANTES.jpg"
   },
@@ -1362,7 +1729,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Gris": true,
+      "Verde claro": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "LB5531 VARIANTES.jpg"
   },
@@ -1383,7 +1755,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Gris": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "LD8076 VARIANTES.jpg"
   },
@@ -1403,7 +1779,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Gris": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "LD8075 VARIANTES.jpg"
   },
@@ -1420,7 +1800,13 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Beige": true,
+      "Terracota": true,
+      "Azul": true
+    },
     "variantes": {},
     "imagenVariantes": "LB6620 VARIANTES.jpg"
   },
@@ -1437,7 +1823,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Beige": true,
+      "Bordeaux": true
+    },
     "variantes": {},
     "imagenVariantes": "LB676 VARIANTES.jpg"
   },
@@ -1460,7 +1851,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Tonos pastel": true,
+      "Varios colores": true
+    },
     "variantes": {},
     "imagenVariantes": "3216 VARIANTES.jpg"
   },
@@ -1515,7 +1911,14 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
     "imagenVariantes": "H0011 VARIANTES.jpg"
   },
   {
@@ -1535,7 +1938,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true
+    },
     "variantes": {},
     "imagenVariantes": "H0018 VARIANTES.jpg"
   },
@@ -1556,7 +1962,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Marron Oscuro": true
+    },
     "variantes": {},
     "imagenVariantes": "LB007 VARIANTES.jpg"
   },
@@ -1575,7 +1985,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Varios colores": true
+    },
     "variantes": {},
     "imagenVariantes": "100305 VARIANTES.jpg"
   },
@@ -1596,7 +2010,12 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true
+    },
     "imagenVariantes": "100390 VARIANTES.jpg"
   },
   {
@@ -1616,7 +2035,14 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
     "imagenVariantes": "100325 VARIANTES.jpg"
   },
   {
@@ -1636,7 +2062,11 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true
+    },
     "imagenVariantes": "100387 VARIANTES.jpg"
   },
   {
@@ -1656,7 +2086,11 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true
+    },
     "imagenVariantes": "100301 VARIANTES.jpg"
   },
   {
@@ -1692,7 +2126,9 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {},
+    "colores": {
+      "Plateado": true
+    },
     "variantes": {}
   },
   {
@@ -1709,7 +2145,9 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {},
+    "colores": {
+      "Dorado": true
+    },
     "variantes": {}
   },
   {
@@ -1760,7 +2198,9 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {},
+    "colores": {
+      "Dorado": true
+    },
     "variantes": {}
   },
   {
@@ -1777,7 +2217,9 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {},
+    "colores": {
+      "Plateado": true
+    },
     "variantes": {}
   },
   {
@@ -1810,7 +2252,9 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {},
+    "colores": {
+      "Dorado": true
+    },
     "variantes": {}
   },
   {
@@ -1827,7 +2271,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Blanco": true
+    },
     "variantes": {},
     "imagenVariantes": "SZ0136 VARIANTES.jpg"
   },
@@ -1844,7 +2291,9 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {},
+    "colores": {
+      "Dorado": true
+    },
     "variantes": {}
   },
   {
@@ -1894,7 +2343,9 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {},
+    "colores": {
+      "Plateado": true
+    },
     "variantes": {},
     "imagenVariantes": "XL1087-1 VARIANTES.jpg"
   },
@@ -1912,7 +2363,9 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {},
+    "colores": {
+      "Dorado": true
+    },
     "variantes": {},
     "imagenVariantes": "XL1087-2 VARIANTES.jpg"
   },
@@ -1929,7 +2382,9 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {},
+    "colores": {
+      "Plateado": true
+    },
     "variantes": {}
   },
   {
@@ -1945,7 +2400,9 @@
     ],
     "sinColor": false,
     "permitirSurtido": false,
-    "colores": {},
+    "colores": {
+      "Dorado": true
+    },
     "variantes": {}
   },
   {
@@ -1978,7 +2435,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Dorado": true,
+      "Plateado": true
+    },
     "variantes": {},
     "imagenVariantes": "SL0074 VARIANTES.jpg"
   },
@@ -1996,7 +2456,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Dorado": true,
+      "Plateado": true
+    },
     "variantes": {},
     "imagenVariantes": "XL00384 VARIANTES.jpg"
   },
@@ -2490,7 +2953,15 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true,
+      "C7": true
+    },
     "imagenVariantes": "ER0018 VARIANTES.jpg"
   },
   {
@@ -2510,7 +2981,14 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
     "imagenVariantes": "ER0014 VARIANTES.jpg"
   },
   {
@@ -2610,7 +3088,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Tonos marrones": true,
+      "Beige": true
+    },
     "variantes": {},
     "imagenVariantes": "B003 VARIANTES.jpg"
   },
@@ -2647,7 +3128,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Beige": true,
+      "Marron Oscuro": true
+    },
     "variantes": {}
   },
   {
@@ -2665,7 +3149,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true
+    },
     "variantes": {},
     "imagenVariantes": "B007 VARIANTES.jpg"
   },
@@ -2684,7 +3171,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Varios colores": true
+    },
     "variantes": {},
     "imagenVariantes": "B016 VARIANTES.jpg"
   },
@@ -2959,7 +3450,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Varios colores": true
+    },
     "variantes": {}
   },
   {
@@ -2978,7 +3473,10 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true
+    },
     "imagenVariantes": "B104 VARIANTES.jpg"
   },
   {
@@ -3013,7 +3511,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Varios colores": true
+    },
     "variantes": {}
   },
   {
@@ -3029,7 +3530,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true
+    },
     "variantes": {}
   },
   {
@@ -3086,7 +3590,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Tonos pastel": true
+    },
     "variantes": {}
   },
   {
@@ -3105,7 +3613,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Tonos pastel": true
+    },
     "variantes": {}
   },
   {
@@ -3122,7 +3634,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Tonos pastel": true
+    },
     "variantes": {}
   },
   {
@@ -3141,7 +3657,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Beige": true,
+      "Marron Claro": true
+    },
     "variantes": {}
   },
   {
@@ -3160,7 +3680,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Tonos pastel": true
+    },
     "variantes": {}
   },
   {
@@ -3177,7 +3701,11 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {}
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true
+    }
   },
   {
     "codigo": "B203",
@@ -3230,7 +3758,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Varios colores": true
+    },
     "variantes": {}
   },
   {
@@ -3284,7 +3815,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true
+    },
     "variantes": {}
   },
   {
@@ -3300,7 +3834,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Tonos pastel": true
+    },
     "variantes": {}
   },
   {
@@ -3483,7 +4021,13 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Amarillo": true,
+      "Verde": true,
+      "Lila": true,
+      "Celeste": true,
+      "Rosado": true
+    },
     "variantes": {},
     "imagenVariantes": "B428 VARIANTES.jpg"
   },
@@ -3541,7 +4085,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
     "variantes": {},
     "imagenVariantes": "B451 VARIANTES.jpg"
   },
@@ -3560,7 +4109,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Tonos pastel": true,
+      "Varios colores": true
+    },
     "variantes": {}
   },
   {
@@ -3578,7 +4132,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true
+    },
     "variantes": {}
   },
   {
@@ -3636,7 +4193,12 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true
+    },
     "imagenVariantes": "B476 VARIANTES.jpg"
   },
   {
@@ -3654,7 +4216,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Tonos pastel": true
+    },
     "variantes": {},
     "imagenVariantes": "B477 VARIANTES.jpg"
   },
@@ -3672,7 +4238,12 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {}
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true
+    }
   },
   {
     "codigo": "D009",
@@ -3690,7 +4261,11 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true
+    },
     "imagenVariantes": "D009 VARIANTES.jpg"
   },
   {
@@ -3728,7 +4303,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true
+    },
     "variantes": {}
   },
   {
@@ -3765,7 +4343,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Blanco": true,
+      "Rosado": true,
+      "Fucsia": true,
+      "Rojo": true
+    },
     "variantes": {},
     "imagenVariantes": "D061 VARIANTES.jpg"
   },
@@ -3786,7 +4369,14 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
     "imagenVariantes": "D063 VARIANTES.jpg"
   },
   {
@@ -3803,7 +4393,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Marron Claro": true
+    },
     "variantes": {},
     "imagenVariantes": "D089 VARIANTES.jpg"
   },
@@ -3844,7 +4438,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Marron Oscuro": true,
+      "Salmon": true
+    },
     "variantes": {}
   },
   {
@@ -3865,7 +4463,14 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
     "imagenVariantes": "D141 VARIANTES.jpg"
   },
   {
@@ -4167,7 +4772,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true
+    },
     "variantes": {}
   },
   {
@@ -4300,7 +4908,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Varios colores": true
+    },
     "variantes": {}
   },
   {
@@ -4319,7 +4930,11 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true,
+      "Varios colores": true
+    },
     "variantes": {}
   },
   {
@@ -4358,7 +4973,10 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Varios colores": true
+    },
     "variantes": {}
   },
   {
@@ -4415,7 +5033,11 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true
+    },
     "imagenVariantes": "G54 VARIANTES.jpg"
   },
   {
@@ -4432,7 +5054,11 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
-    "variantes": {}
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true
+    }
   },
   {
     "codigo": "B043",
@@ -4465,7 +5091,12 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Rosado": true,
+      "Beige": true
+    },
     "variantes": {},
     "imagenVariantes": "C042 VARIANTES.jpg"
   },
@@ -4521,7 +5152,14 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Gris": true,
+      "Rojo": true,
+      "Verde Agua": true,
+      "Salmon": true
+    },
     "variantes": {},
     "imagenVariantes": "C071 VARIANTES.jpg"
   },
@@ -5000,7 +5638,9 @@
     "medidas": "",
     "precio": 1,
     "estado": "visible",
-    "imagenes": [],
+    "imagenes": [
+      "RELW002-C 1.jpg"
+    ],
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
@@ -5014,7 +5654,9 @@
     "medidas": "",
     "precio": 1,
     "estado": "visible",
-    "imagenes": [],
+    "imagenes": [
+      "RELW002-D 1.jpg"
+    ],
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
@@ -5028,7 +5670,9 @@
     "medidas": "",
     "precio": 1,
     "estado": "visible",
-    "imagenes": [],
+    "imagenes": [
+      "RELW002-E 1.jpg"
+    ],
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
@@ -5042,7 +5686,9 @@
     "medidas": "",
     "precio": 1,
     "estado": "visible",
-    "imagenes": [],
+    "imagenes": [
+      "RELW003-A 1.jpg"
+    ],
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
@@ -5056,7 +5702,9 @@
     "medidas": "",
     "precio": 1,
     "estado": "visible",
-    "imagenes": [],
+    "imagenes": [
+      "RELW003-B 1.jpg"
+    ],
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
@@ -5070,7 +5718,9 @@
     "medidas": "",
     "precio": 1,
     "estado": "visible",
-    "imagenes": [],
+    "imagenes": [
+      "RELW003-C 1.jpg"
+    ],
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
@@ -5084,7 +5734,9 @@
     "medidas": "",
     "precio": 1,
     "estado": "visible",
-    "imagenes": [],
+    "imagenes": [
+      "RELW003-D 1.jpg"
+    ],
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
@@ -5098,7 +5750,9 @@
     "medidas": "",
     "precio": 1,
     "estado": "visible",
-    "imagenes": [],
+    "imagenes": [
+      "RELW003-E 1.jpg"
+    ],
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
@@ -5112,7 +5766,9 @@
     "medidas": "",
     "precio": 1,
     "estado": "visible",
-    "imagenes": [],
+    "imagenes": [
+      "RELW003-F 1.jpg"
+    ],
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
@@ -5126,7 +5782,9 @@
     "medidas": "",
     "precio": 1,
     "estado": "visible",
-    "imagenes": [],
+    "imagenes": [
+      "RELW003-G 1.jpg"
+    ],
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
@@ -5140,7 +5798,9 @@
     "medidas": "",
     "precio": 1,
     "estado": "visible",
-    "imagenes": [],
+    "imagenes": [
+      "RELW003-G 1.jpg"
+    ],
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
@@ -5154,7 +5814,9 @@
     "medidas": "",
     "precio": 1,
     "estado": "visible",
-    "imagenes": [],
+    "imagenes": [
+      "RELW006-A 1.jpg"
+    ],
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
@@ -5168,7 +5830,9 @@
     "medidas": "",
     "precio": 1,
     "estado": "visible",
-    "imagenes": [],
+    "imagenes": [
+      "RELW006-B 1.jpg"
+    ],
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
@@ -5182,7 +5846,9 @@
     "medidas": "",
     "precio": 1,
     "estado": "visible",
-    "imagenes": [],
+    "imagenes": [
+      "RELW006-C 1.jpg"
+    ],
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
@@ -5196,7 +5862,654 @@
     "medidas": "",
     "precio": 1,
     "estado": "visible",
-    "imagenes": [],
+    "imagenes": [
+      "RELW006-D 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELD609",
+    "nombre": "Reloj digital",
+    "descripcion": "Reloj digital",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 295,
+    "estado": "visible",
+    "imagenes": [
+      "RELD609 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true,
+      "C7": true
+    }
+  },
+  {
+    "codigo": "RELD668",
+    "nombre": "Reloj digital",
+    "descripcion": "Reloj digital",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 295,
+    "estado": "visible",
+    "imagenes": [
+      "RELD668 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true,
+      "C7": true
+    }
+  },
+  {
+    "codigo": "RELJU616",
+    "nombre": "Reloj digital juvenil",
+    "descripcion": "Reloj digital juvenil",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 295,
+    "estado": "visible",
+    "imagenes": [
+      "RELJU616 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true
+    }
+  },
+  {
+    "codigo": "RELJU602",
+    "nombre": "Reloj digital juvenil",
+    "descripcion": "Reloj digital juvenil",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 295,
+    "estado": "visible",
+    "imagenes": [
+      "RELJU602 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true,
+      "C7": true,
+      "C8": true,
+      "C9": true
+    }
+  },
+  {
+    "codigo": "RELJU653",
+    "nombre": "Reloj digital juvenil",
+    "descripcion": "Reloj digital juvenil",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 295,
+    "estado": "visible",
+    "imagenes": [
+      "RELJU653 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true,
+      "C7": true,
+      "C8": true,
+      "C9": true
+    }
+  },
+  {
+    "codigo": "RELJU686",
+    "nombre": "Reloj digital juvenil",
+    "descripcion": "Reloj digital juvenil",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 295,
+    "estado": "visible",
+    "imagenes": [
+      "RELJU686 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true,
+      "C7": true,
+      "C8": true,
+      "C9": true,
+      "C10": true
+    }
+  },
+  {
+    "codigo": "3220",
+    "nombre": "Colero",
+    "descripcion": "Colero con caritas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "3220 1.jpg",
+      "3220 2.jpg",
+      "3220 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "HC0001",
+    "nombre": "Colero",
+    "descripcion": "Colero con luz led",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "HC0001 1.jpg",
+      "HC0001 2.jpg",
+      "HC0001 3.jpg",
+      "HC0001 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-1",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-1 1.jpg",
+      "NK5294-1 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-2",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-2 1.jpg",
+      "NK5294-2 2.jpg",
+      "NK5294-2 3.jpg",
+      "NK5294-2 4.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-3",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 135,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-3 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-4",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 135,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-4 1.jpg",
+      "NK5294-4 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-5",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 99,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-5 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-6",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 99,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-6 1.jpg",
+      "NK5294-6 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-7",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 99,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-7 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-8",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 185,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-8 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-9",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-9 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR8894-1",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero con cuentas",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "BR8894-1 1.jpg",
+      "BR8894-1 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-10",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 235,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-10 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true
+    }
+  },
+  {
+    "codigo": "BR8894-2",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero con cuentas",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "BR8894-2 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-11",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero varias vintage",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-11 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-12",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero scorpion",
+    "categoria": "Gargantilla acero",
+    "medidas": "60cm",
+    "precio": 90,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-12 1.jpg",
+      "NK5294-12 2.jpg",
+      "NK5294-12 3.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-13",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero perlas",
+    "categoria": "Gargantilla acero",
+    "medidas": "6 - 8 - 10mm",
+    "precio": 135,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-13 1.jpg",
+      "NK5294-13 2.jpg",
+      "NK5294-13 3.jpg",
+      "NK5294-13 4.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-14",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero perlas",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 185,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-14 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR8894-3",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 99,
+    "estado": "visible",
+    "imagenes": [
+      "BR8894-3 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-15",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 185,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-15 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Dorado": true,
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-16",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero doble c dije",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 159,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-16 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-17",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero doble c dije",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 159,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-17 1.jpg",
+      "NK5294-17 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR8894-4",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "BR8894-4 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR8894-5",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero dorado",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "BR8894-5 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-18",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 135,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-18 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR8894-6",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero con cuentas",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "BR8894-6 1.jpg",
+      "BR8894-6 2.jpg",
+      "BR8894-6 3.jpg",
+      "BR8894-6 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR8894-7",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero con cuentas",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "BR8894-7 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-19",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 185,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-19 1.jpg",
+      "NK5294-19 2.jpg",
+      "NK5294-19 3.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "NK5294-20",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "NK5294-20 1.jpg"
+    ],
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {},
