@@ -2154,7 +2154,7 @@
     "codigo": "SZ989-2",
     "nombre": "Brazalete acero",
     "descripcion": "Brazalete acero dorado",
-    "categoria": "Brazalete acero",
+    "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 169,
     "estado": "visible",
@@ -2226,7 +2226,7 @@
     "codigo": "SZ0154",
     "nombre": "Brazalete acero",
     "descripcion": "Brazalete acero dorado",
-    "categoria": "Brazalete acero",
+    "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 225,
     "estado": "visible",
@@ -2243,7 +2243,7 @@
     "codigo": "SZ0078",
     "nombre": "Brazalete acero",
     "descripcion": "Brazalete acero dorado",
-    "categoria": "Brazalete acero",
+    "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 225,
     "estado": "visible",
@@ -2261,7 +2261,7 @@
     "codigo": "SZ0136",
     "nombre": "Brazalete acero",
     "descripcion": "Brazalete acero dorado",
-    "categoria": "Brazalete acero",
+    "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 225,
     "estado": "visible",
@@ -2300,7 +2300,7 @@
     "codigo": "SZ0467",
     "nombre": "Brazalete acero",
     "descripcion": "Brazalete acero dorado",
-    "categoria": "Brazalete acero",
+    "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 225,
     "estado": "visible",
@@ -2567,7 +2567,7 @@
     "codigo": "SZ0162",
     "nombre": "Brazalete acero",
     "descripcion": "Brazalete acero dorado",
-    "categoria": "Brazalete acero",
+    "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 225,
     "estado": "visible",
@@ -6509,6 +6509,4871 @@
     "estado": "visible",
     "imagenes": [
       "NK5294-20 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "G09",
+    "nombre": "Set x3 clip",
+    "descripcion": "Set x3 clip",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 38,
+    "estado": "visible",
+    "imagenes": [
+      "G09 1.jpg",
+      "G09 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "D104",
+    "nombre": "Set pinza x4",
+    "descripcion": "Set pinza x4",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "D104 1.jpg",
+      "D104 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B125",
+    "nombre": "Set colitas x 2",
+    "descripcion": "Set colitas x 2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 26,
+    "estado": "visible",
+    "imagenes": [
+      "B125 1.jpg",
+      "B125 2.jpg",
+      "B125 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B227",
+    "nombre": "Set colitas x 2",
+    "descripcion": "Set colitas x 2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "B227 1.jpg",
+      "B227 2.jpg",
+      "B227 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "B380",
+    "nombre": "Set colitas x 2",
+    "descripcion": "Set colitas x 2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 25,
+    "estado": "visible",
+    "imagenes": [
+      "B380 1.jpg",
+      "B380 2.jpg",
+      "B380 3.jpg",
+      "B380 4.jpg",
+      "B380 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN25311",
+    "nombre": "Set colitas x 2",
+    "descripcion": "Set colitas x 2",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 40,
+    "estado": "visible",
+    "imagenes": [
+      "FN25311 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Tonos marrones": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "FN25175",
+    "nombre": "Set x 5 pinzas",
+    "descripcion": "Set x 5 pinzas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 55,
+    "estado": "visible",
+    "imagenes": [
+      "FN25175 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN25123",
+    "nombre": "Set colitas x3",
+    "descripcion": "Set colitas x3",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "FN25123 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN25053",
+    "nombre": "Colero",
+    "descripcion": "Colero",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "FN25053 1.jpg",
+      "FN25053 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN25028",
+    "nombre": "Colero",
+    "descripcion": "Colero",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "FN25028 1.jpg",
+      "FN25028 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN251058",
+    "nombre": "Set x 4 pinzas",
+    "descripcion": "Set x 4 pinzas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 40,
+    "estado": "visible",
+    "imagenes": [
+      "FN251058 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN251053",
+    "nombre": "Set x 4 pinzas",
+    "descripcion": "Set x 4 pinzas",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 40,
+    "estado": "visible",
+    "imagenes": [
+      "FN251053 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN25228",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "8cm",
+    "precio": 40,
+    "estado": "visible",
+    "imagenes": [
+      "FN25228 1.jpg",
+      "FN25228 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN25216",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "FN25216 1.jpg",
+      "FN25216 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN25223",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "FN25223 1.jpg",
+      "FN25223 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN25230",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 42,
+    "estado": "visible",
+    "imagenes": [
+      "FN25230 1.jpg",
+      "FN25230 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN25213",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 42,
+    "estado": "visible",
+    "imagenes": [
+      "FN25213 1.jpg",
+      "FN25213 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN25235",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 33,
+    "estado": "visible",
+    "imagenes": [
+      "FN25235 1.jpg",
+      "FN25235 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN25214",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "FN25214 1.jpg",
+      "FN25214 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN25232",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 42,
+    "estado": "visible",
+    "imagenes": [
+      "FN25232 1.jpg",
+      "FN25232 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN251073",
+    "nombre": "Pinza",
+    "descripcion": "Pinza",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "FN251073 1.jpg",
+      "FN251073 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BAG2002",
+    "nombre": "Bolsito infantil",
+    "descripcion": "Bolsito peludo unicornio",
+    "categoria": "Bandolera infantil",
+    "medidas": "",
+    "precio": 395,
+    "estado": "visible",
+    "imagenes": [
+      "BAG2002 1.jpg",
+      "BAG2002 2.jpg",
+      "BAG2002 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Tonos pastel": true,
+      "Lila": true,
+      "Rosado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BAG2002 VARIANTES.jpg"
+  },
+  {
+    "codigo": "CBB009",
+    "nombre": "Bolsito infantil",
+    "descripcion": "Bolsito unicornio",
+    "categoria": "Bandolera infantil",
+    "medidas": "10 x 4 x 13cm",
+    "precio": 185,
+    "estado": "visible",
+    "imagenes": [
+      "CBB009 1.jpg",
+      "CBB009 2.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {
+      "Rojo": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "FN8101",
+    "nombre": "Bolsito infantil",
+    "descripcion": "Bolsito con caritas peludo",
+    "categoria": "Bandolera infantil",
+    "medidas": "",
+    "precio": 220,
+    "estado": "visible",
+    "imagenes": [
+      "FN8101 1.jpg",
+      "FN8101 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Blanco": true,
+      "Amarillo": true,
+      "Celeste": true,
+      "Rosado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "B1102",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "20 x 10 x 4cm",
+    "precio": 290,
+    "estado": "visible",
+    "imagenes": [
+      "B1102 1.jpg",
+      "B1102 2.jpg",
+      "B1102 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Beige": true,
+      "Bordeaux": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B1102 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B11015",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "16 X 20 X 12CM",
+    "precio": 395,
+    "estado": "visible",
+    "imagenes": [
+      "B11015 1.jpg",
+      "B11015 2.jpg",
+      "B11015 3.jpg",
+      "B11015 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Nude": true,
+      "Amarillo": true,
+      "Rosado": true,
+      "Rojo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B11015 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN5005",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "17 X 11 X 5CM",
+    "precio": 380,
+    "estado": "visible",
+    "imagenes": [
+      "FN5005 1.jpg",
+      "FN5005 2.jpg",
+      "FN5005 3.jpg",
+      "FN5005 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Beige": true,
+      "Petroleo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FN5005 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB5005",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "20 X 14 X 7CM",
+    "precio": 395,
+    "estado": "visible",
+    "imagenes": [
+      "LB5005 1.jpg",
+      "LB5005 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Celeste": true,
+      "Gris": true,
+      "Bordeaux": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB5005 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B1003",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "",
+    "precio": 395,
+    "estado": "visible",
+    "imagenes": [
+      "B1003 1.jpg",
+      "B1003 2.jpg",
+      "B1003 3.jpg",
+      "B1003 4.jpg",
+      "B1003 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Fucsia": true,
+      "Terracota": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B1003 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB251",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama/riñonera",
+    "categoria": "Bandolera",
+    "medidas": "17 x 15 x 11cm",
+    "precio": 395,
+    "estado": "visible",
+    "imagenes": [
+      "LB251 1.jpg",
+      "LB251 2.jpg",
+      "LB251 3.jpg",
+      "LB251 4.jpg",
+      "LB251 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Gris": true,
+      "Terracota": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB251 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN4009",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "",
+    "precio": 485,
+    "estado": "visible",
+    "imagenes": [
+      "FN4009 1.jpg",
+      "FN4009 2.jpg",
+      "FN4009 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Verde Agua": true,
+      "Salmon": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FN4009 VARIANTES.jpg"
+  },
+  {
+    "codigo": "9101",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "",
+    "precio": 595,
+    "estado": "visible",
+    "imagenes": [
+      "9101 1.jpg",
+      "9101 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Amarillo": true,
+      "Lila": true,
+      "Rojo": true,
+      "Rosa Viejo": true,
+      "Petroleo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "9101 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB270",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "22 X 13 X 22CM",
+    "precio": 650,
+    "estado": "visible",
+    "imagenes": [
+      "LB270 1.jpg",
+      "LB270 2.jpg",
+      "LB270 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Rojo": true,
+      "Petroleo": true,
+      "Azul": true,
+      "Mostaza": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB270 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB5003",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "23 X 6 X 17CM",
+    "precio": 490,
+    "estado": "visible",
+    "imagenes": [
+      "LB5003 1.jpg",
+      "LB5003 2.jpg",
+      "LB5003 3.jpg",
+      "LB5003 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Rosado": true,
+      "Gris": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB5003 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B011",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "27 x 13 x 19cm",
+    "precio": 695,
+    "estado": "visible",
+    "imagenes": [
+      "B011 1.jpg",
+      "B011 2.jpg",
+      "B011 3.jpg",
+      "B011 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Rosa Viejo": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B011 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BAG003",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera/Mochila",
+    "categoria": "Bandolera",
+    "medidas": "32 x 25 x 14cm",
+    "precio": 950,
+    "estado": "visible",
+    "imagenes": [
+      "BAG003 1.jpg",
+      "BAG003 2.jpg",
+      "BAG003 3.jpg",
+      "BAG003 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Terracota": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BAG003 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B1005",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera / Bolsito",
+    "categoria": "Bandolera",
+    "medidas": "",
+    "precio": 750,
+    "estado": "visible",
+    "imagenes": [
+      "B1005 1.jpg",
+      "B1005 2.jpg",
+      "B1005 3.jpg",
+      "B1005 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Terracota": true,
+      "Rosa Viejo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B1005 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB1057",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera / Bolsito",
+    "categoria": "Bandolera",
+    "medidas": "23 X 21 X 15CM",
+    "precio": 695,
+    "estado": "visible",
+    "imagenes": [
+      "LB1057 1.jpg",
+      "LB1057 2.jpg",
+      "LB1057 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Terracota": true,
+      "Rosa Viejo": true,
+      "Petroleo": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB1057 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB318",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera / Bolsito",
+    "categoria": "Bandolera",
+    "medidas": "25 X 19 X 12CM",
+    "precio": 695,
+    "estado": "visible",
+    "imagenes": [
+      "LB318 1.jpg",
+      "LB318 2.jpg",
+      "LB318 3.jpg",
+      "LB318 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Beige": true,
+      "Bordeaux": true,
+      "Rosa Viejo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB318 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB1091",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera / Bolsito",
+    "categoria": "Bandolera",
+    "medidas": "",
+    "precio": 695,
+    "estado": "visible",
+    "imagenes": [
+      "LB1091 1.jpg",
+      "LB1091 2.jpg",
+      "LB1091 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Beige": true,
+      "Rosa Viejo": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB1091 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB670",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "",
+    "precio": 595,
+    "estado": "visible",
+    "imagenes": [
+      "LB670 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Verde claro": true,
+      "Azul": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "B1004",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "23 X 15 X 11CM",
+    "precio": 495,
+    "estado": "visible",
+    "imagenes": [
+      "B1004 1.jpg",
+      "B1004 2.jpg",
+      "B1004 3.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {
+      "Verde Agua": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B1004 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB1049",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera / Bolsito",
+    "categoria": "Bandolera",
+    "medidas": "",
+    "precio": 595,
+    "estado": "visible",
+    "imagenes": [
+      "LB1049 1.jpg",
+      "LB1049 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Rosado": true,
+      "Beige": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB1049 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB327",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera / Bolsito",
+    "categoria": "Bandolera",
+    "medidas": "26 X 19 X 14CM",
+    "precio": 695,
+    "estado": "visible",
+    "imagenes": [
+      "LB327 1.jpg",
+      "LB327 2.jpg",
+      "LB327 3.jpg",
+      "LB327 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Rosado": true,
+      "Beige": true,
+      "Petroleo": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB327 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB650",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "22 X 9 X 16CM",
+    "precio": 590,
+    "estado": "visible",
+    "imagenes": [
+      "LB650 1.jpg",
+      "LB650 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Rosado": true,
+      "Gris": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB650 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B3001",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "22 X16 X 6,6CM",
+    "precio": 690,
+    "estado": "visible",
+    "imagenes": [
+      "B3001 1.jpg",
+      "B3001 2.jpg",
+      "B3001 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B3001 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B1007",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera / Bolsito",
+    "categoria": "Bandolera",
+    "medidas": "",
+    "precio": 650,
+    "estado": "visible",
+    "imagenes": [
+      "B1007 1.jpg",
+      "B1007 2.jpg",
+      "B1007 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Rosado": true,
+      "Gris": true,
+      "Petroleo": true,
+      "Mostaza": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B1007 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B1362",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "27 X 19 X 10CM",
+    "precio": 595,
+    "estado": "visible",
+    "imagenes": [
+      "B1362 1.jpg",
+      "B1362 2.jpg",
+      "B1362 3.jpg",
+      "B1362 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Gris": true,
+      "Mostaza": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B1362 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN4008",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "20 X 15 X 10CM",
+    "precio": 590,
+    "estado": "visible",
+    "imagenes": [
+      "FN4008 1.jpg",
+      "FN4008 2.jpg",
+      "FN4008 3.jpg",
+      "FN4008 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Petroleo": true,
+      "Mostaza": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FN4008 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BAG2507",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "25 X 18 X 13CM",
+    "precio": 545,
+    "estado": "visible",
+    "imagenes": [
+      "BAG2507 1.jpg",
+      "BAG2507 2.jpg",
+      "BAG2507 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Azul": true,
+      "Verde Agua": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BAG2507 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BAG1204",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "26 X 17 X 11CM",
+    "precio": 595,
+    "estado": "visible",
+    "imagenes": [
+      "BAG1204 1.jpg",
+      "BAG1204 2.jpg",
+      "BAG1204 3.jpg",
+      "BAG1204 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Fucsia": true,
+      "Beige": true,
+      "Marron Claro": true,
+      "Gris": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BAG1204 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BAG016",
+    "nombre": "Bandolera",
+    "descripcion": "Bolsito dama sport",
+    "categoria": "Bandolera",
+    "medidas": "29 x 22 x 10cm",
+    "precio": 295,
+    "estado": "visible",
+    "imagenes": [
+      "BAG016 1.jpg",
+      "BAG016 2.jpg",
+      "BAG016 3.jpg",
+      "BAG016 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BAG016 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B11014",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera / Bolsito",
+    "categoria": "Bandolera",
+    "medidas": "28 X 20 X 13CM",
+    "precio": 595,
+    "estado": "visible",
+    "imagenes": [
+      "B11014 1.jpg",
+      "B11014 2.jpg",
+      "B11014 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Gris": true,
+      "Terracota": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B11014 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B1101",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera / Bolsito",
+    "categoria": "Bandolera",
+    "medidas": "23 X 17 X 12CM",
+    "precio": 550,
+    "estado": "visible",
+    "imagenes": [
+      "B1101 1.jpg",
+      "B1101 2.jpg",
+      "B1101 3.jpg",
+      "B1101 4.jpg",
+      "B1101 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Verde claro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B1101 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B013",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera / Bolsito",
+    "categoria": "Bandolera",
+    "medidas": "27 X 13 X 20CM",
+    "precio": 550,
+    "estado": "visible",
+    "imagenes": [
+      "B013 1.jpg",
+      "B013 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Verde": true,
+      "Rosado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B013 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B6001",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera / Bolsito",
+    "categoria": "Bandolera",
+    "medidas": "25 X 13 X 19CM",
+    "precio": 595,
+    "estado": "visible",
+    "imagenes": [
+      "B6001 1.jpg",
+      "B6001 2.jpg",
+      "B6001 3.jpg",
+      "B6001 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Bordeaux": true,
+      "Rosa Viejo": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B6001 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B6004",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera / Bolsito",
+    "categoria": "Bandolera",
+    "medidas": "26 X 19 X 13CM",
+    "precio": 650,
+    "estado": "visible",
+    "imagenes": [
+      "B6004 1.jpg",
+      "B6004 2.jpg",
+      "B6004 3.jpg",
+      "B6004 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Nude": true,
+      "Verde": true,
+      "Petroleo": true,
+      "Mostaza": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B6004 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B6007",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "24 X 13 X 18CM",
+    "precio": 595,
+    "estado": "visible",
+    "imagenes": [
+      "B6007 1.jpg",
+      "B6007 2.jpg",
+      "B6007 3.jpg",
+      "B6007 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Nude": true,
+      "Verde": true,
+      "Lila": true,
+      "Rosado": true,
+      "Mostaza": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B6007 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B152402",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "25 X 15 X 9CM",
+    "precio": 595,
+    "estado": "visible",
+    "imagenes": [
+      "B152402 1.jpg",
+      "B152402 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Verde claro": true,
+      "Combinado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B152402 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FNB1020",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "16 X 20 X 3CM",
+    "precio": 525,
+    "estado": "visible",
+    "imagenes": [
+      "FNB1020 1.jpg",
+      "FNB1020 2.jpg",
+      "FNB1020 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Beige": true,
+      "Bordeaux": true,
+      "Verde Agua": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FNB1020 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FNB1033",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera / Bolsito",
+    "categoria": "Bandolera",
+    "medidas": "24 X 20 X 13CM",
+    "precio": 550,
+    "estado": "visible",
+    "imagenes": [
+      "FNB1033 1.jpg",
+      "FNB1033 2.jpg",
+      "FNB1033 3.jpg",
+      "FNB1033 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Beige": true,
+      "Bordeaux": true,
+      "Rosa Viejo": true,
+      "Verde Agua": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FNB1033 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FNB1034",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "19 X 19 X 4CM",
+    "precio": 495,
+    "estado": "visible",
+    "imagenes": [
+      "FNB1034 1.jpg",
+      "FNB1034 2.jpg",
+      "FNB1034 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Beige": true,
+      "Azul": true,
+      "Verde Agua": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FNB1034 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FNB2000",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "20 X 13 X 2CM",
+    "precio": 495,
+    "estado": "visible",
+    "imagenes": [
+      "FNB2000 1.jpg",
+      "FNB2000 2.jpg",
+      "FNB2000 3.jpg",
+      "FNB2000 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Rosado": true,
+      "Beige": true,
+      "Verde Agua": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FNB2000 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FNB2001",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "24 X 13 X 11CM",
+    "precio": 545,
+    "estado": "visible",
+    "imagenes": [
+      "FNB2001 1.jpg",
+      "FNB2001 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Beige": true,
+      "Verde Agua": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FNB2001 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN5021",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "23 X 16,5 X 8CM",
+    "precio": 595,
+    "estado": "visible",
+    "imagenes": [
+      "FN5021 1.jpg",
+      "FN5021 2.jpg",
+      "FN5021 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Beige": true,
+      "Crudo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FN5021 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B1119",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "24 X 8 X 19CM",
+    "precio": 425,
+    "estado": "visible",
+    "imagenes": [
+      "B1119 1.jpg",
+      "B1119 2.jpg",
+      "B1119 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Verde": true,
+      "Rosado": true,
+      "Gris": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B1119 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B1119-2",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera dama",
+    "categoria": "Bandolera",
+    "medidas": "24 X 8 X 19CM",
+    "precio": 425,
+    "estado": "visible",
+    "imagenes": [
+      "B1119-2 1.jpg",
+      "B1119-2 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Rosado": true,
+      "Beige": true,
+      "Verde Agua": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B1119-2 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B1120",
+    "nombre": "Bandolera",
+    "descripcion": "Bolsito dama sport",
+    "categoria": "Bandolera",
+    "medidas": "",
+    "precio": 295,
+    "estado": "visible",
+    "imagenes": [
+      "B1120 1.jpg",
+      "B1120 2.jpg",
+      "B1120 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Rosado": true,
+      "Rojo": true,
+      "Petroleo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B1120 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BP2001",
+    "nombre": "Cartera",
+    "descripcion": "Cartera casual",
+    "categoria": "Cartera",
+    "medidas": "23 x 19 x 11,5cm",
+    "precio": 790,
+    "estado": "visible",
+    "imagenes": [
+      "BP2001 1.jpg",
+      "BP2001 2.jpg",
+      "BP2001 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Beige": true,
+      "Bordeaux": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BP2001 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BAG1033",
+    "nombre": "Cartera",
+    "descripcion": "Cartera casual",
+    "categoria": "Cartera",
+    "medidas": "25 X 20 X 13CM",
+    "precio": 850,
+    "estado": "visible",
+    "imagenes": [
+      "BAG1033 1.jpg",
+      "BAG1033 2.jpg",
+      "BAG1033 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Bordeaux": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BAG1033 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BP2010",
+    "nombre": "Cartera",
+    "descripcion": "Cartera juvenil",
+    "categoria": "Cartera",
+    "medidas": "23 x 16 x 12cm",
+    "precio": 790,
+    "estado": "visible",
+    "imagenes": [
+      "BP2010 1.jpg",
+      "BP2010 2.jpg",
+      "BP2010 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Verde": true,
+      "Celeste": true,
+      "Rosado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BP2010 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BAG26",
+    "nombre": "Cartera",
+    "descripcion": "Cartera peluche",
+    "categoria": "Cartera",
+    "medidas": "18 x 11cm",
+    "precio": 350,
+    "estado": "visible",
+    "imagenes": [
+      "BAG26 1.jpg",
+      "BAG26 2.jpg",
+      "BAG26 3.jpg",
+      "BAG26 4.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {},
+    "imagenVariantes": "BAG26 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN4003",
+    "nombre": "Riñonera",
+    "descripcion": "Riñonera sport",
+    "categoria": "Bandolera",
+    "medidas": "30 x 13 x 8cm",
+    "precio": 295,
+    "estado": "visible",
+    "imagenes": [
+      "FN4003 1.jpg",
+      "FN4003 2.jpg",
+      "FN4003 3.jpg",
+      "FN4003 4.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {},
+    "imagenVariantes": "FN4003 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B3002",
+    "nombre": "Riñonera",
+    "descripcion": "Riñonera casual",
+    "categoria": "Bandolera",
+    "medidas": "22 x 14 x 12cm",
+    "precio": 690,
+    "estado": "visible",
+    "imagenes": [
+      "B3002 1.jpg",
+      "B3002 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Verde": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B3002 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FNB1024",
+    "nombre": "Mochila dama",
+    "descripcion": "Mochila lisa impermeable",
+    "categoria": "Mochilas",
+    "medidas": "28 x 22 x 12CM",
+    "precio": 790,
+    "estado": "visible",
+    "imagenes": [
+      "FNB1024 1.jpg",
+      "FNB1024 2.jpg",
+      "FNB1024 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Lila": true,
+      "Rosado": true,
+      "Beige": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FNB1024 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN5012",
+    "nombre": "Mochila dama",
+    "descripcion": "Mochila lisa impermeable",
+    "categoria": "Mochilas",
+    "medidas": "34 X 28 X 15CM",
+    "precio": 690,
+    "estado": "visible",
+    "imagenes": [
+      "FN5012 1.jpg",
+      "FN5012 2.jpg",
+      "FN5012 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Bordeaux": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FN5012 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BAG9018",
+    "nombre": "Mochila juvenil",
+    "descripcion": "Mochila lisa con llavero",
+    "categoria": "Mochilas",
+    "medidas": "41 x 30 x 12cm",
+    "precio": 450,
+    "estado": "visible",
+    "imagenes": [
+      "BAG9018 1.jpg",
+      "BAG9018 2.jpg",
+      "BAG9018 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Verde claro": true,
+      "Salmon": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BAG9018 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB6308",
+    "nombre": "Mochila/Bolsito",
+    "descripcion": "Mochila/Bolsito",
+    "categoria": "Bolsos",
+    "medidas": "35 x 39 x 16cm",
+    "precio": 550,
+    "estado": "visible",
+    "imagenes": [
+      "LB6308 1.jpg",
+      "LB6308 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
+    "imagenVariantes": "LB6308 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB5019",
+    "nombre": "Bolsito",
+    "descripcion": "Bolsito",
+    "categoria": "Bolsos",
+    "medidas": "24 x 10 x 22cm",
+    "precio": 750,
+    "estado": "visible",
+    "imagenes": [
+      "LB5019 1.jpg",
+      "LB5019 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Rosado": true,
+      "Marron Claro": true,
+      "Gris": true,
+      "Bordeaux": true,
+      "Crudo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB5019 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB233",
+    "nombre": "Bolsos",
+    "descripcion": "Bolsos",
+    "categoria": "Bolsos",
+    "medidas": "32 X 13 X 34",
+    "precio": 790,
+    "estado": "visible",
+    "imagenes": [
+      "LB233 1.jpg",
+      "LB233 2.jpg",
+      "LB233 3.jpg",
+      "LB233 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Lila": true,
+      "Rosado": true,
+      "Bordeaux": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB233 VARIANTES.jpg"
+  },
+  {
+    "codigo": "LB5632",
+    "nombre": "Bolsos",
+    "descripcion": "Bolso grande",
+    "categoria": "Bolsos",
+    "medidas": "",
+    "precio": 590,
+    "estado": "visible",
+    "imagenes": [
+      "LB5632 1.jpg",
+      "LB5632 2.jpg",
+      "LB5632 3.jpg",
+      "LB5632 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Gris": true,
+      "Rojo": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "LB5632 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B1202",
+    "nombre": "Bolsos",
+    "descripcion": "Bolso lona",
+    "categoria": "Bolsos",
+    "medidas": "36 x 32 x 12cm",
+    "precio": 790,
+    "estado": "visible",
+    "imagenes": [
+      "B1202 1.jpg",
+      "B1202 2.jpg",
+      "B1202 3.jpg",
+      "B1202 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Celeste": true,
+      "Fucsia": true,
+      "Gris": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B1202 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN5018",
+    "nombre": "Bolsito / Necessaire",
+    "descripcion": "Bolsito / Necessaire",
+    "categoria": "Bolsos",
+    "medidas": "",
+    "precio": 395,
+    "estado": "visible",
+    "imagenes": [
+      "FN5018 1.jpg",
+      "FN5018 2.jpg",
+      "FN5018 3.jpg",
+      "FN5018 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Crudo": true,
+      "Combinado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FN5018 VARIANTES.jpg"
+  },
+  {
+    "codigo": "B6008",
+    "nombre": "Bolsos",
+    "descripcion": "Bolso grande sport",
+    "categoria": "Bolsos",
+    "medidas": "50 X 23 X 29CM",
+    "precio": 790,
+    "estado": "visible",
+    "imagenes": [
+      "B6008 1.jpg",
+      "B6008 2.jpg",
+      "B6008 3.jpg",
+      "B6008 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true
+    },
+    "variantes": {},
+    "imagenVariantes": "B6008 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN5011",
+    "nombre": "Bolsos",
+    "descripcion": "Bolso grande sport",
+    "categoria": "Bolsos",
+    "medidas": "47 X 25 X 23CM",
+    "precio": 650,
+    "estado": "visible",
+    "imagenes": [
+      "FN5011 1.jpg",
+      "FN5011 2.jpg",
+      "FN5011 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde Agua": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FN5011 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN1031",
+    "nombre": "Porta laptop",
+    "descripcion": "Porta laptop",
+    "categoria": "Caballero",
+    "medidas": "36 x 27 x 3,5cm",
+    "precio": 650,
+    "estado": "visible",
+    "imagenes": [
+      "FN1031 1.jpg",
+      "FN1031 2.jpg",
+      "FN1031 3.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BAG9309",
+    "nombre": "Morral Hombre",
+    "descripcion": "Morral Hombre",
+    "categoria": "Caballero",
+    "medidas": "26 x 20 x 9cm",
+    "precio": 550,
+    "estado": "visible",
+    "imagenes": [
+      "BAG9309 1.jpg",
+      "BAG9309 2.jpg",
+      "BAG9309 3.jpg",
+      "BAG9309 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Gris": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BAG9309 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W0004",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama c relieve",
+    "categoria": "Billetera dama",
+    "medidas": "19,5 X 10 X 2,5CM",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "W0004 1.jpg",
+      "W0004 2.jpg",
+      "W0004 3.jpg",
+      "W0004 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Lila": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Marron Claro": true,
+      "Gris": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W0004 VARIANTES.jpg"
+  },
+  {
+    "codigo": "WL3218",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama corta",
+    "categoria": "Billetera dama",
+    "medidas": "11 X 9CM",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "WL3218 1.jpg",
+      "WL3218 2.jpg",
+      "WL3218 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Celeste": true,
+      "Rosado": true,
+      "Gris": true,
+      "Rosa Viejo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "WL3218 VARIANTES.jpg"
+  },
+  {
+    "codigo": "WL3213",
+    "nombre": "Billetera dama",
+    "descripcion": "Monedero/llavero",
+    "categoria": "Billetera dama",
+    "medidas": "9 x 4 x 6cm",
+    "precio": 110,
+    "estado": "visible",
+    "imagenes": [
+      "WL3213 1.jpg",
+      "WL3213 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Celeste": true,
+      "Rosado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "WL3213 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BILL5327",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama",
+    "categoria": "Billetera dama",
+    "medidas": "19 x 9,5cm",
+    "precio": 265,
+    "estado": "visible",
+    "imagenes": [
+      "BILL5327 1.jpg",
+      "BILL5327 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BILL5327 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W2001",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama",
+    "categoria": "Billetera dama",
+    "medidas": "19 X 10 X 3CM",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "W2001 1.jpg",
+      "W2001 2.jpg",
+      "W2001 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Nude": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Beige": true,
+      "Bordeaux": true,
+      "Rosa Viejo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W2001 VARIANTES.jpg"
+  },
+  {
+    "codigo": "W2002",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama jean",
+    "categoria": "Billetera dama",
+    "medidas": "19 X 10 X 2CM",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "W2002 1.jpg",
+      "W2002 2.jpg",
+      "W2002 3.jpg",
+      "W2002 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true
+    },
+    "imagenVariantes": "W2002 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN368",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama",
+    "categoria": "Billetera dama",
+    "medidas": "",
+    "precio": 220,
+    "estado": "visible",
+    "imagenes": [
+      "FN368 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Amarillo": true,
+      "Celeste": true,
+      "Rosado": true,
+      "Marron Claro": true,
+      "Verde Agua": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FN368 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN374",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama",
+    "categoria": "Billetera dama",
+    "medidas": "",
+    "precio": 220,
+    "estado": "visible",
+    "imagenes": [
+      "FN374 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Amarillo": true,
+      "Verde": true,
+      "Celeste": true,
+      "Bordeaux": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FN374 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN362",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama",
+    "categoria": "Billetera dama",
+    "medidas": "",
+    "precio": 220,
+    "estado": "visible",
+    "imagenes": [
+      "FN362 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Rosado": true,
+      "Marron Claro": true,
+      "Rojo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FN362 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN360",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama",
+    "categoria": "Billetera dama",
+    "medidas": "",
+    "precio": 220,
+    "estado": "visible",
+    "imagenes": [
+      "FN360 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Rosado": true,
+      "Beige": true,
+      "Rojo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FN360 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN25365",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama print corta",
+    "categoria": "Billetera dama",
+    "medidas": "",
+    "precio": 185,
+    "estado": "visible",
+    "imagenes": [
+      "FN25365 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Marron Claro": true,
+      "Gris": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FN25365 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN25363",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama print corta",
+    "categoria": "Billetera dama",
+    "medidas": "",
+    "precio": 185,
+    "estado": "visible",
+    "imagenes": [
+      "FN25363 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Gris": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FN25363 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN25366",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama print larga",
+    "categoria": "Billetera dama",
+    "medidas": "",
+    "precio": 220,
+    "estado": "visible",
+    "imagenes": [
+      "FN25366 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Gris": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FN25366 VARIANTES.jpg"
+  },
+  {
+    "codigo": "FN25364",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama print larga",
+    "categoria": "Billetera dama",
+    "medidas": "",
+    "precio": 220,
+    "estado": "visible",
+    "imagenes": [
+      "FN25364 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Marron Claro": true,
+      "Gris": true
+    },
+    "variantes": {},
+    "imagenVariantes": "FN25364 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BILL1922",
+    "nombre": "Billetera de hombre",
+    "descripcion": "Billetera de hombre",
+    "categoria": "Caballero",
+    "medidas": "",
+    "precio": 115,
+    "estado": "visible",
+    "imagenes": [
+      "BILL1922 1.jpg",
+      "BILL1922 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "FN2121",
+    "nombre": "Cinto hombre",
+    "descripcion": "Cinto hombre",
+    "categoria": "Caballero",
+    "medidas": "120 x 3,6cm",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "FN2121 1.jpg",
+      "FN2121 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {},
+    "imagenVariantes": "FN2121 VARIANTES.jpg"
+  },
+  {
+    "codigo": "CINTO1555",
+    "nombre": "Cinto hombre",
+    "descripcion": "Cinto hombre",
+    "categoria": "Caballero",
+    "medidas": "120 x 3,6cm",
+    "precio": 185,
+    "estado": "visible",
+    "imagenes": [
+      "CINTO1555 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Claro": true,
+      "Marron Oscuro": true
+    },
+    "variantes": {},
+    "imagenVariantes": "CINTO1555 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BL4014",
+    "nombre": "Cinto hombre",
+    "descripcion": "Cinto hombre",
+    "categoria": "Caballero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "BL4014 1.jpg",
+      "BL4014 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Beige": true,
+      "Gris": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BL4014 VARIANTES.jpg"
+  },
+  {
+    "codigo": "CINTO905",
+    "nombre": "Cinto de dama",
+    "descripcion": "Cinto de dama",
+    "categoria": "Cinto de dama",
+    "medidas": "95 x 4,5cm",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "CINTO905 1.jpg",
+      "CINTO905 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Beige": true,
+      "Combinado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "CINTO905 VARIANTES.jpg"
+  },
+  {
+    "codigo": "CS7101",
+    "nombre": "Porta cosmeticos",
+    "descripcion": "Porta cosmeticos",
+    "categoria": "Porta cosmeticos",
+    "medidas": "",
+    "precio": 345,
+    "estado": "visible",
+    "imagenes": [
+      "CS7101 1.jpg",
+      "CS7101 2.jpg",
+      "CS7101 3.jpg",
+      "CS7101 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true,
+      "Amarillo": true,
+      "Rosado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "CS7101 VARIANTES.jpg"
+  },
+  {
+    "codigo": "COSMETIC001",
+    "nombre": "Porta cosmeticos",
+    "descripcion": "Porta cosmeticos",
+    "categoria": "Porta cosmeticos",
+    "medidas": "",
+    "precio": 295,
+    "estado": "visible",
+    "imagenes": [
+      "COSMETIC001 1.jpg",
+      "COSMETIC001 2.jpg",
+      "COSMETIC001 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Marron Claro": true,
+      "Crudo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "COSMETIC001 VARIANTES.jpg"
+  },
+  {
+    "codigo": "PASH2001",
+    "nombre": "Pashminas",
+    "descripcion": "Pashminas",
+    "categoria": "Lana",
+    "medidas": "245cm largo x 40cm ancho",
+    "precio": 325,
+    "estado": "visible",
+    "imagenes": [
+      "PASH2001 1.jpg",
+      "PASH2001 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "PASH5001",
+    "nombre": "Pashminas",
+    "descripcion": "Pashminas",
+    "categoria": "Lana",
+    "medidas": "200cm largo x 68cm ancho",
+    "precio": 325,
+    "estado": "visible",
+    "imagenes": [
+      "PASH5001 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Nude": true,
+      "Verde": true,
+      "Bordeaux": true,
+      "Petroleo": true
+    },
+    "variantes": {},
+    "imagenVariantes": "PASH5001 VARIANTES.jpg"
+  },
+  {
+    "codigo": "PASH5007",
+    "nombre": "Pashminas",
+    "descripcion": "Pashminas",
+    "categoria": "Lana",
+    "medidas": "200 x 45 +10*2cm",
+    "precio": 345,
+    "estado": "visible",
+    "imagenes": [
+      "PASH5007 1.jpg",
+      "PASH5007 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true
+    },
+    "imagenVariantes": "PASH5007 VARIANTES.jpg"
+  },
+  {
+    "codigo": "25157",
+    "nombre": "Prendedor",
+    "descripcion": "Prendedor para pashminas",
+    "categoria": "Lana",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "25157 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "25161",
+    "nombre": "Prendedor",
+    "descripcion": "Prendedor para pashminas",
+    "categoria": "Lana",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "25161 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "25163",
+    "nombre": "Prendedor",
+    "descripcion": "Prendedor para pashminas",
+    "categoria": "Lana",
+    "medidas": "",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "25163 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "SETINV010",
+    "nombre": "Set invierno infantil",
+    "descripcion": "Set invierno infantil cuello y gorro",
+    "categoria": "Lana",
+    "medidas": "",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "SETINV010 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Beige": true,
+      "Gris": true,
+      "Rojo": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "SETINV010 VARIANTES.jpg"
+  },
+  {
+    "codigo": "SETINF013",
+    "nombre": "Set invierno infantil",
+    "descripcion": "Set invierno infantil bufanda y gorro",
+    "categoria": "Lana",
+    "medidas": "",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "SETINF013 1.jpg",
+      "SETINF013 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Celeste": true,
+      "Rojo": true,
+      "Mostaza": true
+    },
+    "variantes": {},
+    "imagenVariantes": "SETINF013 VARIANTES.jpg"
+  },
+  {
+    "codigo": "HS6801",
+    "nombre": "Set invierno adulto",
+    "descripcion": "Set invierno cuello y gorro",
+    "categoria": "Lana",
+    "medidas": "",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "HS6801 1.jpg",
+      "HS6801 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Marron Oscuro": true,
+      "Rojo": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "HS6801 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BUF033",
+    "nombre": "Bufanda hombre",
+    "descripcion": "Bufanda hombre",
+    "categoria": "Lana",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "BUF033 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BUF034",
+    "nombre": "Bufanda hombre",
+    "descripcion": "Bufanda hombre",
+    "categoria": "Lana",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "BUF034 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BUF044",
+    "nombre": "Bufanda hombre",
+    "descripcion": "Bufanda hombre",
+    "categoria": "Lana",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "BUF044 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "GL009",
+    "nombre": "Guantes infantiles",
+    "descripcion": "Guantes infantiles",
+    "categoria": "Lana",
+    "medidas": "",
+    "precio": 80,
+    "estado": "visible",
+    "imagenes": [
+      "GL009 1.jpg",
+      "GL009 2.jpg",
+      "GL009 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
+    "imagenVariantes": "GL009 VARIANTES.jpg"
+  },
+  {
+    "codigo": "ER8007",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 125,
+    "estado": "visible",
+    "imagenes": [
+      "ER8007 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "ER0011",
+    "nombre": "Aros de acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 79,
+    "estado": "visible",
+    "imagenes": [
+      "ER0011 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
+    "imagenVariantes": "ER0011 VARIANTES.jpg"
+  },
+  {
+    "codigo": "ER0019",
+    "nombre": "Aros de acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 125,
+    "estado": "visible",
+    "imagenes": [
+      "ER0019 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true
+    },
+    "imagenVariantes": "ER0019 VARIANTES.jpg"
+  },
+  {
+    "codigo": "ER0024",
+    "nombre": "Set de aros dorados",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 135,
+    "estado": "visible",
+    "imagenes": [
+      "ER0024 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "24001",
+    "nombre": "Set de brillos x3",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 79,
+    "estado": "visible",
+    "imagenes": [
+      "24001 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "24002",
+    "nombre": "Set de brillos x3",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 79,
+    "estado": "visible",
+    "imagenes": [
+      "24002 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "ER004",
+    "nombre": "Set caravanas x3",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 110,
+    "estado": "visible",
+    "imagenes": [
+      "ER004 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "ER008",
+    "nombre": "Set caravanas x3",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 135,
+    "estado": "visible",
+    "imagenes": [
+      "ER008 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "ER0015",
+    "nombre": "Set caravanas x3",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 135,
+    "estado": "visible",
+    "imagenes": [
+      "ER0015 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "ER0016",
+    "nombre": "Set caravanas x3",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 135,
+    "estado": "visible",
+    "imagenes": [
+      "ER0016 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "ER0017",
+    "nombre": "Set caravanas x3",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 135,
+    "estado": "visible",
+    "imagenes": [
+      "ER0017 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "ER6068",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "ER6068 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "ER6050",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "ER6050 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "ER6051",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 105,
+    "estado": "visible",
+    "imagenes": [
+      "ER6051 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "ER6038",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 105,
+    "estado": "visible",
+    "imagenes": [
+      "ER6038 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "ER6059",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "ER6059 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA0007",
+    "nombre": "Abridores acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 55,
+    "estado": "visible",
+    "imagenes": [
+      "EA0007 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA0007-2",
+    "nombre": "Abridores acero dorado",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "EA0007-2 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA0001-2",
+    "nombre": "Abridores acero dorado",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "EA0001-2 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA0001",
+    "nombre": "Abridores acero dorado",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "EA0001 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA0006",
+    "nombre": "Abridores acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 55,
+    "estado": "visible",
+    "imagenes": [
+      "EA0006 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA0006-2",
+    "nombre": "Abridores acero dorado",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "EA0006-2 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA0004",
+    "nombre": "Abridores acero dorado",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "EA0004 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA0004-2",
+    "nombre": "Abridores acero dorado",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "EA0004-2 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA0005",
+    "nombre": "Abridores acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 55,
+    "estado": "visible",
+    "imagenes": [
+      "EA0005 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA0005-2",
+    "nombre": "Abridores acero dorado",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "EA0005-2 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA0008",
+    "nombre": "Abridores acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 55,
+    "estado": "visible",
+    "imagenes": [
+      "EA0008 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA0008-2",
+    "nombre": "Abridores acero dorado",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "EA0008-2 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA0016",
+    "nombre": "Abridores acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 55,
+    "estado": "visible",
+    "imagenes": [
+      "EA0016 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA0016-2",
+    "nombre": "Abridores acero dorado",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "EA0016-2 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA0022-2",
+    "nombre": "Abridores acero dorado",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "EA0022-2 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA7008-2",
+    "nombre": "Abridores acero dorado",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "EA7008-2 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA7001-2",
+    "nombre": "Abridores acero dorado",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "EA7001-2 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA7006",
+    "nombre": "Abridores acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 55,
+    "estado": "visible",
+    "imagenes": [
+      "EA7006 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA7006-2",
+    "nombre": "Abridores acero dorado",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "EA7006-2 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "EA7007-2",
+    "nombre": "Abridores acero dorado",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "EA7007-2 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN2159",
+    "nombre": "Set caravanas x3",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 235,
+    "estado": "visible",
+    "imagenes": [
+      "FN2159 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN24255",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "FN24255 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN2201",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "FN2201 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "6291",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 60,
+    "estado": "visible",
+    "imagenes": [
+      "6291 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Dorado": true,
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "FN008-4",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "4CM",
+    "precio": 31,
+    "estado": "visible",
+    "imagenes": [
+      "FN008-4 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN008-5",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "5,5CM",
+    "precio": 34,
+    "estado": "visible",
+    "imagenes": [
+      "FN008-5 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN008-6",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "6,5CM",
+    "precio": 41,
+    "estado": "visible",
+    "imagenes": [
+      "FN008-6 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN25308",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 40,
+    "estado": "visible",
+    "imagenes": [
+      "FN25308 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN24242",
+    "nombre": "Caravanas acero",
+    "descripcion": "Caravanas acero",
+    "categoria": "Caravanas acero",
+    "medidas": "",
+    "precio": 50,
+    "estado": "visible",
+    "imagenes": [
+      "FN24242 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN5257-2",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "FN5257-2 1.jpg",
+      "FN5257-2 2.jpg",
+      "FN5257-2 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "XL00287",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "XL00287 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "XL01155",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 105,
+    "estado": "visible",
+    "imagenes": [
+      "XL01155 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NK8014",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "NK8014 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NK1007",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "NK1007 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NK1008",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "NK1008 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NK1010",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "NK1010 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NK1011",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "NK1011 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NK1015",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "NK1015 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NK1018",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "NK1018 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NK1019",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "NK1019 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NK1021",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "NK1021 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NK1022",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "NK1022 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NK1027",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "NK1027 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NK8013",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "NK8013 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NK1030",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "NK1030 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NK8009",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "NK8009 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NKG2002",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "NKG2002 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NKG2008",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "NKG2008 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NKG2010",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "NKG2010 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NKG2011",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "NKG2011 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NKG8001",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "NKG8001 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NKG8002",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "NKG8002 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NKG8004",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "NKG8004 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NKG8005",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "NKG8005 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NKG8011",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "NKG8011 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "NKG6105",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 265,
+    "estado": "visible",
+    "imagenes": [
+      "NKG6105 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "G6924",
+    "nombre": "Conjunto acero",
+    "descripcion": "Conjunto acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "G6924 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "G6932",
+    "nombre": "Conjunto acero",
+    "descripcion": "Conjunto acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "G6932 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "G6969",
+    "nombre": "Conjunto acero",
+    "descripcion": "Conjunto acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "G6969 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "G6971",
+    "nombre": "Conjunto acero",
+    "descripcion": "Conjunto acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "G6971 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "G6964",
+    "nombre": "Conjunto acero",
+    "descripcion": "Conjunto acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 120,
+    "estado": "visible",
+    "imagenes": [
+      "G6964 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "G6997",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "G6997 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "G7002",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "G7002 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "XL00431",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "XL00431 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "XL00378",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "XL00378 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "FN0519",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "70CM",
+    "precio": 120,
+    "estado": "visible",
+    "imagenes": [
+      "FN0519 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "GARG0244",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "GARG0244 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "GARG0253",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "GARG0253 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Dorado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "GARG0211",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 125,
+    "estado": "visible",
+    "imagenes": [
+      "GARG0211 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "GARG0187",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 125,
+    "estado": "visible",
+    "imagenes": [
+      "GARG0187 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "GARG343",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "GARG343 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "GARG348",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "GARG348 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "GARG354",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 120,
+    "estado": "visible",
+    "imagenes": [
+      "GARG354 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "GARG356",
+    "nombre": "Gargantilla acero",
+    "descripcion": "Gargantilla acero",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 120,
+    "estado": "visible",
+    "imagenes": [
+      "GARG356 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "COLLAR0030",
+    "nombre": "Gargantilla bijou",
+    "descripcion": "Gargantilla bijou",
+    "categoria": "Gargantilla acero",
+    "medidas": "",
+    "precio": 125,
+    "estado": "visible",
+    "imagenes": [
+      "COLLAR0030 1.jpg",
+      "COLLAR0030 2.jpg",
+      "COLLAR0030 3.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR001",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "BR001 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR002",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 235,
+    "estado": "visible",
+    "imagenes": [
+      "BR002 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR003",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "BR003 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR005",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "BR005 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR006",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "BR006 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR009",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "BR009 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR011",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "BR011 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR012",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "BR012 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR013",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "BR013 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN25229",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 85,
+    "estado": "visible",
+    "imagenes": [
+      "FN25229 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Plateado": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "PULS6789",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 120,
+    "estado": "visible",
+    "imagenes": [
+      "PULS6789 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "PULS6791",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 95,
+    "estado": "visible",
+    "imagenes": [
+      "PULS6791 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR9113",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 120,
+    "estado": "visible",
+    "imagenes": [
+      "BR9113 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR6003",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 160,
+    "estado": "visible",
+    "imagenes": [
+      "BR6003 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR6005",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 130,
+    "estado": "visible",
+    "imagenes": [
+      "BR6005 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR9133",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "BR9133 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR9117",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "BR9117 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR9118",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 145,
+    "estado": "visible",
+    "imagenes": [
+      "BR9118 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR9140",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 110,
+    "estado": "visible",
+    "imagenes": [
+      "BR9140 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR6019",
+    "nombre": "Brazalete acero",
+    "descripcion": "Brazalete acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "BR6019 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BR6015",
+    "nombre": "Brazalete acero",
+    "descripcion": "Brazalete acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 225,
+    "estado": "visible",
+    "imagenes": [
+      "BR6015 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "PULS0001",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "PULS0001 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true,
+      "C7": true,
+      "C8": true,
+      "C9": true
+    }
+  },
+  {
+    "codigo": "PULS0002",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 195,
+    "estado": "visible",
+    "imagenes": [
+      "PULS0002 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true
+    }
+  },
+  {
+    "codigo": "PULS6151",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 185,
+    "estado": "visible",
+    "imagenes": [
+      "PULS6151 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "PULS6147",
+    "nombre": "Pulsera acero",
+    "descripcion": "Pulsera acero",
+    "categoria": "Pulsera acero",
+    "medidas": "",
+    "precio": 185,
+    "estado": "visible",
+    "imagenes": [
+      "PULS6147 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "UB6207",
+    "nombre": "Paraguas invertido",
+    "descripcion": "Paraguas invertido",
+    "categoria": "Paraguas",
+    "medidas": "",
+    "precio": 385,
+    "estado": "visible",
+    "imagenes": [
+      "UB6207 1.jpg",
+      "UB6207 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "UB6207 VARIANTES.jpg"
+  },
+  {
+    "codigo": "UB6208",
+    "nombre": "Paraguas infantil",
+    "descripcion": "Paraguas infantil",
+    "categoria": "Paraguas",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "UB6208 1.jpg",
+      "UB6208 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
+    "imagenVariantes": "UB6208 VARIANTES.jpg"
+  },
+  {
+    "codigo": "UB6210",
+    "nombre": "Paraguas infantil",
+    "descripcion": "Paraguas infantil",
+    "categoria": "Paraguas",
+    "medidas": "",
+    "precio": 165,
+    "estado": "visible",
+    "imagenes": [
+      "UB6210 1.jpg",
+      "UB6210 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {
+      "C1": true,
+      "C2": true,
+      "C3": true,
+      "C4": true,
+      "C5": true,
+      "C6": true
+    },
+    "imagenVariantes": "UB6210 VARIANTES.jpg"
+  },
+  {
+    "codigo": "J1804",
+    "nombre": "Caja regalos",
+    "descripcion": "Caja regalos",
+    "categoria": "Estuches",
+    "medidas": "8 x 8 x 4,5cm",
+    "precio": 35,
+    "estado": "visible",
+    "imagenes": [
+      "J1804 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "J1808",
+    "nombre": "Caja relojes",
+    "descripcion": "Caja relojes",
+    "categoria": "Estuches",
+    "medidas": "",
+    "precio": 40,
+    "estado": "visible",
+    "imagenes": [
+      "J1808 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Bordeaux": true,
+      "Azul": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "BOX0077",
+    "nombre": "Caja conjunto",
+    "descripcion": "Caja conjunto paquete x24",
+    "categoria": "Estuches",
+    "medidas": "5 x 8 x 2,5cm",
+    "precio": 528,
+    "estado": "visible",
+    "imagenes": [
+      "BOX0077 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BOX5894",
+    "nombre": "Caja conjunto",
+    "descripcion": "Caja conjunto paquete x12",
+    "categoria": "Estuches",
+    "medidas": "7 X 9CM",
+    "precio": 360,
+    "estado": "visible",
+    "imagenes": [
+      "BOX5894 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "BOX0087",
+    "nombre": "Caja anillos",
+    "descripcion": "caja anillos paquete x24",
+    "categoria": "Estuches",
+    "medidas": "4 x 4 x 2,5cm",
+    "precio": 360,
+    "estado": "visible",
+    "imagenes": [
+      "BOX0087 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "CAJRE001",
+    "nombre": "Caja armable regalos",
+    "descripcion": "Caja armable regalos",
+    "categoria": "Estuches",
+    "medidas": "Chico",
+    "precio": 45,
+    "estado": "visible",
+    "imagenes": [
+      "CAJRE001 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "CAJRE002",
+    "nombre": "Caja armable regalos",
+    "descripcion": "Caja armable regalos",
+    "categoria": "Estuches",
+    "medidas": "Grande",
+    "precio": 65,
+    "estado": "visible",
+    "imagenes": [
+      "CAJRE002 1.jpg"
     ],
     "sinColor": false,
     "permitirSurtido": true,
