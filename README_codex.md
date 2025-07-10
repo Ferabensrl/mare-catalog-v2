@@ -1,49 +1,93 @@
-# Proyecto: Catálogo Mayorista MARÉ – Versión Optimizada para Codex
+# MARÉ – Catálogo mayorista digital (Versión LAB)
 
-Este repositorio contiene una copia limpia y funcional del catálogo mayorista de MARÉ. La app está publicada en Vercel y sincronizada con este repositorio para pruebas, mejoras y evolución continua, en conjunto con Codex.
+Este repositorio es una copia paralela del sistema oficial de catálogo mayorista de la marca MARÉ. Su objetivo es servir como entorno de prueba y mejora mediante inteligencia artificial (Codex), sin afectar el sistema en producción.
 
-## Objetivo
+## 🔧 Stack utilizado
 
-Codex debe ayudar a mejorar y automatizar este catálogo con foco en:
+- React 18 + TypeScript
+- Vite
+- Tailwind CSS (con colores personalizados de marca)
+- Lucide React Icons
+- PWA (Service Worker + Manifest)
+- JSON generado desde Excel (productos)
+- GitHub + Vercel
 
-- Mejorar experiencia visual del cliente
-- Agregar feedback e interacción intuitiva
-- Incorporar nuevas funciones solicitadas por el propietario
-- Eliminar pasos innecesarios (clave)
-- Hacer el sistema más ágil y escalable
+## 🧠 Instrucciones para Codex
 
----
+Este entorno fue creado específicamente para que Codex pueda:
 
-## Cambios clave que se deben aplicar
+1. Realizar un **análisis profundo** del código fuente, identificando:
+   - Organización del proyecto
+   - Componentes principales y su interacción
+   - Errores de sintaxis, redundancias o prácticas incorrectas
+   - Posibles mejoras en rendimiento, legibilidad o accesibilidad
+   - Sugerencias visuales y de experiencia de usuario (UX)
 
-1. **Eliminar el login por clave**
-   - Ya no se usará la clave "mare2025"
-   - Reemplazar este acceso por un **formulario simple** que solicite al cliente su **nombre de comercio o razón social** antes de ingresar
-   - Guardar esta información temporalmente para usarla al generar el pedido (en encabezado del resumen enviado por WhatsApp o PDF)
+2. Detectar errores **aunque sean pequeños o poco visibles**, incluyendo:
+   - Variables no utilizadas
+   - Hooks mal empleados
+   - Importaciones innecesarias
+   - Claves `key` mal aplicadas
+   - Código que puede fallar en móvil
+   - Reglas CSS conflictivas
+   - Renderizados innecesarios
 
-2. **Agregar cartel de bienvenida administrado por archivo externo**
-   - Crear un sistema para leer un archivo de texto (por ejemplo, `mensaje.txt`)
-   - Si ese archivo existe y contiene texto, mostrar un mensaje fijo en la parte superior del catálogo (puede incluir emojis)
-   - Si está vacío o no existe, no mostrar nada
+3. Brindar ideas de mejora aunque no hayan sido solicitadas, siempre que mejoren la experiencia o eviten errores.
 
-3. **Mantener la estructura actual**
-   - El catálogo funciona correctamente: colores, cantidades, botón "Agregar al pedido", estructura del carrito, todo está bien
-   - Codex solo debe perfeccionar lo solicitado, sin modificar estructura principal
+4. Emitir un archivo `REVIEW_codex.md` con todas las observaciones, mejoras sugeridas y alertas.
 
----
+## ✅ Funcionalidad actual
 
-## Tecnologías utilizadas
+- Catálogo de más de 270 productos
+- Organización por categoría
+- Selección por color, surtido y variantes
+- Galería de imágenes
+- Carrito de pedidos (WhatsApp)
+- Carga dinámica desde JSON generado vía `convertir-excel.js`
+- Modo PWA y funcionamiento offline
+- Adaptado a celular/tablet/PC
 
-- React + Vite + TypeScript
-- TailwindCSS
-- JSON como base de productos
-- Hosting: Vercel
-- Control de versiones: GitHub
+## ✅ Cambios previos esperados por Codex
 
----
+- El sistema de clave (`mare2025`) implementado en `App.tsx` debe ser **eliminado completamente**
+- Esta lógica no debe mantenerse ni reconstruirse
+- El objetivo es permitir acceso libre al catálogo para simplificar la experiencia del cliente
+- Necesitamos que la app solamente solicite un login sencillo "Nombre de comercio o Razón social", y estos datos serán utilizados para mostrarlos siempre arriba en la app, para que el cliente pueda verificar que esta asignado a el el pedido y tambien cuando se hace el envio del mensaje por whatsapp del pedido o se crea el pdf, el pedido tiene nombre del cliente para identificar y hacer el tracking correspondiente en la empresa
 
-## Repositorio original
+## ✨ Mejoras deseadas (ordenadas por prioridad)
 
-Este proyecto fue clonado desde [Ferabensrl/mare-catalog](https://github.com/Ferabensrl/mare-catalog) como base estable.
+1. **Recategorización visual de productos**
+   - El campo `estado` puede ser `Preventa`, `Oferta`, `Poco stock`, `Novedades`, etc.
+   - Mostrar una etiqueta visual (cinta, badge o texto sobre la imagen) según el estado
+   - Permitir filtrar por esos estados
 
----
+2. **Feedback visual en botón “Agregar al Pedido”**
+   - Al hacer clic, cambiar color, mostrar ✔️ y texto “¡Agregado!” por unos segundos
+
+3. **Indicador visual de productos ya agregados**
+   - Borde `#8F6A50`, ícono de carrito, y cantidad visible directamente en el card
+
+4. **Generar pedido como PDF**
+   - Eliminar opción de enviar por email
+   - Agregar botón para generar y descargar PDF del pedido actual
+   - Enviar por WhatsApp directamente como archivo
+
+5. **Mostrar logo MARÉ en el header**
+   - Reemplazar el texto plano por el logotipo oficial
+
+6. **Mostrar aviso de precios con IVA**
+   - Agregar texto visible: “💡 Todos los precios incluyen IVA”
+   - Agregar número de contacto con botón directo a WhatsApp
+
+7. **Eliminar acceso con clave**
+   - Remover del código el sistema que requiere clave para ver el catálogo
+   - No debe volver a implementarse a menos que se indique
+
+8. **Cartel promocional desde archivo externo `.txt`**
+   - Crear un sistema donde el contenido de un archivo `mensaje.txt` se lea y convierta a un archivo `mensaje.json` mediante un script (`mensaje-to-json.js`)
+   - Ese `mensaje.json` contendrá la propiedad `mensaje_portada`
+   - En la app, si ese mensaje existe, se muestra arriba del catálogo con diseño visual claro (borde, ícono, fondo sutil)
+   - Si el archivo está vacío, no se muestra nada
+   - No debe interferir con `productos.json`
+
+> Este sistema le permite al administrador actualizar el mensaje sin tocar el Excel ni regenerar los productos. Solo cambia el `.txt`, ejecuta el script y el nuevo mensaje aparece automáticamente.
