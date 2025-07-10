@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "convert": "node convertir-excel.js"
+    "convert": "node convertir-excel.js",
+    "mensaje": "node mensaje-to-json.js"
   },
   "dependencies": {
     "lucide-react": "^0.263.1",
