@@ -315,6 +315,14 @@ const ImageGalleryModal = ({ product, isOpen, onClose, initialImageIndex = 0 }: 
 };
 
 // Componente de tarjeta de producto MEJORADO
+const estadoLabels: Record<string, string> = {
+  Preventa: '🟠 Preventa',
+  Oferta: '🔥 Oferta',
+  'Poco stock': '⚠️ Poco stock',
+  Novedad: '✨ Novedad',
+  Novedades: '✨ Novedad'
+};
+
 const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0 }: {
   product: Product;
   onAddToCart: (producto: Product, selecciones: { [key: string]: number }, surtido?: number, comentario?: string) => void;
@@ -405,6 +413,14 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0 }: {
           {quantityInCart > 1 && (
             <span className="text-sm font-semibold">{quantityInCart}</span>
           )}
+        </div>
+      )}
+      {estadoLabels[product.estado] && (
+        <div
+          className="absolute top-2 left-2 rounded-full px-2 py-1 text-xs font-semibold bg-white bg-opacity-90"
+          style={{ border: '1px solid #8F6A50', color: '#8F6A50' }}
+        >
+          {estadoLabels[product.estado]}
         </div>
       )}
       {/* Imágenes con carrusel mejorado */}
@@ -998,7 +1014,14 @@ const App = () => {
   const [products, setProducts] = useState<Product[]>([]);
   const [filteredProducts, setFilteredProducts] = useState<Product[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>('todas');
+  const [selectedEstado, setSelectedEstado] = useState<string>('todas');
   const [categories, setCategories] = useState<string[]>([]);
+  const [estadoOptions, setEstadoOptions] = useState<string[]>([
+    'Preventa',
+    'Oferta',
+    'Poco stock',
+    'Novedad'
+  ]);
   const [cart, setCart] = useState<CartItem[]>([]);
   const [showCart, setShowCart] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
@@ -1085,8 +1108,22 @@ const App = () => {
         setFilteredProducts(productosReales);
 
         // Extraer categorías únicas
-        const uniqueCategories: string[] = Array.from(new Set(productosReales.map((p: Product) => p.categoria)));
+        const uniqueCategories: string[] = Array.from(
+          new Set(productosReales.map((p: Product) => p.categoria))
+        );
         setCategories(uniqueCategories);
+
+        // Extraer estados presentes en los productos
+        const uniqueEstados: string[] = Array.from(
+          new Set(
+            productosReales
+              .map((p: Product) => p.estado)
+              .filter((e: string) => estadoOptions.includes(e))
+          )
+        );
+        if (uniqueEstados.length > 0) {
+          setEstadoOptions(uniqueEstados);
+        }
       } catch (error) {
         console.error('Error cargando productos:', error);
         setLoadError(true);
@@ -1100,8 +1137,12 @@ const App = () => {
 
   // Filtrar productos
   useEffect(() => {
-    let filtered = products.filter(product => product.estado === 'visible');
-    
+    let filtered = products;
+
+    if (selectedEstado !== 'todas') {
+      filtered = filtered.filter(product => product.estado === selectedEstado);
+    }
+
     if (selectedCategory !== 'todas') {
       filtered = filtered.filter(product => product.categoria === selectedCategory);
     }
@@ -1114,7 +1155,7 @@ const App = () => {
     }
     
     setFilteredProducts(filtered);
-  }, [products, selectedCategory, searchTerm]);
+  }, [products, selectedCategory, selectedEstado, searchTerm]);
 
   const handleLogin = (data: LoginData) => {
     setLoginData(data);
@@ -1396,6 +1437,33 @@ const App = () => {
                     }}
                   >
                     {category}
+                  </button>
+                ))}
+              </div>
+
+              <h3 className="font-medium my-3" style={{ color: '#8F6A50' }}>Estados</h3>
+              <div className="flex flex-wrap gap-2">
+                <button
+                  onClick={() => setSelectedEstado('todas')}
+                  className="px-3 py-1 rounded-full text-sm transition-colors"
+                  style={{
+                    backgroundColor: selectedEstado === 'todas' ? '#8F6A50' : 'white',
+                    color: selectedEstado === 'todas' ? 'white' : '#8F6A50'
+                  }}
+                >
+                  Todos
+                </button>
+                {estadoOptions.map(estado => (
+                  <button
+                    key={estado}
+                    onClick={() => setSelectedEstado(estado)}
+                    className="px-3 py-1 rounded-full text-sm transition-colors"
+                    style={{
+                      backgroundColor: selectedEstado === estado ? '#8F6A50' : 'white',
+                      color: selectedEstado === estado ? 'white' : '#8F6A50'
+                    }}
+                  >
+                    {estadoLabels[estado] || estado}
                   </button>
                 ))}
               </div>
