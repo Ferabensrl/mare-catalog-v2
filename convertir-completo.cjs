@@ -33,8 +33,8 @@ try {
     for (let i = 1; i < jsonData.length; i++) {
         const row = jsonData[i];
 
-        // Solo productos con código y estado visible
-        if (!row || !row[0] || row[19] !== 'visible') {
+        // Solo productos con código
+        if (!row || !row[0]) {
             continue;
         }
 
@@ -48,7 +48,7 @@ try {
                 categoria: String(row[3] || '').trim(),
                 medidas: String(row[4] || '').trim(),
                 precio: parseFloat(row[5]) || 0,
-                estado: 'visible',
+                estado: String(row[19] || '').trim(),
                 imagenes: [],
                 sinColor: row[17] === 'SI',
                 permitirSurtido: row[18] === 'SI',
