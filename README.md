@@ -28,3 +28,16 @@ npm run dev
 
 # Compilar para producción
 npm run build
+
+# Convertir mensaje promocional
+npm run mensaje
+```
+
+## 📢 Mensaje promocional en portada
+
+El archivo `mensaje.txt` contiene un texto opcional que se muestra arriba del catálogo.
+Ejecuta `npm run mensaje` para convertirlo a `public/mensaje.json`. Si el texto está vacío, no se visualiza ningún aviso.
+
+## 🔐 Login simplificado
+
+Al ingresar a la aplicación solo se solicita **Nombre o Razón Social** para personalizar los pedidos.
