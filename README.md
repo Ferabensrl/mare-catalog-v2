@@ -13,6 +13,8 @@ Aplicación web progresiva (PWA) para el catálogo mayorista de accesorios MARÉ
 - ✅ PWA instalable como app
 - ✅ Funciona offline
 - ✅ 100% responsive
+- ✅ Acceso sin contraseña solicitando solo el nombre del comercio
+- ✅ Mensaje superior configurable desde `public/mensaje.txt`
 
 ## 🔧 Instalación y Desarrollo
 
