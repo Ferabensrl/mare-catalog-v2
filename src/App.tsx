@@ -315,10 +315,11 @@ const ImageGalleryModal = ({ product, isOpen, onClose, initialImageIndex = 0 }: 
 };
 
 // Componente de tarjeta de producto MEJORADO
-const ProductCard = ({ product, onAddToCart, viewMode }: {
+const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0 }: {
   product: Product;
   onAddToCart: (producto: Product, selecciones: { [key: string]: number }, surtido?: number, comentario?: string) => void;
   viewMode: 'grid' | 'list';
+  quantityInCart?: number;
 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [selecciones, setSelecciones] = useState<{ [key: string]: number }>({});
@@ -377,9 +378,22 @@ const ProductCard = ({ product, onAddToCart, viewMode }: {
   };
 
   return (
-    <div className={`bg-white rounded-xl shadow-sm border border-stone-200 overflow-hidden hover:shadow-md transition-shadow ${
-      viewMode === 'list' ? 'flex' : ''
-    }`}>
+    <div
+      className={`relative bg-white rounded-xl shadow-sm border overflow-hidden hover:shadow-md transition-shadow ${
+        viewMode === 'list' ? 'flex' : ''
+      } ${quantityInCart > 0 ? 'border-[#8F6A50]' : 'border-stone-200'}`}
+    >
+      {quantityInCart > 0 && (
+        <div
+          className="absolute top-2 right-2 flex items-center gap-1 bg-white rounded-full px-2 py-1 shadow"
+          style={{ border: '1px solid #8F6A50', color: '#8F6A50' }}
+        >
+          <span>🛒</span>
+          {quantityInCart > 1 && (
+            <span className="text-sm font-semibold">{quantityInCart}</span>
+          )}
+        </div>
+      )}
       {/* Imágenes con carrusel mejorado */}
       <div className="relative group">
         <div 
@@ -1175,6 +1189,14 @@ const App = () => {
     }, 0);
   };
 
+  const getQuantityForProduct = (productCode: string) => {
+    return cart.reduce((total, item) => {
+      if (item.producto.codigo !== productCode) return total;
+      const itemTotal = Object.values(item.selecciones).reduce((sum, qty) => sum + qty, 0) + (item.surtido || 0);
+      return total + itemTotal;
+    }, 0);
+  };
+
   const generateWhatsAppMessage = (comentarioFinal: string = '') => {
     const fecha = new Date().toLocaleDateString('es-AR');
     let mensaje = `📲 NUEVO PEDIDO – ${fecha}\n👤 Cliente: ${loginData?.nombreCliente}\n\n📦 *Detalle del pedido:*\n\n`;
@@ -1408,6 +1430,7 @@ const App = () => {
                   product={product}
                   onAddToCart={addToCart}
                   viewMode={viewMode}
+                  quantityInCart={getQuantityForProduct(product.codigo)}
                 />
               ))}
             </div>
