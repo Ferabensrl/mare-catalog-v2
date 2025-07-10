@@ -1339,6 +1339,18 @@ const App = () => {
           clientName={loginData?.nombreCliente || ''}
         />
       )}
+
+      {/* Botón flotante para consultas por WhatsApp */}
+      <a
+        href="https://wa.me/59897998999?text=Hola,%20tengo%20una%20consulta%20sobre%20el%20cat%C3%A1logo%20MAR%C3%A9."
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-4 right-4 bg-green-600 text-white p-4 rounded-full shadow-lg hover:bg-green-700 z-50 flex items-center justify-center"
+        aria-label="Consulta por WhatsApp"
+        title="Consulta por WhatsApp"
+      >
+        <MessageCircle size={24} />
+      </a>
     </div>
   );
 };
