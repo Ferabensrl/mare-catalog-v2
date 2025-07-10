@@ -1153,6 +1153,7 @@ const App = () => {
                 className="relative text-white p-3 rounded-full hover:opacity-90 transition-all"
                 style={{ backgroundColor: '#8F6A50' }}
                 title="Ver tu pedido"
+                aria-label="Ver tu pedido"
               >
                 <ShoppingCart size={24} />
                 {getTotalItems() > 0 && (
