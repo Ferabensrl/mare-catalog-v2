@@ -931,7 +931,7 @@ const App = () => {
   useEffect(() => {
     const loadMessage = async () => {
       try {
-        const response = await fetch('/mensaje.json');
+        const response = await fetch(`${import.meta.env.BASE_URL}mensaje.json`);
         if (!response.ok) return;
         const data = await response.json();
         if (data.mensaje_portada) {
@@ -950,7 +950,7 @@ const App = () => {
       setLoading(true);
       try {
         // Cargar productos reales desde JSON
-        const response = await fetch('/productos.json');
+        const response = await fetch(`${import.meta.env.BASE_URL}productos.json`);
         const productosReales = await response.json();
 
         setProducts(productosReales);
