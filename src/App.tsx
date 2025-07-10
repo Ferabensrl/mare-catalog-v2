@@ -1289,6 +1289,11 @@ const App = () => {
         </div>
       )}
 
+      {/* Aviso de precios */}
+      <div className="bg-amber-50 border border-amber-200 text-amber-800 px-4 py-2 text-center">
+        💡 Todos los precios incluyen IVA
+      </div>
+
       {/* Grid de productos */}
       <main className="max-w-7xl mx-auto px-4 py-6">
         {loading ? (
