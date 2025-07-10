@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { ShoppingCart, Plus, Minus, Filter, X, Eye, MessageCircle, Mail, Search, Grid, List, ZoomIn, ChevronLeft, ChevronRight, Info, Download } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
+import { ShoppingCart, Plus, Minus, Filter, X, Eye, MessageCircle, Mail, Search, Grid, List, ZoomIn, ChevronLeft, ChevronRight, Info, Download, Check } from 'lucide-react';
 import { jsPDF } from 'jspdf';
 
 // Tipos TypeScript
@@ -325,6 +325,8 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0 }: {
   const [selecciones, setSelecciones] = useState<{ [key: string]: number }>({});
   const [surtido, setSurtido] = useState(0);
   const [comentario, setComentario] = useState('');
+  const [isAdded, setIsAdded] = useState(false);
+  const addTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const [showDetails, setShowDetails] = useState(false);
   const [showImageModal, setShowImageModal] = useState(false);
   const [showVariantesModal, setShowVariantesModal] = useState(false);
@@ -363,8 +365,19 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0 }: {
       setSelecciones({});
       setSurtido(0);
       setComentario('');
+      setIsAdded(true);
+      if (addTimeoutRef.current) clearTimeout(addTimeoutRef.current);
+      addTimeoutRef.current = setTimeout(() => setIsAdded(false), 2000);
     }
   };
+
+  useEffect(() => {
+    return () => {
+      if (addTimeoutRef.current) {
+        clearTimeout(addTimeoutRef.current);
+      }
+    };
+  }, []);
 
   // Funciones para navegación del carrusel
   const nextImage = (e: React.MouseEvent) => {
@@ -605,12 +618,17 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0 }: {
           onClick={handleAddToCart}
           disabled={!Object.values(selecciones).some(q => q > 0) && surtido === 0}
           className="w-full text-white py-3 rounded-lg font-medium hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed transition-all"
-          style={{ backgroundColor: '#8F6A50' }}
+          style={{ backgroundColor: isAdded ? '#22c55e' : '#8F6A50' }}
         >
-          {Object.values(selecciones).some(q => q > 0) || surtido > 0 
-            ? `Agregar al Pedido (${Object.values(selecciones).reduce((sum, qty) => sum + qty, 0) + surtido} unidades)`
-            : 'Agregar al Pedido'
-          }
+          {isAdded ? (
+            <span className="flex items-center justify-center gap-2">
+              <Check size={16} /> ¡Agregado!
+            </span>
+          ) : (
+            Object.values(selecciones).some(q => q > 0) || surtido > 0
+              ? `Agregar al Pedido (${Object.values(selecciones).reduce((sum, qty) => sum + qty, 0) + surtido} unidades)`
+              : 'Agregar al Pedido'
+          )}
         </button>
 
         {/* Botón ver detalles */}
