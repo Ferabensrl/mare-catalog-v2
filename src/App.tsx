@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { ShoppingCart, Plus, Minus, Filter, X, Eye, MessageCircle, Mail, Search, Grid, List, ZoomIn, ChevronLeft, ChevronRight, Info } from 'lucide-react';
+import { ShoppingCart, Plus, Minus, Filter, X, Eye, MessageCircle, Mail, Search, Grid, List, ZoomIn, ChevronLeft, ChevronRight, Info, Download } from 'lucide-react';
+import { jsPDF } from 'jspdf';
 
 // Tipos TypeScript
 
@@ -672,6 +673,80 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
   const [comentarioFinal, setComentarioFinal] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
+  const generatePdf = () => {
+    const doc = new jsPDF();
+    const fecha = new Date().toLocaleDateString('es-AR');
+
+    doc.setFontSize(16);
+    doc.text('Pedido MARÉ', 10, 15);
+    doc.setFontSize(12);
+    doc.text(`Cliente: ${clientName}`, 10, 25);
+    doc.text(`Fecha: ${fecha}`, 10, 32);
+
+    let y = 42;
+    cart.forEach((item, idx) => {
+      doc.text(`${idx + 1}. ${item.producto.nombre} (${item.producto.codigo})`, 10, y);
+      y += 6;
+      Object.entries(item.selecciones).forEach(([opcion, cantidad]) => {
+        if (cantidad > 0) {
+          doc.text(`- ${opcion}: ${cantidad}`, 14, y);
+          y += 6;
+        }
+      });
+      if (item.surtido && item.surtido > 0) {
+        doc.text(`- Surtido: ${item.surtido}`, 14, y);
+        y += 6;
+      }
+      if (item.comentario) {
+        doc.text(`Comentario: ${item.comentario}`, 14, y, { maxWidth: 180 });
+        y += 6;
+      }
+      y += 2;
+    });
+
+    doc.text(`Total: $${totalPrice.toLocaleString()}`, 10, y + 4);
+
+    if (comentarioFinal) {
+      doc.text(`Comentario final: ${comentarioFinal}`, 10, y + 12, { maxWidth: 180 });
+    }
+
+    return doc;
+  };
+
+  const handlePdfDownload = () => {
+    const doc = generatePdf();
+    doc.save(`pedido_${new Date().toISOString().slice(0, 10)}.pdf`);
+  };
+
+  const handleWhatsAppPdf = async () => {
+    setIsLoading(true);
+    const doc = generatePdf();
+    const blob = doc.output('blob');
+    const file = new File([blob], 'pedido.pdf', { type: 'application/pdf' });
+
+    try {
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        await navigator.share({
+          files: [file],
+          title: 'Pedido MARÉ',
+          text: 'Adjunto pedido en PDF'
+        });
+      } else {
+        const message = onGenerateWhatsApp(comentarioFinal);
+        window.open(`https://wa.me/?text=${message}`, '_blank');
+      }
+    } catch (err) {
+      console.error('Error al compartir PDF:', err);
+    } finally {
+      setTimeout(() => {
+        setIsLoading(false);
+        onClearCart();
+        onClose();
+        alert('¡Pedido enviado por WhatsApp! 🎉\n\nLa aplicación se ha reiniciado para un nuevo pedido.');
+      }, 1500);
+    }
+  };
+
   const handleWhatsAppSend = async () => {
     setIsLoading(true);
     const message = onGenerateWhatsApp(comentarioFinal);
@@ -859,6 +934,22 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
               >
                 <Mail size={18} />
                 {isLoading ? 'Enviando...' : 'Enviar por Email'}
+              </button>
+              <button
+                onClick={handlePdfDownload}
+                disabled={isLoading}
+                className="w-full bg-amber-600 text-white py-3 sm:py-3 rounded-lg font-medium hover:bg-amber-700 disabled:bg-amber-400 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
+              >
+                <Download size={18} />
+                Descargar pedido en PDF
+              </button>
+              <button
+                onClick={handleWhatsAppPdf}
+                disabled={isLoading}
+                className="w-full bg-green-700 text-white py-3 sm:py-3 rounded-lg font-medium hover:bg-green-800 disabled:bg-green-400 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
+              >
+                <MessageCircle size={18} />
+                Enviar PDF por WhatsApp
               </button>
             </div>
           </div>
