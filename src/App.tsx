@@ -28,7 +28,6 @@ interface CartItem {
 }
 
 interface LoginData {
-  clave: string;
   nombreCliente: string;
 }
 
@@ -49,29 +48,19 @@ const convertGoogleDriveUrl = (url: string): string => {
 
 // Componente de Login
 const LoginScreen = ({ onLogin }: { onLogin: (data: LoginData) => void }) => {
-  const [clave, setClave] = useState('');
   const [nombreCliente, setNombreCliente] = useState('');
   const [error, setError] = useState('');
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
-    
-    if (!clave.trim()) {
-      setError('Por favor ingresa la clave de acceso');
-      return;
-    }
-    
+
     if (!nombreCliente.trim()) {
       setError('Por favor ingresa tu nombre o razón social');
       return;
     }
-    
-    if (clave.trim() === 'mare2025') {
-      onLogin({ clave: clave.trim(), nombreCliente: nombreCliente.trim() });
-    } else {
-      setError('Clave de acceso incorrecta');
-    }
+
+    onLogin({ nombreCliente: nombreCliente.trim() });
   };
 
   return (
@@ -86,21 +75,6 @@ const LoginScreen = ({ onLogin }: { onLogin: (data: LoginData) => void }) => {
         </div>
         
         <form onSubmit={handleSubmit} className="space-y-6">
-          <div>
-            <label className="block font-medium mb-2" style={{ color: '#8F6A50' }}>
-              Clave de Acceso
-            </label>
-            <input
-              type="password"
-              value={clave}
-              onChange={(e) => setClave(e.target.value)}
-              className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:border-transparent"
-              style={{ borderColor: '#8F6A50', color: '#8F6A50' }}
-              placeholder="Ingresa la clave"
-              required
-            />
-          </div>
-          
           <div>
             <label className="block font-medium mb-2" style={{ color: '#8F6A50' }}>
               Nombre o Razón Social
@@ -908,6 +882,7 @@ const App = () => {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [showFilters, setShowFilters] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [bannerMessage, setBannerMessage] = useState('');
 
   // 💾 PERSISTENCIA DEL CARRITO - Cargar al iniciar
   useEffect(() => {
@@ -927,13 +902,34 @@ const App = () => {
     if (savedLoginData) {
       try {
         const parsedLogin = JSON.parse(savedLoginData);
-        setLoginData(parsedLogin);
-        setIsLoggedIn(true);
+        if (parsedLogin && parsedLogin.nombreCliente) {
+          setLoginData({ nombreCliente: parsedLogin.nombreCliente });
+          setIsLoggedIn(true);
+        }
       } catch (error) {
         console.error('Error cargando login guardado:', error);
         localStorage.removeItem('mare-login');
       }
     }
+  }, []);
+
+  // Leer mensaje de bienvenida desde archivo
+  useEffect(() => {
+    const loadMessage = async () => {
+      try {
+        const res = await fetch('/mensaje.txt');
+        if (res.ok) {
+          const text = await res.text();
+          if (text.trim()) {
+            setBannerMessage(text.trim());
+          }
+        }
+      } catch (error) {
+        console.error('Error cargando mensaje:', error);
+      }
+    };
+
+    loadMessage();
   }, []);
 
   // 💾 PERSISTENCIA DEL CARRITO - Guardar cuando cambia
@@ -1121,6 +1117,11 @@ const App = () => {
 
   return (
     <div className="min-h-screen" style={{ backgroundColor: '#E3D4C1' }}>
+      {bannerMessage && (
+        <div className="bg-amber-100 text-center px-4 py-2" style={{ color: '#8F6A50' }}>
+          {bannerMessage}
+        </div>
+      )}
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-stone-200 sticky top-0 z-40">
         <div className="max-w-7xl mx-auto px-4 py-4">
