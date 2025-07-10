@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ShoppingCart, Plus, Minus, Filter, X, Eye, MessageCircle, Mail, Search, Grid, List, ZoomIn, ChevronLeft, ChevronRight } from 'lucide-react';
+import { ShoppingCart, Plus, Minus, Filter, X, Eye, MessageCircle, Mail, Search, Grid, List, ZoomIn, ChevronLeft, ChevronRight, Info } from 'lucide-react';
 
 // Tipos TypeScript
 
@@ -28,7 +28,6 @@ interface CartItem {
 }
 
 interface LoginData {
-  clave: string;
   nombreCliente: string;
 }
 
@@ -49,29 +48,19 @@ const convertGoogleDriveUrl = (url: string): string => {
 
 // Componente de Login
 const LoginScreen = ({ onLogin }: { onLogin: (data: LoginData) => void }) => {
-  const [clave, setClave] = useState('');
   const [nombreCliente, setNombreCliente] = useState('');
   const [error, setError] = useState('');
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setError('');
-    
-    if (!clave.trim()) {
-      setError('Por favor ingresa la clave de acceso');
-      return;
-    }
-    
+
     if (!nombreCliente.trim()) {
       setError('Por favor ingresa tu nombre o razón social');
       return;
     }
-    
-    if (clave.trim() === 'mare2025') {
-      onLogin({ clave: clave.trim(), nombreCliente: nombreCliente.trim() });
-    } else {
-      setError('Clave de acceso incorrecta');
-    }
+
+    onLogin({ nombreCliente: nombreCliente.trim() });
   };
 
   return (
@@ -86,21 +75,6 @@ const LoginScreen = ({ onLogin }: { onLogin: (data: LoginData) => void }) => {
         </div>
         
         <form onSubmit={handleSubmit} className="space-y-6">
-          <div>
-            <label className="block font-medium mb-2" style={{ color: '#8F6A50' }}>
-              Clave de Acceso
-            </label>
-            <input
-              type="password"
-              value={clave}
-              onChange={(e) => setClave(e.target.value)}
-              className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:border-transparent"
-              style={{ borderColor: '#8F6A50', color: '#8F6A50' }}
-              placeholder="Ingresa la clave"
-              required
-            />
-          </div>
-          
           <div>
             <label className="block font-medium mb-2" style={{ color: '#8F6A50' }}>
               Nombre o Razón Social
@@ -908,6 +882,7 @@ const App = () => {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [showFilters, setShowFilters] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [promoMessage, setPromoMessage] = useState('');
 
   // 💾 PERSISTENCIA DEL CARRITO - Cargar al iniciar
   useEffect(() => {
@@ -951,6 +926,23 @@ const App = () => {
       localStorage.setItem('mare-login', JSON.stringify(loginData));
     }
   }, [loginData]);
+
+  // Cargar mensaje promocional
+  useEffect(() => {
+    const loadMessage = async () => {
+      try {
+        const response = await fetch('/mensaje.json');
+        if (!response.ok) return;
+        const data = await response.json();
+        if (data.mensaje_portada) {
+          setPromoMessage(data.mensaje_portada);
+        }
+      } catch (error) {
+        console.error('Error cargando mensaje promocional:', error);
+      }
+    };
+    loadMessage();
+  }, []);
 
   // Cargar productos reales desde JSON
   useEffect(() => {
@@ -1282,6 +1274,13 @@ const App = () => {
           )}
         </div>
       </header>
+
+      {promoMessage && (
+        <div className="bg-amber-50 border border-amber-200 text-amber-800 px-4 py-2 flex items-center justify-center gap-2">
+          <Info size={18} />
+          <span>{promoMessage}</span>
+        </div>
+      )}
 
       {/* Grid de productos */}
       <main className="max-w-7xl mx-auto px-4 py-6">
