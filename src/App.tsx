@@ -883,6 +883,7 @@ const App = () => {
   const [showFilters, setShowFilters] = useState(false);
   const [loading, setLoading] = useState(true);
   const [promoMessage, setPromoMessage] = useState('');
+  const [loadError, setLoadError] = useState(false);
 
   // 💾 PERSISTENCIA DEL CARRITO - Cargar al iniciar
   useEffect(() => {
@@ -948,19 +949,24 @@ const App = () => {
   useEffect(() => {
     const loadProducts = async () => {
       setLoading(true);
+      setLoadError(false);
       try {
         // Cargar productos reales desde JSON
         const response = await fetch(`${import.meta.env.BASE_URL}productos.json`);
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
         const productosReales = await response.json();
 
         setProducts(productosReales);
         setFilteredProducts(productosReales);
-        
+
         // Extraer categorías únicas
         const uniqueCategories: string[] = Array.from(new Set(productosReales.map((p: Product) => p.categoria)));
         setCategories(uniqueCategories);
       } catch (error) {
         console.error('Error cargando productos:', error);
+        setLoadError(true);
       } finally {
         setLoading(false);
       }
@@ -1288,23 +1294,27 @@ const App = () => {
           <div className="text-center py-12">
             <p className="text-lg" style={{ color: '#8F6A50' }}>Cargando productos...</p>
           </div>
+        ) : loadError ? (
+          <div className="text-center py-12">
+            <p className="text-lg" style={{ color: '#8F6A50' }}>No se pudo cargar el catálogo. Intenta nuevamente más tarde.</p>
+          </div>
         ) : (
           <>
             <div className={`grid gap-6 ${
-              viewMode === 'grid' 
-                ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4' 
+              viewMode === 'grid'
+                ? 'grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4'
                 : 'grid-cols-1'
             }`}>
               {filteredProducts.map(product => (
-                <ProductCard 
-                  key={product.codigo} 
-                  product={product} 
+                <ProductCard
+                  key={product.codigo}
+                  product={product}
                   onAddToCart={addToCart}
                   viewMode={viewMode}
                 />
               ))}
             </div>
-            
+
             {filteredProducts.length === 0 && (
               <div className="text-center py-12">
                 <p className="text-lg" style={{ color: '#8F6A50' }}>No se encontraron productos</p>
