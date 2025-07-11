@@ -6,7 +6,7 @@
     "categoria": "Cinto de dama",
     "medidas": "105cm",
     "precio": 135,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LB010 1.jpg",
       "LB010 2.jpg",
@@ -34,7 +34,7 @@
     "categoria": "Cinto de dama",
     "medidas": "107cm x 2,8cm",
     "precio": 165,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LB011 1.jpg",
       "LB011 2.jpg",
@@ -60,7 +60,7 @@
     "categoria": "Cinto de dama",
     "medidas": "105cm",
     "precio": 155,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LB012 1.jpg",
       "LB012 2.jpg",
@@ -88,7 +88,7 @@
     "categoria": "Cinto de dama",
     "medidas": "100cm",
     "precio": 175,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LB001 1.jpg",
       "LB001 2.jpg",
@@ -114,7 +114,7 @@
     "categoria": "Cinto de dama",
     "medidas": "105cm",
     "precio": 135,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LB005 1.jpg",
       "LB005 2.jpg",
@@ -137,7 +137,7 @@
     "categoria": "Cinto de dama",
     "medidas": "105cm",
     "precio": 170,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LB006 1.jpg",
       "LB006 2.jpg",
@@ -163,7 +163,7 @@
     "categoria": "Cinto de dama",
     "medidas": "105cm",
     "precio": 150,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LB008 1.jpg",
       "LB008 2.jpg",
@@ -187,7 +187,7 @@
     "categoria": "Caballero",
     "medidas": "115 - 120cm",
     "precio": 185,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "MB001 1.jpg",
       "MB001 2.jpg",
@@ -214,7 +214,7 @@
     "categoria": "Caballero",
     "medidas": "120cm",
     "precio": 150,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "MB020 1.jpg",
       "MB020 2.jpg",
@@ -237,7 +237,7 @@
     "categoria": "Caballero",
     "medidas": "120cm",
     "precio": 180,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "MB3891 1.jpg",
       "MB3891 2.jpg",
@@ -260,7 +260,7 @@
     "categoria": "Caballero",
     "medidas": "120cm",
     "precio": 180,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "MB3893 1.jpg",
       "MB3893 2.jpg",
@@ -283,7 +283,7 @@
     "categoria": "Caballero",
     "medidas": "120cm",
     "precio": 180,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "MB005 1.jpg",
       "MB005 2.jpg"
@@ -305,7 +305,7 @@
     "categoria": "Billetera dama Larga",
     "medidas": "20 X 10,5 X 2,5cm",
     "precio": 150,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W128 1.jpg",
       "W128 2.jpg",
@@ -332,7 +332,7 @@
     "categoria": "Billetera dama Larga",
     "medidas": "19 X 9,8 X 2,5CM",
     "precio": 190,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W274 1.jpg",
       "W274 2.jpg",
@@ -357,7 +357,7 @@
     "categoria": "Billetera dama Larga",
     "medidas": "19,5 X 10 X 2,5CM",
     "precio": 235,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W140 1.jpg",
       "W140 2.jpg",
@@ -384,7 +384,7 @@
     "categoria": "Billetera dama Larga",
     "medidas": "19 X 10,5 X 2CM",
     "precio": 175,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W253 1.jpg",
       "W253 2.jpg",
@@ -411,7 +411,7 @@
     "categoria": "Billetera dama Larga",
     "medidas": "19,5 X 9,5 X 2,5",
     "precio": 195,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W801 1.jpg",
       "W801 2.jpg",
@@ -437,7 +437,7 @@
     "categoria": "Billetera dama Larga",
     "medidas": "",
     "precio": 295,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W252 1.jpg",
       "W252 2.jpg",
@@ -464,7 +464,7 @@
     "categoria": "Billetera dama Larga",
     "medidas": "14,8 X 9 X 2,2CM",
     "precio": 260,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W254 1.jpg",
       "W254 2.jpg",
@@ -492,7 +492,7 @@
     "categoria": "Billetera dama Larga",
     "medidas": "20 X 5 X 12,5CM",
     "precio": 250,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W802 1.jpg",
       "W802 2.jpg",
@@ -520,7 +520,7 @@
     "categoria": "Billetera dama corta",
     "medidas": "11,5 x 9,3 x 3cm",
     "precio": 235,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W292 1.jpg",
       "W292 2.jpg",
@@ -548,7 +548,7 @@
     "categoria": "Billetera dama corta",
     "medidas": "11,5 x 10,5 x 2cm",
     "precio": 145,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W002 1.jpg",
       "W002 2.jpg",
@@ -575,7 +575,7 @@
     "categoria": "Billetera dama corta",
     "medidas": "11,5 x 8 x 4cm",
     "precio": 235,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W0005 1.jpg",
       "W0005 2.jpg",
@@ -601,7 +601,7 @@
     "categoria": "Billetera dama corta",
     "medidas": "11,5 X 2,3 X 8,5CM",
     "precio": 105,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W2126 1.jpg",
       "W2126 2.jpg",
@@ -626,7 +626,7 @@
     "categoria": "Billetera dama corta",
     "medidas": "11,5 x 9 x 2cm",
     "precio": 235,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W307-2B 1.jpg",
       "W307-2B 2.jpg",
@@ -655,7 +655,7 @@
     "categoria": "Billetera dama corta",
     "medidas": "14 X 9,5 X 2CM",
     "precio": 135,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W219 1.jpg",
       "W219 2.jpg",
@@ -682,7 +682,7 @@
     "categoria": "Billetera dama corta",
     "medidas": "12,5 X 3 X 10CM",
     "precio": 225,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W807 B 1.jpg",
       "W807 B 2.jpg",
@@ -709,7 +709,7 @@
     "categoria": "Billetera dama corta",
     "medidas": "11 X 9 X 3CM",
     "precio": 265,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W808 1.jpg",
       "W808 2.jpg",
@@ -737,7 +737,7 @@
     "categoria": "Billetera dama corta",
     "medidas": "11 X 8 X 4CM",
     "precio": 235,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W0028 1.jpg",
       "W0028 2.jpg",
@@ -764,7 +764,7 @@
     "categoria": "Billetera dama corta",
     "medidas": "11 X 3 X 9CM",
     "precio": 145,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W865 1.jpg",
       "W865 2.jpg",
@@ -788,7 +788,7 @@
     "categoria": "Billetera dama corta",
     "medidas": "11,5 X 2 X 9CM",
     "precio": 105,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W280 1.jpg",
       "W280 2.jpg",
@@ -811,7 +811,7 @@
     "categoria": "Billetera dama corta",
     "medidas": "10,5 X 8 X 2,5CM",
     "precio": 105,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W286 1.jpg",
       "W286 2.jpg",
@@ -838,7 +838,7 @@
     "categoria": "Billetera dama corta",
     "medidas": "11,5 X 9 X 3CM",
     "precio": 225,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W291 1.jpg",
       "W291 2.jpg",
@@ -866,7 +866,7 @@
     "categoria": "Billetera dama Larga",
     "medidas": "18,6 X 9,5 X 3,2CM",
     "precio": 235,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W293 1.jpg",
       "W293 2.jpg",
@@ -893,7 +893,7 @@
     "categoria": "Billetera dama Larga",
     "medidas": "19 X 10 X 2CM",
     "precio": 175,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W1008 1.jpg",
       "W1008 2.jpg",
@@ -918,7 +918,7 @@
     "categoria": "Billetera dama Larga",
     "medidas": "19 X 10 X 3CM",
     "precio": 185,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W266 1.jpg",
       "W266 2.jpg",
@@ -941,7 +941,7 @@
     "categoria": "Billetera dama Larga",
     "medidas": "19 X 10 X 2,5CM",
     "precio": 195,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W297 1.jpg",
       "W297 2.jpg",
@@ -970,7 +970,7 @@
     "categoria": "Bandolera infantil",
     "medidas": "13 x 11 x 1cm",
     "precio": 145,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W383-1 1.jpg",
       "W383-1 2.jpg",
@@ -997,7 +997,7 @@
     "categoria": "Billetera dama corta",
     "medidas": "10,7 X 8 X 2,5CM",
     "precio": 120,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "W271 1.jpg",
       "W271 2.jpg",
@@ -1023,7 +1023,7 @@
     "categoria": "Bandolera",
     "medidas": "19,5 X 11 X 4,5CM",
     "precio": 175,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "H001 1.jpg",
       "H001 2.jpg",
@@ -1051,7 +1051,7 @@
     "categoria": "Bandolera",
     "medidas": "18 X 13,5 X 2CM",
     "precio": 130,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "H002 1.jpg",
       "H002 2.jpg",
@@ -1079,7 +1079,7 @@
     "categoria": "Bandolera",
     "medidas": "18 X 11,5 X 2CM",
     "precio": 130,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "H003 1.jpg",
       "H003 2.jpg",
@@ -1107,7 +1107,7 @@
     "categoria": "Bandolera",
     "medidas": "19 X 10,5 X 4CM",
     "precio": 395,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "H004 1.jpg",
       "H004 2.jpg",
@@ -1134,7 +1134,7 @@
     "categoria": "Bandolera",
     "medidas": "18 X 11,5 X 6CM",
     "precio": 295,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "H005 1.jpg",
       "H005 2.jpg",
@@ -1161,7 +1161,7 @@
     "categoria": "Llavero",
     "medidas": "9,5 x 5 x 5cm",
     "precio": 95,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "H006 1.jpg",
       "H006 2.jpg",
@@ -1188,7 +1188,7 @@
     "categoria": "Llavero",
     "medidas": "9,5 x 5 x 5cm",
     "precio": 95,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "H007 1.jpg",
       "H007 2.jpg",
@@ -1215,7 +1215,7 @@
     "categoria": "Llavero",
     "medidas": "9,5 x 5 x 5cm",
     "precio": 95,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "H008 1.jpg",
       "H008 2.jpg",
@@ -1243,7 +1243,7 @@
     "categoria": "Caballero",
     "medidas": "11,5 X 9,5 X 2,5cm",
     "precio": 285,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BILLH009 1.jpg",
       "BILLH009 2.jpg",
@@ -1270,7 +1270,7 @@
     "categoria": "Caballero",
     "medidas": "12 X 9,7 X 2CM",
     "precio": 265,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BILLH008 1.jpg",
       "BILLH008 2.jpg",
@@ -1295,7 +1295,7 @@
     "categoria": "Caballero",
     "medidas": "11,5 X 9,5 X 1,5cm",
     "precio": 235,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BILLH9031 1.jpg",
       "BILLH9031 2.jpg",
@@ -1319,7 +1319,7 @@
     "categoria": "Caballero",
     "medidas": "11,5 X 9,5 X 2cm",
     "precio": 235,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BILLH9037 1.jpg",
       "BILLH9037 2.jpg",
@@ -1345,7 +1345,7 @@
     "categoria": "Caballero",
     "medidas": "11,5 X 9,5 X 2cm",
     "precio": 235,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BILLH016 1.jpg",
       "BILLH016 2.jpg",
@@ -1368,7 +1368,7 @@
     "categoria": "Caballero",
     "medidas": "12,5 X 9,5 X 2,5CM",
     "precio": 235,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BILLH022 1.jpg",
       "BILLH022 2.jpg",
@@ -1391,7 +1391,7 @@
     "categoria": "Caballero",
     "medidas": "11,6 X 10 X 3CM",
     "precio": 235,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BILLH2712 1.jpg",
       "BILLH2712 2.jpg",
@@ -1416,7 +1416,7 @@
     "categoria": "Caballero",
     "medidas": "12 X 9,5 X 2,5CM",
     "precio": 265,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BILLH5502 1.jpg",
       "BILLH5502 2.jpg",
@@ -1440,7 +1440,7 @@
     "categoria": "Caballero",
     "medidas": "11,5 X 9,5 X 2,5CM",
     "precio": 265,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BILLH5505 1.jpg",
       "BILLH5505 2.jpg",
@@ -1466,7 +1466,7 @@
     "categoria": "Caballero",
     "medidas": "12 X 10 X 3CM",
     "precio": 265,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BILLH5506 1.jpg",
       "BILLH5506 2.jpg",
@@ -1491,7 +1491,7 @@
     "categoria": "Caballero",
     "medidas": "12 X 9,5 X 1,9CM",
     "precio": 265,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BILLH3913 1.jpg",
       "BILLH3913 2.jpg",
@@ -1516,7 +1516,7 @@
     "categoria": "Bolsos",
     "medidas": "37 x 16 x 32 Cm",
     "precio": 595,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LD7044 1.jpg",
       "LD7044 2.jpg",
@@ -1541,7 +1541,7 @@
     "categoria": "Bandolera infantil",
     "medidas": "17,5 x 14 x 6cm",
     "precio": 295,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "FN8104 1.jpg",
       "FN8104 2.jpg",
@@ -1565,7 +1565,7 @@
     "categoria": "Bandolera infantil",
     "medidas": "",
     "precio": 295,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "CBB008 1.jpg",
       "CBB008 2.jpg",
@@ -1592,7 +1592,7 @@
     "categoria": "Bandolera",
     "medidas": "20 X 16 X 12CM",
     "precio": 495,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LD1207 1.jpg",
       "LD1207 2.jpg",
@@ -1618,7 +1618,7 @@
     "categoria": "Bolsos",
     "medidas": "30 x 27 x 10cm",
     "precio": 850,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LD214 1.jpg",
       "LD214 2.jpg",
@@ -1646,7 +1646,7 @@
     "categoria": "Bolsos",
     "medidas": "",
     "precio": 695,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LD6305 1.jpg",
       "LD6305 2.jpg",
@@ -1670,7 +1670,7 @@
     "categoria": "Bolsos",
     "medidas": "35 x 27 x 12cm",
     "precio": 850,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LD8861 1.jpg",
       "LD8861 2.jpg",
@@ -1697,7 +1697,7 @@
     "categoria": "Morral hombre",
     "medidas": "28 X 20 X 10CM",
     "precio": 490,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LD305 1.jpg",
       "LD305 2.jpg",
@@ -1722,7 +1722,7 @@
     "categoria": "Mochilas",
     "medidas": "27 x 22 x 12cm",
     "precio": 695,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LB5531 1.jpg",
       "LB5531 2.jpg"
@@ -1745,7 +1745,7 @@
     "categoria": "Morral hombre",
     "medidas": "31 X 26 X 11CM",
     "precio": 585,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LD8076 1.jpg",
       "LD8076 2.jpg",
@@ -1770,7 +1770,7 @@
     "categoria": "Morral hombre",
     "medidas": "31 X 26 X 11CM",
     "precio": 585,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LD8075 1.jpg",
       "LD8075 2.jpg",
@@ -1794,7 +1794,7 @@
     "categoria": "Bandolera",
     "medidas": "",
     "precio": 595,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LB6620 1.jpg"
     ],
@@ -1817,7 +1817,7 @@
     "categoria": "Bandolera",
     "medidas": "",
     "precio": 390,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LB676 1.jpg"
     ],
@@ -1839,7 +1839,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 49,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "3216 1.jpg",
       "3216 2.jpg",
@@ -1867,7 +1867,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 65,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "100324 1.jpg",
       "100324 2.jpg",
@@ -1886,7 +1886,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 25,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "PELOH004 1.jpg"
     ],
@@ -1902,7 +1902,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 42,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "H0011 1.jpg",
       "H0011 2.jpg",
@@ -1928,7 +1928,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 75,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "H0018 1.jpg",
       "H0018 2.jpg",
@@ -1952,7 +1952,7 @@
     "categoria": "Cinto de dama",
     "medidas": "105cm",
     "precio": 490,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "LB007 1.jpg",
       "LB007 2.jpg",
@@ -1977,7 +1977,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 40,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "100305 1.jpg",
       "100305 2.jpg",
@@ -2000,7 +2000,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 49,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "100390 1.jpg",
       "100390 2.jpg",
@@ -2025,7 +2025,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 39,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "100325 1.jpg",
       "100325 2.jpg",
@@ -2052,7 +2052,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "100387 1.jpg",
       "100387 2.jpg",
@@ -2076,7 +2076,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 35,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "100301 1.jpg",
       "100301 2.jpg",
@@ -2100,7 +2100,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 130,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "SL0077 1.jpg",
       "SL0077 2.jpg",
@@ -2118,7 +2118,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 85,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "XL00079 1.jpg",
       "XL00079 2.jpg",
@@ -2138,7 +2138,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 90,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "XL00079-2 1.jpg",
       "XL00079-2 2.jpg"
@@ -2157,7 +2157,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 169,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "SZ989-2 1.jpg",
       "SZ989-2 2.jpg"
@@ -2174,7 +2174,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 185,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "SL0256 1.jpg",
       "SL0256 2.jpg"
@@ -2191,7 +2191,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 65,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "SL0165-12 1.jpg",
       "SL0165-12 2.jpg"
@@ -2210,7 +2210,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 60,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "SL0165-1 1.jpg",
       "SL0165-1 2.jpg"
@@ -2229,7 +2229,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 225,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "SZ0154 1.jpg",
       "SZ0154 2.jpg"
@@ -2246,7 +2246,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 225,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "SZ0078 1.jpg"
     ],
@@ -2264,7 +2264,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 225,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "SZ0136 1.jpg",
       "SZ0136 2.jpg"
@@ -2285,7 +2285,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 125,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "SZ0092 1.jpg"
     ],
@@ -2303,7 +2303,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 225,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "SZ0467 1.jpg"
     ],
@@ -2319,7 +2319,7 @@
     "categoria": "Caravanas acero",
     "medidas": "",
     "precio": 135,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "ED00423 1.jpg",
       "ED00423 2.jpg"
@@ -2336,7 +2336,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 135,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "XL1087-1 1.jpg",
       "XL1087-1 2.jpg"
@@ -2356,7 +2356,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 145,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "XL1087-2 1.jpg",
       "XL1087-2 2.jpg"
@@ -2376,7 +2376,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 95,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "XL1421-1 1.jpg"
     ],
@@ -2394,7 +2394,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 105,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "XL1421-2 1.jpg"
     ],
@@ -2412,7 +2412,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 149,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "SL00130 1.jpg"
     ],
@@ -2428,7 +2428,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 195,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "SL0074 1.jpg",
       "SL0074 2.jpg"
@@ -2449,7 +2449,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 165,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "XL00384 1.jpg",
       "XL00384 2.jpg"
@@ -2470,7 +2470,7 @@
     "categoria": "Caravanas acero",
     "medidas": "",
     "precio": 95,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "EA8246 1.jpg"
     ],
@@ -2486,7 +2486,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 130,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-22 1.jpg"
     ],
@@ -2502,7 +2502,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 145,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-23 1.jpg"
     ],
@@ -2518,7 +2518,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 130,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-24 1.jpg",
       "NK5294-24 2.jpg"
@@ -2535,7 +2535,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 145,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-25 1.jpg",
       "NK5294-25 2.jpg"
@@ -2552,7 +2552,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 195,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "SL0259 1.jpg",
       "SL0259 2.jpg",
@@ -2570,7 +2570,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 225,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "SZ0162 1.jpg",
       "SZ0162 2.jpg"
@@ -2587,7 +2587,7 @@
     "categoria": "Cadena acero",
     "medidas": "2mm / 50cm",
     "precio": 65,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK0008-2MM/50 1.jpg"
     ],
@@ -2603,7 +2603,7 @@
     "categoria": "Cadena acero",
     "medidas": "0,4mm / 50cm",
     "precio": 39,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK0055-0.4MM/50 1.jpg"
     ],
@@ -2619,7 +2619,7 @@
     "categoria": "Cadena acero",
     "medidas": "0,6mm / 50cm",
     "precio": 49,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK0055-0.6MM/50 1.jpg"
     ],
@@ -2635,7 +2635,7 @@
     "categoria": "Cadena acero",
     "medidas": "6mm / 60cm",
     "precio": 95,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK0065-6MM/60 1.jpg"
     ],
@@ -2651,7 +2651,7 @@
     "categoria": "Cadena acero",
     "medidas": "2mm / 50cm",
     "precio": 75,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK0122-2MM/50 1.jpg"
     ],
@@ -2667,7 +2667,7 @@
     "categoria": "Cadena acero",
     "medidas": "2,5mm / 50cm",
     "precio": 80,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK0122-2.5MM/50 1.jpg"
     ],
@@ -2683,7 +2683,7 @@
     "categoria": "Cadena acero",
     "medidas": "0,5mm / 45cm",
     "precio": 39,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK0128-0.5MM/45 1.jpg"
     ],
@@ -2699,7 +2699,7 @@
     "categoria": "Cadena acero",
     "medidas": "0,6mm / 50cm",
     "precio": 48,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK0128-0.6MM/50 1.jpg"
     ],
@@ -2715,7 +2715,7 @@
     "categoria": "Cadena acero",
     "medidas": "0,8mm / 50cm",
     "precio": 59,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK0128-0.8MM/50 1.jpg"
     ],
@@ -2731,7 +2731,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 195,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BR3013 1.jpg"
     ],
@@ -2747,7 +2747,7 @@
     "categoria": "Caravanas acero",
     "medidas": "10mm",
     "precio": 48,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "EA33001-10 1.jpg",
       "EA33001-10 2.jpg"
@@ -2764,7 +2764,7 @@
     "categoria": "Caravanas acero",
     "medidas": "",
     "precio": 48,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "EA22003-2 1.jpg",
       "EA22003-2 2.jpg"
@@ -2781,7 +2781,7 @@
     "categoria": "Caravanas acero",
     "medidas": "",
     "precio": 75,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "EA22001 1.jpg"
     ],
@@ -2797,7 +2797,7 @@
     "categoria": "Caravanas acero",
     "medidas": "",
     "precio": 40,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "EA22003-1 1.jpg"
     ],
@@ -2813,7 +2813,7 @@
     "categoria": "Caravanas acero",
     "medidas": "8mm",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "EA33001-8 1.jpg"
     ],
@@ -2829,7 +2829,7 @@
     "categoria": "Caravanas acero",
     "medidas": "10mm",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "EA22002-10 1.jpg"
     ],
@@ -2845,7 +2845,7 @@
     "categoria": "Caravanas acero",
     "medidas": "8mm",
     "precio": 40,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "EA22002-8 1.jpg"
     ],
@@ -2861,7 +2861,7 @@
     "categoria": "Caravanas acero",
     "medidas": "8mm",
     "precio": 22,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "EA22004-8MM 1.jpg",
       "EA22004-8MM 2.jpg"
@@ -2878,7 +2878,7 @@
     "categoria": "Caravanas acero",
     "medidas": "12mm",
     "precio": 25,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "EA22004-12MM 1.jpg"
     ],
@@ -2894,7 +2894,7 @@
     "categoria": "Caravanas acero",
     "medidas": "16mm",
     "precio": 28,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "EA22004-16MM 1.jpg"
     ],
@@ -2910,7 +2910,7 @@
     "categoria": "Caravanas acero",
     "medidas": "",
     "precio": 50,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "24005 1.jpg",
       "24005 2.jpg"
@@ -2927,7 +2927,7 @@
     "categoria": "Caravanas acero",
     "medidas": "",
     "precio": 60,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "24005-2 1.jpg",
       "24005-2 2.jpg"
@@ -2944,7 +2944,7 @@
     "categoria": "Caravanas acero",
     "medidas": "",
     "precio": 105,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "ER0018 1.jpg",
       "ER0018 2.jpg",
@@ -2971,7 +2971,7 @@
     "categoria": "Caravanas acero",
     "medidas": "",
     "precio": 125,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "ER0014 1.jpg",
       "ER0014 2.jpg",
@@ -2998,7 +2998,7 @@
     "categoria": "Estuches",
     "medidas": "21 X 4 X 2,5CM",
     "precio": 360,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BOX007 1.jpg",
       "BOX007 2.jpg"
@@ -3015,7 +3015,7 @@
     "categoria": "Estuches",
     "medidas": "5 X 8 X 2.8CM",
     "precio": 20,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BOX008 1.jpg"
     ],
@@ -3031,7 +3031,7 @@
     "categoria": "Estuches",
     "medidas": "5 X 5 X 3CM",
     "precio": 15,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BOX009 1.jpg"
     ],
@@ -3047,7 +3047,7 @@
     "categoria": "Estuches",
     "medidas": "7 X 9 X 3CM",
     "precio": 25,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BOX006 1.jpg"
     ],
@@ -3063,7 +3063,7 @@
     "categoria": "Estuches",
     "medidas": "9,2 x 8,7 x 5,7cm",
     "precio": 40,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "CAJRE008 1.jpg",
       "CAJRE008 2.jpg"
@@ -3081,7 +3081,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 35,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B003 1.jpg",
       "B003 2.jpg"
@@ -3102,7 +3102,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B004 1.jpg",
       "B004 2.jpg",
@@ -3120,7 +3120,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B006 1.jpg",
       "B006 2.jpg",
@@ -3141,7 +3141,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 28,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B007 1.jpg",
       "B007 2.jpg",
@@ -3163,7 +3163,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B016 1.jpg",
       "B016 2.jpg",
@@ -3186,7 +3186,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B018 1.jpg",
       "B018 2.jpg",
@@ -3205,7 +3205,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B024 1.jpg",
       "B024 2.jpg",
@@ -3224,7 +3224,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B029 1.jpg",
       "B029 2.jpg",
@@ -3243,7 +3243,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B033 1.jpg",
       "B033 2.jpg",
@@ -3261,7 +3261,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B040 1.jpg",
       "B040 2.jpg",
@@ -3279,7 +3279,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B045 1.jpg",
       "B045 2.jpg",
@@ -3297,7 +3297,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B049 1.jpg",
       "B049 2.jpg",
@@ -3316,7 +3316,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B070 1.jpg"
     ],
@@ -3332,7 +3332,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 29,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B061 1.jpg",
       "B061 2.jpg",
@@ -3351,7 +3351,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B071 1.jpg",
       "B071 2.jpg",
@@ -3370,7 +3370,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B072 1.jpg",
       "B072 2.jpg",
@@ -3388,7 +3388,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B087 1.jpg",
       "B087 2.jpg",
@@ -3407,7 +3407,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B097 1.jpg"
     ],
@@ -3423,7 +3423,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B098 1.jpg",
       "B098 2.jpg",
@@ -3442,7 +3442,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 40,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B103 1.jpg",
       "B103 2.jpg",
@@ -3464,7 +3464,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B104 1.jpg",
       "B104 2.jpg",
@@ -3486,7 +3486,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B129 1.jpg"
     ],
@@ -3502,7 +3502,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 35,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B137 1.jpg",
       "B137 2.jpg",
@@ -3524,7 +3524,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B139 1.jpg"
     ],
@@ -3543,7 +3543,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 39,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B140 1.jpg",
       "B140 2.jpg",
@@ -3562,7 +3562,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B153 1.jpg",
       "B153 2.jpg",
@@ -3581,7 +3581,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 35,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B161 1.jpg",
       "B161 2.jpg",
@@ -3604,7 +3604,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B027 1.jpg",
       "B027 2.jpg",
@@ -3627,7 +3627,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B171 1.jpg",
       "B171 2.jpg"
@@ -3648,7 +3648,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 35,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B179 1.jpg",
       "B179 2.jpg",
@@ -3671,7 +3671,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 29,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B188 1.jpg",
       "B188 2.jpg",
@@ -3694,7 +3694,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 35,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B196 1.jpg"
     ],
@@ -3714,7 +3714,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 23,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B203 1.jpg"
     ],
@@ -3730,7 +3730,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B204 1.jpg",
       "B204 2.jpg",
@@ -3749,7 +3749,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B211 1.jpg",
       "B211 2.jpg",
@@ -3771,7 +3771,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B215 1.jpg",
       "B215 2.jpg",
@@ -3790,7 +3790,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B162 1.jpg",
       "B162 2.jpg",
@@ -3809,7 +3809,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B233 1.jpg"
     ],
@@ -3828,7 +3828,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 39,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B246 1.jpg"
     ],
@@ -3848,7 +3848,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 40,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B269 1.jpg",
       "B269 2.jpg",
@@ -3866,7 +3866,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B277 1.jpg"
     ],
@@ -3882,7 +3882,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B309 1.jpg",
       "B309 2.jpg",
@@ -3902,7 +3902,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 39,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B313 1.jpg",
       "B313 2.jpg",
@@ -3921,7 +3921,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 22,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B332 1.jpg"
     ],
@@ -3937,7 +3937,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 25,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B362 1.jpg",
       "B362 2.jpg",
@@ -3956,7 +3956,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 49,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B375 1.jpg",
       "B375 2.jpg",
@@ -3974,7 +3974,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B379 1.jpg",
       "B379 2.jpg",
@@ -3993,7 +3993,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 35,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B425 1.jpg",
       "B425 2.jpg",
@@ -4012,7 +4012,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 49,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B428 1.jpg",
       "B428 2.jpg",
@@ -4038,7 +4038,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 35,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B433 1.jpg",
       "B433 2.jpg",
@@ -4058,7 +4058,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B446 1.jpg",
       "B446 2.jpg",
@@ -4077,7 +4077,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B451 1.jpg",
       "B451 2.jpg",
@@ -4101,7 +4101,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B452 1.jpg",
       "B452 2.jpg",
@@ -4124,7 +4124,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B458 1.jpg",
       "B458 2.jpg",
@@ -4145,7 +4145,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B461 1.jpg",
       "B461 2.jpg",
@@ -4165,7 +4165,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B474 1.jpg",
       "B474 2.jpg",
@@ -4184,7 +4184,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 65,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B476 1.jpg",
       "B476 2.jpg",
@@ -4208,7 +4208,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 89,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B477 1.jpg",
       "B477 2.jpg",
@@ -4231,7 +4231,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D004 1.jpg"
     ],
@@ -4252,7 +4252,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D009 1.jpg",
       "D009 2.jpg",
@@ -4275,7 +4275,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 50,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D035 1.jpg",
       "D035 2.jpg",
@@ -4294,7 +4294,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 39,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D045 1.jpg",
       "D045 2.jpg",
@@ -4316,7 +4316,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 39,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D046 1.jpg",
       "D046 2.jpg",
@@ -4334,7 +4334,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D061 1.jpg",
       "D061 2.jpg",
@@ -4359,7 +4359,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 60,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D063 1.jpg",
       "D063 2.jpg",
@@ -4386,7 +4386,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 29,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D089 1.jpg",
       "D089 2.jpg"
@@ -4408,7 +4408,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D138 1.jpg",
       "D138 2.jpg",
@@ -4427,7 +4427,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D131 1.jpg",
       "D131 2.jpg",
@@ -4452,7 +4452,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 55,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D141 1.jpg",
       "D141 2.jpg",
@@ -4480,7 +4480,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 35,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D146 1.jpg",
       "D146 2.jpg",
@@ -4500,7 +4500,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "12cm",
     "precio": 60,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D153 1.jpg",
       "D153 2.jpg",
@@ -4520,7 +4520,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D156 1.jpg",
       "D156 2.jpg",
@@ -4540,7 +4540,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "6cm",
     "precio": 35,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D180 1.jpg",
       "D180 2.jpg",
@@ -4558,7 +4558,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "7,5cm",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D187 1.jpg",
       "D187 2.jpg",
@@ -4578,7 +4578,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "7cm",
     "precio": 50,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D149 1.jpg",
       "D149 2.jpg",
@@ -4596,7 +4596,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D263 1.jpg"
     ],
@@ -4612,7 +4612,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 50,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D230 1.jpg",
       "D230 2.jpg",
@@ -4630,7 +4630,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D241 1.jpg",
       "D241 2.jpg",
@@ -4651,7 +4651,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 50,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D248 1.jpg",
       "D248 2.jpg",
@@ -4671,7 +4671,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 50,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D251 1.jpg",
       "D251 2.jpg",
@@ -4690,7 +4690,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 50,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D218 1.jpg",
       "D218 2.jpg",
@@ -4709,7 +4709,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D284 1.jpg"
     ],
@@ -4725,7 +4725,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 75,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D286 1.jpg",
       "D286 2.jpg",
@@ -4744,7 +4744,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 35,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D289 1.jpg",
       "D289 2.jpg",
@@ -4763,7 +4763,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 38,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D290 1.jpg",
       "D290 2.jpg",
@@ -4785,7 +4785,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 65,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D291 1.jpg",
       "D291 2.jpg",
@@ -4804,7 +4804,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 49,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D292 1.jpg",
       "D292 2.jpg",
@@ -4823,7 +4823,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 25,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "G02 1.jpg",
       "G02 2.jpg",
@@ -4843,7 +4843,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "G05 1.jpg",
       "G05 2.jpg",
@@ -4861,7 +4861,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 30,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "G06 1.jpg",
       "G06 2.jpg",
@@ -4880,7 +4880,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 30,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "G08 1.jpg",
       "G08 2.jpg",
@@ -4899,7 +4899,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "G11 1.jpg",
       "G11 2.jpg",
@@ -4921,7 +4921,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "G14 1.jpg",
       "G14 2.jpg",
@@ -4944,7 +4944,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 49,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "G20 1.jpg",
       "G20 2.jpg",
@@ -4964,7 +4964,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 28,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "G26 1.jpg",
       "G26 2.jpg",
@@ -4986,7 +4986,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 48,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "G41 1.jpg",
       "G41 2.jpg",
@@ -5005,7 +5005,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 42,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "G52 1.jpg",
       "G52 2.jpg",
@@ -5024,7 +5024,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "G54 1.jpg",
       "G54 2.jpg",
@@ -5047,7 +5047,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 35,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "G55 1.jpg"
     ],
@@ -5067,7 +5067,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "B043 1.jpg"
     ],
@@ -5083,7 +5083,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 75,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "C042 1.jpg",
       "C042 2.jpg",
@@ -5107,7 +5107,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "D023 1.jpg",
       "D023 2.jpg",
@@ -5126,7 +5126,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "G40 1.jpg",
       "G40 2.jpg",
@@ -5144,7 +5144,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 79,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "C071 1.jpg",
       "C071 2.jpg",
@@ -5170,7 +5170,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 79,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "C069 1.jpg",
       "C069 2.jpg",
@@ -5188,7 +5188,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 59,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "C113 1.jpg",
       "C113 2.jpg",
@@ -5206,7 +5206,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 75,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "C024 1.jpg",
       "C024 2.jpg",
@@ -5225,7 +5225,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 29,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "C038 1.jpg",
       "C038 2.jpg",
@@ -5244,7 +5244,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 125,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "C040 1.jpg",
       "C040 2.jpg",
@@ -5263,7 +5263,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 59,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "C078 1.jpg",
       "C078 2.jpg",
@@ -5282,7 +5282,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 85,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "C037 1.jpg",
       "C037 2.jpg",
@@ -5301,7 +5301,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 20,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "C013 1.jpg"
     ],
@@ -5317,7 +5317,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 24,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "C013-1 1.jpg"
     ],
@@ -5333,7 +5333,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH001-A 1.jpg"
     ],
@@ -5349,7 +5349,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH001-B 1.jpg"
     ],
@@ -5365,7 +5365,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH001-C 1.jpg"
     ],
@@ -5381,7 +5381,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH002-A 1.jpg"
     ],
@@ -5397,7 +5397,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH002-B 1.jpg"
     ],
@@ -5413,7 +5413,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH002-C 1.jpg"
     ],
@@ -5429,7 +5429,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH003-A 1.jpg"
     ],
@@ -5445,7 +5445,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH003-B 1.jpg"
     ],
@@ -5461,7 +5461,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH003-C 1.jpg"
     ],
@@ -5477,7 +5477,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH007-A 1.jpg"
     ],
@@ -5493,7 +5493,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH007-B 1.jpg"
     ],
@@ -5509,7 +5509,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH007-C 1.jpg"
     ],
@@ -5525,7 +5525,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH008-A 1.jpg"
     ],
@@ -5541,7 +5541,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH008-B 1.jpg"
     ],
@@ -5557,7 +5557,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH008-C 1.jpg"
     ],
@@ -5573,7 +5573,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH008-D 1.jpg"
     ],
@@ -5589,7 +5589,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELH008-E 1.jpg"
     ],
@@ -5605,7 +5605,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW002-A 1.jpg"
     ],
@@ -5621,7 +5621,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW002-B 1.jpg"
     ],
@@ -5637,7 +5637,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW002-C 1.jpg"
     ],
@@ -5653,7 +5653,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW002-D 1.jpg"
     ],
@@ -5669,7 +5669,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW002-E 1.jpg"
     ],
@@ -5685,7 +5685,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW003-A 1.jpg"
     ],
@@ -5701,7 +5701,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW003-B 1.jpg"
     ],
@@ -5717,7 +5717,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW003-C 1.jpg"
     ],
@@ -5733,7 +5733,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW003-D 1.jpg"
     ],
@@ -5749,7 +5749,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW003-E 1.jpg"
     ],
@@ -5765,7 +5765,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW003-F 1.jpg"
     ],
@@ -5781,7 +5781,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW003-G 1.jpg"
     ],
@@ -5797,7 +5797,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW003-H 1.jpg"
     ],
@@ -5813,7 +5813,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW006-A 1.jpg"
     ],
@@ -5829,7 +5829,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW006-B 1.jpg"
     ],
@@ -5845,7 +5845,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW006-C 1.jpg"
     ],
@@ -5861,7 +5861,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 1,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELW006-D 1.jpg"
     ],
@@ -5877,7 +5877,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 295,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELD609 1.jpg"
     ],
@@ -5901,7 +5901,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 295,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELD668 1.jpg"
     ],
@@ -5925,7 +5925,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 295,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELJU616 1.jpg"
     ],
@@ -5947,7 +5947,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 295,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELJU602 1.jpg"
     ],
@@ -5973,7 +5973,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 295,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELJU653 1.jpg"
     ],
@@ -5999,7 +5999,7 @@
     "categoria": "Relojes",
     "medidas": "",
     "precio": 295,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "RELJU686 1.jpg"
     ],
@@ -6026,7 +6026,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 60,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "3220 1.jpg",
       "3220 2.jpg",
@@ -6044,7 +6044,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 35,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "HC0001 1.jpg",
       "HC0001 2.jpg",
@@ -6063,7 +6063,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 195,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-1 1.jpg",
       "NK5294-1 2.jpg"
@@ -6080,7 +6080,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 195,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-2 1.jpg",
       "NK5294-2 2.jpg",
@@ -6099,7 +6099,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 135,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-3 1.jpg"
     ],
@@ -6115,7 +6115,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 135,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-4 1.jpg",
       "NK5294-4 2.jpg"
@@ -6132,7 +6132,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 99,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-5 1.jpg"
     ],
@@ -6148,7 +6148,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 99,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-6 1.jpg",
       "NK5294-6 2.jpg"
@@ -6165,7 +6165,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 99,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-7 1.jpg"
     ],
@@ -6181,7 +6181,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 185,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-8 1.jpg"
     ],
@@ -6197,7 +6197,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 195,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-9 1.jpg"
     ],
@@ -6213,7 +6213,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 165,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BR8894-1 1.jpg",
       "BR8894-1 2.jpg"
@@ -6230,7 +6230,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 235,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-10 1.jpg"
     ],
@@ -6252,7 +6252,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 165,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BR8894-2 1.jpg"
     ],
@@ -6268,7 +6268,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 195,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-11 1.jpg"
     ],
@@ -6284,7 +6284,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "60cm",
     "precio": 90,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-12 1.jpg",
       "NK5294-12 2.jpg",
@@ -6302,7 +6302,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "6 - 8 - 10mm",
     "precio": 135,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-13 1.jpg",
       "NK5294-13 2.jpg",
@@ -6321,7 +6321,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 185,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-14 1.jpg"
     ],
@@ -6337,7 +6337,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 99,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BR8894-3 1.jpg"
     ],
@@ -6353,7 +6353,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 185,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-15 1.jpg"
     ],
@@ -6372,7 +6372,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 159,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-16 1.jpg"
     ],
@@ -6388,7 +6388,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 159,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-17 1.jpg",
       "NK5294-17 2.jpg"
@@ -6405,7 +6405,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 145,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BR8894-4 1.jpg"
     ],
@@ -6421,7 +6421,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 145,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BR8894-5 1.jpg"
     ],
@@ -6437,7 +6437,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 135,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-18 1.jpg"
     ],
@@ -6453,7 +6453,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 165,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BR8894-6 1.jpg",
       "BR8894-6 2.jpg",
@@ -6472,7 +6472,7 @@
     "categoria": "Pulsera acero",
     "medidas": "",
     "precio": 165,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "BR8894-7 1.jpg"
     ],
@@ -6488,7 +6488,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 185,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-19 1.jpg",
       "NK5294-19 2.jpg",
@@ -6506,7 +6506,7 @@
     "categoria": "Gargantilla acero",
     "medidas": "",
     "precio": 165,
-    "estado": "visible",
+    "estado": "Preventa",
     "imagenes": [
       "NK5294-20 1.jpg"
     ],
@@ -6522,7 +6522,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 38,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "G09 1.jpg",
       "G09 2.jpg"
@@ -6539,7 +6539,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "D104 1.jpg",
       "D104 2.jpg"
@@ -6556,7 +6556,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 26,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "B125 1.jpg",
       "B125 2.jpg",
@@ -6574,7 +6574,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "B227 1.jpg",
       "B227 2.jpg",
@@ -6592,7 +6592,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 25,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "B380 1.jpg",
       "B380 2.jpg",
@@ -6612,7 +6612,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 40,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN25311 1.jpg"
     ],
@@ -6631,9 +6631,25 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 55,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN25175 1.jpg"
+    ],
+    "sinColor": true,
+    "permitirSurtido": false,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "FN25008",
+    "nombre": "Set colitas x5",
+    "descripcion": "Set colitas x5",
+    "categoria": "Accesorios para pelo",
+    "medidas": "",
+    "precio": 35,
+    "estado": "Poco stock",
+    "imagenes": [
+      "FN25008 1.jpg"
     ],
     "sinColor": true,
     "permitirSurtido": false,
@@ -6647,7 +6663,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 35,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN25123 1.jpg"
     ],
@@ -6663,7 +6679,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 35,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN25053 1.jpg",
       "FN25053 2.jpg"
@@ -6680,7 +6696,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 35,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN25028 1.jpg",
       "FN25028 2.jpg"
@@ -6697,7 +6713,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 40,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN251058 1.jpg"
     ],
@@ -6713,7 +6729,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 40,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN251053 1.jpg"
     ],
@@ -6729,7 +6745,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "8cm",
     "precio": 40,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN25228 1.jpg",
       "FN25228 2.jpg"
@@ -6746,7 +6762,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN25216 1.jpg",
       "FN25216 2.jpg"
@@ -6763,7 +6779,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN25223 1.jpg",
       "FN25223 2.jpg"
@@ -6780,7 +6796,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 42,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN25230 1.jpg",
       "FN25230 2.jpg"
@@ -6797,7 +6813,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 42,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN25213 1.jpg",
       "FN25213 2.jpg"
@@ -6814,7 +6830,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 33,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN25235 1.jpg",
       "FN25235 2.jpg"
@@ -6831,7 +6847,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN25214 1.jpg",
       "FN25214 2.jpg"
@@ -6848,7 +6864,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 42,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN25232 1.jpg",
       "FN25232 2.jpg"
@@ -6865,7 +6881,7 @@
     "categoria": "Accesorios para pelo",
     "medidas": "",
     "precio": 45,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN251073 1.jpg",
       "FN251073 2.jpg"
@@ -6905,7 +6921,7 @@
     "categoria": "Bandolera infantil",
     "medidas": "10 x 4 x 13cm",
     "precio": 185,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "CBB009 1.jpg",
       "CBB009 2.jpg"
