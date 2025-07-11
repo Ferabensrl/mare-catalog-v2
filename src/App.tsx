@@ -1029,7 +1029,7 @@ const App = () => {
   const [showFilters, setShowFilters] = useState(false);
   const [loading, setLoading] = useState(true);
   const [promoMessage, setPromoMessage] = useState('');
-  const [loadError, setLoadError] = useState(false);
+  const [loadError, setLoadError] = useState<string | null>(null);
 
   // 💾 PERSISTENCIA DEL CARRITO - Cargar al iniciar
   useEffect(() => {
@@ -1095,7 +1095,7 @@ const App = () => {
   useEffect(() => {
     const loadProducts = async () => {
       setLoading(true);
-      setLoadError(false);
+      setLoadError(null);
       try {
         // Cargar productos reales desde JSON
         const response = await fetch(`${import.meta.env.BASE_URL}productos.json`);
@@ -1126,7 +1126,7 @@ const App = () => {
         }
       } catch (error) {
         console.error('Error cargando productos:', error);
-        setLoadError(true);
+        setLoadError('No se pudo cargar el catálogo. Intenta nuevamente más tarde.');
       } finally {
         setLoading(false);
       }
@@ -1501,7 +1501,7 @@ const App = () => {
           </div>
         ) : loadError ? (
           <div className="text-center py-12">
-            <p className="text-lg" style={{ color: '#8F6A50' }}>No se pudo cargar el catálogo. Intenta nuevamente más tarde.</p>
+            <p className="text-lg" style={{ color: '#8F6A50' }}>{loadError}</p>
           </div>
         ) : (
           <>
