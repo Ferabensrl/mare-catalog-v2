@@ -13,6 +13,8 @@ Aplicación web progresiva (PWA) para el catálogo mayorista de accesorios MARÉ
 - ✅ PWA instalable como app
 - ✅ Funciona offline
 - ✅ 100% responsive
+- ✅ Encabezado con logo y tagline "By Feraben SRL"
+- ✅ Opción "Ver solo imágenes grandes" para navegación rápida
 
 ## 🔧 Instalación y Desarrollo
 
@@ -41,3 +43,8 @@ Ejecuta `npm run mensaje` para convertirlo a `public/mensaje.json`. Si el texto 
 ## 🔐 Login simplificado
 
 Al ingresar a la aplicación solo se solicita **Nombre o Razón Social** para personalizar los pedidos.
+
+## 👀 Modo lectura rápida
+
+Presiona el botón **📷 Ver solo imágenes grandes** en la barra superior para ocultar precios y detalles, dejando solo las fotos en una cuadrícula amplia.
+Vuelve a presionarlo para restablecer la vista completa.
