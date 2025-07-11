@@ -71,7 +71,11 @@ const LoginScreen = ({ onLogin }: { onLogin: (data: LoginData) => void }) => {
     >
       <div className="bg-white rounded-2xl shadow-xl p-8 w-full max-w-md">
         <div className="text-center mb-8">
-          <h1 className="text-3xl font-bold mb-2" style={{ color: '#8F6A50' }}>MARÉ</h1>
+          <img
+            src="/logo-mare.png"
+            alt="MARÉ logo"
+            className="mx-auto mb-2 h-12 w-auto sm:h-16"
+          />
           <p style={{ color: '#8F6A50' }}>Catálogo Mayorista</p>
         </div>
         
