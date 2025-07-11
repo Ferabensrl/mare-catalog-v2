@@ -331,11 +331,12 @@ const estadoLabels: Record<string, string> = {
   Novedades: '✨ Novedad'
 };
 
-const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0 }: {
+const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, imagesOnly = false }: {
   product: Product;
   onAddToCart: (producto: Product, selecciones: { [key: string]: number }, surtido?: number, comentario?: string) => void;
   viewMode: 'grid' | 'list';
   quantityInCart?: number;
+  imagesOnly?: boolean;
 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [selecciones, setSelecciones] = useState<{ [key: string]: number }>({});
@@ -411,7 +412,7 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0 }: {
   return (
     <div
       className={`relative bg-white rounded-xl shadow-sm border overflow-hidden hover:shadow-md transition-shadow ${
-        viewMode === 'list' ? 'flex' : ''
+        viewMode === 'list' && !imagesOnly ? 'flex' : ''
       } ${isInCart ? 'border-4 border-[#8F6A50]' : 'border-stone-200'}`}
       style={isInCart ? { backgroundColor: 'rgba(227,212,193,0.4)' } : undefined}
     >
@@ -437,7 +438,7 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0 }: {
       {/* Imágenes con carrusel mejorado */}
       <div className="relative group">
         <div
-          className={`${viewMode === 'grid' ? 'aspect-square' : 'aspect-video w-64'} bg-stone-100 rounded-lg overflow-hidden cursor-pointer relative`}
+          className={`${viewMode === 'grid' ? 'aspect-square' : imagesOnly ? 'aspect-video w-full' : 'aspect-video w-64'} bg-stone-100 rounded-lg overflow-hidden cursor-pointer relative`}
           onClick={() => setShowImageModal(true)}
         >
           {product.estado !== 'visible' && (
@@ -504,6 +505,7 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0 }: {
       </div>
 
       {/* Información del producto */}
+      {!imagesOnly && (
       <div className="p-4 space-y-3 flex-1">
         <div>
           <h3 className="font-semibold" style={{ color: '#8F6A50' }}>{product.nombre}</h3>
@@ -683,6 +685,7 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0 }: {
           </div>
         )}
       </div>
+      )}
       
       {/* Modal de galería de imágenes */}
       <ImageGalleryModal
@@ -1050,6 +1053,7 @@ const App = () => {
   const [showCart, setShowCart] = useState(false);
   const [searchTerm, setSearchTerm] = useState('');
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
+  const [imagesOnly, setImagesOnly] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
   const [loading, setLoading] = useState(true);
   const [promoMessage, setPromoMessage] = useState('');
@@ -1429,7 +1433,7 @@ const App = () => {
               <button
                 onClick={() => setShowFilters(!showFilters)}
                 className="px-4 py-2 rounded-lg transition-colors flex items-center gap-2"
-                style={{ 
+                style={{
                   backgroundColor: showFilters ? '#8F6A50' : '#E3D4C1',
                   color: showFilters ? 'white' : '#8F6A50'
                 }}
@@ -1437,7 +1441,18 @@ const App = () => {
                 <Filter size={20} />
                 Filtros
               </button>
-              
+
+              <button
+                onClick={() => setImagesOnly(!imagesOnly)}
+                className="px-4 py-2 rounded-lg transition-colors flex items-center gap-2"
+                style={{
+                  backgroundColor: imagesOnly ? '#8F6A50' : '#E3D4C1',
+                  color: imagesOnly ? 'white' : '#8F6A50'
+                }}
+              >
+                📷 Ver solo imágenes grandes
+              </button>
+
               <button
                 onClick={() => setViewMode(viewMode === 'grid' ? 'list' : 'grid')}
                 className="px-4 py-2 rounded-lg transition-colors"
@@ -1554,6 +1569,7 @@ const App = () => {
                   onAddToCart={addToCart}
                   viewMode={viewMode}
                   quantityInCart={getQuantityForProduct(product.codigo)}
+                  imagesOnly={imagesOnly}
                 />
               ))}
             </div>
