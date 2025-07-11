@@ -429,10 +429,16 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0 }: {
       )}
       {/* Imágenes con carrusel mejorado */}
       <div className="relative group">
-        <div 
+        <div
           className={`${viewMode === 'grid' ? 'aspect-square' : 'aspect-video w-64'} bg-stone-100 rounded-lg overflow-hidden cursor-pointer relative`}
           onClick={() => setShowImageModal(true)}
         >
+          {product.estado !== 'visible' && (
+            <div className="absolute top-1 left-1 flex items-center gap-1 bg-amber-200/80 text-amber-900 rounded px-1.5 py-0.5 text-xs">
+              <Info size={12} />
+              <span className="capitalize">{estadoLabels[product.estado] || product.estado}</span>
+            </div>
+          )}
           <img
             src={convertGoogleDriveUrl(product.imagenes[currentImageIndex])}
             alt={product.nombre}
