@@ -1289,7 +1289,7 @@ const App = () => {
     let mensaje = `📲 NUEVO PEDIDO – ${fecha}\n👤 Cliente: ${loginData?.nombreCliente}\n\n📦 *Detalle del pedido:*\n\n`;
 
     cart.forEach(item => {
-      mensaje += `🔹 ${item.producto.codigo}\n`;
+      mensaje += `🔹 ${item.producto.codigo} – ${item.producto.nombre}\n`;
       
       Object.entries(item.selecciones).forEach(([opcion, cantidad]) => {
         if (cantidad > 0) {
