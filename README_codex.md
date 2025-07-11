@@ -12,6 +12,12 @@ Este repositorio es una copia paralela del sistema oficial de catálogo mayorist
 - JSON generado desde Excel (productos)
 - GitHub + Vercel
 
+## ✨ Mejoras implementadas
+
+- Header con el logo de MARÉ y el tagline "By Feraben SRL".
+- Botón **📷 Ver solo imágenes grandes** para ocultar los detalles y mostrar solo las fotos.
+  Presionarlo nuevamente restaura la vista completa.
+
 ## 🧠 Instrucciones para Codex
 
 🧾 Tarea solicitada –1) Reemplazar encabezado
