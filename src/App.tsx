@@ -402,11 +402,14 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0 }: {
     setCurrentImageIndex((prev) => (prev - 1 + product.imagenes.length) % product.imagenes.length);
   };
 
+  const isInCart = quantityInCart > 0;
+
   return (
     <div
       className={`relative bg-white rounded-xl shadow-sm border overflow-hidden hover:shadow-md transition-shadow ${
         viewMode === 'list' ? 'flex' : ''
-      } ${quantityInCart > 0 ? 'border-[#8F6A50]' : 'border-stone-200'}`}
+      } ${isInCart ? 'border-4 border-[#8F6A50]' : 'border-stone-200'}`}
+      style={isInCart ? { backgroundColor: 'rgba(227,212,193,0.4)' } : undefined}
     >
       {viewMode === 'grid' && quantityInCart > 0 && (
         <div
