@@ -408,7 +408,7 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0 }: {
         viewMode === 'list' ? 'flex' : ''
       } ${quantityInCart > 0 ? 'border-[#8F6A50]' : 'border-stone-200'}`}
     >
-      {quantityInCart > 0 && (
+      {viewMode === 'grid' && quantityInCart > 0 && (
         <div
           className="absolute top-2 right-2 flex items-center gap-1 bg-white rounded-full px-2 py-1 shadow"
           style={{ border: '1px solid #8F6A50', color: '#8F6A50' }}
