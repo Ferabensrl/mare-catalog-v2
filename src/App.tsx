@@ -1316,7 +1316,16 @@ const App = () => {
         <div className="max-w-7xl mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <h1 className="text-2xl font-bold" style={{ color: '#8F6A50' }}>MARÉ</h1>
+              <div className="flex flex-col">
+                <img
+                  src="/logo-mare.png"
+                  alt="MARÉ logo"
+                  className="h-8 sm:h-10 w-auto"
+                />
+                <span className="text-xs" style={{ color: '#8F6A50' }}>
+                  By Feraben SRL
+                </span>
+              </div>
               {loginData && (
                 <div className="hidden sm:block">
                   <p className="text-sm" style={{ color: '#8F6A50' }}>
