@@ -216,7 +216,11 @@ const ImageGalleryModal = ({ product, isOpen, onClose, initialImageIndex = 0 }: 
             <h3 className="font-semibold">{product.nombre}</h3>
             <p className="text-sm opacity-80">{product.codigo}</p>
           </div>
-          <button onClick={onClose} className="text-white hover:text-gray-300">
+          <button
+            onClick={onClose}
+            className="text-white hover:text-gray-300"
+            aria-label="Cerrar galería"
+          >
             <X size={32} />
           </button>
         </div>
@@ -687,6 +691,7 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0 }: {
             <button
               onClick={() => setShowVariantesModal(false)}
               className="absolute -top-10 right-0 text-white hover:text-gray-300 z-10"
+              aria-label="Cerrar variantes"
             >
               <X size={32} />
             </button>
@@ -851,7 +856,12 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
                 🧹 Limpiar
               </button>
             )}
-            <button onClick={onClose} className="hover:opacity-70" style={{ color: '#8F6A50' }}>
+            <button
+              onClick={onClose}
+              className="hover:opacity-70"
+              style={{ color: '#8F6A50' }}
+              aria-label="Cerrar pedido"
+            >
               <X size={24} />
             </button>
           </div>
@@ -891,6 +901,7 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
                         onClick={() => onRemoveItem(index)}
                         className="text-red-500 hover:text-red-700 p-1"
                         disabled={isLoading}
+                        aria-label="Quitar producto"
                       >
                         <X size={18} />
                       </button>
@@ -1314,6 +1325,7 @@ const App = () => {
                   className="hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium hover:opacity-80 transition-all"
                   style={{ backgroundColor: '#f87171', color: 'white' }}
                   title="Limpiar todo el pedido"
+                  aria-label="Limpiar todo el pedido"
                 >
                   🧹 Limpiar
                 </button>
@@ -1341,6 +1353,7 @@ const App = () => {
                 className="hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium hover:opacity-80 transition-all"
                 style={{ backgroundColor: '#6b7280', color: 'white' }}
                 title="Cerrar sesión"
+                aria-label="Cerrar sesión"
               >
                 🚪 Salir
               </button>
@@ -1359,6 +1372,7 @@ const App = () => {
                     onClick={confirmClearCart}
                     className="px-2 py-1 rounded text-xs font-medium"
                     style={{ backgroundColor: '#f87171', color: 'white' }}
+                    aria-label="Limpiar todo el pedido"
                   >
                     🧹 Limpiar
                   </button>
@@ -1367,6 +1381,7 @@ const App = () => {
                   onClick={handleLogout}
                   className="px-2 py-1 rounded text-xs font-medium"
                   style={{ backgroundColor: '#6b7280', color: 'white' }}
+                  aria-label="Cerrar sesión"
                 >
                   🚪 Salir
                 </button>
