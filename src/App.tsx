@@ -74,7 +74,7 @@ const LoginScreen = ({ onLogin }: { onLogin: (data: LoginData) => void }) => {
           <img
             src="/logo-mare.png"
             alt="MARÉ logo"
-            className="mx-auto mb-2 h-12 w-auto sm:h-16"
+            className="mx-auto mb-2 h-20 w-auto sm:h-28"
           />
           <p style={{ color: '#8F6A50' }}>Catálogo Mayorista</p>
         </div>
@@ -1328,7 +1328,7 @@ const App = () => {
                 <img
                   src="/logo-mare.png"
                   alt="MARÉ logo"
-                  className="h-8 sm:h-10 w-auto"
+                  className="h-10 sm:h-14 w-auto"
                 />
                 <span className="text-xs" style={{ color: '#8F6A50' }}>
                   By Feraben SRL
