@@ -12,27 +12,24 @@ Este repositorio es una copia paralela del sistema oficial de catálogo mayorist
 - JSON generado desde Excel (productos)
 - GitHub + Vercel
 
-## ✨ Mejoras implementadas
+✅ PEDIDO PARA CODEX
+Hola Codex, necesito aplicar dos ajustes finales a la app para cerrar esta etapa:
 
-- Header con el logo de MARÉ y el tagline "By Feraben SRL".
-- Botón **📷 Ver solo imágenes grandes** para ocultar los detalles y mostrar solo las fotos.
-  Presionarlo nuevamente restaura la vista completa.
+1) Mostrar descripción del producto en el mensaje de WhatsApp
+Actualmente, al generar el mensaje de pedido por WhatsApp solo se ve el código del producto. Quiero que también aparezca la descripción del producto, justo al lado del código, tal como ya está implementado correctamente en el PDF.
+Esto es para que el personal de depósito pueda identificar los productos fácilmente cuando preparan los pedidos.
 
-## 🧠 Instrucciones para Codex
+🔸 Ejemplo deseado en el mensaje:
 
-🧾 Tarea solicitada –1) Reemplazar encabezado
+yaml
+Copiar
+Editar
+🛒 LB233 – Aros Acero Dorado  
+• Negro: 2 unidades  
+• Blanco: 3 unidades  
+2) Agrandar los logos
+En la pantalla de Login, quiero que el logo de MARÉ se vea mucho más grande, que sea lo primero que se destaque al ingresar.
 
-Reemplazar el texto plano "MARÉ" del header por el logotipo de la marca, ubicado en public/logo-mare.png. Asegurarse que:
+En el header del catálogo, también me gustaría que el logo esté un poco más grande, sin romper el diseño, pero que se luzca mejor especialmente en pantallas de PC.
 
-El logo sea responsive en celulares y escritorio.
-
-Debajo del logo aparezca un texto más pequeño que diga: By Feraben SRL, en color marrón (#8F6A50) o tono suave, con estilo elegante y sin interferir visualmente.
-El logo ya esta creado en el repositorio en la ubicacion public/logo-mare.png
-
-El header mantenga la estética general y no se superponga con los botones de carrito, WhatsApp, etc.
-
-2)Modo lectura rápida por categoría (estilo "cuadrícula sin detalles") 
-✅ Idea UX:
-Muchos clientes solo quieren scrollear rápido visualmente.
-Agregá un switch: “📷 Ver solo imágenes grandes” → oculta precios, códigos, etc.
-Ideal para celulares.
+Gracias Codex por todo, con esto dejamos cerrada la app para empezar a trabajar con ella 😊
