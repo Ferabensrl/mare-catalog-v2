@@ -13,7 +13,8 @@ const STATIC_ASSETS = [
   '/productos.json',
   '/mensaje.json',
   '/icon-192.png',
-  '/icon-512.png'
+  '/icon-512.png',
+  '/logo-mare.png'
 ];
 
 // Instalar Service Worker
