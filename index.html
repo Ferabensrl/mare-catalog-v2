@@ -201,8 +201,22 @@
       
       // Verificar conexión inicial
       document.addEventListener('DOMContentLoaded', updateConnectionStatus);
-      
+
       console.log('🚀 MARÉ PWA - Inicialización completa');
+
+      // Ocultar boton flotante de Vercel si se inyecta
+      document.addEventListener('DOMContentLoaded', () => {
+        const selectors = [
+          '[data-testid="staging-inspector-toggle"]',
+          '#vercel-insights',
+          '.vercel-insights',
+          'a[href*="vercel.com"]',
+          'iframe[src*="vercel"]'
+        ];
+        selectors.forEach((sel) => {
+          document.querySelectorAll(sel).forEach((el) => el.remove());
+        });
+      });
     </script>
   </body>
 </html>
