@@ -53,3 +53,18 @@ html {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+/* Ocultar boton flotante de Vercel */
+[data-testid="staging-inspector-toggle"],
+#vercel-insights,
+.vercel-insights,
+a[href*="vercel.com"] {
+  display: none !important;
+}
+
+/* Fallback to ocultar cualquier iframe o contenedor de Vercel */
+[id*="vercel"],
+[class*="vercel"],
+iframe[src*="vercel"] {
+  display: none !important;
+}
