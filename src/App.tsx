@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ShoppingCart, Plus, Minus, Filter, X, Eye, MessageCircle, Mail, Search, Grid, List, ZoomIn, ChevronLeft, ChevronRight, Info, Download, Check } from 'lucide-react';
+import { ShoppingCart, Plus, Minus, Filter, X, Eye, MessageCircle, Mail, Search, Grid, List, ZoomIn, ChevronLeft, ChevronRight, ChevronDown, Info, Download, Check } from 'lucide-react';
 import { jsPDF } from 'jspdf';
 
 // Tipos TypeScript
@@ -1055,6 +1055,8 @@ const App = () => {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [imagesOnly, setImagesOnly] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
+  const filtersRef = useRef<HTMLDivElement | null>(null);
+  const [showScrollHint, setShowScrollHint] = useState(false);
   const [loading, setLoading] = useState(true);
   const [promoMessage, setPromoMessage] = useState('');
   const [loadError, setLoadError] = useState<string | null>(null);
@@ -1284,6 +1286,21 @@ const App = () => {
     }, 0);
   };
 
+  // Verificar si los filtros sobrepasan la altura disponible
+  useEffect(() => {
+    if (showFilters && filtersRef.current) {
+      const el = filtersRef.current;
+      const checkOverflow = () => {
+        setShowScrollHint(el.scrollHeight > el.clientHeight);
+      };
+      checkOverflow();
+      window.addEventListener('resize', checkOverflow);
+      return () => window.removeEventListener('resize', checkOverflow);
+    } else {
+      setShowScrollHint(false);
+    }
+  }, [showFilters, categories, estadoOptions]);
+
   const generateWhatsAppMessage = (comentarioFinal: string = '') => {
     const fecha = new Date().toLocaleDateString('es-AR');
     let mensaje = `📲 NUEVO PEDIDO – ${fecha}\n👤 Cliente: ${loginData?.nombreCliente}\n\n📦 *Detalle del pedido:*\n\n`;
@@ -1465,7 +1482,8 @@ const App = () => {
           
           {/* Filtros de categoría */}
           {showFilters && (
-            <div className="mt-4 p-4 rounded-lg" style={{ backgroundColor: '#E3D4C1' }}>
+            <div ref={filtersRef} className="overflow-y-auto max-h-[60vh] relative">
+              <div className="mt-4 p-4 rounded-lg" style={{ backgroundColor: '#E3D4C1' }}>
               <h3 className="font-medium mb-3" style={{ color: '#8F6A50' }}>Categorías</h3>
               <div className="flex flex-wrap gap-2">
                 <button
@@ -1519,6 +1537,12 @@ const App = () => {
                   </button>
                 ))}
               </div>
+              </div>
+              {showScrollHint && (
+                <div className="filter-scroll-hint">
+                  <ChevronDown size={24} />
+                </div>
+              )}
             </div>
           )}
           

@@ -53,3 +53,16 @@ html {
   0% { transform: rotate(0deg); }
   100% { transform: rotate(360deg); }
 }
+
+/* Indicador de scroll para los filtros */
+.filter-scroll-hint {
+  pointer-events: none;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0.25rem;
+  background-image: linear-gradient(to top, rgba(227, 212, 193, 1), rgba(227, 212, 193, 0));
+}
