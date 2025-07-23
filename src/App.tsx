@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ShoppingCart, Plus, Minus, Filter, X, Eye, MessageCircle, Mail, Search, Grid, List, ZoomIn, ChevronLeft, ChevronRight, Info, Download, Check } from 'lucide-react';
+import { ShoppingCart, Plus, Minus, Filter, X, Eye, EyeOff, MessageCircle, Mail, Search, Grid, List, ZoomIn, ChevronLeft, ChevronRight, ChevronDown, Info, Download, Check } from 'lucide-react';
 import { jsPDF } from 'jspdf';
 
 // Tipos TypeScript
@@ -1055,6 +1055,8 @@ const App = () => {
   const [viewMode, setViewMode] = useState<'grid' | 'list'>('grid');
   const [imagesOnly, setImagesOnly] = useState(false);
   const [showFilters, setShowFilters] = useState(false);
+  const filtersRef = useRef<HTMLDivElement | null>(null);
+  const [showScrollHint, setShowScrollHint] = useState(false);
   const [loading, setLoading] = useState(true);
   const [promoMessage, setPromoMessage] = useState('');
   const [loadError, setLoadError] = useState<string | null>(null);
@@ -1284,6 +1286,21 @@ const App = () => {
     }, 0);
   };
 
+  // Verificar si los filtros sobrepasan la altura disponible
+  useEffect(() => {
+    if (showFilters && filtersRef.current) {
+      const el = filtersRef.current;
+      const checkOverflow = () => {
+        setShowScrollHint(el.scrollHeight > el.clientHeight);
+      };
+      checkOverflow();
+      window.addEventListener('resize', checkOverflow);
+      return () => window.removeEventListener('resize', checkOverflow);
+    } else {
+      setShowScrollHint(false);
+    }
+  }, [showFilters, categories, estadoOptions]);
+
   const generateWhatsAppMessage = (comentarioFinal: string = '') => {
     const fecha = new Date().toLocaleDateString('es-AR');
     let mensaje = `📲 NUEVO PEDIDO – ${fecha}\n👤 Cliente: ${loginData?.nombreCliente}\n\n📦 *Detalle del pedido:*\n\n`;
@@ -1321,7 +1338,7 @@ const App = () => {
     <div className="min-h-screen" style={{ backgroundColor: '#E3D4C1' }}>
       {/* Header */}
       <header className="bg-white shadow-sm border-b border-stone-200 sticky top-0 z-40">
-        <div className="max-w-7xl mx-auto px-4 py-4">
+        <div className="max-w-7xl mx-auto px-4 py-2 sm:py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
               <div className="flex flex-col">
@@ -1416,7 +1433,7 @@ const App = () => {
           )}
           
           {/* Barra de búsqueda y filtros */}
-          <div className="mt-4 flex flex-col sm:flex-row gap-4">
+          <div className="mt-2 sm:mt-4 flex flex-col sm:flex-row gap-4">
             <div className="flex-1 relative">
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2" style={{ color: '#8F6A50' }} size={20} />
               <input
@@ -1432,31 +1449,38 @@ const App = () => {
             <div className="flex gap-2">
               <button
                 onClick={() => setShowFilters(!showFilters)}
-                className="px-4 py-2 rounded-lg transition-colors flex items-center gap-2"
+                className="p-2 sm:px-4 sm:py-2 rounded-lg transition-colors flex items-center gap-2"
                 style={{
                   backgroundColor: showFilters ? '#8F6A50' : '#E3D4C1',
                   color: showFilters ? 'white' : '#8F6A50'
                 }}
+                title="Filtros"
+                aria-label="Filtros"
               >
                 <Filter size={20} />
-                Filtros
+                <span className="hidden sm:inline">Filtros</span>
               </button>
 
               <button
                 onClick={() => setImagesOnly(!imagesOnly)}
-                className="px-4 py-2 rounded-lg transition-colors flex items-center gap-2"
+                className="p-2 sm:px-4 sm:py-2 rounded-lg transition-colors flex items-center gap-2"
                 style={{
                   backgroundColor: imagesOnly ? '#8F6A50' : '#E3D4C1',
                   color: imagesOnly ? 'white' : '#8F6A50'
                 }}
+                title="Ver solo imágenes grandes"
+                aria-label="Ver solo imágenes grandes"
               >
-                📷 Ver solo imágenes grandes
+                {imagesOnly ? <EyeOff size={20} /> : <Eye size={20} />}
+                <span className="hidden sm:inline">Ver solo imágenes</span>
               </button>
 
               <button
                 onClick={() => setViewMode(viewMode === 'grid' ? 'list' : 'grid')}
-                className="px-4 py-2 rounded-lg transition-colors"
+                className="p-2 sm:px-4 sm:py-2 rounded-lg transition-colors"
                 style={{ backgroundColor: '#E3D4C1', color: '#8F6A50' }}
+                title={viewMode === 'grid' ? 'Vista de lista' : 'Vista de cuadricula'}
+                aria-label={viewMode === 'grid' ? 'Vista de lista' : 'Vista de cuadricula'}
               >
                 {viewMode === 'grid' ? <List size={20} /> : <Grid size={20} />}
               </button>
@@ -1465,7 +1489,8 @@ const App = () => {
           
           {/* Filtros de categoría */}
           {showFilters && (
-            <div className="mt-4 p-4 rounded-lg" style={{ backgroundColor: '#E3D4C1' }}>
+            <div ref={filtersRef} className="overflow-y-auto max-h-[60vh] relative">
+              <div className="mt-4 p-4 rounded-lg" style={{ backgroundColor: '#E3D4C1' }}>
               <h3 className="font-medium mb-3" style={{ color: '#8F6A50' }}>Categorías</h3>
               <div className="flex flex-wrap gap-2">
                 <button
@@ -1519,6 +1544,12 @@ const App = () => {
                   </button>
                 ))}
               </div>
+              </div>
+              {showScrollHint && (
+                <div className="filter-scroll-hint">
+                  <ChevronDown size={24} />
+                </div>
+              )}
             </div>
           )}
           
