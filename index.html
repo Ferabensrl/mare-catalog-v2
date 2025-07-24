@@ -41,20 +41,17 @@
             registration.addEventListener('updatefound', () => {
               const newWorker = registration.installing;
               console.log('🔄 Nueva versión del Service Worker detectada');
-              
+
               newWorker.addEventListener('statechange', () => {
-                if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                  // Hay una nueva versión disponible
-                  console.log('📱 Nueva versión de la app disponible');
-                  
-                  // Opcional: Mostrar notificación al usuario
-                  if (confirm('🆕 Nueva versión disponible!\n\n¿Quieres actualizar la app ahora?')) {
-                    newWorker.postMessage({ type: 'SKIP_WAITING' });
-                    window.location.reload();
-                  }
+                if (newWorker.state === 'installed') {
+                  newWorker.postMessage({ type: 'SKIP_WAITING' });
                 }
               });
             });
+
+            // Verificar periódicamente si hay nuevas versiones
+            registration.update();
+            setInterval(() => registration.update(), 60 * 60 * 1000);
             
             // Escuchar cuando el Service Worker toma control
             navigator.serviceWorker.addEventListener('controllerchange', () => {
