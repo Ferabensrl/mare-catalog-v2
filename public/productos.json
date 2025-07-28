@@ -12,8 +12,7 @@
       "LB010 2.jpg",
       "LB010 3.jpg",
       "LB010 4.jpg",
-      "LB010 5.jpg",
-      "LB010 6.jpg"
+      "LB010 5.jpg"
     ],
     "sinColor": false,
     "permitirSurtido": true,
@@ -297,33 +296,6 @@
     },
     "variantes": {},
     "imagenVariantes": "MB005 VARIANTES.jpg"
-  },
-  {
-    "codigo": "W128",
-    "nombre": "Billetera dama",
-    "descripcion": "Billetera dama Larga",
-    "categoria": "Marroquineria",
-    "medidas": "20 X 10,5 X 2,5cm",
-    "precio": 150,
-    "estado": "Preventa",
-    "imagenes": [
-      "W128 1.jpg",
-      "W128 2.jpg",
-      "W128 3.jpg",
-      "W128 4.jpg"
-    ],
-    "sinColor": false,
-    "permitirSurtido": true,
-    "colores": {
-      "Negro": true,
-      "Rosado": true,
-      "Marron Claro": true,
-      "Bordeaux": true,
-      "Rojo": true,
-      "Azul": true
-    },
-    "variantes": {},
-    "imagenVariantes": "W128 VARIANTES.jpg"
   },
   {
     "codigo": "W274",
@@ -12922,5 +12894,32 @@
     "permitirSurtido": false,
     "colores": {},
     "variantes": {}
+  },
+  {
+    "codigo": "W128",
+    "nombre": "Billetera dama",
+    "descripcion": "Billetera dama Larga",
+    "categoria": "Marroquineria",
+    "medidas": "20 X 10,5 X 2,5cm",
+    "precio": 150,
+    "estado": "Preventa",
+    "imagenes": [
+      "W128 1.jpg",
+      "W128 2.jpg",
+      "W128 3.jpg",
+      "W128 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Rosado": true,
+      "Marron Claro": true,
+      "Bordeaux": true,
+      "Rojo": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "W128 VARIANTES.jpg"
   }
 ]
