@@ -82,8 +82,8 @@
   },
   {
     "codigo": "LB001",
-    "nombre": "Cinto elastizado",
-    "descripcion": "Cinto de dama",
+    "nombre": "Cinto de dama",
+    "descripcion": "Cinto elastizado",
     "categoria": "Marroquineria",
     "medidas": "100cm",
     "precio": 175,
@@ -157,8 +157,8 @@
   },
   {
     "codigo": "LB008",
-    "nombre": "Cinto elastizado",
-    "descripcion": "Cinto de dama",
+    "nombre": "Cinto de dama",
+    "descripcion": "Cinto elastizado",
     "categoria": "Marroquineria",
     "medidas": "105cm",
     "precio": 150,
@@ -299,8 +299,8 @@
   },
   {
     "codigo": "W274",
-    "nombre": "Billetera dama",
-    "descripcion": "Billetera dama Larga",
+    "nombre": "Billetera dama Larga",
+    "descripcion": "Billetera dama",
     "categoria": "Marroquineria",
     "medidas": "19 X 9,8 X 2,5CM",
     "precio": 190,
@@ -324,7 +324,7 @@
   },
   {
     "codigo": "W140",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama Larga",
     "descripcion": "Billetera dama Larga",
     "categoria": "Marroquineria",
     "medidas": "19,5 X 10 X 2,5CM",
@@ -351,7 +351,7 @@
   },
   {
     "codigo": "W253",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama Larga",
     "descripcion": "Billetera dama Larga",
     "categoria": "Marroquineria",
     "medidas": "19 X 10,5 X 2CM",
@@ -378,7 +378,7 @@
   },
   {
     "codigo": "W801",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama Larga",
     "descripcion": "Billetera dama Larga",
     "categoria": "Marroquineria",
     "medidas": "19,5 X 9,5 X 2,5",
@@ -404,7 +404,7 @@
   },
   {
     "codigo": "W252",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama Larga",
     "descripcion": "Billetera dama Larga",
     "categoria": "Marroquineria",
     "medidas": "",
@@ -431,7 +431,7 @@
   },
   {
     "codigo": "W254",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama Larga",
     "descripcion": "Billetera dama Larga",
     "categoria": "Marroquineria",
     "medidas": "14,8 X 9 X 2,2CM",
@@ -459,7 +459,7 @@
   },
   {
     "codigo": "W802",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama Larga",
     "descripcion": "Billetera dama Larga",
     "categoria": "Marroquineria",
     "medidas": "20 X 5 X 12,5CM",
@@ -487,7 +487,7 @@
   },
   {
     "codigo": "W292",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera Juvenil",
     "descripcion": "Billetera Juvenil",
     "categoria": "Marroquineria",
     "medidas": "11,5 x 9,3 x 3cm",
@@ -515,7 +515,7 @@
   },
   {
     "codigo": "W002",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama corta",
     "descripcion": "Billetera dama corta",
     "categoria": "Marroquineria",
     "medidas": "11,5 x 10,5 x 2cm",
@@ -542,8 +542,8 @@
   },
   {
     "codigo": "W0005",
-    "nombre": "Billetera dama",
-    "descripcion": "Tarjetero / Monedero",
+    "nombre": "Billetera dama corta",
+    "descripcion": "Billetera dama corta",
     "categoria": "Marroquineria",
     "medidas": "11,5 x 8 x 4cm",
     "precio": 235,
@@ -568,8 +568,8 @@
   },
   {
     "codigo": "W2126",
-    "nombre": "Billetera dama",
-    "descripcion": "Billetera / Tarjetero",
+    "nombre": "Billetera dama corta",
+    "descripcion": "Billetera dama corta",
     "categoria": "Marroquineria",
     "medidas": "11,5 X 2,3 X 8,5CM",
     "precio": 105,
@@ -593,7 +593,7 @@
   },
   {
     "codigo": "W307-2B",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama corta",
     "descripcion": "Billetera dama corta",
     "categoria": "Marroquineria",
     "medidas": "11,5 x 9 x 2cm",
@@ -622,7 +622,7 @@
   },
   {
     "codigo": "W219",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama corta",
     "descripcion": "Billetera dama corta",
     "categoria": "Marroquineria",
     "medidas": "14 X 9,5 X 2CM",
@@ -649,7 +649,7 @@
   },
   {
     "codigo": "W807 B",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama corta",
     "descripcion": "Billetera dama corta",
     "categoria": "Marroquineria",
     "medidas": "12,5 X 3 X 10CM",
@@ -676,7 +676,7 @@
   },
   {
     "codigo": "W808",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama corta",
     "descripcion": "Billetera dama corta",
     "categoria": "Marroquineria",
     "medidas": "11 X 9 X 3CM",
@@ -704,7 +704,7 @@
   },
   {
     "codigo": "W0028",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama corta",
     "descripcion": "Billetera dama corta",
     "categoria": "Marroquineria",
     "medidas": "11 X 8 X 4CM",
@@ -731,7 +731,7 @@
   },
   {
     "codigo": "W865",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama corta",
     "descripcion": "Billetera dama corta",
     "categoria": "Marroquineria",
     "medidas": "11 X 3 X 9CM",
@@ -755,7 +755,7 @@
   },
   {
     "codigo": "W280",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama corta",
     "descripcion": "Billetera dama corta",
     "categoria": "Marroquineria",
     "medidas": "11,5 X 2 X 9CM",
@@ -778,8 +778,8 @@
   },
   {
     "codigo": "W286",
-    "nombre": "Billetera dama",
-    "descripcion": "Billetera / Tarjetero",
+    "nombre": "Billetera dama corta",
+    "descripcion": "Billetera dama corta",
     "categoria": "Marroquineria",
     "medidas": "10,5 X 8 X 2,5CM",
     "precio": 105,
@@ -805,7 +805,7 @@
   },
   {
     "codigo": "W291",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama corta",
     "descripcion": "Billetera dama corta",
     "categoria": "Marroquineria",
     "medidas": "11,5 X 9 X 3CM",
@@ -833,7 +833,7 @@
   },
   {
     "codigo": "W293",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama Larga",
     "descripcion": "Billetera dama Larga",
     "categoria": "Marroquineria",
     "medidas": "18,6 X 9,5 X 3,2CM",
@@ -860,7 +860,7 @@
   },
   {
     "codigo": "W1008",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama Larga",
     "descripcion": "Billetera dama Larga",
     "categoria": "Marroquineria",
     "medidas": "19 X 10 X 2CM",
@@ -885,7 +885,7 @@
   },
   {
     "codigo": "W266",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama Larga",
     "descripcion": "Billetera dama Larga",
     "categoria": "Marroquineria",
     "medidas": "19 X 10 X 3CM",
@@ -908,7 +908,7 @@
   },
   {
     "codigo": "W297",
-    "nombre": "Billetera dama",
+    "nombre": "Billetera dama Larga",
     "descripcion": "Billetera dama Larga",
     "categoria": "Marroquineria",
     "medidas": "19 X 10 X 2,5CM",
@@ -937,8 +937,8 @@
   },
   {
     "codigo": "W383-1",
-    "nombre": "Bandolera Juvenil",
-    "descripcion": "Bandolera/Billetera juvenil",
+    "nombre": "Bandolera/Billetera juvenil",
+    "descripcion": "Bandolera juvenil",
     "categoria": "Marroquineria",
     "medidas": "13 x 11 x 1cm",
     "precio": 145,
@@ -964,8 +964,8 @@
   },
   {
     "codigo": "W271",
-    "nombre": "Billetera dama",
-    "descripcion": "Tarjetero / Monedero",
+    "nombre": "Billetera dama corta",
+    "descripcion": "Billetera dama corta",
     "categoria": "Marroquineria",
     "medidas": "10,7 X 8 X 2,5CM",
     "precio": 120,
@@ -990,7 +990,7 @@
   },
   {
     "codigo": "H001",
-    "nombre": "Bandolera",
+    "nombre": "Bandolera para celular",
     "descripcion": "Bandolera para celular",
     "categoria": "Marroquineria",
     "medidas": "19,5 X 11 X 4,5CM",
@@ -1018,7 +1018,7 @@
   },
   {
     "codigo": "H002",
-    "nombre": "Bandolera",
+    "nombre": "Bandolera para celular",
     "descripcion": "Bandolera para celular",
     "categoria": "Marroquineria",
     "medidas": "18 X 13,5 X 2CM",
@@ -1046,7 +1046,7 @@
   },
   {
     "codigo": "H003",
-    "nombre": "Bandolera",
+    "nombre": "Bandolera para celular",
     "descripcion": "Bandolera para celular",
     "categoria": "Marroquineria",
     "medidas": "18 X 11,5 X 2CM",
@@ -1074,7 +1074,7 @@
   },
   {
     "codigo": "H004",
-    "nombre": "Bandolera",
+    "nombre": "Bandolera para celular",
     "descripcion": "Bandolera para celular",
     "categoria": "Marroquineria",
     "medidas": "19 X 10,5 X 4CM",
@@ -1101,7 +1101,7 @@
   },
   {
     "codigo": "H005",
-    "nombre": "Bandolera",
+    "nombre": "Bandolera para celular",
     "descripcion": "Bandolera para celular",
     "categoria": "Marroquineria",
     "medidas": "18 X 11,5 X 6CM",
@@ -1484,7 +1484,7 @@
   {
     "codigo": "LD7044",
     "nombre": "Bolso de dama impermeable",
-    "descripcion": "Bolso de dama",
+    "descripcion": "Bolsos",
     "categoria": "Marroquineria",
     "medidas": "37 x 16 x 32 Cm",
     "precio": 595,
@@ -1586,7 +1586,7 @@
   {
     "codigo": "LD214",
     "nombre": "Bolso de tela",
-    "descripcion": "Bolso de dama",
+    "descripcion": "Bolsos",
     "categoria": "Marroquineria",
     "medidas": "30 x 27 x 10cm",
     "precio": 850,
@@ -1614,7 +1614,7 @@
   {
     "codigo": "LD6305",
     "nombre": "Bolso / Mochila",
-    "descripcion": "Bolso de dama",
+    "descripcion": "Bolsos",
     "categoria": "Marroquineria",
     "medidas": "",
     "precio": 695,
@@ -1638,7 +1638,7 @@
   {
     "codigo": "LD8861",
     "nombre": "Bolso casual / urban",
-    "descripcion": "Bolso de dama",
+    "descripcion": "Bolsos",
     "categoria": "Marroquineria",
     "medidas": "35 x 27 x 12cm",
     "precio": 850,
@@ -1690,7 +1690,7 @@
   {
     "codigo": "LB5531",
     "nombre": "Mochila lisa impermeable",
-    "descripcion": "Mochila dama",
+    "descripcion": "Mochilas",
     "categoria": "Marroquineria",
     "medidas": "27 x 22 x 12cm",
     "precio": 695,
@@ -1762,7 +1762,7 @@
   {
     "codigo": "LB6620",
     "nombre": "Bolso / Bandolera",
-    "descripcion": "Bolso de dama",
+    "descripcion": "Bolsos",
     "categoria": "Marroquineria",
     "medidas": "",
     "precio": 595,
@@ -7784,7 +7784,7 @@
   {
     "codigo": "FNB1024",
     "nombre": "Mochila lisa impermeable",
-    "descripcion": "Mochila",
+    "descripcion": "Mochilas",
     "categoria": "Marroquineria",
     "medidas": "28 x 22 x 12CM",
     "precio": 790,
@@ -7809,7 +7809,7 @@
   {
     "codigo": "FN5012",
     "nombre": "Mochila lisa impermeable",
-    "descripcion": "Mochila",
+    "descripcion": "Mochilas",
     "categoria": "Marroquineria",
     "medidas": "34 X 28 X 15CM",
     "precio": 690,
@@ -7835,7 +7835,7 @@
   {
     "codigo": "BAG9018",
     "nombre": "Mochila lisa con llavero",
-    "descripcion": "Mochila",
+    "descripcion": "Mochilas",
     "categoria": "Marroquineria",
     "medidas": "41 x 30 x 12cm",
     "precio": 450,
@@ -7860,7 +7860,7 @@
   {
     "codigo": "LB6308",
     "nombre": "Mochila/Bolsito",
-    "descripcion": "Mochila",
+    "descripcion": "Mochilas",
     "categoria": "Marroquineria",
     "medidas": "35 x 39 x 16cm",
     "precio": 550,
@@ -7987,7 +7987,7 @@
   {
     "codigo": "FN5018",
     "nombre": "Bolsito / Necessaire",
-    "descripcion": "Bolsito / Necessaire",
+    "descripcion": "Porta cosmeticos",
     "categoria": "Marroquineria",
     "medidas": "",
     "precio": 395,
@@ -8056,7 +8056,7 @@
   {
     "codigo": "FN1031",
     "nombre": "Porta laptop",
-    "descripcion": "Porta laptop",
+    "descripcion": "Morral Hombre",
     "categoria": "Caballero",
     "medidas": "36 x 27 x 3,5cm",
     "precio": 650,
