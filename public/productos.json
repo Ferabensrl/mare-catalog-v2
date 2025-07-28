@@ -2581,7 +2581,7 @@
     "variantes": {}
   },
   {
-    "codigo": "NK0008-2MM/50",
+    "codigo": "NK0008-2MM-50",
     "nombre": "Cadena acero rolo cuadrado",
     "descripcion": "Cadena acero",
     "categoria": "Acero",
@@ -2589,7 +2589,7 @@
     "precio": 65,
     "estado": "Preventa",
     "imagenes": [
-      "NK0008-2MM/50 1.jpg"
+      "NK0008-2MM-50 1.jpg"
     ],
     "sinColor": true,
     "permitirSurtido": false,
@@ -2597,7 +2597,7 @@
     "variantes": {}
   },
   {
-    "codigo": "NK0055-0.4MM/50",
+    "codigo": "NK0055-0,4MM-50",
     "nombre": "Cadena acero finita",
     "descripcion": "Cadena acero",
     "categoria": "Acero",
@@ -2605,7 +2605,7 @@
     "precio": 39,
     "estado": "Preventa",
     "imagenes": [
-      "NK0055-0.4MM/50 1.jpg"
+      "NK0055-0,4MM-50 1.jpg"
     ],
     "sinColor": true,
     "permitirSurtido": false,
@@ -2613,7 +2613,7 @@
     "variantes": {}
   },
   {
-    "codigo": "NK0055-0.6MM/50",
+    "codigo": "NK0055-0,6MM-50",
     "nombre": "Cadena acero fina",
     "descripcion": "Cadena acero",
     "categoria": "Acero",
@@ -2621,7 +2621,7 @@
     "precio": 49,
     "estado": "Preventa",
     "imagenes": [
-      "NK0055-0.6MM/50 1.jpg"
+      "NK0055-0,6MM-50 1.jpg"
     ],
     "sinColor": true,
     "permitirSurtido": false,
@@ -2629,7 +2629,7 @@
     "variantes": {}
   },
   {
-    "codigo": "NK0065-6MM/60",
+    "codigo": "NK0065-6MM-60",
     "nombre": "Cadena acero gruesa",
     "descripcion": "Cadena acero",
     "categoria": "Acero",
@@ -2637,7 +2637,7 @@
     "precio": 95,
     "estado": "Preventa",
     "imagenes": [
-      "NK0065-6MM/60 1.jpg"
+      "NK0065-6MM-60 1.jpg"
     ],
     "sinColor": true,
     "permitirSurtido": false,
@@ -2645,7 +2645,7 @@
     "variantes": {}
   },
   {
-    "codigo": "NK0122-2MM/50",
+    "codigo": "NK0122-2MM-50",
     "nombre": "Cadena acero turbillon",
     "descripcion": "Cadena acero",
     "categoria": "Acero",
@@ -2653,7 +2653,7 @@
     "precio": 75,
     "estado": "Preventa",
     "imagenes": [
-      "NK0122-2MM/50 1.jpg"
+      "NK0122-2MM-50 1.jpg"
     ],
     "sinColor": true,
     "permitirSurtido": false,
@@ -2661,7 +2661,7 @@
     "variantes": {}
   },
   {
-    "codigo": "NK0122-2.5MM/50",
+    "codigo": "NK0122-2,5MM-50",
     "nombre": "Cadena acero turbillon",
     "descripcion": "Cadena acero",
     "categoria": "Acero",
@@ -2669,7 +2669,7 @@
     "precio": 80,
     "estado": "Preventa",
     "imagenes": [
-      "NK0122-2.5MM/50 1.jpg"
+      "NK0122-2,5MM-50 1.jpg"
     ],
     "sinColor": true,
     "permitirSurtido": false,
@@ -2677,7 +2677,7 @@
     "variantes": {}
   },
   {
-    "codigo": "NK0128-0.5MM/45",
+    "codigo": "NK0128-0,5MM-45",
     "nombre": "Cadena acero finita",
     "descripcion": "Cadena acero",
     "categoria": "Acero",
@@ -2685,7 +2685,7 @@
     "precio": 39,
     "estado": "Preventa",
     "imagenes": [
-      "NK0128-0.5MM/45 1.jpg"
+      "NK0128-0,5MM-45 1.jpg"
     ],
     "sinColor": true,
     "permitirSurtido": false,
@@ -2693,7 +2693,7 @@
     "variantes": {}
   },
   {
-    "codigo": "NK0128-0.6MM/50",
+    "codigo": "NK0128-0,6MM-50",
     "nombre": "Cadena acero finita",
     "descripcion": "Cadena acero",
     "categoria": "Acero",
@@ -2701,7 +2701,7 @@
     "precio": 48,
     "estado": "Preventa",
     "imagenes": [
-      "NK0128-0.6MM/50 1.jpg"
+      "NK0128-0,6MM-50 1.jpg"
     ],
     "sinColor": true,
     "permitirSurtido": false,
@@ -2709,7 +2709,7 @@
     "variantes": {}
   },
   {
-    "codigo": "NK0128-0.8MM/50",
+    "codigo": "NK0128-0,8MM-50",
     "nombre": "Cadena acero fina",
     "descripcion": "Cadena acero",
     "categoria": "Acero",
@@ -2717,7 +2717,7 @@
     "precio": 59,
     "estado": "Preventa",
     "imagenes": [
-      "NK0128-0.8MM/50 1.jpg"
+      "NK0128-0,8MM-50 1.jpg"
     ],
     "sinColor": true,
     "permitirSurtido": false,
@@ -6568,22 +6568,6 @@
     ],
     "sinColor": false,
     "permitirSurtido": true,
-    "colores": {},
-    "variantes": {}
-  },
-  {
-    "codigo": "FN25008",
-    "nombre": "Set colitas x5",
-    "descripcion": "Set colitas",
-    "categoria": "Accesorios para pelo",
-    "medidas": "",
-    "precio": 35,
-    "estado": "visible",
-    "imagenes": [
-      "FN25008 1.jpg"
-    ],
-    "sinColor": true,
-    "permitirSurtido": false,
     "colores": {},
     "variantes": {}
   },
@@ -11734,7 +11718,7 @@
     "variantes": {}
   },
   {
-    "codigo": "21030",
+    "codigo": "210030",
     "nombre": "Caravanas enchapadas oro",
     "descripcion": "Caravanas enchapadas oro",
     "categoria": "ZEnchapado",
@@ -11742,7 +11726,7 @@
     "precio": 75,
     "estado": "visible",
     "imagenes": [
-      "21030 1.jpg"
+      "210030 1.jpg"
     ],
     "sinColor": true,
     "permitirSurtido": false,
