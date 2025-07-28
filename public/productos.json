@@ -6544,157 +6544,6 @@
     "variantes": {}
   },
   {
-    "codigo": "FN25053",
-    "nombre": "Colero",
-    "descripcion": "Colero",
-    "categoria": "Accesorios para pelo",
-    "medidas": "",
-    "precio": 35,
-    "estado": "visible",
-    "imagenes": [
-      "FN25053 1.jpg",
-      "FN25053 2.jpg"
-    ],
-    "sinColor": false,
-    "permitirSurtido": true,
-    "colores": {},
-    "variantes": {}
-  },
-  {
-    "codigo": "FN25028",
-    "nombre": "Colero",
-    "descripcion": "Colero",
-    "categoria": "Accesorios para pelo",
-    "medidas": "",
-    "precio": 35,
-    "estado": "visible",
-    "imagenes": [
-      "FN25028 1.jpg",
-      "FN25028 2.jpg"
-    ],
-    "sinColor": false,
-    "permitirSurtido": true,
-    "colores": {},
-    "variantes": {}
-  },
-  {
-    "codigo": "FN251058",
-    "nombre": "Set x 4 pinzas",
-    "descripcion": "Set pinzas",
-    "categoria": "Accesorios para pelo",
-    "medidas": "",
-    "precio": 40,
-    "estado": "visible",
-    "imagenes": [
-      "FN251058 1.jpg"
-    ],
-    "sinColor": false,
-    "permitirSurtido": true,
-    "colores": {},
-    "variantes": {}
-  },
-  {
-    "codigo": "FN251053",
-    "nombre": "Set x 4 pinzas",
-    "descripcion": "Set pinzas",
-    "categoria": "Accesorios para pelo",
-    "medidas": "",
-    "precio": 40,
-    "estado": "visible",
-    "imagenes": [
-      "FN251053 1.jpg"
-    ],
-    "sinColor": false,
-    "permitirSurtido": true,
-    "colores": {},
-    "variantes": {}
-  },
-  {
-    "codigo": "FN25228",
-    "nombre": "Pinza",
-    "descripcion": "Pinza",
-    "categoria": "Accesorios para pelo",
-    "medidas": "8cm",
-    "precio": 40,
-    "estado": "visible",
-    "imagenes": [
-      "FN25228 1.jpg",
-      "FN25228 2.jpg"
-    ],
-    "sinColor": false,
-    "permitirSurtido": true,
-    "colores": {},
-    "variantes": {}
-  },
-  {
-    "codigo": "FN25230",
-    "nombre": "Pinza",
-    "descripcion": "Pinza",
-    "categoria": "Accesorios para pelo",
-    "medidas": "",
-    "precio": 42,
-    "estado": "visible",
-    "imagenes": [
-      "FN25230 1.jpg",
-      "FN25230 2.jpg"
-    ],
-    "sinColor": false,
-    "permitirSurtido": true,
-    "colores": {},
-    "variantes": {}
-  },
-  {
-    "codigo": "FN25213",
-    "nombre": "Pinza",
-    "descripcion": "Pinza",
-    "categoria": "Accesorios para pelo",
-    "medidas": "",
-    "precio": 42,
-    "estado": "visible",
-    "imagenes": [
-      "FN25213 1.jpg",
-      "FN25213 2.jpg"
-    ],
-    "sinColor": false,
-    "permitirSurtido": true,
-    "colores": {},
-    "variantes": {}
-  },
-  {
-    "codigo": "FN25214",
-    "nombre": "Pinza",
-    "descripcion": "Pinza",
-    "categoria": "Accesorios para pelo",
-    "medidas": "",
-    "precio": 45,
-    "estado": "visible",
-    "imagenes": [
-      "FN25214 1.jpg",
-      "FN25214 2.jpg"
-    ],
-    "sinColor": false,
-    "permitirSurtido": true,
-    "colores": {},
-    "variantes": {}
-  },
-  {
-    "codigo": "FN25232",
-    "nombre": "Pinza",
-    "descripcion": "Pinza",
-    "categoria": "Accesorios para pelo",
-    "medidas": "",
-    "precio": 42,
-    "estado": "visible",
-    "imagenes": [
-      "FN25232 1.jpg",
-      "FN25232 2.jpg"
-    ],
-    "sinColor": false,
-    "permitirSurtido": true,
-    "colores": {},
-    "variantes": {}
-  },
-  {
     "codigo": "BAG2002",
     "nombre": "Bolsito peludo unicornio",
     "descripcion": "Bolsito infantil",
@@ -7191,7 +7040,7 @@
     "categoria": "Marroquineria",
     "medidas": "23 X 15 X 11CM",
     "precio": 495,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "B1004 1.jpg",
       "B1004 2.jpg",
@@ -7919,7 +7768,7 @@
     "categoria": "Marroquineria",
     "medidas": "30 x 13 x 8cm",
     "precio": 295,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN4003 1.jpg",
       "FN4003 2.jpg",
@@ -7931,26 +7780,6 @@
     "colores": {},
     "variantes": {},
     "imagenVariantes": "FN4003 VARIANTES.jpg"
-  },
-  {
-    "codigo": "B3002",
-    "nombre": "Riñonera casual",
-    "descripcion": "Riñonera",
-    "categoria": "Marroquineria",
-    "medidas": "22 x 14 x 12cm",
-    "precio": 690,
-    "estado": "visible",
-    "imagenes": [
-      "B3002 1.jpg",
-      "B3002 2.jpg"
-    ],
-    "sinColor": false,
-    "permitirSurtido": false,
-    "colores": {
-      "Verde": true
-    },
-    "variantes": {},
-    "imagenVariantes": "B3002 VARIANTES.jpg"
   },
   {
     "codigo": "FNB1024",
