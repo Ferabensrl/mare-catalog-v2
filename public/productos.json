@@ -12896,18 +12896,18 @@
     "variantes": {}
   },
   {
-    "codigo": "W128",
+    "codigo": "W1281",
     "nombre": "Billetera dama",
-    "descripcion": "Billetera dama Larga",
+    "descripcion": "Billetera dama larga",
     "categoria": "Marroquineria",
-    "medidas": "20 X 10,5 X 2,5cm",
+    "medidas": "20 x 10,5 x 2,5cm",
     "precio": 150,
     "estado": "Preventa",
     "imagenes": [
-      "W128 1.jpg",
-      "W128 2.jpg",
-      "W128 3.jpg",
-      "W128 4.jpg"
+      "W1281 1.jpg",
+      "W1281 2.jpg",
+      "W1281 3.jpg",
+      "W1281 4.jpg"
     ],
     "sinColor": false,
     "permitirSurtido": true,
@@ -12920,6 +12920,6 @@
       "Azul": true
     },
     "variantes": {},
-    "imagenVariantes": "W128 VARIANTES.jpg"
+    "imagenVariantes": "W1281 VARIANTES.jpg"
   }
 ]
