@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MARÉ - Catálogo Mayorista</title>
+    <meta name="description" content="Catálogo mayorista de accesorios MARÉ. Cintos, carteras, bijouterie y más.">
+    <meta name="theme-color" content="#8F6A50">
+    
+    <!-- PWA Meta Tags -->
+    <link rel="manifest" href="./manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="MARÉ">
+    <link rel="apple-touch-icon" href="./icon-192.png">
+    
+    <!-- PWA para Windows -->
+    <meta name="msapplication-TileImage" content="/icon-512.png">
+    <meta name="msapplication-TileColor" content="#8F6A50">
+    <script type="module" crossorigin src="./assets/index-59350a7e.js"></script>
+    <link rel="stylesheet" href="./assets/index-b2c3ed94.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    
+    <!-- Firebase Push Notifications Integration -->
+    
+    
+    <!-- Service Worker Registration -->
+    <script>
+      // Registrar Service Worker para PWA
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', async () => {
+          try {
+            console.log('🔧 Registrando Service Worker...');
+            
+            const registration = await navigator.serviceWorker.register('/sw.js', {
+              scope: '/'
+            });
+            
+            console.log('✅ Service Worker registrado exitosamente:', registration);
+            
+            // Escuchar actualizaciones del Service Worker
+            registration.addEventListener('updatefound', () => {
+              const newWorker = registration.installing;
+              console.log('🔄 Nueva versión del Service Worker detectada');
+
+              newWorker.addEventListener('statechange', () => {
+                if (newWorker.state === 'installed') {
+                  newWorker.postMessage({ type: 'SKIP_WAITING' });
+                }
+              });
+            });
+
+            // Verificar periódicamente si hay nuevas versiones
+            registration.update();
+            setInterval(() => registration.update(), 60 * 60 * 1000);
+            
+            // Escuchar cuando el Service Worker toma control
+            navigator.serviceWorker.addEventListener('controllerchange', () => {
+              console.log('🔄 Service Worker actualizado, recargando...');
+              window.location.reload();
+            });
+            
+            // Verificar si ya hay un Service Worker activo
+            if (registration.active) {
+              console.log('✅ Service Worker ya activo');
+            }
+            
+          } catch (error) {
+            console.error('❌ Error registrando Service Worker:', error);
+          }
+        });
+        
+        // Escuchar mensajes del Service Worker
+        navigator.serviceWorker.addEventListener('message', (event) => {
+          if (event.data && event.data.version) {
+            console.log('📱 Versión del Service Worker:', event.data.version);
+          }
+        });
+      } else {
+        console.warn('⚠️ Service Workers no soportados en este navegador');
+      }
+
+      // Detectar si la app es instalable (PWA)
+      let deferredPrompt;
+      
+      window.addEventListener('beforeinstallprompt', (e) => {
+        console.log('📱 App es instalable como PWA');
+        
+        // Prevenir el prompt automático
+        e.preventDefault();
+        
+        // Guardar el evento para usarlo después
+        deferredPrompt = e;
+        
+        // Mostrar indicador de que se puede instalar
+        showInstallButton();
+      });
+      
+      function showInstallButton() {
+        // Crear botón de instalación si no existe
+        if (!document.getElementById('install-button')) {
+          const installButton = document.createElement('button');
+          installButton.id = 'install-button';
+          installButton.innerHTML = '📱 Instalar App';
+          installButton.style.cssText = `
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #8F6A50;
+            color: white;
+            border: none;
+            padding: 12px 16px;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            font-size: 14px;
+            transition: transform 0.2s, opacity 0.2s;
+          `;
+          
+          installButton.addEventListener('mouseover', () => {
+            installButton.style.transform = 'scale(1.05)';
+          });
+          
+          installButton.addEventListener('mouseout', () => {
+            installButton.style.transform = 'scale(1)';
+          });
+          
+          installButton.addEventListener('click', async () => {
+            if (deferredPrompt) {
+              // Mostrar el prompt de instalación
+              deferredPrompt.prompt();
+              
+              // Esperar la respuesta del usuario
+              const { outcome } = await deferredPrompt.userChoice;
+              
+              if (outcome === 'accepted') {
+                console.log('✅ Usuario aceptó instalar la PWA');
+              } else {
+                console.log('❌ Usuario rechazó instalar la PWA');
+              }
+              
+              // Limpiar el prompt
+              deferredPrompt = null;
+              installButton.remove();
+            }
+          });
+          
+          // Agregar el botón al DOM después de que se cargue la app
+          setTimeout(() => {
+            document.body.appendChild(installButton);
+            
+            // Animar entrada
+            installButton.style.opacity = '0';
+            installButton.style.transform = 'translateY(100px)';
+            
+            setTimeout(() => {
+              installButton.style.transition = 'all 0.3s ease-out';
+              installButton.style.opacity = '1';
+              installButton.style.transform = 'translateY(0)';
+            }, 100);
+          }, 3000); // Esperar 3 segundos para no interrumpir la carga
+        }
+      }
+      
+      // Detectar cuando la app se instala
+      window.addEventListener('appinstalled', () => {
+        console.log('🎉 PWA instalada exitosamente');
+        
+        // Remover botón de instalación si existe
+        const installButton = document.getElementById('install-button');
+        if (installButton) {
+          installButton.remove();
+        }
+        
+        // Opcional: Mostrar mensaje de bienvenida
+        setTimeout(() => {
+          alert('🎉 ¡MARÉ instalado correctamente!\n\nYa puedes usar la app desde tu pantalla de inicio.');
+        }, 1000);
+      });
+      
+      // Debug: Mostrar estado de conexión
+      function updateConnectionStatus() {
+        const isOnline = navigator.onLine;
+        console.log(isOnline ? '🌐 Online' : '📱 Offline');
+        
+        // Opcional: Mostrar indicador visual de estado
+        const connectionIndicator = document.getElementById('connection-status');
+        if (connectionIndicator) {
+          connectionIndicator.textContent = isOnline ? '🌐' : '📱';
+          connectionIndicator.title = isOnline ? 'Online' : 'Offline - Funcionando con datos guardados';
+        }
+      }
+      
+      // Escuchar cambios de conectividad
+      window.addEventListener('online', updateConnectionStatus);
+      window.addEventListener('offline', updateConnectionStatus);
+      
+      // Verificar conexión inicial
+      document.addEventListener('DOMContentLoaded', updateConnectionStatus);
+      
+      console.log('🚀 MARÉ PWA - Inicialización completa');
+    </script>
+  </body>
+</html>

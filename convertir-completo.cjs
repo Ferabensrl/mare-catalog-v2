@@ -93,6 +93,14 @@ try {
         }
     }
 
+    // Ordenar productos: primero por categoría, luego por descripción
+    productos.sort((a, b) => {
+        if (a.categoria !== b.categoria) {
+            return a.categoria.localeCompare(b.categoria);
+        }
+        return a.descripcion.localeCompare(b.descripcion);
+    });
+
     // Guardar JSON
     fs.writeFileSync('./public/productos.json', JSON.stringify(productos, null, 2));
 

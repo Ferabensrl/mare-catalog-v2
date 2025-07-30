@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Simple - MARÉ Notifications</title>
+</head>
+<body>
+    <h1>🔔 Test Simple Notificaciones MARÉ</h1>
+    <button onclick="testSimple()">TEST SIMPLE</button>
+    <div id="log"></div>
+
+    <script>
+        async function testSimple() {
+            const log = document.getElementById('log');
+            
+            try {
+                // Test básico sin Firebase
+                if ('Notification' in window) {
+                    log.innerHTML += '<p>✅ Soporte de notificaciones: SÍ</p>';
+                    
+                    const permission = await Notification.requestPermission();
+                    log.innerHTML += '<p>🔔 Permiso: ' + permission + '</p>';
+                    
+                    if (permission === 'granted') {
+                        new Notification('🔥 MARÉ', {
+                            body: 'Test simple funcionando!',
+                            icon: '/icon-192.png'
+                        });
+                        log.innerHTML += '<p>✅ Notificación enviada!</p>';
+                    }
+                } else {
+                    log.innerHTML += '<p>❌ No hay soporte</p>';
+                }
+            } catch (error) {
+                log.innerHTML += '<p>❌ Error: ' + error.message + '</p>';
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firebase Setup - MARÉ</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #F5F0E8 0%, #E8DDD4 100%);
+            padding: 20px;
+            margin: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            color: #6B4E37;
+            margin-bottom: 30px;
+        }
+        .status {
+            background: #F5F0E8;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 4px solid #8F6A50;
+        }
+        .btn {
+            background: linear-gradient(135deg, #D4B5A0, #8F6A50);
+            color: #F5F0E8;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: 600;
+            margin: 5px;
+        }
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(143, 106, 80, 0.3);
+        }
+        .log {
+            background: #1e1e1e;
+            color: #00ff00;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            max-height: 300px;
+            overflow-y: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔥 Firebase Setup - MARÉ</h1>
+            <p>Configuración inicial de notificaciones push</p>
+        </div>
+
+        <div class="status" id="status">
+            <h3>📊 Estado</h3>
+            <p>Iniciando configuración...</p>
+        </div>
+
+        <div>
+            <button class="btn" onclick="testFirebase()">🧪 Test Firebase</button>
+            <button class="btn" onclick="testNotifications()">🔔 Test Notificaciones</button>
+            <button class="btn" onclick="openManager()">⚙️ Abrir Manager</button>
+            <button class="btn" onclick="openCatalog()">📱 Abrir Catálogo</button>
+        </div>
+
+        <div class="log" id="log"></div>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script type="module">
+        // Firebase imports
+        import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+        import { getMessaging, getToken, onMessage } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-messaging.js';
+        import { getAnalytics } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-analytics.js';
+
+        // Configuración
+        const firebaseConfig = {
+            apiKey: "AIzaSyAKQnyX92kFwm5R3XCJHSldB7I1nATI4i8",
+            authDomain: "mare-notifications.firebaseapp.com",
+            projectId: "mare-notifications",
+            storageBucket: "mare-notifications.firebasestorage.app",
+            messagingSenderId: "247760169079",
+            appId: "1:247760169079:web:f434638500d4cc84093e72",
+            measurementId: "G-J3BZH45FHM"
+        };
+
+        const vapidKey = "BBKXwLsVytTSPwEoVmfH0CzZTsxZvHGT_uEexRTi5Obppt11TxmqtRdMQme65TTva1G6PujZHutpKtd2vu-7PPU";
+
+        // Log function
+        function addLog(message, type = 'info') {
+            const log = document.getElementById('log');
+            const timestamp = new Date().toLocaleTimeString();
+            const icon = type === 'error' ? '❌' : type === 'success' ? '✅' : 'ℹ️';
+            const logEntry = document.createElement('div');
+            logEntry.innerHTML = `[${timestamp}] ${icon} ${message}`;
+            log.appendChild(logEntry);
+            log.scrollTop = log.scrollHeight;
+        }
+
+        // Initialize Firebase
+        let app, messaging, analytics;
+        
+        try {
+            app = initializeApp(firebaseConfig);
+            analytics = getAnalytics(app);
+            messaging = getMessaging(app);
+            
+            addLog('Firebase inicializado correctamente', 'success');
+            updateStatus('✅ Firebase conectado');
+            
+            // Make available globally
+            window.firebaseApp = app;
+            window.firebaseMessaging = messaging;
+            window.firebaseAnalytics = analytics;
+            
+        } catch (error) {
+            addLog('Error inicializando Firebase: ' + error.message, 'error');
+            updateStatus('❌ Error en Firebase');
+        }
+
+        function updateStatus(message) {
+            document.getElementById('status').innerHTML = `<h3>📊 Estado</h3><p>${message}</p>`;
+        }
+
+        // Global functions
+        window.testFirebase = async function() {
+            try {
+                addLog('Probando conexión Firebase...');
+                
+                if (app) {
+                    addLog('✅ App inicializada: ' + app.name, 'success');
+                }
+                
+                if (analytics) {
+                    addLog('✅ Analytics activo', 'success');
+                }
+                
+                if (messaging) {
+                    addLog('✅ Messaging disponible', 'success');
+                }
+                
+                updateStatus('✅ Firebase funcionando perfectamente');
+                
+            } catch (error) {
+                addLog('Error en test: ' + error.message, 'error');
+            }
+        };
+
+        window.testNotifications = async function() {
+            try {
+                addLog('Probando notificaciones...');
+                
+                // Check browser support
+                if (!('Notification' in window)) {
+                    throw new Error('Notificaciones no soportadas');
+                }
+                
+                // Request permission
+                const permission = await Notification.requestPermission();
+                addLog('Permiso: ' + permission);
+                
+                if (permission === 'granted') {
+                    // Get token
+                    const token = await getToken(messaging, { vapidKey });
+                    addLog('Token obtenido: ' + token.substring(0, 50) + '...', 'success');
+                    
+                    // Show test notification
+                    new Notification('🔥 MARÉ Test', {
+                        body: 'Notificaciones funcionando correctamente!',
+                        icon: '/icon-192.png'
+                    });
+                    
+                    updateStatus('✅ Notificaciones activas');
+                    
+                } else {
+                    addLog('Permisos denegados', 'error');
+                    updateStatus('❌ Sin permisos de notificación');
+                }
+                
+            } catch (error) {
+                addLog('Error en notificaciones: ' + error.message, 'error');
+                updateStatus('❌ Error en notificaciones');
+            }
+        };
+
+        window.openManager = function() {
+            window.open('./notifications-manager.html', '_blank');
+        };
+
+        window.openCatalog = function() {
+            window.open('./index.html', '_blank');
+        };
+
+        // Listen for foreground messages
+        onMessage(messaging, (payload) => {
+            addLog('Mensaje recibido: ' + payload.notification.title, 'success');
+            console.log('Message received. ', payload);
+        });
+
+        // Initial status
+        addLog('🔥 Sistema iniciado');
+        addLog('Proyecto: mare-notifications');
+        addLog('VAPID configurado');
+    </script>
+</body>
+</html>

@@ -1,0 +1,674 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mare Catálogo Manager</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #F5F0E8 0%, #E8DDD4 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #8F6A50 0%, #6B4E37 100%);
+            color: #F5F0E8;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .main-content {
+            padding: 40px;
+        }
+
+        .actions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .action-card {
+            background: #FDFCFA;
+            border-radius: 15px;
+            padding: 25px;
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .action-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(143, 106, 80, 0.2);
+            border-color: #D4B5A0;
+        }
+
+        .action-card h3 {
+            color: #6B4E37;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .action-card p {
+            color: #8F6A50;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #D4B5A0, #8F6A50);
+            color: #F5F0E8;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            width: 100%;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn:hover {
+            background: linear-gradient(135deg, #8F6A50, #6B4E37);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(143, 106, 80, 0.4);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+
+        .btn.danger {
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+        }
+
+        .btn.danger:hover {
+            background: linear-gradient(135deg, #c0392b, #a93226);
+            box-shadow: 0 5px 15px rgba(231, 76, 60, 0.4);
+        }
+
+        .btn.success {
+            background: linear-gradient(135deg, #D4B5A0, #8F6A50);
+        }
+
+        .btn.success:hover {
+            background: linear-gradient(135deg, #8F6A50, #6B4E37);
+            box-shadow: 0 5px 15px rgba(143, 106, 80, 0.4);
+        }
+
+        .mensaje-section {
+            background: #F9F7F4;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            border-left: 5px solid #D4B5A0;
+        }
+
+        .mensaje-section h3 {
+            color: #6B4E37;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+        }
+
+        .textarea-container {
+            position: relative;
+            margin-bottom: 20px;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 120px;
+            padding: 15px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            font-family: inherit;
+            font-size: 1em;
+            resize: vertical;
+            transition: border-color 0.3s ease;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #D4B5A0;
+            box-shadow: 0 0 0 3px rgba(212, 181, 160, 0.2);
+        }
+
+        .commit-message {
+            margin-bottom: 20px;
+        }
+
+        .commit-message input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            font-size: 1em;
+            transition: border-color 0.3s ease;
+        }
+
+        .commit-message input:focus {
+            outline: none;
+            border-color: #D4B5A0;
+            box-shadow: 0 0 0 3px rgba(212, 181, 160, 0.2);
+        }
+
+        .log-container {
+            background: #6B4E37;
+            color: #F5F0E8;
+            padding: 20px;
+            border-radius: 10px;
+            font-family: 'Courier New', monospace;
+            min-height: 200px;
+            max-height: 400px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            margin-top: 20px;
+            border: 2px solid #8F6A50;
+        }
+
+        .log-container:empty::before {
+            content: "Los mensajes de progreso aparecerán aquí...";
+            color: #D4B5A0;
+            font-style: italic;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .status-ready { background: #27ae60; }
+        .status-working { background: #f39c12; animation: pulse 1.5s infinite; }
+        .status-error { background: #e74c3c; }
+
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+
+        .icon {
+            font-size: 1.5em;
+        }
+
+        .footer {
+            background: #E8DDD4;
+            padding: 20px;
+            text-align: center;
+            color: #8F6A50;
+            font-size: 0.9em;
+        }
+
+        .loading {
+            opacity: 0.6;
+            pointer-events: none;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🛍️ Mare Manager Central</h1>
+            <p>Gestión automática del catálogo B2B y website institucional</p>
+        </div>
+
+        <div class="main-content">
+            <!-- Sección de Mensaje Promocional -->
+            <div class="mensaje-section">
+                <h3>📢 Mensaje Promocional</h3>
+                <div class="textarea-container">
+                    <textarea id="mensajeText" placeholder="Escribe aquí el mensaje promocional que aparecerá en la portada del catálogo..."></textarea>
+                </div>
+                <div class="commit-message">
+                    <input type="text" id="mensajeCommit" placeholder="Mensaje del commit (ej: Actualizo mensaje promocional)" value="Actualizo mensaje promocional">
+                </div>
+                <button class="btn success" onclick="actualizarMensaje()">
+                    📢 Actualizar Mensaje
+                </button>
+            </div>
+
+            <!-- Grid de Acciones Principales -->
+            <div class="actions-grid">
+                <div class="action-card">
+                    <h3><span class="icon">⚡</span> Proceso Completo</h3>
+                    <p>Actualiza productos desde Excel, sube imágenes nuevas y hace commit automático de todo.</p>
+                    <div class="commit-message">
+                        <input type="text" id="completoCommit" placeholder="Mensaje del commit" value="Actualizo productos e imágenes">
+                    </div>
+                    <button class="btn" onclick="procesoCompleto()">
+                        ⚡ Ejecutar Todo
+                    </button>
+                </div>
+
+                <div class="action-card">
+                    <h3><span class="icon">📊</span> Solo Productos</h3>
+                    <p>Convierte el Excel a JSON y actualiza solo los productos sin tocar las imágenes.</p>
+                    <div class="commit-message">
+                        <input type="text" id="productosCommit" placeholder="Mensaje del commit" value="Actualizo productos">
+                    </div>
+                    <button class="btn" onclick="actualizarProductos()">
+                        📊 Actualizar Productos
+                    </button>
+                </div>
+
+                <div class="action-card">
+                    <h3><span class="icon">🖼️</span> Solo Imágenes</h3>
+                    <p>Sube solo las imágenes nuevas que hayas agregado a la carpeta public/imagenes.</p>
+                    <div class="commit-message">
+                        <input type="text" id="imagenesCommit" placeholder="Mensaje del commit" value="Actualizo imágenes">
+                    </div>
+                    <button class="btn" onclick="subirImagenes()">
+                        🖼️ Subir Imágenes
+                    </button>
+                </div>
+
+                <div class="action-card">
+                    <h3><span class="icon">🗑️</span> Limpiar Imágenes</h3>
+                    <p>Detecta y elimina automáticamente las imágenes que ya no están siendo usadas en el catálogo.</p>
+                    <div class="commit-message">
+                        <input type="text" id="limpiarCommit" placeholder="Mensaje del commit" value="Limpio imágenes no utilizadas">
+                    </div>
+                    <button class="btn danger" onclick="limpiarImagenes()">
+                        🗑️ Limpiar Huérfanas
+                    </button>
+                </div>
+
+                <div class="action-card">
+                    <h3><span class="icon">🌐</span> Actualizar Website</h3>
+                    <p>Sincroniza productos e imágenes del catálogo B2B hacia el website institucional mareuy.com (sin precios).</p>
+                    <div class="commit-message">
+                        <input type="text" id="websiteCommit" placeholder="Mensaje del commit" value="Sincronizo productos a website institucional">
+                    </div>
+                    <button class="btn success" onclick="actualizarWebsite()">
+                        🌐 Sincronizar Website
+                    </button>
+                </div>
+
+                <div class="action-card">
+                    <h3><span class="icon">🧹</span> Limpiar Website</h3>
+                    <p>Elimina imágenes no utilizadas del repositorio website para mantenerlo optimizado y liviano.</p>
+                    <div class="commit-message">
+                        <input type="text" id="websiteLimpiarCommit" placeholder="Mensaje del commit" value="Limpio imágenes no utilizadas del website">
+                    </div>
+                    <button class="btn danger" onclick="limpiarWebsite()">
+                        🧹 Limpiar Website
+                    </button>
+                </div>
+            </div>
+
+            <!-- Log de Progreso -->
+            <div class="log-container" id="logContainer"></div>
+        </div>
+
+        <div class="footer">
+            <p>✨ Mare Manager Central - Control completo del ecosistema MARÉ</p>
+        </div>
+    </div>
+
+    <script>
+        const logContainer = document.getElementById('logContainer');
+
+        function log(message, type = 'info') {
+            const timestamp = new Date().toLocaleTimeString();
+            const prefix = type === 'error' ? '❌' : type === 'success' ? '✅' : 'ℹ️';
+            logContainer.textContent += `[${timestamp}] ${prefix} ${message}\n`;
+            logContainer.scrollTop = logContainer.scrollHeight;
+        }
+
+        function clearLog() {
+            logContainer.textContent = '';
+        }
+
+        function setLoading(isLoading) {
+            const buttons = document.querySelectorAll('.btn');
+            buttons.forEach(btn => {
+                if (isLoading) {
+                    btn.classList.add('loading');
+                    btn.disabled = true;
+                } else {
+                    btn.classList.remove('loading');
+                    btn.disabled = false;
+                }
+            });
+        }
+
+        async function ejecutarComando(comando, descripcion, mensaje = null) {
+            try {
+                log(`Ejecutando: ${descripcion}...`);
+                
+                const response = await fetch('/ejecutar', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({ comando, descripcion, mensaje })
+                });
+
+                const result = await response.json();
+                
+                if (result.success) {
+                    if (result.noChanges) {
+                        log(`ℹ️ ${descripcion} - Sin cambios para procesar`);
+                    } else {
+                        log(`✅ ${descripcion} completado`, 'success');
+                    }
+                    if (result.output && !result.noChanges) {
+                        log(result.output);
+                    }
+                } else {
+                    log(`❌ Error en ${descripcion}: ${result.error}`, 'error');
+                }
+
+                return result.success;
+            } catch (error) {
+                log(`❌ Error de conexión: ${error.message}`, 'error');
+                return false;
+            }
+        }
+
+        async function procesoCompleto() {
+            clearLog();
+            setLoading(true);
+            
+            const commitMsg = document.getElementById('completoCommit').value || 'Actualizo productos e imágenes';
+            
+            log('🚀 Iniciando proceso completo...');
+            
+            // 1. Convertir Excel a JSON
+            if (!await ejecutarComando('node convertir-completo.cjs', 'Conversión de Excel a JSON')) {
+                setLoading(false);
+                return;
+            }
+
+            // 2. Git add productos
+            if (!await ejecutarComando('git add public/productos.json', 'Agregando productos al staging')) {
+                setLoading(false);
+                return;
+            }
+
+            // 3. Commit productos
+            if (!await ejecutarComando(`git commit -m "${commitMsg}"`, 'Commit de productos')) {
+                setLoading(false);
+                return;
+            }
+
+            // 4. Push productos
+            if (!await ejecutarComando('git push origin main', 'Push de productos')) {
+                setLoading(false);
+                return;
+            }
+
+            // 5. Git add imágenes
+            if (!await ejecutarComando('git add public/imagenes/', 'Agregando imágenes al staging')) {
+                setLoading(false);
+                return;
+            }
+
+            // 6. Commit imágenes
+            if (!await ejecutarComando(`git commit -m "Actualizo imágenes"`, 'Commit de imágenes')) {
+                setLoading(false);
+                return;
+            }
+
+            // 7. Push imágenes
+            if (!await ejecutarComando('git push origin main', 'Push de imágenes')) {
+                setLoading(false);
+                return;
+            }
+
+            log('🎉 ¡Proceso completo finalizado exitosamente!', 'success');
+            setLoading(false);
+        }
+
+        async function actualizarProductos() {
+            clearLog();
+            setLoading(true);
+            
+            const commitMsg = document.getElementById('productosCommit').value || 'Actualizo productos';
+            
+            log('📊 Actualizando solo productos...');
+            
+            if (!await ejecutarComando('node convertir-completo.cjs', 'Conversión de Excel a JSON')) {
+                setLoading(false);
+                return;
+            }
+
+            if (!await ejecutarComando('git add public/productos.json', 'Agregando productos al staging')) {
+                setLoading(false);
+                return;
+            }
+
+            if (!await ejecutarComando(`git commit -m "${commitMsg}"`, 'Commit de productos')) {
+                setLoading(false);
+                return;
+            }
+
+            if (!await ejecutarComando('git push origin main', 'Push de productos')) {
+                setLoading(false);
+                return;
+            }
+
+            log('🎉 ¡Productos actualizados exitosamente!', 'success');
+            setLoading(false);
+        }
+
+        async function subirImagenes() {
+            clearLog();
+            setLoading(true);
+            
+            const commitMsg = document.getElementById('imagenesCommit').value || 'Actualizo imágenes';
+            
+            log('🖼️ Subiendo solo imágenes...');
+            
+            if (!await ejecutarComando('git add public/imagenes/', 'Agregando imágenes al staging')) {
+                setLoading(false);
+                return;
+            }
+
+            if (!await ejecutarComando(`git commit -m "${commitMsg}"`, 'Commit de imágenes')) {
+                setLoading(false);
+                return;
+            }
+
+            if (!await ejecutarComando('git push origin main', 'Push de imágenes')) {
+                setLoading(false);
+                return;
+            }
+
+            log('🎉 ¡Imágenes subidas exitosamente!', 'success');
+            setLoading(false);
+        }
+
+        async function actualizarMensaje() {
+            clearLog();
+            setLoading(true);
+            
+            const mensaje = document.getElementById('mensajeText').value;
+            const commitMsg = document.getElementById('mensajeCommit').value || 'Actualizo mensaje promocional';
+            
+            log('📢 Actualizando mensaje promocional...');
+            
+            // Guardar mensaje en archivo (usando el sistema mejorado)
+            if (!await ejecutarComando('echo "mensaje" > mensaje.txt', 'Guardando mensaje en archivo', mensaje)) {
+                setLoading(false);
+                return;
+            }
+
+            // Convertir a JSON
+            if (!await ejecutarComando('node mensaje-to-json.js', 'Convirtiendo mensaje a JSON')) {
+                setLoading(false);
+                return;
+            }
+
+            // Git workflow
+            if (!await ejecutarComando('git add public/mensaje.json', 'Agregando mensaje al staging')) {
+                setLoading(false);
+                return;
+            }
+
+            if (!await ejecutarComando(`git commit -m "${commitMsg}"`, 'Commit del mensaje')) {
+                setLoading(false);
+                return;
+            }
+
+            if (!await ejecutarComando('git push origin main', 'Push del mensaje')) {
+                setLoading(false);
+                return;
+            }
+
+            log('🎉 ¡Mensaje actualizado exitosamente!', 'success');
+            setLoading(false);
+        }
+
+        async function limpiarImagenes() {
+            clearLog();
+            setLoading(true);
+            
+            const commitMsg = document.getElementById('limpiarCommit').value || 'Limpio imágenes no utilizadas';
+            
+            log('🗑️ Detectando imágenes huérfanas...');
+            
+            if (!await ejecutarComando('node limpiar-imagenes.js', 'Limpieza de imágenes huérfanas')) {
+                setLoading(false);
+                return;
+            }
+
+            if (!await ejecutarComando('git add public/imagenes/', 'Agregando cambios al staging')) {
+                setLoading(false);
+                return;
+            }
+
+            if (!await ejecutarComando(`git commit -m "${commitMsg}"`, 'Commit de limpieza')) {
+                setLoading(false);
+                return;
+            }
+
+            if (!await ejecutarComando('git push origin main', 'Push de limpieza')) {
+                setLoading(false);
+                return;
+            }
+
+            log('🎉 ¡Limpieza completada exitosamente!', 'success');
+            setLoading(false);
+        }
+
+        async function actualizarWebsite() {
+            clearLog();
+            setLoading(true);
+            
+            const commitMsg = document.getElementById('websiteCommit').value || 'Sincronizo productos a website institucional';
+            
+            log('🌐 Sincronizando catálogo B2B → Website institucional...');
+            
+            // 1. Ejecutar sincronización del catálogo hacia website
+            if (!await ejecutarComando('cd "C:\\Users\\Usuario\\mare-website" && node sync-catalogo.js', 'Sincronización de productos a website')) {
+                setLoading(false);
+                return;
+            }
+
+            // 2. Cambiar al directorio del website y hacer git workflow
+            log('📁 Cambiando al repositorio del website...');
+            
+            if (!await ejecutarComando('cd "C:\\Users\\Usuario\\mare-website" && git add .', 'Agregando cambios del website al staging')) {
+                setLoading(false);
+                return;
+            }
+
+            // Hacer commit si hay cambios (git commit -a falla silenciosamente si no hay cambios)
+            await ejecutarComando(`cd "C:\\Users\\Usuario\\mare-website" && git commit -a -m "${commitMsg}"`, 'Commit del website');
+
+            if (!await ejecutarComando('cd "C:\\Users\\Usuario\\mare-website" && git push origin main', 'Push del website')) {
+                setLoading(false);
+                return;
+            }
+
+            log('🎉 ¡Website sincronizado exitosamente! Disponible en mareuy.com', 'success');
+            setLoading(false);
+        }
+
+        async function limpiarWebsite() {
+            clearLog();
+            setLoading(true);
+            
+            const commitMsg = document.getElementById('websiteLimpiarCommit').value || 'Limpio imágenes no utilizadas del website';
+            
+            log('🧹 Limpiando imágenes huérfanas del website...');
+            
+            // 1. Ejecutar limpieza de imágenes del website
+            if (!await ejecutarComando('node limpiar-website.js', 'Limpieza de imágenes del website')) {
+                setLoading(false);
+                return;
+            }
+
+            // 2. Git workflow en el website
+            if (!await ejecutarComando('cd "C:\\Users\\Usuario\\mare-website" && git add public/imagenes/', 'Agregando cambios del website al staging')) {
+                setLoading(false);
+                return;
+            }
+
+            // Hacer commit si hay cambios (git commit -a falla silenciosamente si no hay cambios)
+            await ejecutarComando(`cd "C:\\Users\\Usuario\\mare-website" && git commit -a -m "${commitMsg}"`, 'Commit de limpieza del website');
+
+            if (!await ejecutarComando('cd "C:\\Users\\Usuario\\mare-website" && git push origin main', 'Push de limpieza del website')) {
+                setLoading(false);
+                return;
+            }
+
+            log('🎉 ¡Website limpiado exitosamente! Repositorio optimizado', 'success');
+            setLoading(false);
+        }
+
+        // Cargar mensaje actual al inicio
+        window.addEventListener('load', async () => {
+            try {
+                const response = await fetch('/mensaje-actual');
+                if (response.ok) {
+                    const data = await response.json();
+                    document.getElementById('mensajeText').value = data.mensaje || '';
+                }
+            } catch (error) {
+                console.log('No se pudo cargar el mensaje actual');
+            }
+        });
+    </script>
+</body>
+</html>

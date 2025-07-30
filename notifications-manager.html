@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MARÉ - Manager de Notificaciones</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #F5F0E8 0%, #E8DDD4 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #8F6A50 0%, #6B4E37 100%);
+            color: #F5F0E8;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .status-card {
+            background: #FDFCFA;
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            border: 2px solid #E8DDD4;
+        }
+
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .status-connected { background: #4CAF50; }
+        .status-disconnected { background: #F44336; }
+        .status-warning { background: #FF9800; }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #6B4E37;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #E8DDD4;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: border-color 0.3s;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #8F6A50;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #D4B5A0, #8F6A50);
+            color: #F5F0E8;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(143, 106, 80, 0.3);
+        }
+
+        .btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #E8DDD4, #D4B5A0);
+            color: #6B4E37;
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #F44336, #D32F2F);
+        }
+
+        .notification-preview {
+            background: #F5F0E8;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            border-left: 4px solid #8F6A50;
+        }
+
+        .log {
+            background: #1e1e1e;
+            color: #00ff00;
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            max-height: 200px;
+            overflow-y: auto;
+            margin-top: 20px;
+        }
+
+        .templates {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .template-card {
+            background: #FDFCFA;
+            border: 2px solid #E8DDD4;
+            border-radius: 10px;
+            padding: 15px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .template-card:hover {
+            border-color: #8F6A50;
+            transform: translateY(-2px);
+        }
+
+        .template-card h4 {
+            color: #6B4E37;
+            margin-bottom: 8px;
+        }
+
+        .template-card p {
+            color: #8F6A50;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔔 MARÉ Notifications</h1>
+            <p>Manager de Notificaciones Push</p>
+        </div>
+
+        <div class="content">
+            <!-- Estado de notificaciones -->
+            <div class="status-card">
+                <h3>📊 Estado del Sistema</h3>
+                <div id="status-info">
+                    <p><span class="status-indicator status-warning"></span>Verificando soporte...</p>
+                </div>
+                <div style="margin-top: 15px;">
+                    <button id="btn-setup" class="btn">🚀 Configurar Notificaciones</button>
+                    <button id="btn-test" class="btn btn-secondary" disabled>🧪 Probar Notificación</button>
+                </div>
+            </div>
+
+            <!-- Templates predefinidos -->
+            <div class="form-group">
+                <label>📋 Templates Rápidos</label>
+                <div class="templates">
+                    <div class="template-card" data-template="new-products">
+                        <h4>🔥 Nuevos Productos</h4>
+                        <p>Notificar sobre productos agregados</p>
+                    </div>
+                    <div class="template-card" data-template="catalog-update">
+                        <h4>📊 Catálogo Actualizado</h4>
+                        <p>Informar actualizaciones del catálogo</p>
+                    </div>
+                    <div class="template-card" data-template="special-offer">
+                        <h4>💎 Oferta Especial</h4>
+                        <p>Promociones y descuentos</p>
+                    </div>
+                    <div class="template-card" data-template="custom">
+                        <h4>✏️ Personalizado</h4>
+                        <p>Crear mensaje desde cero</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Formulario de notificación -->
+            <div class="form-group">
+                <label for="notification-title">📝 Título de la Notificación</label>
+                <input type="text" id="notification-title" placeholder="Ej: ¡Nuevos productos MARÉ disponibles!">
+            </div>
+
+            <div class="form-group">
+                <label for="notification-body">💬 Mensaje</label>
+                <textarea id="notification-body" rows="3" placeholder="Ej: Ve el catálogo actualizado con las últimas novedades en accesorios"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="notification-url">🔗 URL de destino (opcional)</label>
+                <input type="url" id="notification-url" placeholder="https://catalogo.mareuy.com">
+            </div>
+
+            <!-- Preview -->
+            <div class="notification-preview" id="preview" style="display: none;">
+                <h4>👀 Vista Previa</h4>
+                <div style="display: flex; align-items: center; margin-top: 10px;">
+                    <img src="/icon-192.png" alt="MARÉ" style="width: 40px; height: 40px; margin-right: 15px; border-radius: 8px;">
+                    <div>
+                        <div style="font-weight: bold; color: #6B4E37;" id="preview-title"></div>
+                        <div style="color: #8F6A50; font-size: 14px;" id="preview-body"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Botones de acción -->
+            <div style="margin-top: 30px;">
+                <button id="btn-send" class="btn" disabled>📤 Enviar Notificación</button>
+                <button id="btn-preview" class="btn btn-secondary">👀 Vista Previa</button>
+                <button id="btn-clear" class="btn btn-secondary">🗑️ Limpiar</button>
+            </div>
+
+            <!-- Log -->
+            <div class="log" id="log">
+                <div>🔔 MARÉ Notifications Manager iniciado...</div>
+                <div>⏳ Esperando configuración...</div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        import MareNotifications from './push-notifications.js';
+
+        // Templates predefinidos
+        const templates = {
+            'new-products': {
+                title: '🔥 ¡Nuevos productos MARÉ!',
+                body: 'Descubre las últimas incorporaciones a nuestro catálogo mayorista'
+            },
+            'catalog-update': {
+                title: '📊 Catálogo actualizado',
+                body: 'El catálogo MARÉ ha sido actualizado con nuevos productos y precios'
+            },
+            'special-offer': {
+                title: '💎 Oferta especial disponible',
+                body: 'No te pierdas nuestras promociones especiales en productos seleccionados'
+            },
+            'custom': {
+                title: '',
+                body: ''
+            }
+        };
+
+        // Elementos DOM
+        const statusInfo = document.getElementById('status-info');
+        const btnSetup = document.getElementById('btn-setup');
+        const btnTest = document.getElementById('btn-test');
+        const btnSend = document.getElementById('btn-send');
+        const btnPreview = document.getElementById('btn-preview');
+        const btnClear = document.getElementById('btn-clear');
+        const titleInput = document.getElementById('notification-title');
+        const bodyInput = document.getElementById('notification-body');
+        const urlInput = document.getElementById('notification-url');
+        const preview = document.getElementById('preview');
+        const previewTitle = document.getElementById('preview-title');
+        const previewBody = document.getElementById('preview-body');
+        const log = document.getElementById('log');
+
+        // Función para agregar logs
+        function addLog(message, type = 'info') {
+            const timestamp = new Date().toLocaleTimeString();
+            const logEntry = document.createElement('div');
+            const icon = type === 'error' ? '❌' : type === 'success' ? '✅' : 'ℹ️';
+            logEntry.innerHTML = `[${timestamp}] ${icon} ${message}`;
+            log.appendChild(logEntry);
+            log.scrollTop = log.scrollHeight;
+        }
+
+        // Actualizar estado
+        function updateStatus() {
+            const status = window.mareNotifications.getStatus();
+            let statusHTML = '';
+            let canTest = false;
+
+            if (!status.isSupported) {
+                statusHTML = '<p><span class="status-indicator status-disconnected"></span>Notificaciones no soportadas en este navegador</p>';
+            } else if (status.permission === 'denied') {
+                statusHTML = '<p><span class="status-indicator status-disconnected"></span>Permisos de notificación denegados</p>';
+            } else if (status.permission === 'granted' && status.isSubscribed) {
+                statusHTML = '<p><span class="status-indicator status-connected"></span>Notificaciones activas y configuradas</p>';
+                canTest = true;
+                btnSend.disabled = false;
+            } else if (status.permission === 'granted') {
+                statusHTML = '<p><span class="status-indicator status-warning"></span>Permisos concedidos - Falta suscripción</p>';
+                canTest = true;
+            } else {
+                statusHTML = '<p><span class="status-indicator status-warning"></span>Configuración pendiente</p>';
+            }
+
+            statusInfo.innerHTML = statusHTML;
+            btnTest.disabled = !canTest;
+        }
+
+        // Event listeners
+        btnSetup.addEventListener('click', async () => {
+            try {
+                addLog('Configurando notificaciones...');
+                
+                const hasPermission = await window.mareNotifications.requestPermission();
+                if (hasPermission) {
+                    addLog('Permisos concedidos', 'success');
+                    await window.mareNotifications.subscribe();
+                    addLog('Suscripción completada', 'success');
+                } else {
+                    addLog('Permisos denegados por el usuario', 'error');
+                }
+                
+                updateStatus();
+            } catch (error) {
+                addLog('Error en configuración: ' + error.message, 'error');
+            }
+        });
+
+        btnTest.addEventListener('click', () => {
+            window.mareNotifications.showLocalNotification(
+                '🧪 Prueba MARÉ',
+                {
+                    body: 'Esta es una notificación de prueba del catálogo MARÉ',
+                    icon: '/icon-192.png'
+                }
+            );
+            addLog('Notificación de prueba enviada', 'success');
+        });
+
+        btnPreview.addEventListener('click', () => {
+            const title = titleInput.value || 'Título de la notificación';
+            const body = bodyInput.value || 'Cuerpo de la notificación';
+            
+            previewTitle.textContent = title;
+            previewBody.textContent = body;
+            preview.style.display = 'block';
+            
+            addLog('Vista previa actualizada');
+        });
+
+        btnSend.addEventListener('click', () => {
+            const title = titleInput.value;
+            const body = bodyInput.value;
+            
+            if (!title || !body) {
+                addLog('Título y mensaje son requeridos', 'error');
+                return;
+            }
+
+            window.mareNotifications.showLocalNotification(title, {
+                body: body,
+                icon: '/icon-192.png',
+                data: { url: urlInput.value }
+            });
+            
+            addLog(`Notificación enviada: "${title}"`, 'success');
+        });
+
+        btnClear.addEventListener('click', () => {
+            titleInput.value = '';
+            bodyInput.value = '';
+            urlInput.value = '';
+            preview.style.display = 'none';
+            addLog('Formulario limpiado');
+        });
+
+        // Templates
+        document.querySelectorAll('.template-card').forEach(card => {
+            card.addEventListener('click', () => {
+                const templateKey = card.dataset.template;
+                const template = templates[templateKey];
+                
+                titleInput.value = template.title;
+                bodyInput.value = template.body;
+                
+                addLog(`Template "${templateKey}" aplicado`);
+            });
+        });
+
+        // Inicialización
+        addLog('Manager de notificaciones iniciado');
+        
+        // Esperar a que se inicialice mareNotifications
+        setTimeout(() => {
+            updateStatus();
+            addLog('Sistema verificado');
+        }, 1000);
+
+        // Actualizar estado cada 5 segundos
+        setInterval(updateStatus, 5000);
+    </script>
+</body>
+</html>

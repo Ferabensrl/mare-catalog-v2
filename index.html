@@ -23,6 +23,44 @@
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
     
+    <!-- Firebase Push Notifications Integration -->
+    <script type="module">
+      // Solo cargar si está en producción (no localhost)
+      if (window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1') {
+        try {
+          console.log('🔔 Inicializando notificaciones MARÉ...');
+          
+          // Importar sistema de notificaciones
+          import('./push-notifications.js').then(async (module) => {
+            console.log('✅ Sistema de notificaciones cargado');
+            
+            // Esperar un poco para no interrumpir la carga principal
+            setTimeout(async () => {
+              const notifications = window.mareNotifications;
+              if (notifications && notifications.isSupported) {
+                console.log('🔔 Notificaciones disponibles');
+                
+                // Mostrar prompt de notificaciones después de 10 segundos
+                setTimeout(async () => {
+                  try {
+                    const hasPermission = await notifications.requestPermission();
+                    if (hasPermission) {
+                      await notifications.subscribe();
+                      console.log('✅ Suscrito a notificaciones MARÉ');
+                    }
+                  } catch (error) {
+                    console.log('ℹ️ Usuario no aceptó notificaciones');
+                  }
+                }, 10000); // 10 segundos después de cargar
+              }
+            }, 3000);
+          });
+        } catch (error) {
+          console.log('ℹ️ Notificaciones no disponibles:', error.message);
+        }
+      }
+    </script>
+    
     <!-- Service Worker Registration -->
     <script>
       // Registrar Service Worker para PWA
