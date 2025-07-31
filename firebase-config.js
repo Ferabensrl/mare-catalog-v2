@@ -1,5 +1,10 @@
 // Configuración Firebase para notificaciones push MARÉ
-// ARCHIVO NUEVO - NO AFECTA FUNCIONAMIENTO EXISTENTE
+// Integración completa con Firebase Messaging
+
+// Firebase CDN imports
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js';
+import { getMessaging, getToken, onMessage } from 'https://www.gstatic.com/firebasejs/12.0.0/firebase-messaging.js';
+import { getAnalytics } from 'https://www.gstatic.com/firebasejs/12.0.0/firebase-analytics.js';
 
 const firebaseConfig = {
   apiKey: "AIzaSyAKQnyX92kFwm5R3XCJHSldB7I1nATI4i8",
@@ -14,4 +19,9 @@ const firebaseConfig = {
 // VAPID Key para push notifications
 const vapidKey = "BBKXwLsVytTSPwEoVmfH0CzZTsxZvHGT_uEexRTi5Obppt11TxmqtRdMQme65TTva1G6PujZHutpKtd2vu-7PPU";
 
-export { firebaseConfig, vapidKey };
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+const messaging = getMessaging(app);
+
+export { firebaseConfig, vapidKey, app, messaging, analytics };

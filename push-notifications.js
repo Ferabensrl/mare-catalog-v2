@@ -1,7 +1,8 @@
 // Sistema de notificaciones push para MARÉ Catálogo
 // ARCHIVO NUEVO - NO AFECTA FUNCIONAMIENTO EXISTENTE
 
-import { firebaseConfig, vapidKey } from './firebase-config.js';
+import { firebaseConfig, vapidKey, app, messaging, analytics } from './firebase-config.js';
+import { getToken, onMessage } from 'https://www.gstatic.com/firebasejs/12.0.0/firebase-messaging.js';
 
 class MareNotifications {
   constructor() {
@@ -56,28 +57,35 @@ class MareNotifications {
     }
 
     try {
-      const registration = await navigator.serviceWorker.getRegistration();
+      // Obtener token de Firebase
+      const token = await getToken(messaging, { vapidKey });
       
-      if (!registration) {
-        throw new Error('Service Worker no registrado');
+      if (token) {
+        console.log('✅ Token Firebase obtenido:', token.substring(0, 20) + '...');
+        this.subscription = { token };
+        this.isSubscribed = true;
+        
+        // Guardar token localmente
+        localStorage.setItem('mare-firebase-token', token);
+        
+        // Escuchar mensajes en primer plano
+        onMessage(messaging, (payload) => {
+          console.log('🔔 Mensaje recibido:', payload);
+          this.showLocalNotification(payload.notification.title, {
+            body: payload.notification.body,
+            icon: payload.notification.icon || '/icon-192.png'
+          });
+        });
+        
+        console.log('✅ Suscrito a Firebase notifications');
+        return this.subscription;
+        
+      } else {
+        throw new Error('No se pudo obtener token de Firebase');
       }
-
-      // Suscribirse a push notifications
-      this.subscription = await registration.pushManager.subscribe({
-        userVisibleOnly: true,
-        applicationServerKey: this.urlBase64ToUint8Array(vapidKey)
-      });
-
-      this.isSubscribed = true;
-      console.log('✅ Suscrito a notificaciones push');
-      
-      // Enviar suscripción al servidor (opcional)
-      await this.sendSubscriptionToServer(this.subscription);
-      
-      return this.subscription;
       
     } catch (error) {
-      console.error('❌ Error suscribiéndose a notificaciones:', error);
+      console.error('❌ Error suscribiéndose a Firebase:', error);
       throw error;
     }
   }
