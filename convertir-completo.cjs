@@ -101,8 +101,13 @@ try {
         return a.descripcion.localeCompare(b.descripcion);
     });
 
-    // Guardar JSON
-    fs.writeFileSync('./public/productos.json', JSON.stringify(productos, null, 2));
+    // Guardar JSON con metadata de versión para cache busting
+    const productosFinal = {
+        version: new Date().getTime(),
+        timestamp: new Date().toISOString(),
+        productos: productos
+    };
+    fs.writeFileSync('./public/productos.json', JSON.stringify(productosFinal, null, 2));
 
     console.log(`\n✅ CONVERSIÓN COMPLETADA:`);
     console.log(`   📦 Productos convertidos: ${convertidos}`);
