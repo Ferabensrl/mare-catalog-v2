@@ -1108,7 +1108,15 @@ const App = () => {
   useEffect(() => {
     const loadMessage = async () => {
       try {
-        const response = await fetch(`${import.meta.env.BASE_URL}mensaje.json`);
+        // Cache busting para mensaje promocional
+        const timestamp = new Date().getTime();
+        const response = await fetch(`${import.meta.env.BASE_URL}mensaje.json?v=${timestamp}`, {
+          cache: 'no-cache',
+          headers: {
+            'Cache-Control': 'no-cache, no-store, must-revalidate',
+            'Pragma': 'no-cache'
+          }
+        });
         if (!response.ok) return;
         const data = await response.json();
         if (data.mensaje_portada) {
@@ -1127,12 +1135,28 @@ const App = () => {
       setLoading(true);
       setLoadError(null);
       try {
-        // Cargar productos reales desde JSON
-        const response = await fetch(`${import.meta.env.BASE_URL}productos.json`);
+        // Cache busting: agregar timestamp para forzar recarga
+        const timestamp = new Date().getTime();
+        const response = await fetch(`${import.meta.env.BASE_URL}productos.json?v=${timestamp}`, {
+          cache: 'no-cache',
+          headers: {
+            'Cache-Control': 'no-cache, no-store, must-revalidate',
+            'Pragma': 'no-cache',
+            'Expires': '0'
+          }
+        });
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-        const productosReales = await response.json();
+        const datos = await response.json();
+        
+        // Manejar formato nuevo (con metadata) y formato anterior (array directo)
+        const productosReales = datos.productos || datos;
+        
+        // Log de versión para debugging
+        if (datos.version) {
+          console.log(`🔄 Catálogo cargado - Versión: ${datos.version} (${datos.timestamp})`);
+        }
 
         setProducts(productosReales);
         setFilteredProducts(productosReales);

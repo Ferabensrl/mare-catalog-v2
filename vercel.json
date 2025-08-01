@@ -2,5 +2,33 @@
   "buildCommand": "echo 'Using pre-built files'",
   "outputDirectory": "dist",
   "installCommand": "echo 'No install needed'",
-  "framework": null
+  "framework": null,
+  "headers": [
+    {
+      "source": "/productos.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        },
+        {
+          "key": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "key": "Expires",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "source": "/mensaje.json",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    }
+  ]
 }
