@@ -1,5 +1,69 @@
 [
   {
+    "codigo": "BAG2002",
+    "nombre": "Bandolera unicornio",
+    "descripcion": "Bandolera infantil",
+    "categoria": "A Infantil",
+    "medidas": "",
+    "precio": 395,
+    "estado": "visible",
+    "imagenes": [
+      "BAG2002 1.jpg",
+      "BAG2002 2.jpg",
+      "BAG2002 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Tonos pastel": true,
+      "Lila": true,
+      "Rosado": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BAG2002 VARIANTES.jpg"
+  },
+  {
+    "codigo": "CBB009",
+    "nombre": "Bandolera unicornio",
+    "descripcion": "Bandolera infantil",
+    "categoria": "A Infantil",
+    "medidas": "10 x 4 x 13cm",
+    "precio": 185,
+    "estado": "Poco stock",
+    "imagenes": [
+      "CBB009 1.jpg",
+      "CBB009 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Rojo": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "FN8101",
+    "nombre": "Bandolera niña",
+    "descripcion": "Bandolera infantil",
+    "categoria": "A Infantil",
+    "medidas": "",
+    "precio": 220,
+    "estado": "visible",
+    "imagenes": [
+      "FN8101 1.jpg",
+      "FN8101 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Blanco": true,
+      "Amarillo": true,
+      "Celeste": true,
+      "Rosado": true
+    },
+    "variantes": {}
+  },
+  {
     "codigo": "W383-1",
     "nombre": "Bandolera/Billetera juvenil",
     "descripcion": "Bandolera juvenil",
@@ -28,7 +92,7 @@
   },
   {
     "codigo": "FN8104",
-    "nombre": "Bolsito gatita",
+    "nombre": "Bandolera gatita",
     "descripcion": "Bandolera juvenil",
     "categoria": "A Infantil",
     "medidas": "17,5 x 14 x 6cm",
@@ -52,7 +116,7 @@
   },
   {
     "codigo": "CBB008",
-    "nombre": "Bolsito silicona",
+    "nombre": "Bandolera silicona",
     "descripcion": "Bandolera juvenil",
     "categoria": "A Infantil",
     "medidas": "",
@@ -76,70 +140,6 @@
       "C6": true
     },
     "imagenVariantes": "CBB008 VARIANTES.jpg"
-  },
-  {
-    "codigo": "BAG2002",
-    "nombre": "Bolsito peludo unicornio",
-    "descripcion": "Bolsito infantil",
-    "categoria": "A Infantil",
-    "medidas": "",
-    "precio": 395,
-    "estado": "visible",
-    "imagenes": [
-      "BAG2002 1.jpg",
-      "BAG2002 2.jpg",
-      "BAG2002 3.jpg"
-    ],
-    "sinColor": false,
-    "permitirSurtido": true,
-    "colores": {
-      "Tonos pastel": true,
-      "Lila": true,
-      "Rosado": true
-    },
-    "variantes": {},
-    "imagenVariantes": "BAG2002 VARIANTES.jpg"
-  },
-  {
-    "codigo": "CBB009",
-    "nombre": "Bolsito unicornio",
-    "descripcion": "Bolsito infantil",
-    "categoria": "A Infantil",
-    "medidas": "10 x 4 x 13cm",
-    "precio": 185,
-    "estado": "Poco stock",
-    "imagenes": [
-      "CBB009 1.jpg",
-      "CBB009 2.jpg"
-    ],
-    "sinColor": false,
-    "permitirSurtido": false,
-    "colores": {
-      "Rojo": true
-    },
-    "variantes": {}
-  },
-  {
-    "codigo": "FN8101",
-    "nombre": "Bolsito con caritas peludo",
-    "descripcion": "Bolsito infantil",
-    "categoria": "A Infantil",
-    "medidas": "",
-    "precio": 220,
-    "estado": "visible",
-    "imagenes": [
-      "FN8101 1.jpg",
-      "FN8101 2.jpg"
-    ],
-    "sinColor": false,
-    "permitirSurtido": true,
-    "colores": {
-      "Blanco": true,
-      "Amarillo": true,
-      "Celeste": true,
-      "Rosado": true
-    },
-    "variantes": {}
   },
   {
     "codigo": "G02",
@@ -281,7 +281,7 @@
   },
   {
     "codigo": "B433",
-    "nombre": "Colero con brillitos",
+    "nombre": "Colero con brillos",
     "descripcion": "Colero",
     "categoria": "Accesorios para pelo",
     "medidas": "",
@@ -381,7 +381,7 @@
   },
   {
     "codigo": "C042",
-    "nombre": "Tiaras",
+    "nombre": "Diademas",
     "descripcion": "Diademas",
     "categoria": "Accesorios para pelo",
     "medidas": "",
@@ -486,7 +486,7 @@
   },
   {
     "codigo": "C038",
-    "nombre": "Vincha",
+    "nombre": "Diademas",
     "descripcion": "Diademas",
     "categoria": "Accesorios para pelo",
     "medidas": "",
@@ -594,7 +594,7 @@
   },
   {
     "codigo": "D035",
-    "nombre": "Pinza 10cm",
+    "nombre": "Pinza",
     "descripcion": "Pinza",
     "categoria": "Accesorios para pelo",
     "medidas": "",
@@ -708,7 +708,7 @@
   },
   {
     "codigo": "D153",
-    "nombre": "Pinza grande",
+    "nombre": "Pinza",
     "descripcion": "Pinza",
     "categoria": "Accesorios para pelo",
     "medidas": "12cm",
@@ -728,7 +728,7 @@
   },
   {
     "codigo": "D156",
-    "nombre": "Pinza grande",
+    "nombre": "Pinza",
     "descripcion": "Pinza",
     "categoria": "Accesorios para pelo",
     "medidas": "",
@@ -2740,7 +2740,7 @@
   },
   {
     "codigo": "NK0055-0,4MM-50",
-    "nombre": "Cadena acero finita",
+    "nombre": "Cadena acero fina",
     "descripcion": "Cadena acero",
     "categoria": "Acero",
     "medidas": "0,4mm / 50cm",
@@ -7525,6 +7525,25 @@
     "imagenVariantes": "CINTO1555 VARIANTES.jpg"
   },
   {
+    "codigo": "BAG9015",
+    "nombre": "Mochila",
+    "descripcion": "Mochila",
+    "categoria": "Caballero",
+    "medidas": "",
+    "precio": 480,
+    "estado": "Poco stock",
+    "imagenes": [
+      "BAG9015 1.jpg",
+      "BAG9015 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Negro": true
+    },
+    "variantes": {}
+  },
+  {
     "codigo": "LD305",
     "nombre": "Morral sport",
     "descripcion": "Morral hombre",
@@ -7597,6 +7616,29 @@
     },
     "variantes": {},
     "imagenVariantes": "LD8075 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BAG9307",
+    "nombre": "Morral Hombre",
+    "descripcion": "Morral hombre",
+    "categoria": "Caballero",
+    "medidas": "24 X 18 X 11CM",
+    "precio": 395,
+    "estado": "Poco stock",
+    "imagenes": [
+      "BAG9307 1.jpg",
+      "BAG9307 2.jpg",
+      "BAG9307 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Verde": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BAG9307 VARIANTES.jpg"
   },
   {
     "codigo": "FN1031",
@@ -8982,7 +9024,6 @@
     "colores": {
       "Negro": true,
       "Terracota": true,
-      "Rosa Viejo": true,
       "Petroleo": true,
       "Azul": true
     },
@@ -9288,7 +9329,7 @@
     "categoria": "Marroquineria",
     "medidas": "29 x 22 x 10cm",
     "precio": 295,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "BAG016 1.jpg",
       "BAG016 2.jpg",
@@ -9298,7 +9339,6 @@
     "sinColor": false,
     "permitirSurtido": true,
     "colores": {
-      "Negro": true,
       "Blanco": true,
       "Azul": true
     },
@@ -9339,7 +9379,7 @@
     "categoria": "Marroquineria",
     "medidas": "23 X 17 X 12CM",
     "precio": 550,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "B1101 1.jpg",
       "B1101 2.jpg",
@@ -9364,7 +9404,7 @@
     "categoria": "Marroquineria",
     "medidas": "27 X 13 X 20CM",
     "precio": 550,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "B013 1.jpg",
       "B013 2.jpg"
@@ -9486,7 +9526,7 @@
     "descripcion": "Bandolera",
     "categoria": "Marroquineria",
     "medidas": "16 X 20 X 3CM",
-    "precio": 525,
+    "precio": 490,
     "estado": "visible",
     "imagenes": [
       "FNB1020 1.jpg",
@@ -9743,6 +9783,187 @@
     "imagenVariantes": "LB5019 VARIANTES.jpg"
   },
   {
+    "codigo": "BAG0172",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera",
+    "categoria": "Marroquineria",
+    "medidas": "",
+    "precio": 390,
+    "estado": "Poco stock",
+    "imagenes": [
+      "BAG0172 1.jpg",
+      "BAG0172 2.jpg",
+      "BAG0172 3.jpg",
+      "BAG0172 4.jpg",
+      "BAG0172 5.jpg",
+      "BAG0172 6.jpg",
+      "BAG0172 7.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Beige": true,
+      "Gris": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "BAG1417",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera",
+    "categoria": "Marroquineria",
+    "medidas": "",
+    "precio": 390,
+    "estado": "Poco stock",
+    "imagenes": [
+      "BAG1417 1.jpg",
+      "BAG1417 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": false,
+    "colores": {
+      "Fucsia": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "BAG1004",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera",
+    "categoria": "Marroquineria",
+    "medidas": "29 X 13 X 22CM",
+    "precio": 590,
+    "estado": "Poco stock",
+    "imagenes": [
+      "BAG1004 1.jpg",
+      "BAG1004 2.jpg",
+      "BAG1004 3.jpg",
+      "BAG1004 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Rosado": true,
+      "Petroleo": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "BAG9501",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera",
+    "categoria": "Marroquineria",
+    "medidas": "26 x 22 x 12cm",
+    "precio": 490,
+    "estado": "Poco stock",
+    "imagenes": [
+      "BAG9501 1.jpg",
+      "BAG9501 2.jpg",
+      "BAG9501 3.jpg",
+      "BAG9501 4.jpg",
+      "BAG9501 5.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Blanco": true,
+      "Varios colores": true,
+      "Verde": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BAG9501 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BAG9504",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera",
+    "categoria": "Marroquineria",
+    "medidas": "26 X 21 X 13CM",
+    "precio": 490,
+    "estado": "Poco stock",
+    "imagenes": [
+      "BAG9504 1.jpg",
+      "BAG9504 2.jpg",
+      "BAG9504 3.jpg",
+      "BAG9504 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Amarillo": true,
+      "Azul": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BAG9504 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BAG9505",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera",
+    "categoria": "Marroquineria",
+    "medidas": "24 X 17 X 6CM",
+    "precio": 285,
+    "estado": "visible",
+    "imagenes": [
+      "BAG9505 1.jpg",
+      "BAG9505 2.jpg",
+      "BAG9505 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {},
+    "imagenVariantes": "BAG9505 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BAG6534",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera",
+    "categoria": "Marroquineria",
+    "medidas": "19 X 12 X 7,5CM",
+    "precio": 450,
+    "estado": "Poco stock",
+    "imagenes": [
+      "BAG6534 1.jpg",
+      "BAG6534 2.jpg",
+      "BAG6534 3.jpg",
+      "BAG6534 4.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Negro": true,
+      "Blanco": true
+    },
+    "variantes": {}
+  },
+  {
+    "codigo": "BAG6535",
+    "nombre": "Bandolera",
+    "descripcion": "Bandolera",
+    "categoria": "Marroquineria",
+    "medidas": "17 X 11 X 6CM",
+    "precio": 385,
+    "estado": "Poco stock",
+    "imagenes": [
+      "BAG6535 1.jpg",
+      "BAG6535 2.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {
+      "Beige": true,
+      "Gris": true,
+      "Azul": true,
+      "Salmon": true
+    },
+    "variantes": {},
+    "imagenVariantes": "BAG6535 VARIANTES.jpg"
+  },
+  {
     "codigo": "H001",
     "nombre": "Bandolera para celular",
     "descripcion": "Bandolera para celular",
@@ -9879,6 +10100,25 @@
     },
     "variantes": {},
     "imagenVariantes": "H005 VARIANTES.jpg"
+  },
+  {
+    "codigo": "BAG2003",
+    "nombre": "Bolso",
+    "descripcion": "Bolso",
+    "categoria": "Marroquineria",
+    "medidas": "23 x 22cm",
+    "precio": 120,
+    "estado": "Poco stock",
+    "imagenes": [
+      "BAG2003 1.jpg",
+      "BAG2003 2.jpg",
+      "BAG2003 3.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {},
+    "imagenVariantes": "BAG2003 VARIANTES.jpg"
   },
   {
     "codigo": "LD7044",
@@ -10026,8 +10266,7 @@
     "colores": {
       "Negro": true,
       "Lila": true,
-      "Rosado": true,
-      "Bordeaux": true
+      "Rosado": true
     },
     "variantes": {},
     "imagenVariantes": "LB233 VARIANTES.jpg"
@@ -10113,7 +10352,7 @@
     "categoria": "Marroquineria",
     "medidas": "47 X 25 X 23CM",
     "precio": 650,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "FN5011 1.jpg",
       "FN5011 2.jpg",
@@ -10183,7 +10422,7 @@
     "categoria": "Marroquineria",
     "medidas": "23 x 16 x 12cm",
     "precio": 790,
-    "estado": "visible",
+    "estado": "Poco stock",
     "imagenes": [
       "BP2010 1.jpg",
       "BP2010 2.jpg",
@@ -10762,6 +11001,86 @@
     "variantes": {}
   },
   {
+    "codigo": "RELW4002",
+    "nombre": "Reloj dama goma",
+    "descripcion": "Reloj dama",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "Poco stock",
+    "imagenes": [
+      "RELW4002 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW4003",
+    "nombre": "Reloj dama cuero",
+    "descripcion": "Reloj dama",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "Poco stock",
+    "imagenes": [
+      "RELW4003 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW4006",
+    "nombre": "Reloj dama cuero",
+    "descripcion": "Reloj dama",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "Poco stock",
+    "imagenes": [
+      "RELW4006 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW4004",
+    "nombre": "Reloj dama cuero",
+    "descripcion": "Reloj dama",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "Poco stock",
+    "imagenes": [
+      "RELW4004 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELW4001",
+    "nombre": "Reloj dama cuero",
+    "descripcion": "Reloj dama",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "Poco stock",
+    "imagenes": [
+      "RELW4001 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
     "codigo": "RELD609",
     "nombre": "Reloj digital",
     "descripcion": "Reloj digital",
@@ -11176,6 +11495,182 @@
     "estado": "Preventa",
     "imagenes": [
       "RELH008-E 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH03K",
+    "nombre": "Reloj hombre cuero",
+    "descripcion": "Reloj hombre",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "Poco stock",
+    "imagenes": [
+      "RELH03K 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH03M",
+    "nombre": "Reloj hombre cuero",
+    "descripcion": "Reloj hombre",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "Poco stock",
+    "imagenes": [
+      "RELH03M 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH1125",
+    "nombre": "Reloj hombre cuero",
+    "descripcion": "Reloj hombre",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "Poco stock",
+    "imagenes": [
+      "RELH1125 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH1128",
+    "nombre": "Reloj hombre cuero",
+    "descripcion": "Reloj hombre",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "Poco stock",
+    "imagenes": [
+      "RELH1128 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH1124",
+    "nombre": "Reloj hombre cuero",
+    "descripcion": "Reloj hombre",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "Poco stock",
+    "imagenes": [
+      "RELH1124 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH1126",
+    "nombre": "Reloj hombre cuero",
+    "descripcion": "Reloj hombre",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "Poco stock",
+    "imagenes": [
+      "RELH1126 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH1127",
+    "nombre": "Reloj hombre cuero",
+    "descripcion": "Reloj hombre",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "Poco stock",
+    "imagenes": [
+      "RELH1127 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH1121",
+    "nombre": "Reloj hombre goma",
+    "descripcion": "Reloj hombre",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "Poco stock",
+    "imagenes": [
+      "RELH1121 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH1123",
+    "nombre": "Reloj hombre cuero",
+    "descripcion": "Reloj hombre",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "Poco stock",
+    "imagenes": [
+      "RELH1123 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH011-3",
+    "nombre": "Reloj hombre metal",
+    "descripcion": "Reloj hombre",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "Poco stock",
+    "imagenes": [
+      "RELH011-3 1.jpg"
+    ],
+    "sinColor": false,
+    "permitirSurtido": true,
+    "colores": {},
+    "variantes": {}
+  },
+  {
+    "codigo": "RELH011-2",
+    "nombre": "Reloj hombre metal",
+    "descripcion": "Reloj hombre",
+    "categoria": "Relojes",
+    "medidas": "",
+    "precio": 1,
+    "estado": "Poco stock",
+    "imagenes": [
+      "RELH011-2 1.jpg"
     ],
     "sinColor": false,
     "permitirSurtido": true,
