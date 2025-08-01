@@ -33,16 +33,17 @@ interface LoginData {
 }
 
 // Convertir enlace de Google Drive a imagen directa o manejar rutas locales
-const convertGoogleDriveUrl = (url: string): string => {
+const convertGoogleDriveUrl = (url: string, catalogVersion?: number): string => {
   if (url.includes('drive.google.com')) {
     const match = url.match(/\/d\/([a-zA-Z0-9-_]+)/);
     if (match) {
       return `https://drive.google.com/uc?export=view&id=${match[1]}`;
     }
   }
-  // Si no es de Drive, es una ruta local, agregar /imagenes/
+  // Si no es de Drive, es una ruta local, agregar /imagenes/ con cache busting
   if (!url.startsWith('http') && !url.startsWith('/imagenes/')) {
-    return `/imagenes/${url}`;
+    const cacheBuster = catalogVersion ? `?v=${catalogVersion}` : '';
+    return `/imagenes/${url}${cacheBuster}`;
   }
   return url;
 };
@@ -115,11 +116,12 @@ const LoginScreen = ({ onLogin }: { onLogin: (data: LoginData) => void }) => {
 };
 
 // Componente Modal de Galería con Zoom
-const ImageGalleryModal = ({ product, isOpen, onClose, initialImageIndex = 0 }: {
+const ImageGalleryModal = ({ product, isOpen, onClose, initialImageIndex = 0, catalogVersion }: {
   product: Product;
   isOpen: boolean;
   onClose: () => void;
   initialImageIndex?: number;
+  catalogVersion?: number;
 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(initialImageIndex);
   const [isZoomed, setIsZoomed] = useState(false);
@@ -255,7 +257,7 @@ const ImageGalleryModal = ({ product, isOpen, onClose, initialImageIndex = 0 }: 
           style={{ cursor: isZoomed ? 'grab' : 'zoom-in' }}
         >
           <img
-            src={convertGoogleDriveUrl(product.imagenes[currentImageIndex])}
+            src={convertGoogleDriveUrl(product.imagenes[currentImageIndex], catalogVersion)}
             alt={`${product.nombre} - Imagen ${currentImageIndex + 1}`}
             className={`max-w-full max-h-full object-contain transition-transform duration-300 select-none ${
               isDragging ? 'cursor-grabbing' : ''
@@ -298,7 +300,7 @@ const ImageGalleryModal = ({ product, isOpen, onClose, initialImageIndex = 0 }: 
               }`}
             >
               <img
-                src={convertGoogleDriveUrl(imagen)}
+                src={convertGoogleDriveUrl(imagen, catalogVersion)}
                 alt={`Thumbnail ${index + 1}`}
                 className="w-full h-full object-cover"
                 onError={(e) => {
@@ -331,12 +333,13 @@ const estadoLabels: Record<string, string> = {
   Novedades: '✨ Novedad'
 };
 
-const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, imagesOnly = false }: {
+const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, imagesOnly = false, catalogVersion }: {
   product: Product;
   onAddToCart: (producto: Product, selecciones: { [key: string]: number }, surtido?: number, comentario?: string) => void;
   viewMode: 'grid' | 'list';
   quantityInCart?: number;
   imagesOnly?: boolean;
+  catalogVersion?: number;
 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [selecciones, setSelecciones] = useState<{ [key: string]: number }>({});
@@ -448,7 +451,7 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, image
             </div>
           )}
           <img
-            src={convertGoogleDriveUrl(product.imagenes[currentImageIndex])}
+            src={convertGoogleDriveUrl(product.imagenes[currentImageIndex], catalogVersion)}
             alt={product.nombre}
             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
             onError={(e) => {
@@ -523,7 +526,7 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, image
                 onClick={() => setShowVariantesModal(true)}
               >
                 <img
-                  src={convertGoogleDriveUrl(product.imagenVariantes)}
+                  src={convertGoogleDriveUrl(product.imagenVariantes, catalogVersion)}
                   alt="Variantes disponibles"
                   className="w-full h-32 sm:h-36 object-contain"
                   onError={(e) => {
@@ -693,6 +696,7 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, image
         isOpen={showImageModal}
         onClose={() => setShowImageModal(false)}
         initialImageIndex={currentImageIndex}
+        catalogVersion={catalogVersion}
       />
 
       {/* Modal de imagen de variantes */}
@@ -712,7 +716,7 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, image
               <X size={32} />
             </button>
             <img
-              src={convertGoogleDriveUrl(product.imagenVariantes)}
+              src={convertGoogleDriveUrl(product.imagenVariantes, catalogVersion)}
               alt="Variantes disponibles"
               className="max-w-full max-h-full object-contain rounded-lg"
               onClick={(e) => e.stopPropagation()}
@@ -1060,6 +1064,7 @@ const App = () => {
   const [loading, setLoading] = useState(true);
   const [promoMessage, setPromoMessage] = useState('');
   const [loadError, setLoadError] = useState<string | null>(null);
+  const [catalogVersion, setCatalogVersion] = useState<number | undefined>(undefined);
 
   // 💾 PERSISTENCIA DEL CARRITO - Cargar al iniciar
   useEffect(() => {
@@ -1153,9 +1158,10 @@ const App = () => {
         // Manejar formato nuevo (con metadata) y formato anterior (array directo)
         const productosReales = datos.productos || datos;
         
-        // Log de versión para debugging
+        // Log de versión para debugging y guardar versión para cache busting de imágenes
         if (datos.version) {
           console.log(`🔄 Catálogo cargado - Versión: ${datos.version} (${datos.timestamp})`);
+          setCatalogVersion(datos.version);
         }
 
         setProducts(productosReales);
@@ -1625,6 +1631,7 @@ const App = () => {
                   viewMode={viewMode}
                   quantityInCart={getQuantityForProduct(product.codigo)}
                   imagesOnly={imagesOnly}
+                  catalogVersion={catalogVersion}
                 />
               ))}
             </div>
