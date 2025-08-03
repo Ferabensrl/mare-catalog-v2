@@ -1010,6 +1010,7 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
                 onClick={handleEmailSend}
                 disabled={isLoading}
                 className="w-full bg-blue-600 text-white py-3 sm:py-3 rounded-lg font-medium hover:bg-blue-700 disabled:bg-blue-400 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
+                style={{ display: 'none' }}
               >
                 <Mail size={18} />
                 {isLoading ? 'Enviando...' : 'Enviar por Email'}
@@ -1018,6 +1019,7 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
                 onClick={handlePdfDownload}
                 disabled={isLoading}
                 className="w-full bg-amber-600 text-white py-3 sm:py-3 rounded-lg font-medium hover:bg-amber-700 disabled:bg-amber-400 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
+                style={{ display: 'none' }}
               >
                 <Download size={18} />
                 Descargar pedido en PDF
@@ -1026,6 +1028,7 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
                 onClick={handleWhatsAppPdf}
                 disabled={isLoading}
                 className="w-full bg-green-700 text-white py-3 sm:py-3 rounded-lg font-medium hover:bg-green-800 disabled:bg-green-400 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
+                style={{ display: 'none' }}
               >
                 <MessageCircle size={18} />
                 Enviar PDF por WhatsApp
