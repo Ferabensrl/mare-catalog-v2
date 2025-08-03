@@ -2,6 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { ShoppingCart, Plus, Minus, Filter, X, Eye, EyeOff, MessageCircle, Mail, Search, Grid, List, ZoomIn, ChevronLeft, ChevronRight, ChevronDown, Info, Download, Check } from 'lucide-react';
 import { jsPDF } from 'jspdf';
 
+// v1.1.0 - Checkout simplificado: Solo WhatsApp visible
 // Tipos TypeScript
 
 // Tipos TypeScript
