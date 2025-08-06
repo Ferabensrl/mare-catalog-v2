@@ -733,7 +733,7 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, image
 };
 
 // Modal del carrito - OPTIMIZADO PARA MÓVIL
-const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWhatsApp, onClearCart, onConfirmClearCart, totalPrice, clientName }: {
+const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWhatsApp, onClearCart, onConfirmClearCart, totalPrice, clientName, saveCartTemporarily }: {
   cart: CartItem[];
   onClose: () => void;
   onRemoveItem: (index: number) => void;
@@ -743,6 +743,7 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
   onConfirmClearCart?: () => void;
   totalPrice: number;
   clientName: string;
+  saveCartTemporarily?: (cart: CartItem[]) => void;
 }) => {
   const [comentarioFinal, setComentarioFinal] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -750,39 +751,86 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
   const generatePdf = () => {
     const doc = new jsPDF();
     const fecha = new Date().toLocaleDateString('es-AR');
+    const pageHeight = doc.internal.pageSize.height;
+    const margin = 20;
+    let y = margin;
 
+    // Función para verificar si necesitamos nueva página
+    const checkPageBreak = (requiredSpace: number) => {
+      if (y + requiredSpace > pageHeight - margin) {
+        doc.addPage();
+        y = margin;
+      }
+    };
+
+    // Header
     doc.setFontSize(16);
-    doc.text('Pedido MARÉ', 10, 15);
+    doc.text('📦 PEDIDO MARÉ', 10, y);
+    y += 10;
+    
     doc.setFontSize(12);
-    doc.text(`Cliente: ${clientName}`, 10, 25);
-    doc.text(`Fecha: ${fecha}`, 10, 32);
+    doc.text(`👤 Cliente: ${clientName}`, 10, y);
+    y += 6;
+    doc.text(`📅 Fecha: ${fecha}`, 10, y);
+    y += 10;
+    
+    doc.setFontSize(14);
+    doc.text('📦 Detalle del pedido:', 10, y);
+    y += 8;
+    
+    doc.setFontSize(11);
 
-    let y = 42;
+    // Productos - usando el mismo formato que WhatsApp
     cart.forEach((item, idx) => {
-      doc.text(`${idx + 1}. ${item.producto.nombre} (${item.producto.codigo})`, 10, y);
+      checkPageBreak(30); // Espacio mínimo necesario para un producto
+      
+      // Código y nombre del producto
+      doc.text(`🔹 ${item.producto.codigo} – ${item.producto.nombre}`, 10, y);
       y += 6;
+      
+      // Selecciones
       Object.entries(item.selecciones).forEach(([opcion, cantidad]) => {
         if (cantidad > 0) {
+          checkPageBreak(6);
           doc.text(`- ${opcion}: ${cantidad}`, 14, y);
-          y += 6;
+          y += 5;
         }
       });
+      
+      // Surtido
       if (item.surtido && item.surtido > 0) {
+        checkPageBreak(6);
         doc.text(`- Surtido: ${item.surtido}`, 14, y);
-        y += 6;
+        y += 5;
       }
-      if (item.comentario) {
-        doc.text(`Comentario: ${item.comentario}`, 14, y, { maxWidth: 180 });
-        y += 6;
+      
+      // Comentario del producto
+      if (item.comentario && item.comentario.trim()) {
+        checkPageBreak(12);
+        doc.text(`📝 Comentario: ${item.comentario}`, 14, y, { maxWidth: 170 });
+        const lines = Math.ceil(item.comentario.length / 45); // Estimar líneas
+        y += Math.max(6, lines * 5);
       }
-      y += 2;
+      
+      y += 4; // Espacio entre productos
     });
 
-    doc.text(`Total: $${totalPrice.toLocaleString()}`, 10, y + 4);
-
-    if (comentarioFinal) {
-      doc.text(`Comentario final: ${comentarioFinal}`, 10, y + 12, { maxWidth: 180 });
+    // Comentario final
+    if (comentarioFinal && comentarioFinal.trim()) {
+      checkPageBreak(15);
+      doc.setFontSize(12);
+      doc.text('✍️ Comentario final:', 10, y);
+      y += 6;
+      doc.setFontSize(11);
+      doc.text(comentarioFinal, 10, y, { maxWidth: 180 });
+      const lines = Math.ceil(comentarioFinal.length / 50);
+      y += Math.max(8, lines * 5);
     }
+
+    // Total
+    checkPageBreak(10);
+    doc.setFontSize(14);
+    doc.text(`🎉 ¡Gracias por tu pedido y por elegirnos! 🙌🏻`, 10, y);
 
     return doc;
   };
@@ -796,27 +844,59 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
     setIsLoading(true);
     const doc = generatePdf();
     const blob = doc.output('blob');
-    const file = new File([blob], 'pedido.pdf', { type: 'application/pdf' });
+    const file = new File([blob], `pedido_${clientName}_${new Date().toISOString().slice(0, 10)}.pdf`, { type: 'application/pdf' });
+    
+    // Guardar temporalmente antes de limpiar
+    const currentCart = [...cart];
 
     try {
       if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        // Intentar compartir directamente el PDF
         await navigator.share({
           files: [file],
           title: 'Pedido MARÉ',
-          text: 'Adjunto pedido en PDF'
+          text: 'Adjunto mi pedido en PDF'
         });
       } else {
-        const message = onGenerateWhatsApp(comentarioFinal);
-        window.open(`https://wa.me/?text=${message}`, '_blank');
+        // Fallback: Crear mensaje de texto con instrucción para adjuntar PDF
+        const message = encodeURIComponent(
+          `📦 PEDIDO MARÉ\n` +
+          `👤 Cliente: ${clientName}\n` +
+          `📅 Fecha: ${new Date().toLocaleDateString('es-AR')}\n\n` +
+          `📎 Se ha generado un PDF con el pedido completo.\n` +
+          `Por favor, adjúntalo a este mensaje.\n\n` +
+          `🎉 ¡Gracias por elegirnos!`
+        );
+        
+        // Abrir WhatsApp con el número predefinido
+        window.open(`https://wa.me/59897998999?text=${message}`, '_blank');
+        
+        // También descargar el PDF automáticamente
+        doc.save(`pedido_${clientName}_${new Date().toISOString().slice(0, 10)}.pdf`);
       }
     } catch (err) {
       console.error('Error al compartir PDF:', err);
+      
+      // Fallback en caso de error: abrir WhatsApp y descargar PDF
+      const message = encodeURIComponent(
+        `📦 PEDIDO MARÉ - ${clientName}\n` +
+        `📅 ${new Date().toLocaleDateString('es-AR')}\n\n` +
+        `📎 PDF generado, por favor adjúntalo.`
+      );
+      window.open(`https://wa.me/59897998999?text=${message}`, '_blank');
+      doc.save(`pedido_${clientName}_${new Date().toISOString().slice(0, 10)}.pdf`);
     } finally {
       setTimeout(() => {
         setIsLoading(false);
+        
+        // Guardar carrito temporalmente antes de limpiarlo
+        if (typeof saveCartTemporarily === 'function') {
+          saveCartTemporarily(currentCart);
+        }
+        
         onClearCart();
         onClose();
-        alert('¡Pedido enviado por WhatsApp! 🎉\n\nLa aplicación se ha reiniciado para un nuevo pedido.');
+        alert('¡PDF enviado por WhatsApp! 📧🎉\n\n💾 Tu pedido se guardó temporalmente por seguridad.\nSi necesitas recuperarlo, actualiza la página en los próximos 5 minutos.');
       }, 1500);
     }
   };
@@ -825,17 +905,26 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
     setIsLoading(true);
     const message = onGenerateWhatsApp(comentarioFinal);
     
-    // Abrir WhatsApp
-    window.open(`https://wa.me/?text=${message}`, '_blank');
+    // Abrir WhatsApp con número predefinido +598 97998999
+    window.open(`https://wa.me/59897998999?text=${message}`, '_blank');
+    
+    // Guardar temporalmente antes de limpiar
+    const currentCart = [...cart];
     
     // Mostrar mensaje de confirmación y resetear después de un momento
     setTimeout(() => {
       setIsLoading(false);
+      
+      // Guardar carrito temporalmente antes de limpiarlo
+      if (typeof saveCartTemporarily === 'function') {
+        saveCartTemporarily(currentCart);
+      }
+      
       onClearCart(); // Limpiar el carrito
       onClose(); // Cerrar el modal
       
       // Mostrar notificación de éxito
-      alert('¡Pedido enviado por WhatsApp! 🎉\n\nLa aplicación se ha reiniciado para un nuevo pedido.');
+      alert('¡Pedido enviado por WhatsApp! 🎉\n\n💾 Tu pedido se guardó temporalmente por seguridad.\nSi necesitas recuperarlo, actualiza la página en los próximos 5 minutos.');
     }, 1500);
   };
 
@@ -844,17 +933,26 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
     const subject = `Nuevo Pedido - ${clientName}`;
     const body = decodeURIComponent(onGenerateWhatsApp(comentarioFinal));
     
-    // Abrir cliente de email
-    window.open(`mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, '_blank');
+    // Abrir cliente de email con destinatario preconfigurado
+    window.open(`mailto:ferabensrl@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, '_blank');
+    
+    // Guardar temporalmente antes de limpiar
+    const currentCart = [...cart];
     
     // Mostrar mensaje de confirmación y resetear después de un momento
     setTimeout(() => {
       setIsLoading(false);
+      
+      // Guardar carrito temporalmente antes de limpiarlo
+      if (typeof saveCartTemporarily === 'function') {
+        saveCartTemporarily(currentCart);
+      }
+      
       onClearCart(); // Limpiar el carrito
       onClose(); // Cerrar el modal
       
       // Mostrar notificación de éxito
-      alert('¡Pedido enviado por Email! 📧\n\nLa aplicación se ha reiniciado para un nuevo pedido.');
+      alert('¡Pedido enviado por Email! 📧\n\n💾 Tu pedido se guardó temporalmente por seguridad.\nSi necesitas recuperarlo, actualiza la página en los próximos 5 minutos.');
     }, 1500);
   };
 
@@ -1011,7 +1109,6 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
                 onClick={handleEmailSend}
                 disabled={isLoading}
                 className="w-full bg-blue-600 text-white py-3 sm:py-3 rounded-lg font-medium hover:bg-blue-700 disabled:bg-blue-400 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
-                style={{ display: 'none' }}
               >
                 <Mail size={18} />
                 {isLoading ? 'Enviando...' : 'Enviar por Email'}
@@ -1020,7 +1117,6 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
                 onClick={handlePdfDownload}
                 disabled={isLoading}
                 className="w-full bg-amber-600 text-white py-3 sm:py-3 rounded-lg font-medium hover:bg-amber-700 disabled:bg-amber-400 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
-                style={{ display: 'none' }}
               >
                 <Download size={18} />
                 Descargar pedido en PDF
@@ -1029,7 +1125,6 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
                 onClick={handleWhatsAppPdf}
                 disabled={isLoading}
                 className="w-full bg-green-700 text-white py-3 sm:py-3 rounded-lg font-medium hover:bg-green-800 disabled:bg-green-400 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
-                style={{ display: 'none' }}
               >
                 <MessageCircle size={18} />
                 Enviar PDF por WhatsApp
@@ -1069,11 +1164,16 @@ const App = () => {
   const [promoMessage, setPromoMessage] = useState('');
   const [loadError, setLoadError] = useState<string | null>(null);
   const [catalogVersion, setCatalogVersion] = useState<number | undefined>(undefined);
+  const [lastOrderSent, setLastOrderSent] = useState<number | null>(null);
+  const [showRestoreCartModal, setShowRestoreCartModal] = useState(false);
+  const [tempSavedCart, setTempSavedCart] = useState<CartItem[]>([]);
 
   // 💾 PERSISTENCIA DEL CARRITO - Cargar al iniciar
   useEffect(() => {
     const savedCart = localStorage.getItem('mare-cart');
     const savedLoginData = localStorage.getItem('mare-login');
+    const tempCart = localStorage.getItem('mare-temp-cart');
+    const lastOrderTime = localStorage.getItem('mare-last-order-sent');
     
     if (savedCart) {
       try {
@@ -1093,6 +1193,33 @@ const App = () => {
       } catch (error) {
         console.error('Error cargando login guardado:', error);
         localStorage.removeItem('mare-login');
+      }
+    }
+
+    // Verificar si hay un carrito temporal guardado (últimos 5 minutos)
+    if (tempCart && lastOrderTime) {
+      try {
+        const parsedTempCart = JSON.parse(tempCart);
+        const orderTime = parseInt(lastOrderTime);
+        const fiveMinutesAgo = Date.now() - (5 * 60 * 1000); // 5 minutos en ms
+        
+        if (orderTime > fiveMinutesAgo && parsedTempCart.length > 0) {
+          setTempSavedCart(parsedTempCart);
+          setLastOrderSent(orderTime);
+          
+          // Solo mostrar modal si el carrito actual está vacío
+          if (!savedCart || JSON.parse(savedCart).length === 0) {
+            setShowRestoreCartModal(true);
+          }
+        } else {
+          // Limpiar datos temporales vencidos
+          localStorage.removeItem('mare-temp-cart');
+          localStorage.removeItem('mare-last-order-sent');
+        }
+      } catch (error) {
+        console.error('Error cargando carrito temporal:', error);
+        localStorage.removeItem('mare-temp-cart');
+        localStorage.removeItem('mare-last-order-sent');
       }
     }
   }, []);
@@ -1281,6 +1408,21 @@ const App = () => {
   // Nueva función para limpiar todo el carrito (sin confirmación, para después de enviar)
   const clearCart = () => {
     setCart([]);
+  };
+
+  // Función para guardar temporalmente el carrito antes de enviarlo
+  const saveCartTemporarily = (cartToSave: CartItem[]) => {
+    setTempSavedCart(cartToSave);
+    setLastOrderSent(Date.now());
+    localStorage.setItem('mare-temp-cart', JSON.stringify(cartToSave));
+    localStorage.setItem('mare-last-order-sent', Date.now().toString());
+  };
+
+  // Función para restaurar el carrito guardado temporalmente
+  const restoreCart = () => {
+    setCart([...tempSavedCart]);
+    setShowRestoreCartModal(false);
+    alert('✅ ¡Pedido restaurado correctamente!\n\nPuedes continuar editándolo o enviar uno nuevo.');
   };
 
   // 🚪 FUNCIÓN PARA CERRAR SESIÓN
@@ -1661,7 +1803,45 @@ const App = () => {
           onConfirmClearCart={confirmClearCart}
           totalPrice={getTotalPrice()}
           clientName={loginData?.nombreCliente || ''}
+          saveCartTemporarily={saveCartTemporarily}
         />
+      )}
+
+      {/* Modal para restaurar carrito */}
+      {showRestoreCartModal && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-xl p-6 max-w-md w-full">
+            <h3 className="text-lg font-bold mb-4" style={{ color: '#8F6A50' }}>
+              💾 ¿Recuperar pedido anterior?
+            </h3>
+            <p className="text-sm mb-4" style={{ color: '#8F6A50' }}>
+              Detectamos que enviaste un pedido hace poco. ¿Quieres recuperarlo para editarlo o hacer uno nuevo?
+            </p>
+            <p className="text-xs mb-6 opacity-75" style={{ color: '#8F6A50' }}>
+              Productos encontrados: {tempSavedCart.length}
+            </p>
+            <div className="flex gap-3">
+              <button
+                onClick={restoreCart}
+                className="flex-1 bg-green-600 text-white py-2 px-4 rounded-lg font-medium hover:bg-green-700"
+              >
+                ✅ Recuperar
+              </button>
+              <button
+                onClick={() => {
+                  setShowRestoreCartModal(false);
+                  // Limpiar datos temporales
+                  localStorage.removeItem('mare-temp-cart');
+                  localStorage.removeItem('mare-last-order-sent');
+                }}
+                className="flex-1 py-2 px-4 rounded-lg font-medium"
+                style={{ backgroundColor: '#E3D4C1', color: '#8F6A50' }}
+              >
+                ❌ Nuevo pedido
+              </button>
+            </div>
+          </div>
+        </div>
       )}
 
       {/* Botón flotante para consultas por WhatsApp */}
