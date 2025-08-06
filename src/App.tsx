@@ -846,8 +846,11 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
     const blob = doc.output('blob');
     const file = new File([blob], `pedido_${clientName}_${new Date().toISOString().slice(0, 10)}.pdf`, { type: 'application/pdf' });
     
-    // Guardar temporalmente antes de limpiar
+    // GUARDAR CARRITO TEMPORALMENTE PRIMERO (antes de cualquier operación)
     const currentCart = [...cart];
+    if (typeof saveCartTemporarily === 'function') {
+      saveCartTemporarily(currentCart);
+    }
 
     try {
       if (navigator.canShare && navigator.canShare({ files: [file] })) {
@@ -888,12 +891,6 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
     } finally {
       setTimeout(() => {
         setIsLoading(false);
-        
-        // Guardar carrito temporalmente antes de limpiarlo
-        if (typeof saveCartTemporarily === 'function') {
-          saveCartTemporarily(currentCart);
-        }
-        
         onClearCart();
         onClose();
         alert('¡PDF enviado por WhatsApp! 📧🎉\n\n💾 Tu pedido se guardó temporalmente por seguridad.\nSi necesitas recuperarlo, actualiza la página en los próximos 5 minutos.');
@@ -905,21 +902,18 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
     setIsLoading(true);
     const message = onGenerateWhatsApp(comentarioFinal);
     
+    // GUARDAR CARRITO TEMPORALMENTE PRIMERO (antes de cualquier operación)
+    const currentCart = [...cart];
+    if (typeof saveCartTemporarily === 'function') {
+      saveCartTemporarily(currentCart);
+    }
+    
     // Abrir WhatsApp con número predefinido +598 97998999
     window.open(`https://wa.me/59897998999?text=${message}`, '_blank');
-    
-    // Guardar temporalmente antes de limpiar
-    const currentCart = [...cart];
     
     // Mostrar mensaje de confirmación y resetear después de un momento
     setTimeout(() => {
       setIsLoading(false);
-      
-      // Guardar carrito temporalmente antes de limpiarlo
-      if (typeof saveCartTemporarily === 'function') {
-        saveCartTemporarily(currentCart);
-      }
-      
       onClearCart(); // Limpiar el carrito
       onClose(); // Cerrar el modal
       
@@ -933,21 +927,18 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
     const subject = `Nuevo Pedido - ${clientName}`;
     const body = decodeURIComponent(onGenerateWhatsApp(comentarioFinal));
     
+    // GUARDAR CARRITO TEMPORALMENTE PRIMERO (antes de cualquier operación)
+    const currentCart = [...cart];
+    if (typeof saveCartTemporarily === 'function') {
+      saveCartTemporarily(currentCart);
+    }
+    
     // Abrir cliente de email con destinatario preconfigurado
     window.open(`mailto:ferabensrl@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, '_blank');
-    
-    // Guardar temporalmente antes de limpiar
-    const currentCart = [...cart];
     
     // Mostrar mensaje de confirmación y resetear después de un momento
     setTimeout(() => {
       setIsLoading(false);
-      
-      // Guardar carrito temporalmente antes de limpiarlo
-      if (typeof saveCartTemporarily === 'function') {
-        saveCartTemporarily(currentCart);
-      }
-      
       onClearCart(); // Limpiar el carrito
       onClose(); // Cerrar el modal
       
@@ -1422,6 +1413,10 @@ const App = () => {
   const restoreCart = () => {
     setCart([...tempSavedCart]);
     setShowRestoreCartModal(false);
+    
+    // También restaurar el carrito en localStorage para persistencia inmediata
+    localStorage.setItem('mare-cart', JSON.stringify(tempSavedCart));
+    
     alert('✅ ¡Pedido restaurado correctamente!\n\nPuedes continuar editándolo o enviar uno nuevo.');
   };
 
