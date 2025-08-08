@@ -1,6 +1,6 @@
 {
-  "version": 1754446625090,
-  "timestamp": "2025-08-06T02:17:05.090Z",
+  "version": 1754671184067,
+  "timestamp": "2025-08-08T16:39:44.067Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -51,7 +51,7 @@
       "categoria": "A Infantil",
       "medidas": "",
       "precio": 220,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "FN8101 1.jpg",
         "FN8101 2.jpg"
@@ -60,9 +60,7 @@
       "permitirSurtido": true,
       "colores": {
         "Blanco": true,
-        "Amarillo": true,
-        "Celeste": true,
-        "Rosado": true
+        "Amarillo": true
       },
       "variantes": {}
     },
@@ -5358,7 +5356,7 @@
       "variantes": {}
     },
     {
-      "codigo": "SL00130",
+      "codigo": "SL0130",
       "nombre": "Pulsera acero dorado",
       "descripcion": "Pulsera acero",
       "categoria": "Acero",
@@ -5366,7 +5364,7 @@
       "precio": 149,
       "estado": "Preventa",
       "imagenes": [
-        "SL00130 1.jpg"
+        "SL0130 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -7301,7 +7299,7 @@
       "imagenVariantes": "BILLH5505 VARIANTES.jpg"
     },
     {
-      "codigo": "BILLH5506",
+      "codigo": "BILLH5516",
       "nombre": "Billetera de hombre",
       "descripcion": "Billetera de hombre",
       "categoria": "Caballero",
@@ -7309,10 +7307,10 @@
       "precio": 265,
       "estado": "Preventa",
       "imagenes": [
-        "BILLH5506 1.jpg",
-        "BILLH5506 2.jpg",
-        "BILLH5506 3.jpg",
-        "BILLH5506 4.jpg"
+        "BILLH5516 1.jpg",
+        "BILLH5516 2.jpg",
+        "BILLH5516 3.jpg",
+        "BILLH5516 4.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -7323,7 +7321,7 @@
         "Azul": true
       },
       "variantes": {},
-      "imagenVariantes": "BILLH5506 VARIANTES.jpg"
+      "imagenVariantes": "BILLH5516 VARIANTES.jpg"
     },
     {
       "codigo": "BILLH3913",
@@ -7840,6 +7838,29 @@
       "imagenVariantes": "LB007 VARIANTES.jpg"
     },
     {
+      "codigo": "LB015",
+      "nombre": "Cinto de dama faja",
+      "descripcion": "Cinto de dama",
+      "categoria": "Cintos",
+      "medidas": "105cm",
+      "precio": 395,
+      "estado": "Preventa",
+      "imagenes": [
+        "LB015 1.jpg",
+        "LB015 2.jpg",
+        "LB015 3.jpg",
+        "LB015 4.jpg",
+        "LB015 5.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Marron Claro": true
+      },
+      "variantes": {}
+    },
+    {
       "codigo": "CINTO905",
       "nombre": "Cinto de dama",
       "descripcion": "Cinto de dama",
@@ -8302,6 +8323,26 @@
       "imagenVariantes": "9226 VARIANTES.jpg"
     },
     {
+      "codigo": "GS9222",
+      "nombre": "Lentes de dama",
+      "descripcion": "XLentes de dama",
+      "categoria": "Lentes de sol",
+      "medidas": "",
+      "precio": 285,
+      "estado": "Poco stock",
+      "imagenes": [
+        "GS9222 1.jpg",
+        "GS9222 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Gris": true
+      },
+      "variantes": {}
+    },
+    {
       "codigo": "4309",
       "nombre": "Lentes de dama",
       "descripcion": "XLentes de dama",
@@ -8375,14 +8416,12 @@
       ],
       "sinColor": false,
       "permitirSurtido": true,
-      "colores": {},
-      "variantes": {
-        "C1": true,
-        "C2": true,
-        "C3": true,
-        "C4": true,
-        "C5": true
+      "colores": {
+        "Verde": true,
+        "Celeste": true,
+        "Rosado": true
       },
+      "variantes": {},
       "imagenVariantes": "FNG6111 VARIANTES.jpg"
     },
     {
@@ -8505,27 +8544,6 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Verde": true,
-        "Marron Oscuro": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "FN1724",
-      "nombre": "Lentes unisex",
-      "descripcion": "XLentes unisex",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 285,
-      "estado": "visible",
-      "imagenes": [
-        "FN1724 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Verde": true,
         "Marron Oscuro": true
       },
       "variantes": {}
@@ -10051,7 +10069,7 @@
       "imagenVariantes": "H003 VARIANTES.jpg"
     },
     {
-      "codigo": "H004",
+      "codigo": "H0045",
       "nombre": "Bandolera para celular",
       "descripcion": "Bandolera para celular",
       "categoria": "Marroquineria",
@@ -10059,12 +10077,12 @@
       "precio": 395,
       "estado": "Preventa",
       "imagenes": [
-        "H004 1.jpg",
-        "H004 2.jpg",
-        "H004 3.jpg",
-        "H004 4.jpg",
-        "H004 5.jpg",
-        "H004 6.jpg"
+        "H0045 1.jpg",
+        "H0045 2.jpg",
+        "H0045 3.jpg",
+        "H0045 4.jpg",
+        "H0045 5.jpg",
+        "H0045 6.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -10075,7 +10093,7 @@
         "Rojo": true
       },
       "variantes": {},
-      "imagenVariantes": "H004 VARIANTES.jpg"
+      "imagenVariantes": "H0045 VARIANTES.jpg"
     },
     {
       "codigo": "H005",
@@ -10149,7 +10167,7 @@
       "imagenVariantes": "LD7044 VARIANTES.jpg"
     },
     {
-      "codigo": "LD214",
+      "codigo": "LD1214",
       "nombre": "Bolso de tela",
       "descripcion": "Bolsos",
       "categoria": "Marroquineria",
@@ -10157,13 +10175,13 @@
       "precio": 850,
       "estado": "Preventa",
       "imagenes": [
-        "LD214 1.jpg",
-        "LD214 2.jpg",
-        "LD214 3.jpg",
-        "LD214 4.jpg",
-        "LD214 5.jpg",
-        "LD214 6.jpg",
-        "LD214 7.jpg"
+        "LD1214 1.jpg",
+        "LD1214 2.jpg",
+        "LD1214 3.jpg",
+        "LD1214 4.jpg",
+        "LD1214 5.jpg",
+        "LD1214 6.jpg",
+        "LD1214 7.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -10174,7 +10192,7 @@
         "Gris": true
       },
       "variantes": {},
-      "imagenVariantes": "LD214 VARIANTES.jpg"
+      "imagenVariantes": "LD1214 VARIANTES.jpg"
     },
     {
       "codigo": "LD6305",
@@ -10464,7 +10482,7 @@
       "imagenVariantes": "BAG26 VARIANTES.jpg"
     },
     {
-      "codigo": "LB5531",
+      "codigo": "LD5531",
       "nombre": "Mochila lisa impermeable",
       "descripcion": "Mochilas",
       "categoria": "Marroquineria",
@@ -10472,8 +10490,8 @@
       "precio": 695,
       "estado": "Preventa",
       "imagenes": [
-        "LB5531 1.jpg",
-        "LB5531 2.jpg"
+        "LD5531 1.jpg",
+        "LD5531 2.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -10484,7 +10502,7 @@
         "Azul": true
       },
       "variantes": {},
-      "imagenVariantes": "LB5531 VARIANTES.jpg"
+      "imagenVariantes": "LD5531 VARIANTES.jpg"
     },
     {
       "codigo": "FNB1024",
