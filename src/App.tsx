@@ -3,6 +3,7 @@ import { ShoppingCart, Plus, Minus, Filter, X, Eye, EyeOff, MessageCircle, Mail,
 import { jsPDF } from 'jspdf';
 
 // v1.1.0 - Checkout simplificado: Solo WhatsApp visible
+// FORCE REBUILD: Catálogo actualizado 11-08-2025
 // Tipos TypeScript
 
 // Tipos TypeScript
