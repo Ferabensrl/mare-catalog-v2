@@ -107,12 +107,32 @@ try {
         timestamp: new Date().toISOString(),
         productos: productos
     };
-    fs.writeFileSync('./public/productos.json', JSON.stringify(productosFinal, null, 2));
+    // Guardar productos.json en AMBOS directorios (public/ y dist/)
+    const productosJsonString = JSON.stringify(productosFinal, null, 2);
+    fs.writeFileSync('./public/productos.json', productosJsonString);
+    fs.writeFileSync('./dist/productos.json', productosJsonString);
+
+    // Actualizar Service Worker automáticamente con nueva versión
+    const swVersion = `mare-v1.2.5-auto-${productosFinal.version}`;
+    const swPaths = ['./public/sw.js', './dist/sw.js'];
+    
+    swPaths.forEach(swPath => {
+        if (fs.existsSync(swPath)) {
+            let swContent = fs.readFileSync(swPath, 'utf8');
+            // Reemplazar la versión del Service Worker con nueva versión
+            swContent = swContent.replace(
+                /const CACHE_VERSION = ['"`]mare-v[\d\.]+-[^'"`]+['"`];/,
+                `const CACHE_VERSION = '${swVersion}';`
+            );
+            fs.writeFileSync(swPath, swContent);
+        }
+    });
 
     console.log(`\n✅ CONVERSIÓN COMPLETADA:`);
     console.log(`   📦 Productos convertidos: ${convertidos}`);
     console.log(`   ❌ Errores: ${errores}`);
-    console.log(`   📂 Archivo generado: public/productos.json`);
+    console.log(`   📂 productos.json guardado en: public/ y dist/`);
+    console.log(`   🔄 Service Worker actualizado a: ${swVersion}`);
 
     // Estadísticas detalladas
     const stats = {
