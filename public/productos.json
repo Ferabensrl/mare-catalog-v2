@@ -1,6 +1,6 @@
 {
-  "version": 1754671184067,
-  "timestamp": "2025-08-08T16:39:44.067Z",
+  "version": 1754945869455,
+  "timestamp": "2025-08-11T20:57:49.455Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -9634,7 +9634,6 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Lila": true,
         "Rosado": true,
         "Beige": true,
         "Verde Agua": true
@@ -10337,8 +10336,7 @@
       "colores": {
         "Negro": true,
         "Celeste": true,
-        "Fucsia": true,
-        "Gris": true
+        "Fucsia": true
       },
       "variantes": {},
       "imagenVariantes": "B1202 VARIANTES.jpg"
@@ -12710,38 +12708,6 @@
       "estado": "visible",
       "imagenes": [
         "24320 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "24070",
-      "nombre": "Bolita mediana enchapada oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 95,
-      "estado": "visible",
-      "imagenes": [
-        "24070 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "210140",
-      "nombre": "Bolita chica enchapada oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 65,
-      "estado": "visible",
-      "imagenes": [
-        "210140 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
