@@ -48,3 +48,4 @@ Al ingresar a la aplicación solo se solicita **Nombre o Razón Social** para pe
 
 Presiona el botón **📷 Ver solo imágenes grandes** en la barra superior para ocultar precios y detalles, dejando solo las fotos en una cuadrícula amplia.
 Vuelve a presionarlo para restablecer la vista completa.
+# Deploy trigger 1754948416
