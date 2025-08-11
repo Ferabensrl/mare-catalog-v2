@@ -1,6 +1,6 @@
 // sw.js - Service Worker para MARÉ Catálogo PWA
 // Versión del cache - incrementar cuando haya cambios importantes
-const CACHE_VERSION = 'mare-v1.2.3-bypass-cache-1754947189076';
+const CACHE_VERSION = 'mare-v1.2.4-path-fix-1754947189076';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
 const IMAGES_CACHE = `${CACHE_VERSION}-images`;
@@ -94,8 +94,8 @@ async function handleRequest(request) {
       return await cacheFirstStrategy(request, STATIC_CACHE);
     }
 
-    // 2. PRODUCTOS.JSON (crítico para la app)
-    if (pathname === '/productos.json') {
+    // 2. PRODUCTOS.JSON (crítico para la app) - detectar tanto /productos.json como ./productos.json
+    if (pathname === '/productos.json' || pathname === './productos.json' || pathname.endsWith('productos.json')) {
       // Si tiene parámetro 'v=' (cache busting), bypass cache completamente
       if (url.searchParams.has('v')) {
         console.log('🔄 SW: productos.json con cache busting - bypass cache');
