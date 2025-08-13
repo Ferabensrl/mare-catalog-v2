@@ -734,7 +734,7 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, image
 };
 
 // Modal del carrito - OPTIMIZADO PARA MÓVIL
-const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuantity, onGenerateWhatsApp, onClearCart, onConfirmClearCart, totalPrice, clientName, saveCartTemporarily }: {
+const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuantity, onGenerateWhatsApp, onClearCart, onConfirmClearCart, totalPrice, clientName, saveCartTemporarily, sendWhatsAppMessage }: {
   cart: CartItem[];
   onClose: () => void;
   onRemoveItem: (index: number) => void;
@@ -746,6 +746,7 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
   totalPrice: number;
   clientName: string;
   saveCartTemporarily?: (cart: CartItem[]) => void;
+  sendWhatsAppMessage?: (message: string) => Promise<boolean>;
 }) => {
   const [comentarioFinal, setComentarioFinal] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -910,8 +911,10 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
       saveCartTemporarily(currentCart);
     }
     
-    // Abrir WhatsApp con número predefinido +598 97998999
-    window.open(`https://wa.me/59897998999?text=${message}`, '_blank');
+    // Intentar envío con sistema offline
+    const success = sendWhatsAppMessage ? 
+      await sendWhatsAppMessage(message) : 
+      (() => { window.open(`https://wa.me/59897998999?text=${message}`, '_blank'); return true; })();
     
     // Mostrar mensaje de confirmación y resetear después de un momento
     setTimeout(() => {
@@ -919,8 +922,13 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
       onClearCart(); // Limpiar el carrito
       onClose(); // Cerrar el modal
       
-      // Mostrar notificación de éxito
-      alert('¡Pedido enviado por WhatsApp! 🎉\n\n💾 Tu pedido se guardó temporalmente por seguridad.\nSi necesitas recuperarlo, actualiza la página en los próximos 5 minutos.');
+      if (success) {
+        // Envío exitoso
+        alert('¡Pedido enviado por WhatsApp! 🎉\n\n💾 Tu pedido se guardó temporalmente por seguridad.\nSi necesitas recuperarlo, actualiza la página en los próximos 5 minutos.');
+      } else {
+        // Sin conexión - guardado en cola
+        alert('📱 Sin conexión - ¡Pedido guardado!\n\n⏳ Tu pedido se envió automáticamente cuando vuelva internet.\n💾 También se guardó temporalmente por seguridad.');
+      }
     }, 1500);
   };
 
@@ -1245,6 +1253,80 @@ const App = () => {
   const [lastOrderSent, setLastOrderSent] = useState<number | null>(null);
   const [showRestoreCartModal, setShowRestoreCartModal] = useState(false);
   const [tempSavedCart, setTempSavedCart] = useState<CartItem[]>([]);
+  const [pendingWhatsAppMessages, setPendingWhatsAppMessages] = useState<string[]>([]);
+
+  // 📱 SISTEMA DE COLA OFFLINE PARA WHATSAPP
+  const sendWhatsAppMessage = async (message: string): Promise<boolean> => {
+    try {
+      // Intentar abrir WhatsApp directamente
+      const whatsappUrl = `https://wa.me/59897998999?text=${message}`;
+      
+      // Verificar si hay conexión intentando un fetch pequeño
+      await fetch('data:,', { method: 'HEAD' });
+      
+      // Si llegamos aquí, hay conexión - enviar normalmente
+      window.open(whatsappUrl, '_blank');
+      return true;
+    } catch (error) {
+      // No hay conexión - guardar en cola offline
+      console.log('📱 SW: Sin conexión, guardando en cola offline');
+      const pendingMessages = JSON.parse(localStorage.getItem('mare-pending-whatsapp') || '[]');
+      pendingMessages.push({
+        message,
+        timestamp: Date.now(),
+        url: `https://wa.me/59897998999?text=${message}`
+      });
+      localStorage.setItem('mare-pending-whatsapp', JSON.stringify(pendingMessages));
+      setPendingWhatsAppMessages(pendingMessages);
+      
+      // Intentar usar APIs nativas si están disponibles
+      if (navigator.share) {
+        try {
+          await navigator.share({
+            title: 'Pedido MARÉ',
+            text: decodeURIComponent(message),
+          });
+          return true;
+        } catch (shareError) {
+          console.log('📱 Native share no disponible');
+        }
+      }
+      
+      return false;
+    }
+  };
+
+  // 🔄 PROCESAR COLA OFFLINE CUANDO VUELVA LA CONEXIÓN
+  const processPendingWhatsAppMessages = async () => {
+    const pendingMessages = JSON.parse(localStorage.getItem('mare-pending-whatsapp') || '[]');
+    if (pendingMessages.length === 0) return;
+    
+    console.log(`📤 Procesando ${pendingMessages.length} mensajes pendientes`);
+    
+    const successfulMessages = [];
+    const failedMessages = [];
+    
+    for (const pendingMsg of pendingMessages) {
+      try {
+        await fetch('data:,', { method: 'HEAD' });
+        window.open(pendingMsg.url, '_blank');
+        successfulMessages.push(pendingMsg);
+        
+        // Pequeña pausa entre envíos
+        await new Promise(resolve => setTimeout(resolve, 1000));
+      } catch (error) {
+        failedMessages.push(pendingMsg);
+      }
+    }
+    
+    if (successfulMessages.length > 0) {
+      // Actualizar localStorage con los mensajes que fallaron
+      localStorage.setItem('mare-pending-whatsapp', JSON.stringify(failedMessages));
+      setPendingWhatsAppMessages(failedMessages);
+      
+      alert(`✅ ¡Conexión restaurada!\n\n📤 Se enviaron ${successfulMessages.length} pedidos que estaban esperando.\n\n${failedMessages.length > 0 ? `⚠️ Quedan ${failedMessages.length} pendientes.` : '🎉 ¡Todos los pedidos fueron enviados!'}`);
+    }
+  };
 
   // 💾 PERSISTENCIA DEL CARRITO - Cargar al iniciar
   useEffect(() => {
@@ -1252,6 +1334,13 @@ const App = () => {
     const savedLoginData = localStorage.getItem('mare-login');
     const tempCart = localStorage.getItem('mare-temp-cart');
     const lastOrderTime = localStorage.getItem('mare-last-order-sent');
+    const pendingMessages = JSON.parse(localStorage.getItem('mare-pending-whatsapp') || '[]');
+    
+    // Cargar mensajes pendientes
+    if (pendingMessages.length > 0) {
+      setPendingWhatsAppMessages(pendingMessages);
+      console.log(`📱 Cargados ${pendingMessages.length} mensajes de WhatsApp pendientes`);
+    }
     
     if (savedCart) {
       try {
@@ -1342,6 +1431,35 @@ const App = () => {
     };
     loadMessage();
   }, []);
+
+  // 🌐 DETECTOR DE CONEXIÓN - Reintenta mensajes pendientes cuando vuelve internet
+  useEffect(() => {
+    const handleOnline = () => {
+      console.log('🌐 Conexión restaurada, procesando mensajes pendientes...');
+      processPendingWhatsAppMessages();
+    };
+
+    const handleOffline = () => {
+      console.log('📱 Conexión perdida - modo offline activado');
+    };
+
+    // Escuchar eventos de conexión
+    window.addEventListener('online', handleOnline);
+    window.addEventListener('offline', handleOffline);
+
+    // Verificar cola pendiente cada 30 segundos si hay mensajes
+    const intervalId = setInterval(() => {
+      if (pendingWhatsAppMessages.length > 0 && navigator.onLine) {
+        processPendingWhatsAppMessages();
+      }
+    }, 30000);
+
+    return () => {
+      window.removeEventListener('online', handleOnline);
+      window.removeEventListener('offline', handleOffline);
+      clearInterval(intervalId);
+    };
+  }, [pendingWhatsAppMessages]);
 
   // Cargar productos reales desde JSON
   useEffect(() => {
@@ -1838,6 +1956,21 @@ const App = () => {
               </p>
             </div>
           )}
+          
+          {/* Indicador de mensajes de WhatsApp pendientes */}
+          {pendingWhatsAppMessages.length > 0 && (
+            <div className="mt-2 p-2 bg-amber-50 border border-amber-200 rounded-lg">
+              <p className="text-xs text-amber-700 text-center">
+                📱 {pendingWhatsAppMessages.length} pedido{pendingWhatsAppMessages.length > 1 ? 's' : ''} esperando conexión • Se enviarán automáticamente
+              </p>
+              <button
+                onClick={processPendingWhatsAppMessages}
+                className="text-xs text-amber-800 underline mt-1 block mx-auto"
+              >
+                ⚡ Reintentar ahora
+              </button>
+            </div>
+          )}
         </div>
       </header>
 
@@ -1906,6 +2039,7 @@ const App = () => {
           totalPrice={getTotalPrice()}
           clientName={loginData?.nombreCliente || ''}
           saveCartTemporarily={saveCartTemporarily}
+          sendWhatsAppMessage={sendWhatsAppMessage}
         />
       )}
 
