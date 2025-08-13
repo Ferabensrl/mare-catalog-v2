@@ -1,6 +1,6 @@
 // sw.js - Service Worker para MARÉ Catálogo PWA
 // Versión del cache - incrementar cuando haya cambios importantes
-const CACHE_VERSION = 'mare-v1.2.6-fixed-' + Date.now();
+const CACHE_VERSION = 'mare-v1.2.7-hotfix-' + Date.now();
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
 const IMAGES_CACHE = `${CACHE_VERSION}-images`;
@@ -132,20 +132,18 @@ async function handleRequest(request) {
       return await cacheFirstStrategy(request, STATIC_CACHE);
     }
 
-    // 2. PRODUCTOS.JSON (crítico para la app)
+    // 2. PRODUCTOS.JSON (crítico para la app) - SIEMPRE FRESH, NUNCA CACHE
     if (pathname === '/productos.json') {
-      const response = await networkFirstStrategy(request, STATIC_CACHE);
-      
-      // Pre-cachear imágenes en background después de cargar productos
-      if (response.status === 200) {
-        response.clone().json().then(products => {
-          precacheProductImages(products);
-        }).catch(error => {
-          console.warn('⚠️ SW: Error pre-cacheando imágenes:', error);
+      try {
+        // Forzar descarga fresca, sin cache
+        const freshResponse = await fetch(request.url + '?v=' + Date.now());
+        return freshResponse;
+      } catch (error) {
+        console.warn('⚠️ SW: Error obteniendo productos frescos, intentando cache');
+        return await caches.match(request) || new Response('[]', { 
+          headers: { 'Content-Type': 'application/json' } 
         });
       }
-      
-      return response;
     }
 
     // 3. IMÁGENES (/imagenes/)
@@ -341,67 +339,5 @@ self.addEventListener('notificationclick', (event) => {
   );
 });
 
-// 🖼️ PRE-CACHEAR IMÁGENES DE PRODUCTOS EN BACKGROUND
-async function precacheProductImages(products) {
-  try {
-    console.log('🖼️ SW: Iniciando pre-cache de imágenes de productos...');
-    
-    const imageCache = await caches.open(IMAGES_CACHE);
-    const imageUrls = [];
-    
-    // Extraer todas las URLs de imágenes de todos los productos
-    products.forEach(product => {
-      if (product.imagenes && Array.isArray(product.imagenes)) {
-        product.imagenes.forEach(imagen => {
-          if (imagen) {
-            const imageUrl = `/imagenes/${imagen}`;
-            imageUrls.push(imageUrl);
-          }
-        });
-      }
-    });
-    
-    console.log(`🖼️ SW: Encontradas ${imageUrls.length} imágenes para pre-cachear`);
-    
-    // Pre-cachear imágenes en lotes pequeños para no sobrecargar
-    const batchSize = 10;
-    const total = imageUrls.length;
-    let cached = 0;
-    
-    for (let i = 0; i < imageUrls.length; i += batchSize) {
-      const batch = imageUrls.slice(i, i + batchSize);
-      
-      await Promise.allSettled(
-        batch.map(async imageUrl => {
-          try {
-            // Verificar si ya está en cache
-            const cachedResponse = await imageCache.match(imageUrl);
-            if (cachedResponse) {
-              cached++;
-              return;
-            }
-            
-            // Descargar y cachear
-            const response = await fetch(imageUrl);
-            if (response.status === 200) {
-              await imageCache.put(imageUrl, response);
-              cached++;
-              console.log(`🖼️ SW: Cacheada imagen ${cached}/${total}: ${imageUrl}`);
-            }
-          } catch (error) {
-            console.warn(`⚠️ SW: Error cacheando ${imageUrl}:`, error);
-          }
-        })
-      );
-      
-      // Pequeña pausa entre lotes para no bloquear el hilo principal
-      await new Promise(resolve => setTimeout(resolve, 100));
-    }
-    
-    console.log(`✅ SW: Pre-cache completado! ${cached}/${total} imágenes cacheadas`);
-  } catch (error) {
-    console.error('❌ SW: Error en pre-cache de imágenes:', error);
-  }
-}
 
 console.log('🚀 MARÉ Service Worker cargado - Versión:', CACHE_VERSION);
