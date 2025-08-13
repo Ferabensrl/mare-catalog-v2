@@ -1,6 +1,6 @@
 // sw.js - Service Worker para MARÉ Catálogo PWA
 // Versión del cache - incrementar cuando haya cambios importantes
-const CACHE_VERSION = 'mare-v1.2.7-hotfix-' + Date.now();
+const CACHE_VERSION = 'mare-v1.3.0-daily-cache-' + Date.now();
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
 const IMAGES_CACHE = `${CACHE_VERSION}-images`;
@@ -132,18 +132,9 @@ async function handleRequest(request) {
       return await cacheFirstStrategy(request, STATIC_CACHE);
     }
 
-    // 2. PRODUCTOS.JSON (crítico para la app) - SIEMPRE FRESH, NUNCA CACHE
+    // 2. PRODUCTOS.JSON - CACHE DIARIO INTELIGENTE
     if (pathname === '/productos.json') {
-      try {
-        // Forzar descarga fresca, sin cache
-        const freshResponse = await fetch(request.url + '?v=' + Date.now());
-        return freshResponse;
-      } catch (error) {
-        console.warn('⚠️ SW: Error obteniendo productos frescos, intentando cache');
-        return await caches.match(request) || new Response('[]', { 
-          headers: { 'Content-Type': 'application/json' } 
-        });
-      }
+      return await handleProductsJson(request);
     }
 
     // 3. IMÁGENES (/imagenes/)
@@ -339,5 +330,88 @@ self.addEventListener('notificationclick', (event) => {
   );
 });
 
+
+// 📅 MANEJO INTELIGENTE DE PRODUCTOS.JSON - CACHE DIARIO
+async function handleProductsJson(request) {
+  try {
+    // Generar clave de cache basada en fecha actual
+    const today = new Date().toISOString().split('T')[0]; // "2025-08-13"
+    const cacheKey = `/productos.json-${today}`;
+    const cache = await caches.open(STATIC_CACHE);
+    
+    console.log(`📅 SW: Manejando productos.json para ${today}`);
+    
+    // LÓGICA HÍBRIDA: Online vs Offline
+    if (navigator.onLine) {
+      console.log('🌐 SW: Online - intentando descarga fresh');
+      try {
+        // Con internet: SIEMPRE intentar fresh primero (para testing/actualizaciones)
+        const freshResponse = await fetch('/productos.json?v=' + Date.now());
+        
+        if (freshResponse.ok) {
+          console.log('✅ SW: Fresh descargado, actualizando cache del día');
+          // Guardar fresh en cache del día
+          await cache.put(cacheKey, freshResponse.clone());
+          // Limpiar caches de días anteriores
+          await cleanOldProductCaches();
+          return freshResponse;
+        }
+      } catch (error) {
+        console.warn('⚠️ SW: Error descargando fresh, usando cache del día');
+      }
+    }
+    
+    // Offline O falló el fresh: usar cache del día actual
+    console.log('📱 SW: Buscando cache del día actual');
+    const todayCache = await cache.match(cacheKey);
+    if (todayCache) {
+      console.log('✅ SW: Usando cache del día actual');
+      return todayCache;
+    }
+    
+    // No hay cache del día - buscar cualquier cache como último recurso
+    console.log('🔍 SW: Sin cache del día, buscando cache general');
+    const anyCache = await cache.match('/productos.json');
+    if (anyCache) {
+      console.log('📦 SW: Usando cache general como fallback');
+      return anyCache;
+    }
+    
+    // Último recurso: array vacío
+    console.error('❌ SW: Sin productos disponibles');
+    return new Response('[]', { 
+      headers: { 'Content-Type': 'application/json' } 
+    });
+    
+  } catch (error) {
+    console.error('❌ SW: Error crítico en handleProductsJson:', error);
+    return new Response('[]', { 
+      headers: { 'Content-Type': 'application/json' } 
+    });
+  }
+}
+
+// 🧹 LIMPIAR CACHES DE DÍAS ANTERIORES
+async function cleanOldProductCaches() {
+  try {
+    const cache = await caches.open(STATIC_CACHE);
+    const keys = await cache.keys();
+    const today = new Date().toISOString().split('T')[0];
+    
+    const oldProductCaches = keys.filter(request => 
+      request.url.includes('/productos.json-') && 
+      !request.url.includes(today)
+    );
+    
+    if (oldProductCaches.length > 0) {
+      console.log(`🧹 SW: Limpiando ${oldProductCaches.length} caches antiguos`);
+      await Promise.all(
+        oldProductCaches.map(request => cache.delete(request))
+      );
+    }
+  } catch (error) {
+    console.warn('⚠️ SW: Error limpiando caches antiguos:', error);
+  }
+}
 
 console.log('🚀 MARÉ Service Worker cargado - Versión:', CACHE_VERSION);
