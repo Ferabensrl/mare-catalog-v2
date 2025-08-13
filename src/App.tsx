@@ -733,6 +733,40 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, image
   );
 };
 
+// 📱 FUNCIÓN PARA ABRIR WHATSAPP NATIVO O WEB
+const openWhatsAppNative = (message: string) => {
+  const phoneNumber = '59897998999';
+  const encodedMessage = encodeURIComponent(message);
+  
+  // URLs para diferentes protocolos
+  const nativeUrl = `whatsapp://send?phone=${phoneNumber}&text=${encodedMessage}`;
+  const webUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+  
+  // Detectar si estamos en móvil/tablet
+  const isMobileDevice = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+  
+  if (isMobileDevice) {
+    // En móviles: Intentar app nativa primero
+    console.log('📱 Intentando abrir WhatsApp app nativa');
+    
+    // Crear un enlace temporal para intentar abrir la app
+    const link = document.createElement('a');
+    link.href = nativeUrl;
+    link.click();
+    
+    // Fallback a web después de 2 segundos si la app no se abrió
+    setTimeout(() => {
+      console.log('🌐 Fallback: Abriendo WhatsApp Web');
+      window.open(webUrl, '_blank');
+    }, 2000);
+    
+  } else {
+    // En desktop: Ir directo a WhatsApp Web
+    console.log('🖥️ Desktop: Abriendo WhatsApp Web');
+    window.open(webUrl, '_blank');
+  }
+};
+
 // Modal del carrito - OPTIMIZADO PARA MÓVIL
 const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuantity, onGenerateWhatsApp, onClearCart, onConfirmClearCart, totalPrice, clientName, saveCartTemporarily }: {
   cart: CartItem[];
@@ -865,12 +899,11 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
         `🎉 ¡Gracias por elegirnos!`
       );
       
-      // Abrir WhatsApp DIRECTAMENTE con tu número - sin selector de contactos
-      window.open(`https://wa.me/59897998999?text=${message}`, '_blank');
+      // Abrir WhatsApp: Intentar app nativa primero, luego web
+      openWhatsAppNative(message);
         
-        // También descargar el PDF automáticamente
-        doc.save(`pedido_${clientName}_${new Date().toISOString().slice(0, 10)}.pdf`);
-      }
+      // También descargar el PDF automáticamente
+      doc.save(`pedido_${clientName}_${new Date().toISOString().slice(0, 10)}.pdf`);
     } catch (err) {
       console.error('Error al compartir PDF:', err);
       
@@ -902,8 +935,8 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
       saveCartTemporarily(currentCart);
     }
     
-    // Abrir WhatsApp Web directamente - igual que el PDF que funciona
-    window.open(`https://wa.me/59897998999?text=${message}`, '_blank');
+    // Abrir WhatsApp: Intentar app nativa primero, luego web
+    openWhatsAppNative(message);
     
     // Mostrar mensaje de confirmación y resetear después de un momento
     setTimeout(() => {
