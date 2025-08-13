@@ -855,26 +855,18 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
     }
 
     try {
-      if (navigator.canShare && navigator.canShare({ files: [file] })) {
-        // Intentar compartir directamente el PDF
-        await navigator.share({
-          files: [file],
-          title: 'Pedido MARÉ',
-          text: 'Adjunto mi pedido en PDF'
-        });
-      } else {
-        // Fallback: Crear mensaje de texto con instrucción para adjuntar PDF
-        const message = encodeURIComponent(
-          `📦 PEDIDO MARÉ\n` +
-          `👤 Cliente: ${clientName}\n` +
-          `📅 Fecha: ${new Date().toLocaleDateString('es-AR')}\n\n` +
-          `📎 Se ha generado un PDF con el pedido completo.\n` +
-          `Por favor, adjúntalo a este mensaje.\n\n` +
-          `🎉 ¡Gracias por elegirnos!`
-        );
-        
-        // Abrir WhatsApp con el número predefinido
-        window.open(`https://wa.me/59897998999?text=${message}`, '_blank');
+      // Crear mensaje de texto con instrucción para adjuntar PDF
+      const message = encodeURIComponent(
+        `📦 PEDIDO MARÉ\n` +
+        `👤 Cliente: ${clientName}\n` +
+        `📅 Fecha: ${new Date().toLocaleDateString('es-AR')}\n\n` +
+        `📎 Se ha generado un PDF con el pedido completo.\n` +
+        `Por favor, adjúntalo a este mensaje.\n\n` +
+        `🎉 ¡Gracias por elegirnos!`
+      );
+      
+      // Abrir WhatsApp DIRECTAMENTE con tu número - sin selector de contactos
+      window.open(`https://wa.me/59897998999?text=${message}`, '_blank');
         
         // También descargar el PDF automáticamente
         doc.save(`pedido_${clientName}_${new Date().toISOString().slice(0, 10)}.pdf`);
