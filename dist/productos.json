@@ -1,6 +1,6 @@
 {
-  "version": 1754947189076,
-  "timestamp": "2025-08-11T21:19:49.076Z",
+  "version": 1754951392535,
+  "timestamp": "2025-08-11T22:29:52.535Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -12919,22 +12919,6 @@
       "estado": "visible",
       "imagenes": [
         "25630 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "212230",
-      "nombre": "Caravanas enchapadas oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "212230 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,

@@ -734,11 +734,12 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, image
 };
 
 // Modal del carrito - OPTIMIZADO PARA MÓVIL
-const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWhatsApp, onClearCart, onConfirmClearCart, totalPrice, clientName, saveCartTemporarily }: {
+const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuantity, onGenerateWhatsApp, onClearCart, onConfirmClearCart, totalPrice, clientName, saveCartTemporarily }: {
   cart: CartItem[];
   onClose: () => void;
   onRemoveItem: (index: number) => void;
   onUpdateComment: (index: number, comentario: string) => void;
+  onUpdateQuantity?: (index: number, opcion: string, newQuantity: number) => void;
   onGenerateWhatsApp: (comentarioFinal: string) => string;
   onClearCart: () => void;
   onConfirmClearCart?: () => void;
@@ -1018,20 +1019,105 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
                       </button>
                     </div>
 
-                    {/* Selecciones */}
-                    <div className="space-y-1 mb-3">
+                    {/* Selecciones con edición de cantidad */}
+                    <div className="space-y-2 mb-3">
                       {Object.entries(item.selecciones).map(([opcion, cantidad]) => (
                         cantidad > 0 && (
-                          <div key={opcion} className="flex justify-between text-xs sm:text-sm">
-                            <span>{opcion}:</span>
-                            <span className="font-medium">{cantidad}</span>
+                          <div key={opcion} className="flex justify-between items-center text-xs sm:text-sm">
+                            <span className="flex-1">{opcion}:</span>
+                            {onUpdateQuantity ? (
+                              <div className="flex items-center gap-2">
+                                <button
+                                  onClick={() => onUpdateQuantity(index, opcion, cantidad - 1)}
+                                  className="w-6 h-6 rounded-full text-white flex items-center justify-center text-xs"
+                                  style={{ backgroundColor: '#8F6A50' }}
+                                  disabled={isLoading || cantidad <= 1}
+                                  aria-label="Reducir cantidad"
+                                >
+                                  -
+                                </button>
+                                <input
+                                  type="number"
+                                  value={cantidad}
+                                  onChange={(e) => {
+                                    const newValue = parseInt(e.target.value) || 0;
+                                    if (newValue === 0) {
+                                      // Si es 0, preguntar si quiere eliminar
+                                      const confirmed = window.confirm(`¿Eliminar ${opcion} de este producto?`);
+                                      if (confirmed) {
+                                        onUpdateQuantity(index, opcion, 0);
+                                      }
+                                    } else {
+                                      onUpdateQuantity(index, opcion, newValue);
+                                    }
+                                  }}
+                                  className="w-12 text-center border rounded text-xs"
+                                  style={{ borderColor: '#8F6A50', color: '#8F6A50' }}
+                                  min="0"
+                                  disabled={isLoading}
+                                />
+                                <button
+                                  onClick={() => onUpdateQuantity(index, opcion, cantidad + 1)}
+                                  className="w-6 h-6 rounded-full text-white flex items-center justify-center text-xs"
+                                  style={{ backgroundColor: '#8F6A50' }}
+                                  disabled={isLoading}
+                                  aria-label="Aumentar cantidad"
+                                >
+                                  +
+                                </button>
+                              </div>
+                            ) : (
+                              <span className="font-medium">{cantidad}</span>
+                            )}
                           </div>
                         )
                       ))}
                       {item.surtido && item.surtido > 0 && (
-                        <div className="flex justify-between text-xs sm:text-sm">
-                          <span>Surtido:</span>
-                          <span className="font-medium">{item.surtido}</span>
+                        <div className="flex justify-between items-center text-xs sm:text-sm">
+                          <span className="flex-1">Surtido:</span>
+                          {onUpdateQuantity ? (
+                            <div className="flex items-center gap-2">
+                              <button
+                                onClick={() => onUpdateQuantity(index, 'surtido', item.surtido! - 1)}
+                                className="w-6 h-6 rounded-full text-white flex items-center justify-center text-xs"
+                                style={{ backgroundColor: '#8F6A50' }}
+                                disabled={isLoading || item.surtido! <= 1}
+                                aria-label="Reducir surtido"
+                              >
+                                -
+                              </button>
+                              <input
+                                type="number"
+                                value={item.surtido}
+                                onChange={(e) => {
+                                  const newValue = parseInt(e.target.value) || 0;
+                                  if (newValue === 0) {
+                                    const confirmed = window.confirm('¿Eliminar el surtido de este producto?');
+                                    if (confirmed) {
+                                      onUpdateQuantity(index, 'surtido', 0);
+                                    }
+                                  } else {
+                                    onUpdateQuantity(index, 'surtido', newValue);
+                                  }
+                                }}
+                                className="w-12 text-center border rounded text-xs"
+                                style={{ borderColor: '#8F6A50', color: '#8F6A50' }}
+                                min="0"
+                                disabled={isLoading}
+                              />
+                              <button
+                                onClick={() => onUpdateQuantity(index, 'surtido', item.surtido! + 1)}
+                                className="w-6 h-6 rounded-full text-white flex items-center justify-center text-xs"
+                                style={{ backgroundColor: '#8F6A50' }}
+                                disabled={isLoading}
+                                aria-label="Aumentar surtido"
+                              >
+                                +
+                              </button>
+                            </div>
+                          ) : (
+                            <span className="font-medium">{item.surtido}</span>
+                          )}
                         </div>
                       )}
                     </div>
@@ -1375,6 +1461,25 @@ const App = () => {
     const newCart = [...cart];
     newCart[index].comentario = comentario;
     setCart(newCart);
+  };
+
+  // Nueva función para actualizar cantidades en el carrito
+  const updateCartItemQuantity = (index: number, opcion: string, newQuantity: number) => {
+    const newCart = [...cart];
+    if (opcion === 'surtido') {
+      newCart[index].surtido = Math.max(0, newQuantity);
+    } else {
+      newCart[index].selecciones[opcion] = Math.max(0, newQuantity);
+    }
+    
+    // Limpiar productos que no tienen cantidades
+    const updatedCart = newCart.filter(item => {
+      const hasSelections = Object.values(item.selecciones).some(qty => qty > 0);
+      const hasSurtido = item.surtido && item.surtido > 0;
+      return hasSelections || hasSurtido;
+    });
+    
+    setCart(updatedCart);
   };
 
   // 🧹 FUNCIÓN PARA LIMPIAR TODO EL CARRITO CON CONFIRMACIÓN
@@ -1794,6 +1899,7 @@ const App = () => {
           onClose={() => setShowCart(false)}
           onRemoveItem={removeFromCart}
           onUpdateComment={updateCartItemComment}
+          onUpdateQuantity={updateCartItemQuantity}
           onGenerateWhatsApp={generateWhatsAppMessage}
           onClearCart={clearCart}
           onConfirmClearCart={confirmClearCart}

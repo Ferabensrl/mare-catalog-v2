@@ -1,6 +1,6 @@
 // sw.js - Service Worker para MARÉ Catálogo PWA
 // Versión del cache - incrementar cuando haya cambios importantes
-const CACHE_VERSION = 'mare-v1.2.5-force-update-11082025';
+const CACHE_VERSION = 'mare-v1.2.6-fixed-' + Date.now();
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
 const IMAGES_CACHE = `${CACHE_VERSION}-images`;
@@ -17,23 +17,61 @@ const STATIC_ASSETS = [
   '/logo-mare.png'
 ];
 
+// Cache de assets dinámicos (JS/CSS buildeados)
+let dynamicAssets = [];
+
 // Instalar Service Worker
 self.addEventListener('install', (event) => {
   console.log('🔧 SW: Instalando Service Worker v' + CACHE_VERSION);
   
   event.waitUntil(
-    caches.open(STATIC_CACHE)
-      .then((cache) => {
-        console.log('📦 SW: Cacheando archivos estáticos...');
-        return cache.addAll(STATIC_ASSETS);
-      })
+    Promise.all([
+      // Cachear archivos estáticos básicos
+      caches.open(STATIC_CACHE)
+        .then((cache) => {
+          console.log('📦 SW: Cacheando archivos estáticos...');
+          return cache.addAll(STATIC_ASSETS.map(url => {
+            // Agregar cache busting para archivos críticos
+            if (url === '/productos.json' || url === '/mensaje.json') {
+              return `${url}?v=${Date.now()}`;
+            }
+            return url;
+          }));
+        }),
+      // Pre-cachear assets dinámicos encontrando el index.html
+      fetch('/index.html')
+        .then(response => response.text())
+        .then(html => {
+          // Extraer enlaces a CSS y JS del HTML
+          const cssMatches = html.match(/href="([^"]*\.css[^"]*)"/g) || [];
+          const jsMatches = html.match(/src="([^"]*\.js[^"]*)"/g) || [];
+          
+          dynamicAssets = [
+            ...cssMatches.map(match => match.replace(/href="([^"]*)"/g, '$1')),
+            ...jsMatches.map(match => match.replace(/src="([^"]*)"/g, '$1'))
+          ].filter(asset => asset.startsWith('/assets/'));
+          
+          console.log('🎯 SW: Assets dinámicos detectados:', dynamicAssets);
+          
+          if (dynamicAssets.length > 0) {
+            return caches.open(STATIC_CACHE)
+              .then(cache => {
+                console.log('📦 SW: Pre-cacheando assets dinámicos...');
+                return cache.addAll(dynamicAssets);
+              });
+          }
+        })
+        .catch(error => {
+          console.warn('⚠️ SW: No se pudieron pre-cachear assets dinámicos:', error);
+        })
+    ])
       .then(() => {
-        console.log('✅ SW: Archivos estáticos cacheados exitosamente');
+        console.log('✅ SW: Instalación completada exitosamente');
         // Tomar control inmediatamente
         return self.skipWaiting();
       })
       .catch((error) => {
-        console.error('❌ SW: Error cacheando archivos estáticos:', error);
+        console.error('❌ SW: Error en instalación:', error);
       })
   );
 });
@@ -107,7 +145,9 @@ async function handleRequest(request) {
     // 4. ARCHIVOS JS/CSS (generados por Vite)
     if (pathname.startsWith('/assets/') || 
         pathname.endsWith('.js') || 
-        pathname.endsWith('.css')) {
+        pathname.endsWith('.css') ||
+        pathname.includes('index-') ||
+        pathname.includes('assets/')) {
       return await cacheFirstStrategy(request, STATIC_CACHE);
     }
 
@@ -142,17 +182,19 @@ async function cacheFirstStrategy(request, cacheName) {
   // Buscar en cache primero
   const cachedResponse = await caches.match(request);
   if (cachedResponse) {
-    // Encontrado en cache - devolverlo inmediatamente
+    console.log(`✅ SW: Sirviendo desde cache: ${request.url}`);
     return cachedResponse;
   }
 
   // No está en cache - intentar network
   try {
+    console.log(`🌐 SW: Descargando desde network: ${request.url}`);
     const networkResponse = await fetch(request);
     
     // Si la respuesta es válida, cachearla
     if (networkResponse.status === 200) {
       const cache = await caches.open(cacheName);
+      console.log(`💾 SW: Cacheando: ${request.url}`);
       // Clonar la respuesta porque solo se puede usar una vez
       cache.put(request, networkResponse.clone());
     }
@@ -167,12 +209,14 @@ async function cacheFirstStrategy(request, cacheName) {
 // Estrategia Network First (para productos.json y contenido dinámico)
 async function networkFirstStrategy(request, cacheName) {
   try {
+    console.log(`🌐 SW: Intentando network first para: ${request.url}`);
     // Intentar network primero
     const networkResponse = await fetch(request);
     
     // Si es exitoso, actualizar cache
     if (networkResponse.status === 200) {
       const cache = await caches.open(cacheName);
+      console.log(`💾 SW: Actualizando cache: ${request.url}`);
       cache.put(request, networkResponse.clone());
     }
     
@@ -183,9 +227,11 @@ async function networkFirstStrategy(request, cacheName) {
     // Network falló - buscar en cache
     const cachedResponse = await caches.match(request);
     if (cachedResponse) {
+      console.log(`📱 SW: Sirviendo desde cache offline: ${request.url}`);
       return cachedResponse;
     }
     
+    console.error(`❌ SW: No disponible offline: ${request.url}`);
     throw error;
   }
 }
