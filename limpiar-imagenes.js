@@ -13,8 +13,13 @@ try {
         process.exit(1);
     }
 
-    const productos = JSON.parse(fs.readFileSync(productosPath, 'utf8'));
+    const catalogoData = JSON.parse(fs.readFileSync(productosPath, 'utf8'));
+    
+    // Extraer productos del formato con versioning
+    const productos = catalogoData.productos || catalogoData;
+    
     console.log(`📊 Productos cargados: ${productos.length}`);
+    console.log(`📅 Versión del catálogo: ${catalogoData.version || 'legacy'}`);
 
     // 2. Recopilar todas las imágenes que SÍ se usan
     const imagenesUsadas = new Set();
