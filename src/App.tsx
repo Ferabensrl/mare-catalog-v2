@@ -813,6 +813,10 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
 
   const handleWhatsAppPdf = async () => {
     setIsLoading(true);
+    
+    // Guardar último pedido antes de limpiar
+    saveLastOrder();
+    
     const doc = generatePdf();
     const blob = doc.output('blob');
     const file = new File([blob], 'pedido.pdf', { type: 'application/pdf' });
@@ -844,6 +848,9 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
     setIsLoading(true);
     const message = onGenerateWhatsApp(comentarioFinal);
     
+    // Guardar último pedido antes de limpiar
+    saveLastOrder();
+    
     // Abrir WhatsApp
     window.open(`https://wa.me/59897998999?text=${message}`, '_blank');
     
@@ -862,6 +869,9 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
     setIsLoading(true);
     const subject = `Nuevo Pedido - ${clientName}`;
     const body = decodeURIComponent(onGenerateWhatsApp(comentarioFinal));
+    
+    // Guardar último pedido antes de limpiar
+    saveLastOrder();
     
     // Abrir cliente de email
     window.open(`mailto:ferabensrl@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, '_blank');
@@ -1201,6 +1211,12 @@ const App = () => {
     loadMessage();
   }, []);
 
+  // Limpiar pedidos expirados al inicializar
+  useEffect(() => {
+    // Verificar y limpiar automáticamente pedidos expirados
+    getLastOrder(); // Esta función ya elimina automáticamente si pasaron 24h
+  }, []);
+
   // Cargar productos reales desde JSON
   useEffect(() => {
     const loadProducts = async () => {
@@ -1362,6 +1378,68 @@ const App = () => {
     setCart([]);
   };
 
+  // 🔄 FUNCIONES PARA RESTAURAR ÚLTIMO PEDIDO (24h)
+  const saveLastOrder = () => {
+    if (cart.length === 0) return;
+    
+    const orderData = {
+      cart: cart,
+      clientName: loginData?.nombreCliente || '',
+      timestamp: Date.now(),
+      totalItems: getTotalItems(),
+      totalPrice: getTotalPrice()
+    };
+    
+    localStorage.setItem('mare_last_order', JSON.stringify(orderData));
+  };
+
+  const getLastOrder = () => {
+    try {
+      const saved = localStorage.getItem('mare_last_order');
+      if (!saved) return null;
+      
+      const orderData = JSON.parse(saved);
+      const now = Date.now();
+      const timeLimit = 24 * 60 * 60 * 1000; // 24 horas en milisegundos
+      
+      // Si pasaron más de 24 horas, eliminar y devolver null
+      if (now - orderData.timestamp > timeLimit) {
+        localStorage.removeItem('mare_last_order');
+        return null;
+      }
+      
+      return orderData;
+    } catch (error) {
+      console.error('Error loading last order:', error);
+      localStorage.removeItem('mare_last_order');
+      return null;
+    }
+  };
+
+  const restoreLastOrder = () => {
+    const lastOrder = getLastOrder();
+    if (!lastOrder) return false;
+    
+    const confirmed = window.confirm(
+      `¿Restaurar el último pedido?\n\n` +
+      `📅 Fecha: ${new Date(lastOrder.timestamp).toLocaleString('es-AR')}\n` +
+      `👤 Cliente: ${lastOrder.clientName}\n` +
+      `📦 Productos: ${lastOrder.totalItems}\n` +
+      `💰 Total: $${lastOrder.totalPrice.toLocaleString()}\n\n` +
+      `⚠️ Esto reemplazará tu pedido actual.`
+    );
+    
+    if (confirmed) {
+      setCart(lastOrder.cart);
+      return true;
+    }
+    return false;
+  };
+
+  const hasLastOrder = () => {
+    return getLastOrder() !== null;
+  };
+
   // 🚪 FUNCIÓN PARA CERRAR SESIÓN
   const handleLogout = () => {
     const confirmed = window.confirm(
@@ -1474,6 +1552,19 @@ const App = () => {
             </div>
             
             <div className="flex items-center gap-2">
+              {/* Botón Restaurar Último Pedido */}
+              {hasLastOrder() && (
+                <button
+                  onClick={restoreLastOrder}
+                  className="hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium hover:opacity-80 transition-all"
+                  style={{ backgroundColor: '#8F6A50', color: 'white' }}
+                  title="Restaurar último pedido enviado (24h)"
+                  aria-label="Restaurar último pedido"
+                >
+                  🔄 Restaurar
+                </button>
+              )}
+              
               {/* Botón Limpiar Pedido */}
               {cart.length > 0 && (
                 <button
