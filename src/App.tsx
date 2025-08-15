@@ -743,6 +743,29 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
   const [comentarioFinal, setComentarioFinal] = useState('');
   const [isLoading, setIsLoading] = useState(false);
 
+  // 🔄 FUNCIONES PARA RESTAURAR ÚLTIMO PEDIDO (24h)
+  const saveLastOrder = () => {
+    if (cart.length === 0) return;
+    
+    const getTotalItems = () => {
+      return cart.reduce((total, item) => {
+        const seleccionesTotal = Object.values(item.selecciones).reduce((sum, qty) => sum + qty, 0);
+        const surtidoTotal = item.surtido || 0;
+        return total + seleccionesTotal + surtidoTotal;
+      }, 0);
+    };
+    
+    const orderData = {
+      cart: cart,
+      clientName: clientName,
+      timestamp: Date.now(),
+      totalItems: getTotalItems(),
+      totalPrice: totalPrice
+    };
+    
+    localStorage.setItem('mare_last_order', JSON.stringify(orderData));
+  };
+
   const generatePdf = () => {
     const doc = new jsPDF();
     const fecha = new Date().toLocaleDateString('es-AR');
@@ -1378,21 +1401,7 @@ const App = () => {
     setCart([]);
   };
 
-  // 🔄 FUNCIONES PARA RESTAURAR ÚLTIMO PEDIDO (24h)
-  const saveLastOrder = () => {
-    if (cart.length === 0) return;
-    
-    const orderData = {
-      cart: cart,
-      clientName: loginData?.nombreCliente || '',
-      timestamp: Date.now(),
-      totalItems: getTotalItems(),
-      totalPrice: getTotalPrice()
-    };
-    
-    localStorage.setItem('mare_last_order', JSON.stringify(orderData));
-  };
-
+  // 🔄 FUNCIONES PARA RESTAURAR ÚLTIMO PEDIDO - Solo para el botón del header
   const getLastOrder = () => {
     try {
       const saved = localStorage.getItem('mare_last_order');
