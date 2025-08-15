@@ -1284,6 +1284,20 @@ const App = () => {
 
   const updateCartItemQuantity = (index: number, opcion: string, newQuantity: number) => {
     const newCart = [...cart];
+    const currentItem = newCart[index];
+    
+    // Si la nueva cantidad es 0, mostrar confirmación
+    if (newQuantity === 0) {
+      const confirmMessage = opcion === 'surtido' 
+        ? `¿Estás seguro que quieres eliminar el surtido de "${currentItem.producto.nombre}"?`
+        : `¿Estás seguro que quieres eliminar la opción "${opcion}" de "${currentItem.producto.nombre}"?`;
+      
+      const confirmed = window.confirm(confirmMessage);
+      if (!confirmed) {
+        return; // No hacer nada si el usuario cancela
+      }
+    }
+    
     if (opcion === 'surtido') {
       newCart[index].surtido = Math.max(0, newQuantity);
     } else {
