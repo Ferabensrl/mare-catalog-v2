@@ -822,7 +822,7 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
     const message = onGenerateWhatsApp(comentarioFinal);
     
     // Abrir WhatsApp
-    window.open(`https://wa.me/?text=${message}`, '_blank');
+    window.open(`https://wa.me/59897998999?text=${message}`, '_blank');
     
     // Mostrar mensaje de confirmación y resetear después de un momento
     setTimeout(() => {
