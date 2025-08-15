@@ -1132,7 +1132,8 @@ const App = () => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-        const productosReales = await response.json();
+        const data = await response.json();
+        const productosReales = data.productos || data; // Soportar ambos formatos
 
         setProducts(productosReales);
         setFilteredProducts(productosReales);
