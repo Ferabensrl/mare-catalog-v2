@@ -890,14 +890,13 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
 
     try {
       // Crear mensaje de texto con instrucción para adjuntar PDF
-      const message = encodeURIComponent(
+      const message = 
         `📦 PEDIDO MARÉ\n` +
         `👤 Cliente: ${clientName}\n` +
         `📅 Fecha: ${new Date().toLocaleDateString('es-AR')}\n\n` +
         `📎 Se ha generado un PDF con el pedido completo.\n` +
         `Por favor, adjúntalo a este mensaje.\n\n` +
-        `🎉 ¡Gracias por elegirnos!`
-      );
+        `🎉 ¡Gracias por elegirnos!`;
       
       // Abrir WhatsApp: Intentar app nativa primero, luego web
       openWhatsAppNative(message);
@@ -908,12 +907,11 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
       console.error('Error al compartir PDF:', err);
       
       // Fallback en caso de error: abrir WhatsApp y descargar PDF
-      const message = encodeURIComponent(
+      const message = 
         `📦 PEDIDO MARÉ - ${clientName}\n` +
         `📅 ${new Date().toLocaleDateString('es-AR')}\n\n` +
-        `📎 PDF generado, por favor adjúntalo.`
-      );
-      window.open(`https://wa.me/59897998999?text=${message}`, '_blank');
+        `📎 PDF generado, por favor adjúntalo.`;
+      window.open(`https://wa.me/59897998999?text=${encodeURIComponent(message)}`, '_blank');
       doc.save(`pedido_${clientName}_${new Date().toISOString().slice(0, 10)}.pdf`);
     } finally {
       setTimeout(() => {
@@ -952,7 +950,7 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
   const handleEmailSend = async () => {
     setIsLoading(true);
     const subject = `Nuevo Pedido - ${clientName}`;
-    const body = decodeURIComponent(onGenerateWhatsApp(comentarioFinal));
+    const body = onGenerateWhatsApp(comentarioFinal);
     
     // GUARDAR CARRITO TEMPORALMENTE PRIMERO (antes de cualquier operación)
     const currentCart = [...cart];
