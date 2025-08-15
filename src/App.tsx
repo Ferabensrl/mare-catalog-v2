@@ -826,7 +826,7 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
         });
       } else {
         const message = onGenerateWhatsApp(comentarioFinal);
-        window.open(`https://wa.me/?text=${message}`, '_blank');
+        window.open(`https://wa.me/59897998999?text=${message}`, '_blank');
       }
     } catch (err) {
       console.error('Error al compartir PDF:', err);
