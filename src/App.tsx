@@ -841,7 +841,7 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
     const body = decodeURIComponent(onGenerateWhatsApp(comentarioFinal));
     
     // Abrir cliente de email
-    window.open(`mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, '_blank');
+    window.open(`mailto:ferabensrl@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, '_blank');
     
     // Mostrar mensaje de confirmación y resetear después de un momento
     setTimeout(() => {
