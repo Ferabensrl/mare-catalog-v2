@@ -728,11 +728,12 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, image
 };
 
 // Modal del carrito - OPTIMIZADO PARA MÓVIL
-const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWhatsApp, onClearCart, onConfirmClearCart, totalPrice, clientName }: {
+const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuantity, onGenerateWhatsApp, onClearCart, onConfirmClearCart, totalPrice, clientName }: {
   cart: CartItem[];
   onClose: () => void;
   onRemoveItem: (index: number) => void;
   onUpdateComment: (index: number, comentario: string) => void;
+  onUpdateQuantity: (index: number, opcion: string, newQuantity: number) => void;
   onGenerateWhatsApp: (comentarioFinal: string) => string;
   onClearCart: () => void;
   onConfirmClearCart?: () => void;
@@ -923,20 +924,76 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWha
                       </button>
                     </div>
 
-                    {/* Selecciones */}
-                    <div className="space-y-1 mb-3">
+                    {/* Selecciones con controles de edición */}
+                    <div className="space-y-2 mb-3">
                       {Object.entries(item.selecciones).map(([opcion, cantidad]) => (
                         cantidad > 0 && (
-                          <div key={opcion} className="flex justify-between text-xs sm:text-sm">
-                            <span>{opcion}:</span>
-                            <span className="font-medium">{cantidad}</span>
+                          <div key={opcion} className="flex justify-between items-center">
+                            <span className="text-xs sm:text-sm font-medium" style={{ color: '#8F6A50' }}>{opcion}:</span>
+                            <div className="flex items-center gap-2">
+                              <button
+                                onClick={() => onUpdateQuantity(index, opcion, cantidad - 1)}
+                                className="p-1 rounded"
+                                style={{ backgroundColor: '#E3D4C1', color: '#8F6A50' }}
+                                disabled={isLoading}
+                                aria-label={`Disminuir ${opcion}`}
+                              >
+                                <Minus size={14} />
+                              </button>
+                              <input
+                                type="number"
+                                value={cantidad}
+                                onChange={(e) => onUpdateQuantity(index, opcion, parseInt(e.target.value) || 0)}
+                                className="w-12 text-center border rounded px-1 py-1 text-xs"
+                                style={{ borderColor: '#8F6A50', color: '#8F6A50' }}
+                                min="0"
+                                disabled={isLoading}
+                              />
+                              <button
+                                onClick={() => onUpdateQuantity(index, opcion, cantidad + 1)}
+                                className="p-1 rounded"
+                                style={{ backgroundColor: '#E3D4C1', color: '#8F6A50' }}
+                                disabled={isLoading}
+                                aria-label={`Aumentar ${opcion}`}
+                              >
+                                <Plus size={14} />
+                              </button>
+                            </div>
                           </div>
                         )
                       ))}
                       {item.surtido && item.surtido > 0 && (
-                        <div className="flex justify-between text-xs sm:text-sm">
-                          <span>Surtido:</span>
-                          <span className="font-medium">{item.surtido}</span>
+                        <div className="flex justify-between items-center">
+                          <span className="text-xs sm:text-sm font-medium" style={{ color: '#8F6A50' }}>Surtido:</span>
+                          <div className="flex items-center gap-2">
+                            <button
+                              onClick={() => onUpdateQuantity(index, 'surtido', item.surtido! - 1)}
+                              className="p-1 rounded"
+                              style={{ backgroundColor: '#8F6A50', color: 'white' }}
+                              disabled={isLoading}
+                              aria-label="Disminuir surtido"
+                            >
+                              <Minus size={14} />
+                            </button>
+                            <input
+                              type="number"
+                              value={item.surtido}
+                              onChange={(e) => onUpdateQuantity(index, 'surtido', parseInt(e.target.value) || 0)}
+                              className="w-12 text-center border rounded px-1 py-1 text-xs"
+                              style={{ borderColor: '#8F6A50', color: '#8F6A50' }}
+                              min="0"
+                              disabled={isLoading}
+                            />
+                            <button
+                              onClick={() => onUpdateQuantity(index, 'surtido', item.surtido! + 1)}
+                              className="p-1 rounded"
+                              style={{ backgroundColor: '#8F6A50', color: 'white' }}
+                              disabled={isLoading}
+                              aria-label="Aumentar surtido"
+                            >
+                              <Plus size={14} />
+                            </button>
+                          </div>
                         </div>
                       )}
                     </div>
@@ -1223,6 +1280,24 @@ const App = () => {
     const newCart = [...cart];
     newCart[index].comentario = comentario;
     setCart(newCart);
+  };
+
+  const updateCartItemQuantity = (index: number, opcion: string, newQuantity: number) => {
+    const newCart = [...cart];
+    if (opcion === 'surtido') {
+      newCart[index].surtido = Math.max(0, newQuantity);
+    } else {
+      newCart[index].selecciones[opcion] = Math.max(0, newQuantity);
+    }
+    
+    // Limpiar productos que no tienen cantidades
+    const updatedCart = newCart.filter(item => {
+      const hasSelections = Object.values(item.selecciones).some(qty => qty > 0);
+      const hasSurtido = item.surtido && item.surtido > 0;
+      return hasSelections || hasSurtido;
+    });
+    
+    setCart(updatedCart);
   };
 
   // 🧹 FUNCIÓN PARA LIMPIAR TODO EL CARRITO CON CONFIRMACIÓN
@@ -1622,6 +1697,7 @@ const App = () => {
           onClose={() => setShowCart(false)}
           onRemoveItem={removeFromCart}
           onUpdateComment={updateCartItemComment}
+          onUpdateQuantity={updateCartItemQuantity}
           onGenerateWhatsApp={generateWhatsAppMessage}
           onClearCart={clearCart}
           onConfirmClearCart={confirmClearCart}
