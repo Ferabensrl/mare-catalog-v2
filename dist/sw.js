@@ -1,6 +1,6 @@
 // sw.js - Service Worker para MARÉ Catálogo PWA
 // Versión del cache - incrementar cuando haya cambios importantes
-const CACHE_VERSION = 'mare-v1.3.1-whatsapp-fix-' + Date.now();
+const CACHE_VERSION = 'mare-v1.0.2';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
 const IMAGES_CACHE = `${CACHE_VERSION}-images`;
@@ -17,61 +17,23 @@ const STATIC_ASSETS = [
   '/logo-mare.png'
 ];
 
-// Cache de assets dinámicos (JS/CSS buildeados)
-let dynamicAssets = [];
-
 // Instalar Service Worker
 self.addEventListener('install', (event) => {
   console.log('🔧 SW: Instalando Service Worker v' + CACHE_VERSION);
   
   event.waitUntil(
-    Promise.all([
-      // Cachear archivos estáticos básicos
-      caches.open(STATIC_CACHE)
-        .then((cache) => {
-          console.log('📦 SW: Cacheando archivos estáticos...');
-          return cache.addAll(STATIC_ASSETS.map(url => {
-            // Agregar cache busting para archivos críticos
-            if (url === '/productos.json' || url === '/mensaje.json') {
-              return `${url}?v=${Date.now()}`;
-            }
-            return url;
-          }));
-        }),
-      // Pre-cachear assets dinámicos encontrando el index.html
-      fetch('/index.html')
-        .then(response => response.text())
-        .then(html => {
-          // Extraer enlaces a CSS y JS del HTML
-          const cssMatches = html.match(/href="([^"]*\.css[^"]*)"/g) || [];
-          const jsMatches = html.match(/src="([^"]*\.js[^"]*)"/g) || [];
-          
-          dynamicAssets = [
-            ...cssMatches.map(match => match.replace(/href="([^"]*)"/g, '$1')),
-            ...jsMatches.map(match => match.replace(/src="([^"]*)"/g, '$1'))
-          ].filter(asset => asset.startsWith('/assets/'));
-          
-          console.log('🎯 SW: Assets dinámicos detectados:', dynamicAssets);
-          
-          if (dynamicAssets.length > 0) {
-            return caches.open(STATIC_CACHE)
-              .then(cache => {
-                console.log('📦 SW: Pre-cacheando assets dinámicos...');
-                return cache.addAll(dynamicAssets);
-              });
-          }
-        })
-        .catch(error => {
-          console.warn('⚠️ SW: No se pudieron pre-cachear assets dinámicos:', error);
-        })
-    ])
+    caches.open(STATIC_CACHE)
+      .then((cache) => {
+        console.log('📦 SW: Cacheando archivos estáticos...');
+        return cache.addAll(STATIC_ASSETS);
+      })
       .then(() => {
-        console.log('✅ SW: Instalación completada exitosamente');
+        console.log('✅ SW: Archivos estáticos cacheados exitosamente');
         // Tomar control inmediatamente
         return self.skipWaiting();
       })
       .catch((error) => {
-        console.error('❌ SW: Error en instalación:', error);
+        console.error('❌ SW: Error cacheando archivos estáticos:', error);
       })
   );
 });
@@ -132,9 +94,9 @@ async function handleRequest(request) {
       return await cacheFirstStrategy(request, STATIC_CACHE);
     }
 
-    // 2. PRODUCTOS.JSON - CACHE DIARIO INTELIGENTE
+    // 2. PRODUCTOS.JSON (crítico para la app)
     if (pathname === '/productos.json') {
-      return await handleProductsJson(request);
+      return await networkFirstStrategy(request, STATIC_CACHE);
     }
 
     // 3. IMÁGENES (/imagenes/)
@@ -145,9 +107,7 @@ async function handleRequest(request) {
     // 4. ARCHIVOS JS/CSS (generados por Vite)
     if (pathname.startsWith('/assets/') || 
         pathname.endsWith('.js') || 
-        pathname.endsWith('.css') ||
-        pathname.includes('index-') ||
-        pathname.includes('assets/')) {
+        pathname.endsWith('.css')) {
       return await cacheFirstStrategy(request, STATIC_CACHE);
     }
 
@@ -182,19 +142,17 @@ async function cacheFirstStrategy(request, cacheName) {
   // Buscar en cache primero
   const cachedResponse = await caches.match(request);
   if (cachedResponse) {
-    console.log(`✅ SW: Sirviendo desde cache: ${request.url}`);
+    // Encontrado en cache - devolverlo inmediatamente
     return cachedResponse;
   }
 
   // No está en cache - intentar network
   try {
-    console.log(`🌐 SW: Descargando desde network: ${request.url}`);
     const networkResponse = await fetch(request);
     
     // Si la respuesta es válida, cachearla
     if (networkResponse.status === 200) {
       const cache = await caches.open(cacheName);
-      console.log(`💾 SW: Cacheando: ${request.url}`);
       // Clonar la respuesta porque solo se puede usar una vez
       cache.put(request, networkResponse.clone());
     }
@@ -209,14 +167,12 @@ async function cacheFirstStrategy(request, cacheName) {
 // Estrategia Network First (para productos.json y contenido dinámico)
 async function networkFirstStrategy(request, cacheName) {
   try {
-    console.log(`🌐 SW: Intentando network first para: ${request.url}`);
     // Intentar network primero
     const networkResponse = await fetch(request);
     
     // Si es exitoso, actualizar cache
     if (networkResponse.status === 200) {
       const cache = await caches.open(cacheName);
-      console.log(`💾 SW: Actualizando cache: ${request.url}`);
       cache.put(request, networkResponse.clone());
     }
     
@@ -227,11 +183,9 @@ async function networkFirstStrategy(request, cacheName) {
     // Network falló - buscar en cache
     const cachedResponse = await caches.match(request);
     if (cachedResponse) {
-      console.log(`📱 SW: Sirviendo desde cache offline: ${request.url}`);
       return cachedResponse;
     }
     
-    console.error(`❌ SW: No disponible offline: ${request.url}`);
     throw error;
   }
 }
@@ -329,89 +283,5 @@ self.addEventListener('notificationclick', (event) => {
       })
   );
 });
-
-
-// 📅 MANEJO INTELIGENTE DE PRODUCTOS.JSON - CACHE DIARIO
-async function handleProductsJson(request) {
-  try {
-    // Generar clave de cache basada en fecha actual
-    const today = new Date().toISOString().split('T')[0]; // "2025-08-13"
-    const cacheKey = `/productos.json-${today}`;
-    const cache = await caches.open(STATIC_CACHE);
-    
-    console.log(`📅 SW: Manejando productos.json para ${today}`);
-    
-    // LÓGICA HÍBRIDA: Online vs Offline
-    if (navigator.onLine) {
-      console.log('🌐 SW: Online - intentando descarga fresh');
-      try {
-        // Con internet: SIEMPRE intentar fresh primero (para testing/actualizaciones)
-        const freshResponse = await fetch('/productos.json?v=' + Date.now());
-        
-        if (freshResponse.ok) {
-          console.log('✅ SW: Fresh descargado, actualizando cache del día');
-          // Guardar fresh en cache del día
-          await cache.put(cacheKey, freshResponse.clone());
-          // Limpiar caches de días anteriores
-          await cleanOldProductCaches();
-          return freshResponse;
-        }
-      } catch (error) {
-        console.warn('⚠️ SW: Error descargando fresh, usando cache del día');
-      }
-    }
-    
-    // Offline O falló el fresh: usar cache del día actual
-    console.log('📱 SW: Buscando cache del día actual');
-    const todayCache = await cache.match(cacheKey);
-    if (todayCache) {
-      console.log('✅ SW: Usando cache del día actual');
-      return todayCache;
-    }
-    
-    // No hay cache del día - buscar cualquier cache como último recurso
-    console.log('🔍 SW: Sin cache del día, buscando cache general');
-    const anyCache = await cache.match('/productos.json');
-    if (anyCache) {
-      console.log('📦 SW: Usando cache general como fallback');
-      return anyCache;
-    }
-    
-    // Último recurso: array vacío
-    console.error('❌ SW: Sin productos disponibles');
-    return new Response('[]', { 
-      headers: { 'Content-Type': 'application/json' } 
-    });
-    
-  } catch (error) {
-    console.error('❌ SW: Error crítico en handleProductsJson:', error);
-    return new Response('[]', { 
-      headers: { 'Content-Type': 'application/json' } 
-    });
-  }
-}
-
-// 🧹 LIMPIAR CACHES DE DÍAS ANTERIORES
-async function cleanOldProductCaches() {
-  try {
-    const cache = await caches.open(STATIC_CACHE);
-    const keys = await cache.keys();
-    const today = new Date().toISOString().split('T')[0];
-    
-    const oldProductCaches = keys.filter(request => 
-      request.url.includes('/productos.json-') && 
-      !request.url.includes(today)
-    );
-    
-    if (oldProductCaches.length > 0) {
-      console.log(`🧹 SW: Limpiando ${oldProductCaches.length} caches antiguos`);
-      await Promise.all(
-        oldProductCaches.map(request => cache.delete(request))
-      );
-    }
-  } catch (error) {
-    console.warn('⚠️ SW: Error limpiando caches antiguos:', error);
-  }
-}
 
 console.log('🚀 MARÉ Service Worker cargado - Versión:', CACHE_VERSION);

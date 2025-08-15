@@ -2,8 +2,6 @@ import React, { useState, useEffect, useRef } from 'react';
 import { ShoppingCart, Plus, Minus, Filter, X, Eye, EyeOff, MessageCircle, Mail, Search, Grid, List, ZoomIn, ChevronLeft, ChevronRight, ChevronDown, Info, Download, Check } from 'lucide-react';
 import { jsPDF } from 'jspdf';
 
-// v1.1.0 - Checkout simplificado: Solo WhatsApp visible
-// FORCE REBUILD: Catálogo actualizado 11-08-2025
 // Tipos TypeScript
 
 // Tipos TypeScript
@@ -35,17 +33,16 @@ interface LoginData {
 }
 
 // Convertir enlace de Google Drive a imagen directa o manejar rutas locales
-const convertGoogleDriveUrl = (url: string, catalogVersion?: number): string => {
+const convertGoogleDriveUrl = (url: string): string => {
   if (url.includes('drive.google.com')) {
     const match = url.match(/\/d\/([a-zA-Z0-9-_]+)/);
     if (match) {
       return `https://drive.google.com/uc?export=view&id=${match[1]}`;
     }
   }
-  // Si no es de Drive, es una ruta local, agregar /imagenes/ con cache busting
+  // Si no es de Drive, es una ruta local, agregar /imagenes/
   if (!url.startsWith('http') && !url.startsWith('/imagenes/')) {
-    const cacheBuster = catalogVersion ? `?v=${catalogVersion}` : '';
-    return `/imagenes/${url}${cacheBuster}`;
+    return `/imagenes/${url}`;
   }
   return url;
 };
@@ -118,12 +115,11 @@ const LoginScreen = ({ onLogin }: { onLogin: (data: LoginData) => void }) => {
 };
 
 // Componente Modal de Galería con Zoom
-const ImageGalleryModal = ({ product, isOpen, onClose, initialImageIndex = 0, catalogVersion }: {
+const ImageGalleryModal = ({ product, isOpen, onClose, initialImageIndex = 0 }: {
   product: Product;
   isOpen: boolean;
   onClose: () => void;
   initialImageIndex?: number;
-  catalogVersion?: number;
 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(initialImageIndex);
   const [isZoomed, setIsZoomed] = useState(false);
@@ -259,7 +255,7 @@ const ImageGalleryModal = ({ product, isOpen, onClose, initialImageIndex = 0, ca
           style={{ cursor: isZoomed ? 'grab' : 'zoom-in' }}
         >
           <img
-            src={convertGoogleDriveUrl(product.imagenes[currentImageIndex], catalogVersion)}
+            src={convertGoogleDriveUrl(product.imagenes[currentImageIndex])}
             alt={`${product.nombre} - Imagen ${currentImageIndex + 1}`}
             className={`max-w-full max-h-full object-contain transition-transform duration-300 select-none ${
               isDragging ? 'cursor-grabbing' : ''
@@ -302,7 +298,7 @@ const ImageGalleryModal = ({ product, isOpen, onClose, initialImageIndex = 0, ca
               }`}
             >
               <img
-                src={convertGoogleDriveUrl(imagen, catalogVersion)}
+                src={convertGoogleDriveUrl(imagen)}
                 alt={`Thumbnail ${index + 1}`}
                 className="w-full h-full object-cover"
                 onError={(e) => {
@@ -335,13 +331,12 @@ const estadoLabels: Record<string, string> = {
   Novedades: '✨ Novedad'
 };
 
-const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, imagesOnly = false, catalogVersion }: {
+const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, imagesOnly = false }: {
   product: Product;
   onAddToCart: (producto: Product, selecciones: { [key: string]: number }, surtido?: number, comentario?: string) => void;
   viewMode: 'grid' | 'list';
   quantityInCart?: number;
   imagesOnly?: boolean;
-  catalogVersion?: number;
 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [selecciones, setSelecciones] = useState<{ [key: string]: number }>({});
@@ -453,7 +448,7 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, image
             </div>
           )}
           <img
-            src={convertGoogleDriveUrl(product.imagenes[currentImageIndex], catalogVersion)}
+            src={convertGoogleDriveUrl(product.imagenes[currentImageIndex])}
             alt={product.nombre}
             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
             onError={(e) => {
@@ -528,7 +523,7 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, image
                 onClick={() => setShowVariantesModal(true)}
               >
                 <img
-                  src={convertGoogleDriveUrl(product.imagenVariantes, catalogVersion)}
+                  src={convertGoogleDriveUrl(product.imagenVariantes)}
                   alt="Variantes disponibles"
                   className="w-full h-32 sm:h-36 object-contain"
                   onError={(e) => {
@@ -698,7 +693,6 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, image
         isOpen={showImageModal}
         onClose={() => setShowImageModal(false)}
         initialImageIndex={currentImageIndex}
-        catalogVersion={catalogVersion}
       />
 
       {/* Modal de imagen de variantes */}
@@ -718,7 +712,7 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, image
               <X size={32} />
             </button>
             <img
-              src={convertGoogleDriveUrl(product.imagenVariantes, catalogVersion)}
+              src={convertGoogleDriveUrl(product.imagenVariantes)}
               alt="Variantes disponibles"
               className="max-w-full max-h-full object-contain rounded-lg"
               onClick={(e) => e.stopPropagation()}
@@ -733,53 +727,17 @@ const ProductCard = ({ product, onAddToCart, viewMode, quantityInCart = 0, image
   );
 };
 
-// 📱 FUNCIÓN PARA ABRIR WHATSAPP NATIVO O WEB
-const openWhatsAppNative = (message: string) => {
-  const phoneNumber = '59897998999';
-  const encodedMessage = encodeURIComponent(message);
-  
-  // URLs para diferentes protocolos
-  const nativeUrl = `whatsapp://send?phone=${phoneNumber}&text=${encodedMessage}`;
-  const webUrl = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
-  
-  // Detectar si estamos en móvil/tablet
-  const isMobileDevice = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-  
-  if (isMobileDevice) {
-    // En móviles: Intentar app nativa primero
-    console.log('✅ WHATSAPP FIX: Móvil detectado - abriendo app nativa');
-    
-    // Crear un enlace temporal para intentar abrir la app
-    const link = document.createElement('a');
-    link.href = nativeUrl;
-    link.click();
-    
-    // Fallback a web después de 2 segundos si la app no se abrió
-    setTimeout(() => {
-      console.log('✅ WHATSAPP FIX: Fallback a WhatsApp Web');
-      window.open(webUrl, '_blank');
-    }, 2000);
-    
-  } else {
-    // En desktop: Ir directo a WhatsApp Web
-    console.log('✅ WHATSAPP FIX: Desktop detectado - abriendo WhatsApp Web');
-    window.open(webUrl, '_blank');
-  }
-};
-
 // Modal del carrito - OPTIMIZADO PARA MÓVIL
-const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuantity, onGenerateWhatsApp, onClearCart, onConfirmClearCart, totalPrice, clientName, saveCartTemporarily }: {
+const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onGenerateWhatsApp, onClearCart, onConfirmClearCart, totalPrice, clientName }: {
   cart: CartItem[];
   onClose: () => void;
   onRemoveItem: (index: number) => void;
   onUpdateComment: (index: number, comentario: string) => void;
-  onUpdateQuantity?: (index: number, opcion: string, newQuantity: number) => void;
   onGenerateWhatsApp: (comentarioFinal: string) => string;
   onClearCart: () => void;
   onConfirmClearCart?: () => void;
   totalPrice: number;
   clientName: string;
-  saveCartTemporarily?: (cart: CartItem[]) => void;
 }) => {
   const [comentarioFinal, setComentarioFinal] = useState('');
   const [isLoading, setIsLoading] = useState(false);
@@ -787,86 +745,39 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
   const generatePdf = () => {
     const doc = new jsPDF();
     const fecha = new Date().toLocaleDateString('es-AR');
-    const pageHeight = doc.internal.pageSize.height;
-    const margin = 20;
-    let y = margin;
 
-    // Función para verificar si necesitamos nueva página
-    const checkPageBreak = (requiredSpace: number) => {
-      if (y + requiredSpace > pageHeight - margin) {
-        doc.addPage();
-        y = margin;
-      }
-    };
-
-    // Header
     doc.setFontSize(16);
-    doc.text('📦 PEDIDO MARÉ', 10, y);
-    y += 10;
-    
+    doc.text('Pedido MARÉ', 10, 15);
     doc.setFontSize(12);
-    doc.text(`👤 Cliente: ${clientName}`, 10, y);
-    y += 6;
-    doc.text(`📅 Fecha: ${fecha}`, 10, y);
-    y += 10;
-    
-    doc.setFontSize(14);
-    doc.text('📦 Detalle del pedido:', 10, y);
-    y += 8;
-    
-    doc.setFontSize(11);
+    doc.text(`Cliente: ${clientName}`, 10, 25);
+    doc.text(`Fecha: ${fecha}`, 10, 32);
 
-    // Productos - usando el mismo formato que WhatsApp
+    let y = 42;
     cart.forEach((item, idx) => {
-      checkPageBreak(30); // Espacio mínimo necesario para un producto
-      
-      // Código y nombre del producto
-      doc.text(`🔹 ${item.producto.codigo} – ${item.producto.nombre}`, 10, y);
+      doc.text(`${idx + 1}. ${item.producto.nombre} (${item.producto.codigo})`, 10, y);
       y += 6;
-      
-      // Selecciones
       Object.entries(item.selecciones).forEach(([opcion, cantidad]) => {
         if (cantidad > 0) {
-          checkPageBreak(6);
           doc.text(`- ${opcion}: ${cantidad}`, 14, y);
-          y += 5;
+          y += 6;
         }
       });
-      
-      // Surtido
       if (item.surtido && item.surtido > 0) {
-        checkPageBreak(6);
         doc.text(`- Surtido: ${item.surtido}`, 14, y);
-        y += 5;
+        y += 6;
       }
-      
-      // Comentario del producto
-      if (item.comentario && item.comentario.trim()) {
-        checkPageBreak(12);
-        doc.text(`📝 Comentario: ${item.comentario}`, 14, y, { maxWidth: 170 });
-        const lines = Math.ceil(item.comentario.length / 45); // Estimar líneas
-        y += Math.max(6, lines * 5);
+      if (item.comentario) {
+        doc.text(`Comentario: ${item.comentario}`, 14, y, { maxWidth: 180 });
+        y += 6;
       }
-      
-      y += 4; // Espacio entre productos
+      y += 2;
     });
 
-    // Comentario final
-    if (comentarioFinal && comentarioFinal.trim()) {
-      checkPageBreak(15);
-      doc.setFontSize(12);
-      doc.text('✍️ Comentario final:', 10, y);
-      y += 6;
-      doc.setFontSize(11);
-      doc.text(comentarioFinal, 10, y, { maxWidth: 180 });
-      const lines = Math.ceil(comentarioFinal.length / 50);
-      y += Math.max(8, lines * 5);
-    }
+    doc.text(`Total: $${totalPrice.toLocaleString()}`, 10, y + 4);
 
-    // Total
-    checkPageBreak(10);
-    doc.setFontSize(14);
-    doc.text(`🎉 ¡Gracias por tu pedido y por elegirnos! 🙌🏻`, 10, y);
+    if (comentarioFinal) {
+      doc.text(`Comentario final: ${comentarioFinal}`, 10, y + 12, { maxWidth: 180 });
+    }
 
     return doc;
   };
@@ -880,45 +791,27 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
     setIsLoading(true);
     const doc = generatePdf();
     const blob = doc.output('blob');
-    const file = new File([blob], `pedido_${clientName}_${new Date().toISOString().slice(0, 10)}.pdf`, { type: 'application/pdf' });
-    
-    // GUARDAR CARRITO TEMPORALMENTE PRIMERO (antes de cualquier operación)
-    const currentCart = [...cart];
-    if (typeof saveCartTemporarily === 'function') {
-      saveCartTemporarily(currentCart);
-    }
+    const file = new File([blob], 'pedido.pdf', { type: 'application/pdf' });
 
     try {
-      // Crear mensaje de texto con instrucción para adjuntar PDF
-      const message = 
-        `📦 PEDIDO MARÉ\n` +
-        `👤 Cliente: ${clientName}\n` +
-        `📅 Fecha: ${new Date().toLocaleDateString('es-AR')}\n\n` +
-        `📎 Se ha generado un PDF con el pedido completo.\n` +
-        `Por favor, adjúntalo a este mensaje.\n\n` +
-        `🎉 ¡Gracias por elegirnos!`;
-      
-      // Abrir WhatsApp: Intentar app nativa primero, luego web
-      openWhatsAppNative(message);
-        
-      // También descargar el PDF automáticamente
-      doc.save(`pedido_${clientName}_${new Date().toISOString().slice(0, 10)}.pdf`);
+      if (navigator.canShare && navigator.canShare({ files: [file] })) {
+        await navigator.share({
+          files: [file],
+          title: 'Pedido MARÉ',
+          text: 'Adjunto pedido en PDF'
+        });
+      } else {
+        const message = onGenerateWhatsApp(comentarioFinal);
+        window.open(`https://wa.me/?text=${message}`, '_blank');
+      }
     } catch (err) {
       console.error('Error al compartir PDF:', err);
-      
-      // Fallback en caso de error: abrir WhatsApp y descargar PDF
-      const message = 
-        `📦 PEDIDO MARÉ - ${clientName}\n` +
-        `📅 ${new Date().toLocaleDateString('es-AR')}\n\n` +
-        `📎 PDF generado, por favor adjúntalo.`;
-      window.open(`https://wa.me/59897998999?text=${encodeURIComponent(message)}`, '_blank');
-      doc.save(`pedido_${clientName}_${new Date().toISOString().slice(0, 10)}.pdf`);
     } finally {
       setTimeout(() => {
         setIsLoading(false);
         onClearCart();
         onClose();
-        alert('¡PDF enviado por WhatsApp! 📧🎉\n\n💾 Tu pedido se guardó temporalmente por seguridad.\nSi necesitas recuperarlo, actualiza la página en los próximos 5 minutos.');
+        alert('¡Pedido enviado por WhatsApp! 🎉\n\nLa aplicación se ha reiniciado para un nuevo pedido.');
       }, 1500);
     }
   };
@@ -927,39 +820,8 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
     setIsLoading(true);
     const message = onGenerateWhatsApp(comentarioFinal);
     
-    // GUARDAR CARRITO TEMPORALMENTE PRIMERO (antes de cualquier operación)
-    const currentCart = [...cart];
-    if (typeof saveCartTemporarily === 'function') {
-      saveCartTemporarily(currentCart);
-    }
-    
-    // Abrir WhatsApp: Intentar app nativa primero, luego web
-    openWhatsAppNative(message);
-    
-    // Mostrar mensaje de confirmación y resetear después de un momento
-    setTimeout(() => {
-      setIsLoading(false);
-      onClearCart(); // Limpiar el carrito
-      onClose(); // Cerrar el modal
-      
-      // Mensaje simple - WhatsApp Web maneja la cola automáticamente
-      alert('¡Pedido enviado por WhatsApp! 🎉\n\n💾 Tu pedido se guardó temporalmente por seguridad.\nSi necesitas recuperarlo, actualiza la página en los próximos 5 minutos.');
-    }, 1500);
-  };
-
-  const handleEmailSend = async () => {
-    setIsLoading(true);
-    const subject = `Nuevo Pedido - ${clientName}`;
-    const body = onGenerateWhatsApp(comentarioFinal);
-    
-    // GUARDAR CARRITO TEMPORALMENTE PRIMERO (antes de cualquier operación)
-    const currentCart = [...cart];
-    if (typeof saveCartTemporarily === 'function') {
-      saveCartTemporarily(currentCart);
-    }
-    
-    // Abrir cliente de email con destinatario preconfigurado
-    window.open(`mailto:ferabensrl@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, '_blank');
+    // Abrir WhatsApp
+    window.open(`https://wa.me/?text=${message}`, '_blank');
     
     // Mostrar mensaje de confirmación y resetear después de un momento
     setTimeout(() => {
@@ -968,7 +830,26 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
       onClose(); // Cerrar el modal
       
       // Mostrar notificación de éxito
-      alert('¡Pedido enviado por Email! 📧\n\n💾 Tu pedido se guardó temporalmente por seguridad.\nSi necesitas recuperarlo, actualiza la página en los próximos 5 minutos.');
+      alert('¡Pedido enviado por WhatsApp! 🎉\n\nLa aplicación se ha reiniciado para un nuevo pedido.');
+    }, 1500);
+  };
+
+  const handleEmailSend = async () => {
+    setIsLoading(true);
+    const subject = `Nuevo Pedido - ${clientName}`;
+    const body = decodeURIComponent(onGenerateWhatsApp(comentarioFinal));
+    
+    // Abrir cliente de email
+    window.open(`mailto:?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`, '_blank');
+    
+    // Mostrar mensaje de confirmación y resetear después de un momento
+    setTimeout(() => {
+      setIsLoading(false);
+      onClearCart(); // Limpiar el carrito
+      onClose(); // Cerrar el modal
+      
+      // Mostrar notificación de éxito
+      alert('¡Pedido enviado por Email! 📧\n\nLa aplicación se ha reiniciado para un nuevo pedido.');
     }, 1500);
   };
 
@@ -1042,105 +923,20 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
                       </button>
                     </div>
 
-                    {/* Selecciones con edición de cantidad */}
-                    <div className="space-y-2 mb-3">
+                    {/* Selecciones */}
+                    <div className="space-y-1 mb-3">
                       {Object.entries(item.selecciones).map(([opcion, cantidad]) => (
                         cantidad > 0 && (
-                          <div key={opcion} className="flex justify-between items-center text-xs sm:text-sm">
-                            <span className="flex-1">{opcion}:</span>
-                            {onUpdateQuantity ? (
-                              <div className="flex items-center gap-2">
-                                <button
-                                  onClick={() => onUpdateQuantity(index, opcion, cantidad - 1)}
-                                  className="w-6 h-6 rounded-full text-white flex items-center justify-center text-xs"
-                                  style={{ backgroundColor: '#8F6A50' }}
-                                  disabled={isLoading || cantidad <= 1}
-                                  aria-label="Reducir cantidad"
-                                >
-                                  -
-                                </button>
-                                <input
-                                  type="number"
-                                  value={cantidad}
-                                  onChange={(e) => {
-                                    const newValue = parseInt(e.target.value) || 0;
-                                    if (newValue === 0) {
-                                      // Si es 0, preguntar si quiere eliminar
-                                      const confirmed = window.confirm(`¿Eliminar ${opcion} de este producto?`);
-                                      if (confirmed) {
-                                        onUpdateQuantity(index, opcion, 0);
-                                      }
-                                    } else {
-                                      onUpdateQuantity(index, opcion, newValue);
-                                    }
-                                  }}
-                                  className="w-12 text-center border rounded text-xs"
-                                  style={{ borderColor: '#8F6A50', color: '#8F6A50' }}
-                                  min="0"
-                                  disabled={isLoading}
-                                />
-                                <button
-                                  onClick={() => onUpdateQuantity(index, opcion, cantidad + 1)}
-                                  className="w-6 h-6 rounded-full text-white flex items-center justify-center text-xs"
-                                  style={{ backgroundColor: '#8F6A50' }}
-                                  disabled={isLoading}
-                                  aria-label="Aumentar cantidad"
-                                >
-                                  +
-                                </button>
-                              </div>
-                            ) : (
-                              <span className="font-medium">{cantidad}</span>
-                            )}
+                          <div key={opcion} className="flex justify-between text-xs sm:text-sm">
+                            <span>{opcion}:</span>
+                            <span className="font-medium">{cantidad}</span>
                           </div>
                         )
                       ))}
                       {item.surtido && item.surtido > 0 && (
-                        <div className="flex justify-between items-center text-xs sm:text-sm">
-                          <span className="flex-1">Surtido:</span>
-                          {onUpdateQuantity ? (
-                            <div className="flex items-center gap-2">
-                              <button
-                                onClick={() => onUpdateQuantity(index, 'surtido', item.surtido! - 1)}
-                                className="w-6 h-6 rounded-full text-white flex items-center justify-center text-xs"
-                                style={{ backgroundColor: '#8F6A50' }}
-                                disabled={isLoading || item.surtido! <= 1}
-                                aria-label="Reducir surtido"
-                              >
-                                -
-                              </button>
-                              <input
-                                type="number"
-                                value={item.surtido}
-                                onChange={(e) => {
-                                  const newValue = parseInt(e.target.value) || 0;
-                                  if (newValue === 0) {
-                                    const confirmed = window.confirm('¿Eliminar el surtido de este producto?');
-                                    if (confirmed) {
-                                      onUpdateQuantity(index, 'surtido', 0);
-                                    }
-                                  } else {
-                                    onUpdateQuantity(index, 'surtido', newValue);
-                                  }
-                                }}
-                                className="w-12 text-center border rounded text-xs"
-                                style={{ borderColor: '#8F6A50', color: '#8F6A50' }}
-                                min="0"
-                                disabled={isLoading}
-                              />
-                              <button
-                                onClick={() => onUpdateQuantity(index, 'surtido', item.surtido! + 1)}
-                                className="w-6 h-6 rounded-full text-white flex items-center justify-center text-xs"
-                                style={{ backgroundColor: '#8F6A50' }}
-                                disabled={isLoading}
-                                aria-label="Aumentar surtido"
-                              >
-                                +
-                              </button>
-                            </div>
-                          ) : (
-                            <span className="font-medium">{item.surtido}</span>
-                          )}
+                        <div className="flex justify-between text-xs sm:text-sm">
+                          <span>Surtido:</span>
+                          <span className="font-medium">{item.surtido}</span>
                         </div>
                       )}
                     </div>
@@ -1264,17 +1060,11 @@ const App = () => {
   const [loading, setLoading] = useState(true);
   const [promoMessage, setPromoMessage] = useState('');
   const [loadError, setLoadError] = useState<string | null>(null);
-  const [catalogVersion, setCatalogVersion] = useState<number | undefined>(undefined);
-  const [lastOrderSent, setLastOrderSent] = useState<number | null>(null);
-  const [showRestoreCartModal, setShowRestoreCartModal] = useState(false);
-  const [tempSavedCart, setTempSavedCart] = useState<CartItem[]>([]);
 
   // 💾 PERSISTENCIA DEL CARRITO - Cargar al iniciar
   useEffect(() => {
     const savedCart = localStorage.getItem('mare-cart');
     const savedLoginData = localStorage.getItem('mare-login');
-    const tempCart = localStorage.getItem('mare-temp-cart');
-    const lastOrderTime = localStorage.getItem('mare-last-order-sent');
     
     if (savedCart) {
       try {
@@ -1294,33 +1084,6 @@ const App = () => {
       } catch (error) {
         console.error('Error cargando login guardado:', error);
         localStorage.removeItem('mare-login');
-      }
-    }
-
-    // Verificar si hay un carrito temporal guardado (últimos 5 minutos)
-    if (tempCart && lastOrderTime) {
-      try {
-        const parsedTempCart = JSON.parse(tempCart);
-        const orderTime = parseInt(lastOrderTime);
-        const fiveMinutesAgo = Date.now() - (5 * 60 * 1000); // 5 minutos en ms
-        
-        if (orderTime > fiveMinutesAgo && parsedTempCart.length > 0) {
-          setTempSavedCart(parsedTempCart);
-          setLastOrderSent(orderTime);
-          
-          // Solo mostrar modal si el carrito actual está vacío
-          if (!savedCart || JSON.parse(savedCart).length === 0) {
-            setShowRestoreCartModal(true);
-          }
-        } else {
-          // Limpiar datos temporales vencidos
-          localStorage.removeItem('mare-temp-cart');
-          localStorage.removeItem('mare-last-order-sent');
-        }
-      } catch (error) {
-        console.error('Error cargando carrito temporal:', error);
-        localStorage.removeItem('mare-temp-cart');
-        localStorage.removeItem('mare-last-order-sent');
       }
     }
   }, []);
@@ -1345,15 +1108,7 @@ const App = () => {
   useEffect(() => {
     const loadMessage = async () => {
       try {
-        // Cache busting para mensaje promocional
-        const timestamp = new Date().getTime();
-        const response = await fetch(`${import.meta.env.BASE_URL}mensaje.json?v=${timestamp}`, {
-          cache: 'no-cache',
-          headers: {
-            'Cache-Control': 'no-cache, no-store, must-revalidate',
-            'Pragma': 'no-cache'
-          }
-        });
+        const response = await fetch(`${import.meta.env.BASE_URL}mensaje.json`);
         if (!response.ok) return;
         const data = await response.json();
         if (data.mensaje_portada) {
@@ -1366,36 +1121,18 @@ const App = () => {
     loadMessage();
   }, []);
 
-
   // Cargar productos reales desde JSON
   useEffect(() => {
     const loadProducts = async () => {
       setLoading(true);
       setLoadError(null);
       try {
-        // Cache busting: agregar timestamp para forzar recarga
-        const timestamp = new Date().getTime();
-        const response = await fetch(`${import.meta.env.BASE_URL}productos.json?v=${timestamp}`, {
-          cache: 'no-cache',
-          headers: {
-            'Cache-Control': 'no-cache, no-store, must-revalidate',
-            'Pragma': 'no-cache',
-            'Expires': '0'
-          }
-        });
+        // Cargar productos reales desde JSON
+        const response = await fetch(`${import.meta.env.BASE_URL}productos.json`);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-        const datos = await response.json();
-        
-        // Manejar formato nuevo (con metadata) y formato anterior (array directo)
-        const productosReales = datos.productos || datos;
-        
-        // Log de versión para debugging y guardar versión para cache busting de imágenes
-        if (datos.version) {
-          console.log(`🔄 Catálogo cargado - Versión: ${datos.version} (${datos.timestamp})`);
-          setCatalogVersion(datos.version);
-        }
+        const productosReales = await response.json();
 
         setProducts(productosReales);
         setFilteredProducts(productosReales);
@@ -1487,25 +1224,6 @@ const App = () => {
     setCart(newCart);
   };
 
-  // Nueva función para actualizar cantidades en el carrito
-  const updateCartItemQuantity = (index: number, opcion: string, newQuantity: number) => {
-    const newCart = [...cart];
-    if (opcion === 'surtido') {
-      newCart[index].surtido = Math.max(0, newQuantity);
-    } else {
-      newCart[index].selecciones[opcion] = Math.max(0, newQuantity);
-    }
-    
-    // Limpiar productos que no tienen cantidades
-    const updatedCart = newCart.filter(item => {
-      const hasSelections = Object.values(item.selecciones).some(qty => qty > 0);
-      const hasSurtido = item.surtido && item.surtido > 0;
-      return hasSelections || hasSurtido;
-    });
-    
-    setCart(updatedCart);
-  };
-
   // 🧹 FUNCIÓN PARA LIMPIAR TODO EL CARRITO CON CONFIRMACIÓN
   const confirmClearCart = () => {
     if (cart.length === 0) {
@@ -1529,25 +1247,6 @@ const App = () => {
   // Nueva función para limpiar todo el carrito (sin confirmación, para después de enviar)
   const clearCart = () => {
     setCart([]);
-  };
-
-  // Función para guardar temporalmente el carrito antes de enviarlo
-  const saveCartTemporarily = (cartToSave: CartItem[]) => {
-    setTempSavedCart(cartToSave);
-    setLastOrderSent(Date.now());
-    localStorage.setItem('mare-temp-cart', JSON.stringify(cartToSave));
-    localStorage.setItem('mare-last-order-sent', Date.now().toString());
-  };
-
-  // Función para restaurar el carrito guardado temporalmente
-  const restoreCart = () => {
-    setCart([...tempSavedCart]);
-    setShowRestoreCartModal(false);
-    
-    // También restaurar el carrito en localStorage para persistencia inmediata
-    localStorage.setItem('mare-cart', JSON.stringify(tempSavedCart));
-    
-    alert('✅ ¡Pedido restaurado correctamente!\n\nPuedes continuar editándolo o enviar uno nuevo.');
   };
 
   // 🚪 FUNCIÓN PARA CERRAR SESIÓN
@@ -1628,7 +1327,7 @@ const App = () => {
 
     mensaje += `🥳 ¡Gracias por tu pedido y por elegirnos! 🙌🏻`;
     
-    return mensaje;
+    return encodeURIComponent(mensaje);
   };
 
   if (!isLoggedIn) {
@@ -1862,7 +1561,6 @@ const App = () => {
               </p>
             </div>
           )}
-          
         </div>
       </header>
 
@@ -1903,7 +1601,6 @@ const App = () => {
                   viewMode={viewMode}
                   quantityInCart={getQuantityForProduct(product.codigo)}
                   imagesOnly={imagesOnly}
-                  catalogVersion={catalogVersion}
                 />
               ))}
             </div>
@@ -1924,51 +1621,12 @@ const App = () => {
           onClose={() => setShowCart(false)}
           onRemoveItem={removeFromCart}
           onUpdateComment={updateCartItemComment}
-          onUpdateQuantity={updateCartItemQuantity}
           onGenerateWhatsApp={generateWhatsAppMessage}
           onClearCart={clearCart}
           onConfirmClearCart={confirmClearCart}
           totalPrice={getTotalPrice()}
           clientName={loginData?.nombreCliente || ''}
-          saveCartTemporarily={saveCartTemporarily}
         />
-      )}
-
-      {/* Modal para restaurar carrito */}
-      {showRestoreCartModal && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-xl p-6 max-w-md w-full">
-            <h3 className="text-lg font-bold mb-4" style={{ color: '#8F6A50' }}>
-              💾 ¿Recuperar pedido anterior?
-            </h3>
-            <p className="text-sm mb-4" style={{ color: '#8F6A50' }}>
-              Detectamos que enviaste un pedido hace poco. ¿Quieres recuperarlo para editarlo o hacer uno nuevo?
-            </p>
-            <p className="text-xs mb-6 opacity-75" style={{ color: '#8F6A50' }}>
-              Productos encontrados: {tempSavedCart.length}
-            </p>
-            <div className="flex gap-3">
-              <button
-                onClick={restoreCart}
-                className="flex-1 bg-green-600 text-white py-2 px-4 rounded-lg font-medium hover:bg-green-700"
-              >
-                ✅ Recuperar
-              </button>
-              <button
-                onClick={() => {
-                  setShowRestoreCartModal(false);
-                  // Limpiar datos temporales
-                  localStorage.removeItem('mare-temp-cart');
-                  localStorage.removeItem('mare-last-order-sent');
-                }}
-                className="flex-1 py-2 px-4 rounded-lg font-medium"
-                style={{ backgroundColor: '#E3D4C1', color: '#8F6A50' }}
-              >
-                ❌ Nuevo pedido
-              </button>
-            </div>
-          </div>
-        </div>
       )}
 
       {/* Botón flotante para consultas por WhatsApp */}
@@ -1987,4 +1645,3 @@ const App = () => {
 };
 
 export default App;
-/* Cache bust 1755220731 */
