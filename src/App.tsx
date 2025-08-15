@@ -747,7 +747,7 @@ const openWhatsAppNative = (message: string) => {
   
   if (isMobileDevice) {
     // En móviles: Intentar app nativa primero
-    console.log('📱 Intentando abrir WhatsApp app nativa');
+    console.log('✅ WHATSAPP FIX: Móvil detectado - abriendo app nativa');
     
     // Crear un enlace temporal para intentar abrir la app
     const link = document.createElement('a');
@@ -756,13 +756,13 @@ const openWhatsAppNative = (message: string) => {
     
     // Fallback a web después de 2 segundos si la app no se abrió
     setTimeout(() => {
-      console.log('🌐 Fallback: Abriendo WhatsApp Web');
+      console.log('✅ WHATSAPP FIX: Fallback a WhatsApp Web');
       window.open(webUrl, '_blank');
     }, 2000);
     
   } else {
     // En desktop: Ir directo a WhatsApp Web
-    console.log('🖥️ Desktop: Abriendo WhatsApp Web');
+    console.log('✅ WHATSAPP FIX: Desktop detectado - abriendo WhatsApp Web');
     window.open(webUrl, '_blank');
   }
 };
