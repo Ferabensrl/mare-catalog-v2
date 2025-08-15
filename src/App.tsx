@@ -746,39 +746,62 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
   const generatePdf = () => {
     const doc = new jsPDF();
     const fecha = new Date().toLocaleDateString('es-AR');
+    const pageHeight = doc.internal.pageSize.height;
+    const margin = 10;
+    let y = margin;
+    
+    // Función para agregar nueva página si es necesario
+    const checkPageBreak = (requiredSpace: number = 10) => {
+      if (y + requiredSpace > pageHeight - margin) {
+        doc.addPage();
+        y = margin;
+      }
+    };
 
-    doc.setFontSize(16);
-    doc.text('Pedido MARÉ', 10, 15);
-    doc.setFontSize(12);
-    doc.text(`Cliente: ${clientName}`, 10, 25);
-    doc.text(`Fecha: ${fecha}`, 10, 32);
+    // Función para agregar texto con control de página
+    const addText = (text: string, x: number, fontSize: number = 10, bold: boolean = false) => {
+      checkPageBreak();
+      doc.setFontSize(fontSize);
+      if (bold) {
+        doc.setFont(undefined, 'bold');
+      } else {
+        doc.setFont(undefined, 'normal');
+      }
+      doc.text(text, x, y);
+      y += fontSize > 12 ? 8 : 6;
+    };
 
-    let y = 42;
-    cart.forEach((item, idx) => {
-      doc.text(`${idx + 1}. ${item.producto.nombre} (${item.producto.codigo})`, 10, y);
-      y += 6;
+    // Usar el mismo formato que WhatsApp pero sin emojis
+    addText('[NUEVO PEDIDO] - ' + fecha, margin, 16, true);
+    addText('Cliente: ' + clientName, margin, 12);
+    addText('', margin); // Línea en blanco
+    addText('** Detalle del pedido **', margin, 12, true);
+    addText('', margin); // Línea en blanco
+
+    cart.forEach(item => {
+      addText(`> ${item.producto.codigo} - ${item.producto.nombre}`, margin, 11);
+      
       Object.entries(item.selecciones).forEach(([opcion, cantidad]) => {
         if (cantidad > 0) {
-          doc.text(`- ${opcion}: ${cantidad}`, 14, y);
-          y += 6;
+          addText(`- ${opcion}: ${cantidad}`, margin + 5);
         }
       });
+      
       if (item.surtido && item.surtido > 0) {
-        doc.text(`- Surtido: ${item.surtido}`, 14, y);
-        y += 6;
+        addText(`- Surtido: ${item.surtido}`, margin + 5);
       }
-      if (item.comentario) {
-        doc.text(`Comentario: ${item.comentario}`, 14, y, { maxWidth: 180 });
-        y += 6;
-      }
-      y += 2;
+      
+      addText(`Comentario: ${item.comentario || ''}`, margin + 5);
+      addText('', margin); // Línea en blanco entre productos
     });
 
-    doc.text(`Total: $${totalPrice.toLocaleString()}`, 10, y + 4);
-
     if (comentarioFinal) {
-      doc.text(`Comentario final: ${comentarioFinal}`, 10, y + 12, { maxWidth: 180 });
+      addText('** Comentario final **', margin, 11, true);
+      addText(comentarioFinal, margin);
+      addText('', margin);
     }
+
+    addText('Gracias por tu pedido y por elegirnos!', margin, 11, true);
 
     return doc;
   };
