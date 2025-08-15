@@ -1630,7 +1630,7 @@ const App = () => {
 
     mensaje += `🥳 ¡Gracias por tu pedido y por elegirnos! 🙌🏻`;
     
-    return encodeURIComponent(mensaje);
+    return mensaje;
   };
 
   if (!isLoggedIn) {
