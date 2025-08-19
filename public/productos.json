@@ -1,6 +1,6 @@
 {
-  "version": 1755123207134,
-  "timestamp": "2025-08-13T22:13:27.134Z",
+  "version": 1755644200789,
+  "timestamp": "2025-08-19T22:56:40.789Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -24,25 +24,6 @@
       },
       "variantes": {},
       "imagenVariantes": "BAG2002 VARIANTES.jpg"
-    },
-    {
-      "codigo": "CBB009",
-      "nombre": "Bandolera unicornio",
-      "descripcion": "Bandolera infantil",
-      "categoria": "A Infantil",
-      "medidas": "10 x 4 x 13cm",
-      "precio": 185,
-      "estado": "Poco stock",
-      "imagenes": [
-        "CBB009 1.jpg",
-        "CBB009 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Rojo": true
-      },
-      "variantes": {}
     },
     {
       "codigo": "FN8101",
