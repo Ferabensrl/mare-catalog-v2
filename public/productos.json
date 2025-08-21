@@ -1,6 +1,6 @@
 {
-  "version": 1755817343961,
-  "timestamp": "2025-08-21T23:02:23.961Z",
+  "version": 1755819240427,
+  "timestamp": "2025-08-21T23:34:00.427Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -4845,24 +4845,6 @@
       "estado": "visible",
       "imagenes": [
         "NKG8011 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "NKG6105",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 265,
-      "estado": "visible",
-      "imagenes": [
-        "NKG6105 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": false,
