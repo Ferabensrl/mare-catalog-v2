@@ -1,6 +1,6 @@
 {
-  "version": 1755820045508,
-  "timestamp": "2025-08-21T23:47:25.508Z",
+  "version": 1755820213233,
+  "timestamp": "2025-08-21T23:50:13.233Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -7267,25 +7267,6 @@
       },
       "variantes": {},
       "imagenVariantes": "CINTO1555 VARIANTES.jpg"
-    },
-    {
-      "codigo": "BAG9015",
-      "nombre": "Mochila",
-      "descripcion": "Mochila",
-      "categoria": "Caballero",
-      "medidas": "",
-      "precio": 480,
-      "estado": "Poco stock",
-      "imagenes": [
-        "BAG9015 1.jpg",
-        "BAG9015 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Negro": true
-      },
-      "variantes": {}
     },
     {
       "codigo": "LD305",
