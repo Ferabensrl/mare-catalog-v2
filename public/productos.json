@@ -1,6 +1,6 @@
 {
-  "version": 1755644200789,
-  "timestamp": "2025-08-19T22:56:40.789Z",
+  "version": 1755817343961,
+  "timestamp": "2025-08-21T23:02:23.961Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -24,26 +24,6 @@
       },
       "variantes": {},
       "imagenVariantes": "BAG2002 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FN8101",
-      "nombre": "Bandolera niña",
-      "descripcion": "Bandolera infantil",
-      "categoria": "A Infantil",
-      "medidas": "",
-      "precio": 220,
-      "estado": "Poco stock",
-      "imagenes": [
-        "FN8101 1.jpg",
-        "FN8101 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Blanco": true,
-        "Amarillo": true
-      },
-      "variantes": {}
     },
     {
       "codigo": "W383-1",
@@ -3260,22 +3240,6 @@
       "variantes": {}
     },
     {
-      "codigo": "ER0015",
-      "nombre": "Set caravanas x3",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 135,
-      "estado": "visible",
-      "imagenes": [
-        "ER0015 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "ER0016",
       "nombre": "Set caravanas x3",
       "descripcion": "Caravanas acero",
@@ -3516,22 +3480,6 @@
       "variantes": {}
     },
     {
-      "codigo": "EA0005-2",
-      "nombre": "Abridores acero dorado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 60,
-      "estado": "visible",
-      "imagenes": [
-        "EA0005-2 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "EA0008",
       "nombre": "Abridores acero",
       "descripcion": "Caravanas acero",
@@ -3621,22 +3569,6 @@
       "estado": "visible",
       "imagenes": [
         "EA7008-2 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "EA7001-2",
-      "nombre": "Abridores acero dorado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 60,
-      "estado": "visible",
-      "imagenes": [
-        "EA7001-2 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -3898,42 +3830,6 @@
       "estado": "visible",
       "imagenes": [
         "G6932 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "G6969",
-      "nombre": "Conjunto acero",
-      "descripcion": "Conjunto acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "G6969 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "G6971",
-      "nombre": "Conjunto acero",
-      "descripcion": "Conjunto acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "G6971 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": false,
@@ -4625,24 +4521,6 @@
       "estado": "visible",
       "imagenes": [
         "NK1010 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "NK1011",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "NK1011 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": false,
@@ -5613,22 +5491,6 @@
       "estado": "visible",
       "imagenes": [
         "BR009 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "BR011",
-      "nombre": "Pulsera acero",
-      "descripcion": "Pulsera acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 225,
-      "estado": "visible",
-      "imagenes": [
-        "BR011 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -7857,8 +7719,6 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Blanco": true,
-        "Beige": true,
         "Combinado": true
       },
       "variantes": {},
@@ -8977,6 +8837,7 @@
         "Negro": true,
         "Rosado": true,
         "Terracota": true,
+        "Bordeaux": true,
         "Azul": true
       },
       "variantes": {},
@@ -9026,8 +8887,7 @@
       "colores": {
         "Negro": true,
         "Terracota": true,
-        "Petroleo": true,
-        "Azul": true
+        "Petroleo": true
       },
       "variantes": {},
       "imagenVariantes": "LB1057 VARIANTES.jpg"
@@ -9266,7 +9126,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Celeste": true,
         "Rosado": true,
         "Gris": true,
@@ -9414,8 +9273,7 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Verde": true,
-        "Rosado": true
+        "Verde": true
       },
       "variantes": {},
       "imagenVariantes": "B013 VARIANTES.jpg"
@@ -9738,26 +9596,6 @@
       "imagenVariantes": "B1120 VARIANTES.jpg"
     },
     {
-      "codigo": "FN4003",
-      "nombre": "Riñonera sport",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "30 x 13 x 8cm",
-      "precio": 295,
-      "estado": "Poco stock",
-      "imagenes": [
-        "FN4003 1.jpg",
-        "FN4003 2.jpg",
-        "FN4003 3.jpg",
-        "FN4003 4.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {},
-      "imagenVariantes": "FN4003 VARIANTES.jpg"
-    },
-    {
       "codigo": "LB5019",
       "nombre": "Bolsos",
       "descripcion": "Bandolera",
@@ -10075,25 +9913,6 @@
       },
       "variantes": {},
       "imagenVariantes": "H005 VARIANTES.jpg"
-    },
-    {
-      "codigo": "BAG2003",
-      "nombre": "Bolso",
-      "descripcion": "Bolso",
-      "categoria": "Marroquineria",
-      "medidas": "23 x 22cm",
-      "precio": 120,
-      "estado": "Poco stock",
-      "imagenes": [
-        "BAG2003 1.jpg",
-        "BAG2003 2.jpg",
-        "BAG2003 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {},
-      "imagenVariantes": "BAG2003 VARIANTES.jpg"
     },
     {
       "codigo": "LD7044",
