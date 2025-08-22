@@ -1,6 +1,6 @@
 {
-  "version": 1755817343961,
-  "timestamp": "2025-08-21T23:02:23.961Z",
+  "version": 1755820213233,
+  "timestamp": "2025-08-21T23:50:13.233Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -4854,24 +4854,6 @@
       "variantes": {}
     },
     {
-      "codigo": "NKG6105",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 265,
-      "estado": "visible",
-      "imagenes": [
-        "NKG6105 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "G6997",
       "nombre": "Gargantilla acero",
       "descripcion": "Gargantilla acero",
@@ -6325,47 +6307,6 @@
       "imagenVariantes": "WL3213 VARIANTES.jpg"
     },
     {
-      "codigo": "FN25365",
-      "nombre": "Billetera dama print corta",
-      "descripcion": "Billetera dama corta",
-      "categoria": "Billeteras",
-      "medidas": "",
-      "precio": 185,
-      "estado": "visible",
-      "imagenes": [
-        "FN25365 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Marron Claro": true,
-        "Gris": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FN25365 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FN25363",
-      "nombre": "Billetera dama print corta",
-      "descripcion": "Billetera dama corta",
-      "categoria": "Billeteras",
-      "medidas": "",
-      "precio": 185,
-      "estado": "visible",
-      "imagenes": [
-        "FN25363 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Marron Claro": true,
-        "Gris": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FN25363 VARIANTES.jpg"
-    },
-    {
       "codigo": "W0004",
       "nombre": "Billetera dama c relieve",
       "descripcion": "Billetera dama larga",
@@ -6557,47 +6498,6 @@
       },
       "variantes": {},
       "imagenVariantes": "FN360 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FN25366",
-      "nombre": "Billetera dama print larga",
-      "descripcion": "Billetera dama larga",
-      "categoria": "Billeteras",
-      "medidas": "",
-      "precio": 220,
-      "estado": "visible",
-      "imagenes": [
-        "FN25366 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Marron Claro": true,
-        "Gris": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FN25366 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FN25364",
-      "nombre": "Billetera dama print larga",
-      "descripcion": "Billetera dama larga",
-      "categoria": "Billeteras",
-      "medidas": "",
-      "precio": 220,
-      "estado": "visible",
-      "imagenes": [
-        "FN25364 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Marron Claro": true,
-        "Gris": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FN25364 VARIANTES.jpg"
     },
     {
       "codigo": "W1281",
@@ -7367,25 +7267,6 @@
       },
       "variantes": {},
       "imagenVariantes": "CINTO1555 VARIANTES.jpg"
-    },
-    {
-      "codigo": "BAG9015",
-      "nombre": "Mochila",
-      "descripcion": "Mochila",
-      "categoria": "Caballero",
-      "medidas": "",
-      "precio": 480,
-      "estado": "Poco stock",
-      "imagenes": [
-        "BAG9015 1.jpg",
-        "BAG9015 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Negro": true
-      },
-      "variantes": {}
     },
     {
       "codigo": "LD305",

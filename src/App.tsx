@@ -1247,7 +1247,7 @@ const App = () => {
       setLoadError(null);
       try {
         // Cargar productos reales desde JSON
-        const response = await fetch(`${import.meta.env.BASE_URL}productos.json?v=${Date.now()}`);
+        const response = await fetch(`${import.meta.env.BASE_URL}productos.json?_=${Date.now()}&nocache=1`);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
