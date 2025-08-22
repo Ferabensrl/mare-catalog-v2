@@ -1,6 +1,6 @@
 {
-  "version": 1755825250655,
-  "timestamp": "2025-08-22T01:14:10.655Z",
+  "version": 1755868674163,
+  "timestamp": "2025-08-22T13:17:54.163Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -6407,29 +6407,6 @@
       "imagenVariantes": "FN368 VARIANTES.jpg"
     },
     {
-      "codigo": "FN374",
-      "nombre": "Billetera dama",
-      "descripcion": "Billetera dama larga",
-      "categoria": "Billeteras",
-      "medidas": "",
-      "precio": 220,
-      "estado": "visible",
-      "imagenes": [
-        "FN374 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Amarillo": true,
-        "Verde": true,
-        "Celeste": true,
-        "Bordeaux": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FN374 VARIANTES.jpg"
-    },
-    {
       "codigo": "FN362",
       "nombre": "Billetera dama",
       "descripcion": "Billetera dama larga",
@@ -9008,7 +8985,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Verde": true,
         "Petroleo": true,
         "Mostaza": true
@@ -12058,38 +12034,6 @@
       "variantes": {}
     },
     {
-      "codigo": "AN03204",
-      "nombre": "Anillo enchapado",
-      "descripcion": "Anillo enchapado",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 235,
-      "estado": "visible",
-      "imagenes": [
-        "AN03204 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "AN04074",
-      "nombre": "Anillo enchapado",
-      "descripcion": "Anillo enchapado",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 235,
-      "estado": "visible",
-      "imagenes": [
-        "AN04074 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "55130",
       "nombre": "Caravanas enchapadas oro",
       "descripcion": "Caravanas enchapadas oro",
@@ -12131,22 +12075,6 @@
       "estado": "visible",
       "imagenes": [
         "211700 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "210500",
-      "nombre": "Caravanas enchapadas oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "210500 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -12275,22 +12203,6 @@
       "estado": "visible",
       "imagenes": [
         "20650 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "210030",
-      "nombre": "Caravanas enchapadas oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 75,
-      "estado": "visible",
-      "imagenes": [
-        "210030 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -12752,38 +12664,6 @@
       "variantes": {}
     },
     {
-      "codigo": "20592",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 130,
-      "estado": "visible",
-      "imagenes": [
-        "20592 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "20412",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 185,
-      "estado": "visible",
-      "imagenes": [
-        "20412 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "20252",
       "nombre": "Caravanas enchapadas plata",
       "descripcion": "Caravanas enchapadas plata",
@@ -12848,22 +12728,6 @@
       "variantes": {}
     },
     {
-      "codigo": "25352",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 165,
-      "estado": "visible",
-      "imagenes": [
-        "25352 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "21512",
       "nombre": "Caravanas enchapadas plata",
       "descripcion": "Caravanas enchapadas plata",
@@ -12873,22 +12737,6 @@
       "estado": "visible",
       "imagenes": [
         "21512 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "20962",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 130,
-      "estado": "visible",
-      "imagenes": [
-        "20962 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -13097,22 +12945,6 @@
       "estado": "visible",
       "imagenes": [
         "29082 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "212632",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "212632 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
