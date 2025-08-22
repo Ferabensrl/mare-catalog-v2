@@ -1,6 +1,6 @@
 {
-  "version": 1755821159900,
-  "timestamp": "2025-08-22T00:05:59.900Z",
+  "version": 1755825082320,
+  "timestamp": "2025-08-22T01:11:22.320Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -13312,70 +13312,6 @@
       "variantes": {}
     },
     {
-      "codigo": "210192",
-      "nombre": "Clip enchapadas plata",
-      "descripcion": "Clip enchapados",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 130,
-      "estado": "visible",
-      "imagenes": [
-        "210192 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "210190",
-      "nombre": "Clip enchapadas oro",
-      "descripcion": "Clip enchapados",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "210190 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "213232",
-      "nombre": "Clip enchapadas plata",
-      "descripcion": "Clip enchapados",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "213232 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "213230",
-      "nombre": "Clip enchapadas oro",
-      "descripcion": "Clip enchapados",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 130,
-      "estado": "visible",
-      "imagenes": [
-        "213230 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "23312",
       "nombre": "Clip enchapadas plata",
       "descripcion": "Clip enchapados",
@@ -13392,22 +13328,6 @@
       "variantes": {}
     },
     {
-      "codigo": "23310",
-      "nombre": "Clip enchapadas oro",
-      "descripcion": "Clip enchapados",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 165,
-      "estado": "visible",
-      "imagenes": [
-        "23310 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "211262",
       "nombre": "Clip enchapadas plata",
       "descripcion": "Clip enchapados",
@@ -13417,38 +13337,6 @@
       "estado": "visible",
       "imagenes": [
         "211262 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "211260",
-      "nombre": "Clip enchapadas oro",
-      "descripcion": "Clip enchapados",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "211260 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "26112",
-      "nombre": "Clip enchapadas plata",
-      "descripcion": "Clip enchapados",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 85,
-      "estado": "visible",
-      "imagenes": [
-        "26112 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
