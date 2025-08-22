@@ -1,6 +1,6 @@
 {
-  "version": 1755868674163,
-  "timestamp": "2025-08-22T13:17:54.163Z",
+  "version": 1755868885464,
+  "timestamp": "2025-08-22T13:21:25.464Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -11393,22 +11393,6 @@
       "estado": "Preventa",
       "imagenes": [
         "BOX006 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "BOX0077",
-      "nombre": "Caja conjunto paquete x24",
-      "descripcion": "Caja conjunto",
-      "categoria": "x Estuches",
-      "medidas": "5 x 8 x 2,5cm",
-      "precio": 528,
-      "estado": "visible",
-      "imagenes": [
-        "BOX0077 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
