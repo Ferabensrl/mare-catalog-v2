@@ -1,6 +1,6 @@
 {
-  "version": 1755825082320,
-  "timestamp": "2025-08-22T01:11:22.320Z",
+  "version": 1755825250655,
+  "timestamp": "2025-08-22T01:14:10.655Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -11562,22 +11562,6 @@
       "variantes": {}
     },
     {
-      "codigo": "13604",
-      "nombre": "Anillo enchapado",
-      "descripcion": "Anillo enchapado",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 95,
-      "estado": "visible",
-      "imagenes": [
-        "13604 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "13605",
       "nombre": "Anillo enchapado",
       "descripcion": "Anillo enchapado",
@@ -11587,22 +11571,6 @@
       "estado": "visible",
       "imagenes": [
         "13605 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "14244",
-      "nombre": "Anillo enchapado",
-      "descripcion": "Anillo enchapado",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 95,
-      "estado": "visible",
-      "imagenes": [
-        "14244 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
