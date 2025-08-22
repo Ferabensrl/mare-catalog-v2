@@ -1,6 +1,6 @@
 {
-  "version": 1755820213233,
-  "timestamp": "2025-08-21T23:50:13.233Z",
+  "version": 1755821159900,
+  "timestamp": "2025-08-22T00:05:59.900Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -3127,30 +3127,6 @@
       "permitirSurtido": false,
       "colores": {},
       "variantes": {}
-    },
-    {
-      "codigo": "ER0011",
-      "nombre": "Aros de acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 79,
-      "estado": "visible",
-      "imagenes": [
-        "ER0011 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {
-        "C1": true,
-        "C2": true,
-        "C3": true,
-        "C4": true,
-        "C5": true,
-        "C6": true
-      },
-      "imagenVariantes": "ER0011 VARIANTES.jpg"
     },
     {
       "codigo": "ER0019",
