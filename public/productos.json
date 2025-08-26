@@ -1,6 +1,6 @@
 {
-  "version": 1756220623534,
-  "timestamp": "2025-08-26T15:03:43.534Z",
+  "version": 1756220944855,
+  "timestamp": "2025-08-26T15:09:04.855Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -5647,8 +5647,6 @@
       "colores": {},
       "variantes": {
         "C2": true,
-        "C3": true,
-        "C4": true,
         "C5": true,
         "C6": true,
         "C7": true,
