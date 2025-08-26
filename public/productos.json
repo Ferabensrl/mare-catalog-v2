@@ -1,6 +1,6 @@
 {
-  "version": 1756220944855,
-  "timestamp": "2025-08-26T15:09:04.855Z",
+  "version": 1756234874189,
+  "timestamp": "2025-08-26T19:01:14.189Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -4374,6 +4374,177 @@
       ],
       "sinColor": false,
       "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312264P",
+      "nombre": "Cadena acero y dije enchapado",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 195,
+      "estado": "visible",
+      "imagenes": [
+        "312264P 1.jpg",
+        "312264P 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312264M",
+      "nombre": "Cadena acero y dije enchapado",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 260,
+      "estado": "visible",
+      "imagenes": [
+        "312264M 1.jpg",
+        "312264M 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312264G",
+      "nombre": "Cadena acero y dije enchapado",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 325,
+      "estado": "visible",
+      "imagenes": [
+        "312264G 1.jpg",
+        "312264G 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310414P",
+      "nombre": "Cadena acero y dije enchapado",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 195,
+      "estado": "visible",
+      "imagenes": [
+        "310414P 1.jpg",
+        "310414P 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310414M",
+      "nombre": "Cadena acero y dije enchapado",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 235,
+      "estado": "visible",
+      "imagenes": [
+        "310414M 1.jpg",
+        "310414M 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310414G",
+      "nombre": "Cadena acero y dije enchapado",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 260,
+      "estado": "visible",
+      "imagenes": [
+        "310414G 1.jpg",
+        "310414G 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "311084",
+      "nombre": "Cadena acero y dije enchapado",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 325,
+      "estado": "visible",
+      "imagenes": [
+        "311084 1.jpg",
+        "311084 2.jpg",
+        "311084 3.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310144",
+      "nombre": "Cadena acero y dije enchapado",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 235,
+      "estado": "visible",
+      "imagenes": [
+        "310144 1.jpg",
+        "310144 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "35894M",
+      "nombre": "Cadena acero y dije enchapado",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 150,
+      "estado": "visible",
+      "imagenes": [
+        "35894M 1.jpg",
+        "35894M 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "35894G",
+      "nombre": "Cadena acero y dije enchapado",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 225,
+      "estado": "visible",
+      "imagenes": [
+        "35894G 1.jpg",
+        "35894G 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
       "colores": {},
       "variantes": {}
     },
@@ -12020,6 +12191,151 @@
       "variantes": {}
     },
     {
+      "codigo": "211270",
+      "nombre": "Caravanas enchapadas oro",
+      "descripcion": "Caravanas enchapadas oro",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 105,
+      "estado": "visible",
+      "imagenes": [
+        "211270 1.jpg",
+        "211270 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "211540",
+      "nombre": "Caravanas enchapadas oro",
+      "descripcion": "Caravanas enchapadas oro",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 105,
+      "estado": "visible",
+      "imagenes": [
+        "211540 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "211690",
+      "nombre": "Caravanas enchapadas oro",
+      "descripcion": "Caravanas enchapadas oro",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 105,
+      "estado": "visible",
+      "imagenes": [
+        "211690 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "28430",
+      "nombre": "Caravanas enchapadas oro",
+      "descripcion": "Caravanas enchapadas oro",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 105,
+      "estado": "visible",
+      "imagenes": [
+        "28430 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "27910",
+      "nombre": "Caravanas enchapadas oro",
+      "descripcion": "Caravanas enchapadas oro",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 75,
+      "estado": "visible",
+      "imagenes": [
+        "27910 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "211610",
+      "nombre": "Caravanas enchapadas oro",
+      "descripcion": "Caravanas enchapadas oro",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 105,
+      "estado": "visible",
+      "imagenes": [
+        "211610 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "56070B",
+      "nombre": "Caravanas enchapadas oro",
+      "descripcion": "Caravanas enchapadas oro",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 105,
+      "estado": "visible",
+      "imagenes": [
+        "56070B 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "56030B",
+      "nombre": "Caravanas enchapadas oro",
+      "descripcion": "Caravanas enchapadas oro",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 105,
+      "estado": "visible",
+      "imagenes": [
+        "56030B 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
       "codigo": "20110",
       "nombre": "Caravanas enchapadas oro",
       "descripcion": "Caravanas enchapadas oro",
@@ -12423,6 +12739,25 @@
       "variantes": {}
     },
     {
+      "codigo": "25212",
+      "nombre": "Caravanas enchapadas plata",
+      "descripcion": "Caravanas enchapadas plata",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 130,
+      "estado": "visible",
+      "imagenes": [
+        "25212 1.jpg",
+        "25212 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
       "codigo": "210102",
       "nombre": "Caravanas enchapadas plata",
       "descripcion": "Caravanas enchapadas plata",
@@ -12634,6 +12969,25 @@
       "variantes": {}
     },
     {
+      "codigo": "23272",
+      "nombre": "Caravanas enchapadas plata",
+      "descripcion": "Caravanas enchapadas plata",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 145,
+      "estado": "visible",
+      "imagenes": [
+        "23272 1.jpg",
+        "23272 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
       "codigo": "20252",
       "nombre": "Caravanas enchapadas plata",
       "descripcion": "Caravanas enchapadas plata",
@@ -12711,6 +13065,25 @@
       "sinColor": true,
       "permitirSurtido": false,
       "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "20732",
+      "nombre": "Caravanas enchapadas plata",
+      "descripcion": "Caravanas enchapadas plata",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 105,
+      "estado": "visible",
+      "imagenes": [
+        "20732 1.jpg",
+        "20732 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
       "variantes": {}
     },
     {
@@ -13114,6 +13487,44 @@
       "variantes": {}
     },
     {
+      "codigo": "30860",
+      "nombre": "Gargantilla enchapada",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 225,
+      "estado": "visible",
+      "imagenes": [
+        "30860 1.jpg",
+        "30860 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "313230",
+      "nombre": "Gargantilla enchapada",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 275,
+      "estado": "visible",
+      "imagenes": [
+        "313230 1.jpg",
+        "313230 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
       "codigo": "310440",
       "nombre": "Manito prendedor",
       "descripcion": "Manito prendedor",
@@ -13127,6 +13538,25 @@
       "sinColor": true,
       "permitirSurtido": false,
       "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "71132-15",
+      "nombre": "Pulsera enchapada plata",
+      "descripcion": "Pulsera enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 90,
+      "estado": "visible",
+      "imagenes": [
+        "71132-15 1.jpg",
+        "71132-15 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
       "variantes": {}
     }
   ]
