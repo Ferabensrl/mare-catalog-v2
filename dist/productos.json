@@ -1,6 +1,6 @@
 {
-  "version": 1756219996870,
-  "timestamp": "2025-08-26T14:53:16.870Z",
+  "version": 1756220623534,
+  "timestamp": "2025-08-26T15:03:43.534Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -8794,11 +8794,13 @@
         "LB252 3.jpg",
         "LB252 4.jpg",
         "LB252 5.jpg",
-        "LB252 6.jpg"
+        "LB252 6.jpg",
+        "LB252 7.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
+        "Nude": true,
         "Celeste": true,
         "Terracota": true
       },
