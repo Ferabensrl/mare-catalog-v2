@@ -1,6 +1,6 @@
 {
-  "version": 1755868885464,
-  "timestamp": "2025-08-22T13:21:25.464Z",
+  "version": 1756219996870,
+  "timestamp": "2025-08-26T14:53:16.870Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -4434,24 +4434,6 @@
       "variantes": {}
     },
     {
-      "codigo": "NK8014",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "NK8014 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "NK1007",
       "nombre": "Gargantilla acero",
       "descripcion": "Gargantilla acero",
@@ -8799,25 +8781,29 @@
       "variantes": {}
     },
     {
-      "codigo": "B1004",
-      "nombre": "Bandolera dama",
+      "codigo": "LB252",
+      "nombre": "Bandolera / Bolso",
       "descripcion": "Bandolera",
       "categoria": "Marroquineria",
-      "medidas": "23 X 15 X 11CM",
-      "precio": 495,
-      "estado": "Poco stock",
+      "medidas": "28 X 20 X 13CM",
+      "precio": 590,
+      "estado": "visible",
       "imagenes": [
-        "B1004 1.jpg",
-        "B1004 2.jpg",
-        "B1004 3.jpg"
+        "LB252 1.jpg",
+        "LB252 2.jpg",
+        "LB252 3.jpg",
+        "LB252 4.jpg",
+        "LB252 5.jpg",
+        "LB252 6.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": false,
+      "permitirSurtido": true,
       "colores": {
-        "Verde Agua": true
+        "Celeste": true,
+        "Terracota": true
       },
       "variantes": {},
-      "imagenVariantes": "B1004 VARIANTES.jpg"
+      "imagenVariantes": "LB252 VARIANTES.jpg"
     },
     {
       "codigo": "LB1049",
