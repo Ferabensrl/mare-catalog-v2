@@ -1,6 +1,6 @@
 {
-  "version": 1756235979347,
-  "timestamp": "2025-08-26T19:19:39.347Z",
+  "version": 1756305162182,
+  "timestamp": "2025-08-27T14:32:42.182Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -4379,7 +4379,7 @@
     },
     {
       "codigo": "312264P",
-      "nombre": "Cadena acero y dije enchapado",
+      "nombre": "Cadena acero y dije enchapado flor de liz",
       "descripcion": "Gargantilla acero",
       "categoria": "Acero",
       "medidas": "",
@@ -4396,7 +4396,7 @@
     },
     {
       "codigo": "312264M",
-      "nombre": "Cadena acero y dije enchapado",
+      "nombre": "Cadena acero y dije enchapado flor de liz",
       "descripcion": "Gargantilla acero",
       "categoria": "Acero",
       "medidas": "",
@@ -4413,7 +4413,7 @@
     },
     {
       "codigo": "312264G",
-      "nombre": "Cadena acero y dije enchapado",
+      "nombre": "Cadena acero y dije enchapado flor de liz",
       "descripcion": "Gargantilla acero",
       "categoria": "Acero",
       "medidas": "",
@@ -4499,7 +4499,7 @@
     },
     {
       "codigo": "310144",
-      "nombre": "Cadena acero y dije enchapado",
+      "nombre": "Cadena acero y dije enchapado caballo con guarda pampa",
       "descripcion": "Gargantilla acero",
       "categoria": "Acero",
       "medidas": "",
@@ -4516,7 +4516,7 @@
     },
     {
       "codigo": "35894M",
-      "nombre": "Cadena acero y dije enchapado",
+      "nombre": "Cadena acero y dije enchapado Herradura y caballo",
       "descripcion": "Gargantilla acero",
       "categoria": "Acero",
       "medidas": "",
@@ -4533,7 +4533,7 @@
     },
     {
       "codigo": "35894G",
-      "nombre": "Cadena acero y dije enchapado",
+      "nombre": "Cadena acero y dije enchapado Herradura y caballo",
       "descripcion": "Gargantilla acero",
       "categoria": "Acero",
       "medidas": "",
@@ -4542,6 +4542,725 @@
       "imagenes": [
         "35894G 1.jpg",
         "35894G 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310114P",
+      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 150,
+      "estado": "visible",
+      "imagenes": [
+        "310114P 1.jpg",
+        "310114P 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310114M",
+      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 275,
+      "estado": "visible",
+      "imagenes": [
+        "310114M 1.jpg",
+        "310114M 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312044P",
+      "nombre": "Cadena acero y dije enchapado Flor",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 150,
+      "estado": "visible",
+      "imagenes": [
+        "312044P 1.jpg",
+        "312044P 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312044M",
+      "nombre": "Cadena acero y dije enchapado Flor",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 210,
+      "estado": "visible",
+      "imagenes": [
+        "312044M 1.jpg",
+        "312044M 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312044G",
+      "nombre": "Cadena acero y dije enchapado Flor",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 345,
+      "estado": "visible",
+      "imagenes": [
+        "312044G 1.jpg",
+        "312044G 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "311034P",
+      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 210,
+      "estado": "visible",
+      "imagenes": [
+        "311034P 1.jpg",
+        "311034P 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "311034G",
+      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 275,
+      "estado": "visible",
+      "imagenes": [
+        "311034G 1.jpg",
+        "311034G 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312074P",
+      "nombre": "Cadena acero y dije enchapado flor de liz",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 175,
+      "estado": "visible",
+      "imagenes": [
+        "312074P 1.jpg",
+        "312074P 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312074M",
+      "nombre": "Cadena acero y dije enchapado flor de liz",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 275,
+      "estado": "visible",
+      "imagenes": [
+        "312074M 1.jpg",
+        "312074M 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312074G",
+      "nombre": "Cadena acero y dije enchapado flor de liz",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 345,
+      "estado": "visible",
+      "imagenes": [
+        "312074G 1.jpg",
+        "312074G 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310124P",
+      "nombre": "Cadena acero y dije enchapado Luna y estrellas",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 215,
+      "estado": "visible",
+      "imagenes": [
+        "310124P 1.jpg",
+        "310124P 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310124M",
+      "nombre": "Cadena acero y dije enchapado Luna y estrellas",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 345,
+      "estado": "visible",
+      "imagenes": [
+        "310124M 1.jpg",
+        "310124M 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310904P",
+      "nombre": "Cadena acero y dije enchapado Angel",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 175,
+      "estado": "visible",
+      "imagenes": [
+        "310904P 1.jpg",
+        "310904P 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310904M",
+      "nombre": "Cadena acero y dije enchapado Angel",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 235,
+      "estado": "visible",
+      "imagenes": [
+        "310904M 1.jpg",
+        "310904M 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310904G",
+      "nombre": "Cadena acero y dije enchapado Angel",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 375,
+      "estado": "visible",
+      "imagenes": [
+        "310904G 1.jpg",
+        "310904G 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310904GG",
+      "nombre": "Cadena acero y dije enchapado Angel",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 445,
+      "estado": "visible",
+      "imagenes": [
+        "310904GG 1.jpg",
+        "310904GG 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312614M",
+      "nombre": "Cadena acero y dije enchapado Virgen",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 235,
+      "estado": "visible",
+      "imagenes": [
+        "312614M 1.jpg",
+        "312614M 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312614G",
+      "nombre": "Cadena acero y dije enchapado Virgen",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 375,
+      "estado": "visible",
+      "imagenes": [
+        "312614G 1.jpg",
+        "312614G 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312614GG",
+      "nombre": "Cadena acero y dije enchapado Virgen",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 445,
+      "estado": "visible",
+      "imagenes": [
+        "312614GG 1.jpg",
+        "312614GG 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "313434P",
+      "nombre": "Cadena acero y dije enchapado Cruz combinada",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 235,
+      "estado": "visible",
+      "imagenes": [
+        "313434P 1.jpg",
+        "313434P 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "313434M",
+      "nombre": "Cadena acero y dije enchapado Cruz combinada",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 275,
+      "estado": "visible",
+      "imagenes": [
+        "313434M 1.jpg",
+        "313434M 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "313434G",
+      "nombre": "Cadena acero y dije enchapado Cruz combinada",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 325,
+      "estado": "visible",
+      "imagenes": [
+        "313434G 1.jpg",
+        "313434G 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "55174PI",
+      "nombre": "Cadena acero y dije enchapado Mariposa",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 150,
+      "estado": "visible",
+      "imagenes": [
+        "55174PI 1.jpg",
+        "55174PI 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310424P",
+      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 150,
+      "estado": "visible",
+      "imagenes": [
+        "310424P 1.jpg",
+        "310424P 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310424M",
+      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 235,
+      "estado": "visible",
+      "imagenes": [
+        "310424M 1.jpg",
+        "310424M 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310424G",
+      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 345,
+      "estado": "visible",
+      "imagenes": [
+        "310424G 1.jpg",
+        "310424G 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "35564",
+      "nombre": "Cadena acero y dije enchapado Buho",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 175,
+      "estado": "visible",
+      "imagenes": [
+        "35564 1.jpg",
+        "35564 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310464P",
+      "nombre": "Cadena acero y dije enchapado Abeja",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 175,
+      "estado": "visible",
+      "imagenes": [
+        "310464P 1.jpg",
+        "310464P 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "36494G",
+      "nombre": "Cadena acero y dije enchapado Virgen",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 215,
+      "estado": "visible",
+      "imagenes": [
+        "36494G 1.jpg",
+        "36494G 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "36494GG",
+      "nombre": "Cadena acero y dije enchapado Virgen",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 345,
+      "estado": "visible",
+      "imagenes": [
+        "36494GG 1.jpg",
+        "36494GG 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312774M",
+      "nombre": "Cadena acero y dije enchapado Flor",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 215,
+      "estado": "visible",
+      "imagenes": [
+        "312774M 1.jpg",
+        "312774M 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312774G",
+      "nombre": "Cadena acero y dije enchapado Flor",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 275,
+      "estado": "visible",
+      "imagenes": [
+        "312774G 1.jpg",
+        "312774G 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "311924",
+      "nombre": "Cadena acero y dije enchapado Libelula",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 310,
+      "estado": "visible",
+      "imagenes": [
+        "311924 1.jpg",
+        "311924 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312334",
+      "nombre": "Cadena acero y dije enchapado Niña y Niño",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 215,
+      "estado": "visible",
+      "imagenes": [
+        "312334 1.jpg",
+        "312334 2.jpg",
+        "312334 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {
+        "C1": true,
+        "C2": true
+      },
+      "imagenVariantes": "312334 VARIANTES.jpg"
+    },
+    {
+      "codigo": "312274",
+      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 235,
+      "estado": "visible",
+      "imagenes": [
+        "312274 1.jpg",
+        "312274 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312344",
+      "nombre": "Cadena acero y dije enchapado Flor",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 215,
+      "estado": "visible",
+      "imagenes": [
+        "312344 1.jpg",
+        "312344 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "311964",
+      "nombre": "Cadena acero y dije enchapado Luna",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 215,
+      "estado": "visible",
+      "imagenes": [
+        "311964 1.jpg",
+        "311964 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "55134PI",
+      "nombre": "Cadena acero y dije enchapado Infinito",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 150,
+      "estado": "visible",
+      "imagenes": [
+        "55134PI 1.jpg",
+        "55134PI 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "311684G",
+      "nombre": "Cadena acero y dije enchapado Libelula",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 275,
+      "estado": "visible",
+      "imagenes": [
+        "311684G 1.jpg",
+        "311684G 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "312314",
+      "nombre": "Cadena acero y dije enchapado Libelula",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 215,
+      "estado": "visible",
+      "imagenes": [
+        "312314 1.jpg",
+        "312314 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "35614P",
+      "nombre": "Cadena acero y dije enchapado Arbol de la vida y picaflor",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 175,
+      "estado": "visible",
+      "imagenes": [
+        "35614P 1.jpg",
+        "35614P 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "35614M",
+      "nombre": "Cadena acero y dije enchapado Arbol de la vida y picaflor",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 235,
+      "estado": "visible",
+      "imagenes": [
+        "35614M 1.jpg",
+        "35614M 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -13488,7 +14207,7 @@
     },
     {
       "codigo": "40162",
-      "nombre": "Gargantilla enchapada",
+      "nombre": "Gargantilla enchapada Punto de luz",
       "descripcion": "Gargantilla enchapada",
       "categoria": "Z Enchapado",
       "medidas": "40+5cm",
@@ -13546,7 +14265,7 @@
     },
     {
       "codigo": "30860",
-      "nombre": "Gargantilla enchapada",
+      "nombre": "Gargantilla enchapada Ojo turco",
       "descripcion": "Gargantilla enchapada",
       "categoria": "Z Enchapado",
       "medidas": "",
@@ -13565,7 +14284,7 @@
     },
     {
       "codigo": "313230",
-      "nombre": "Gargantilla enchapada",
+      "nombre": "Gargantilla enchapada Trebol",
       "descripcion": "Gargantilla enchapada",
       "categoria": "Z Enchapado",
       "medidas": "",
