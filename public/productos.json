@@ -1,6 +1,6 @@
 {
-  "version": 1756394088232,
-  "timestamp": "2025-08-28T15:14:48.232Z",
+  "version": 1756401982809,
+  "timestamp": "2025-08-28T17:26:22.809Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -13088,6 +13088,24 @@
       "variantes": {}
     },
     {
+      "codigo": "28650",
+      "nombre": "Caravanas enchapadas oro",
+      "descripcion": "Caravanas enchapadas oro",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 105,
+      "estado": "visible",
+      "imagenes": [
+        "28650 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
       "codigo": "20110",
       "nombre": "Caravanas enchapadas oro",
       "descripcion": "Caravanas enchapadas oro",
@@ -13113,22 +13131,6 @@
       "estado": "visible",
       "imagenes": [
         "211700 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "210840",
-      "nombre": "Caravanas enchapadas oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "210840 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -13232,38 +13234,6 @@
       "variantes": {}
     },
     {
-      "codigo": "20650",
-      "nombre": "Caravanas enchapadas oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "20650 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "24320",
-      "nombre": "Bolita grande enchapada oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 130,
-      "estado": "visible",
-      "imagenes": [
-        "24320 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "212900",
       "nombre": "Caravanas enchapadas oro",
       "descripcion": "Caravanas enchapadas oro",
@@ -13305,22 +13275,6 @@
       "estado": "visible",
       "imagenes": [
         "211560 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "212930",
-      "nombre": "Caravanas enchapadas oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "212930 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -13411,22 +13365,6 @@
       "variantes": {}
     },
     {
-      "codigo": "50140B",
-      "nombre": "Caravanas enchapadas oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 130,
-      "estado": "visible",
-      "imagenes": [
-        "50140B 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "210720",
       "nombre": "Caravanas enchapadas oro",
       "descripcion": "Caravanas enchapadas oro",
@@ -13468,22 +13406,6 @@
       "estado": "visible",
       "imagenes": [
         "25630 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "50122B",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 115,
-      "estado": "visible",
-      "imagenes": [
-        "50122B 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -13535,38 +13457,6 @@
       "estado": "visible",
       "imagenes": [
         "214592 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "28652",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 85,
-      "estado": "visible",
-      "imagenes": [
-        "28652 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "211592",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 130,
-      "estado": "visible",
-      "imagenes": [
-        "211592 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -13682,38 +13572,6 @@
       "estado": "visible",
       "imagenes": [
         "20522 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "22002",
-      "nombre": "Zirconia mediana enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "22002 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "27002",
-      "nombre": "Zirconia grande enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 120,
-      "estado": "visible",
-      "imagenes": [
-        "27002 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -13839,38 +13697,6 @@
       "variantes": {}
     },
     {
-      "codigo": "25842",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 115,
-      "estado": "visible",
-      "imagenes": [
-        "25842 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "25722",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "25722 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "20492",
       "nombre": "Caravanas enchapadas plata",
       "descripcion": "Caravanas enchapadas plata",
@@ -13912,22 +13738,6 @@
       "estado": "visible",
       "imagenes": [
         "25862 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "25032",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 130,
-      "estado": "visible",
-      "imagenes": [
-        "25032 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -13983,22 +13793,6 @@
       "variantes": {}
     },
     {
-      "codigo": "26732",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "26732 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "29172",
       "nombre": "Caravanas enchapadas plata",
       "descripcion": "Caravanas enchapadas plata",
@@ -14040,22 +13834,6 @@
       "estado": "visible",
       "imagenes": [
         "29082 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "211602",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 60,
-      "estado": "visible",
-      "imagenes": [
-        "211602 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -14326,6 +14104,44 @@
       "imagenes": [
         "313230 1.jpg",
         "313230 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "56070PI",
+      "nombre": "Gargantilla enchapada con perla",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 235,
+      "estado": "visible",
+      "imagenes": [
+        "56070PI 1.jpg",
+        "56070PI 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "56030PI",
+      "nombre": "Gargantilla enchapada con flor piedra",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 275,
+      "estado": "visible",
+      "imagenes": [
+        "56030PI 1.jpg",
+        "56030PI 2.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": false,
