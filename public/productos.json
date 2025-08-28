@@ -1,6 +1,6 @@
 {
-  "version": 1756305162182,
-  "timestamp": "2025-08-27T14:32:42.182Z",
+  "version": 1756390557877,
+  "timestamp": "2025-08-28T14:15:57.877Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -5261,6 +5261,57 @@
       "imagenes": [
         "35614M 1.jpg",
         "35614M 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "311054P",
+      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 215,
+      "estado": "visible",
+      "imagenes": [
+        "311054P 1.jpg",
+        "311054P 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "311054M",
+      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 275,
+      "estado": "visible",
+      "imagenes": [
+        "311054M 1.jpg",
+        "311054M 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "311054G",
+      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 375,
+      "estado": "visible",
+      "imagenes": [
+        "311054G 1.jpg",
+        "311054G 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
