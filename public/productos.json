@@ -1,6 +1,6 @@
 {
-  "version": 1756390557877,
-  "timestamp": "2025-08-28T14:15:57.877Z",
+  "version": 1756394088232,
+  "timestamp": "2025-08-28T15:14:48.232Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -1917,24 +1917,6 @@
       "estado": "Preventa",
       "imagenes": [
         "B043 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "B125",
-      "nombre": "Set colitas x 2",
-      "descripcion": "Set colitas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 26,
-      "estado": "visible",
-      "imagenes": [
-        "B125 1.jpg",
-        "B125 2.jpg",
-        "B125 3.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
