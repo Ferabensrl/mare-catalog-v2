@@ -1,6 +1,6 @@
 {
-  "version": 1756499995274,
-  "timestamp": "2025-08-29T20:39:55.274Z",
+  "version": 1756500428819,
+  "timestamp": "2025-08-29T20:47:08.819Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -14238,7 +14238,7 @@
       "variantes": {}
     },
     {
-      "codigo": "512270",
+      "codigo": "512270PI",
       "nombre": "Gargantilla enchapada en oro Gatita",
       "descripcion": "Enchapado infantil",
       "categoria": "Z Enchapado",
@@ -14246,8 +14246,8 @@
       "precio": 240,
       "estado": "visible",
       "imagenes": [
-        "512270 1.jpg",
-        "512270 2.jpg"
+        "512270PI 1.jpg",
+        "512270PI 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -15048,8 +15048,7 @@
       "precio": 315,
       "estado": "visible",
       "imagenes": [
-        "310750 1.jpg",
-        "310750 2.jpg"
+        "310750 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -15057,7 +15056,8 @@
       "variantes": {
         "C1": true,
         "C2": true
-      }
+      },
+      "imagenVariantes": "310750 VARIANTES.jpg"
     },
     {
       "codigo": "510800PI",
