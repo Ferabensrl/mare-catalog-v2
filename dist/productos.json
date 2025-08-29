@@ -1,6 +1,6 @@
 {
-  "version": 1756402019465,
-  "timestamp": "2025-08-28T17:26:59.465Z",
+  "version": 1756470066398,
+  "timestamp": "2025-08-29T12:21:06.398Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -14147,6 +14147,432 @@
       "permitirSurtido": false,
       "colores": {
         "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "56010PI",
+      "nombre": "Gargantilla enchapada con corazon",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 275,
+      "estado": "visible",
+      "imagenes": [
+        "56010PI 1.jpg",
+        "56010PI 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Blanco": true,
+        "Rosado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "313790",
+      "nombre": "Gargantilla enchapada Amistad/Amor",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 345,
+      "estado": "visible",
+      "imagenes": [
+        "313790 1.jpg",
+        "313790 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "311220",
+      "nombre": "Gargantilla enchapada 15 años",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 310,
+      "estado": "visible",
+      "imagenes": [
+        "311220 1.jpg",
+        "311220 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "311850",
+      "nombre": "Gargantilla enchapada 15 años",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 310,
+      "estado": "visible",
+      "imagenes": [
+        "311850 1.jpg",
+        "311850 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "311240",
+      "nombre": "Gargantilla enchapada 15 años",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 255,
+      "estado": "visible",
+      "imagenes": [
+        "311240 1.jpg",
+        "311240 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "55130PI",
+      "nombre": "Gargantilla enchapada infinito",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 295,
+      "estado": "visible",
+      "imagenes": [
+        "55130PI 1.jpg",
+        "55130PI 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "510160PI",
+      "nombre": "Gargantilla enchapada corazón",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 195,
+      "estado": "visible",
+      "imagenes": [
+        "510160PI 1.jpg",
+        "510160PI 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310750",
+      "nombre": "Gargantilla enchapada Nene/Nena",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 315,
+      "estado": "visible",
+      "imagenes": [
+        "310750 1.jpg",
+        "310750 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {
+        "C1": true,
+        "C2": true
+      }
+    },
+    {
+      "codigo": "510800PI",
+      "nombre": "Gargantilla enchapada",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 245,
+      "estado": "visible",
+      "imagenes": [
+        "510800PI 1.jpg",
+        "510800PI 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Blanco": true,
+        "Rosado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "312610",
+      "nombre": "Gargantilla enchapada Virgen",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 275,
+      "estado": "visible",
+      "imagenes": [
+        "312610 1.jpg",
+        "312610 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "310900",
+      "nombre": "Gargantilla enchapada Angel",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 275,
+      "estado": "visible",
+      "imagenes": [
+        "310900 1.jpg",
+        "310900 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "PI01301",
+      "nombre": "Gargantilla enchapada Virgen",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 215,
+      "estado": "visible",
+      "imagenes": [
+        "PI01301 1.jpg",
+        "PI01301 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "PI03171",
+      "nombre": "Gargantilla enchapada Virgen",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 215,
+      "estado": "visible",
+      "imagenes": [
+        "PI03171 1.jpg",
+        "PI03171 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "PI05521",
+      "nombre": "Gargantilla enchapada Arbol de la vida",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 215,
+      "estado": "visible",
+      "imagenes": [
+        "PI05521 1.jpg",
+        "PI05521 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "30560",
+      "nombre": "Gargantilla enchapada Serpiente",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 245,
+      "estado": "visible",
+      "imagenes": [
+        "30560 1.jpg",
+        "30560 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "36490",
+      "nombre": "Gargantilla enchapada Virgen",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 275,
+      "estado": "visible",
+      "imagenes": [
+        "36490 1.jpg",
+        "36490 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "510610PI",
+      "nombre": "Gargantilla enchapada corazón",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 195,
+      "estado": "visible",
+      "imagenes": [
+        "510610PI 1.jpg",
+        "510610PI 2.jpg",
+        "510610PI 3.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "56000PI",
+      "nombre": "Gargantilla enchapada corazón",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 235,
+      "estado": "visible",
+      "imagenes": [
+        "56000PI 1.jpg",
+        "56000PI 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "510530PI",
+      "nombre": "Gargantilla enchapada",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 275,
+      "estado": "visible",
+      "imagenes": [
+        "510530PI 1.jpg",
+        "510530PI 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Blanco": true,
+        "Varios colores": true,
+        "Rosado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "PI02531",
+      "nombre": "Gargantilla enchapada estrella",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 215,
+      "estado": "visible",
+      "imagenes": [
+        "PI02531 1.jpg",
+        "PI02531 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "56050PI",
+      "nombre": "Gargantilla enchapada",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 235,
+      "estado": "visible",
+      "imagenes": [
+        "56050PI 1.jpg",
+        "56050PI 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "PI06351",
+      "nombre": "Gargantilla enchapada Serpiente",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 275,
+      "estado": "visible",
+      "imagenes": [
+        "PI06351 1.jpg",
+        "PI06351 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "60410",
+      "nombre": "Rosario enchapado en oro",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 270,
+      "estado": "visible",
+      "imagenes": [
+        "60410 1.jpg",
+        "60410 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "60412",
+      "nombre": "Rosario enchapado en plata",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 185,
+      "estado": "visible",
+      "imagenes": [
+        "60412 1.jpg",
+        "60412 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
       },
       "variantes": {}
     },
