@@ -1,6 +1,6 @@
 {
-  "version": 1756500428819,
-  "timestamp": "2025-08-29T20:47:08.819Z",
+  "version": 1756521215092,
+  "timestamp": "2025-08-30T02:33:35.092Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -5780,8 +5780,7 @@
       "estado": "visible",
       "imagenes": [
         "XL00431 1.jpg",
-        "XL00431 2.jpg",
-        "XL00431 3.jpg"
+        "XL00431 2.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": false,
@@ -5800,8 +5799,7 @@
       "estado": "visible",
       "imagenes": [
         "XL00378 1.jpg",
-        "XL00378 2.jpg",
-        "XL00378 3.jpg"
+        "XL00378 2.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": false,
