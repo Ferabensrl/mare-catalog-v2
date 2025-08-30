@@ -1,6 +1,6 @@
 {
-  "version": 1756521215092,
-  "timestamp": "2025-08-30T02:33:35.092Z",
+  "version": 1756521622463,
+  "timestamp": "2025-08-30T02:40:22.463Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -5771,44 +5771,6 @@
       "variantes": {}
     },
     {
-      "codigo": "XL00431",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "XL00431 1.jpg",
-        "XL00431 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "XL00378",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "XL00378 1.jpg",
-        "XL00378 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "FN0519",
       "nombre": "Gargantilla acero",
       "descripcion": "Gargantilla acero",
@@ -5967,6 +5929,44 @@
       "permitirSurtido": false,
       "colores": {
         "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "XL004311",
+      "nombre": "Gargantilla acero",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 195,
+      "estado": "visible",
+      "imagenes": [
+        "XL004311 1.jpg",
+        "XL004311 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "XL003788",
+      "nombre": "Gargantilla acero",
+      "descripcion": "Gargantilla acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 145,
+      "estado": "visible",
+      "imagenes": [
+        "XL003788 1.jpg",
+        "XL003788 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
       },
       "variantes": {}
     },
