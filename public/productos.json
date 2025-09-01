@@ -1,6 +1,6 @@
 {
-  "version": 1756521622463,
-  "timestamp": "2025-08-30T02:40:22.463Z",
+  "version": 1756735900281,
+  "timestamp": "2025-09-01T14:11:40.281Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -14038,6 +14038,435 @@
       "variantes": {}
     },
     {
+      "codigo": "PL05451",
+      "nombre": "Pulsera enchapada oro infantil",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 105,
+      "estado": "visible",
+      "imagenes": [
+        "PL05451 1.jpg",
+        "PL05451 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "PL70221",
+      "nombre": "Pulsera enchapada oro infantil Mariposa",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 105,
+      "estado": "visible",
+      "imagenes": [
+        "PL70221 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "L010921",
+      "nombre": "Pulsera enchapada oro infantil Estrellas",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 105,
+      "estado": "visible",
+      "imagenes": [
+        "L010921 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "70660",
+      "nombre": "Pulsera enchapada oro infantil Luna",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 110,
+      "estado": "visible",
+      "imagenes": [
+        "70660 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "70661",
+      "nombre": "Pulsera enchapada oro infantil Corazon",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 110,
+      "estado": "visible",
+      "imagenes": [
+        "70661 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "710040",
+      "nombre": "Pulsera enchapada oro infantil Corazon",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 145,
+      "estado": "visible",
+      "imagenes": [
+        "710040 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Rosado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "70663",
+      "nombre": "Pulsera enchapada oro infantil Sol",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 110,
+      "estado": "visible",
+      "imagenes": [
+        "70663 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "PL02331",
+      "nombre": "Pulsera enchapada oro infantil Mariposa",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 135,
+      "estado": "visible",
+      "imagenes": [
+        "PL02331 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Rosado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "710270",
+      "nombre": "Pulsera enchapada oro infantil Flor",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 145,
+      "estado": "visible",
+      "imagenes": [
+        "710270 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Rosado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "710490",
+      "nombre": "Pulsera enchapada oro infantil Corazon",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 145,
+      "estado": "visible",
+      "imagenes": [
+        "710490 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "PL02851",
+      "nombre": "Pulsera enchapada oro infantil Corazon",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 105,
+      "estado": "visible",
+      "imagenes": [
+        "PL02851 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "70310",
+      "nombre": "Pulsera enchapada oro infantil perlitas y brillo",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 145,
+      "estado": "visible",
+      "imagenes": [
+        "70310 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "PL70231",
+      "nombre": "Pulsera enchapada oro infantil Emoji",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 110,
+      "estado": "visible",
+      "imagenes": [
+        "PL70231 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Rosado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "RC09932",
+      "nombre": "Pulsera enchapada oro infantil Corazon",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 105,
+      "estado": "visible",
+      "imagenes": [
+        "RC09932 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "PL03021",
+      "nombre": "Pulsera enchapada oro infantil Mariposa",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 135,
+      "estado": "visible",
+      "imagenes": [
+        "PL03021 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Rosado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "70662",
+      "nombre": "Pulsera enchapada plata infantil corazón",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 95,
+      "estado": "visible",
+      "imagenes": [
+        "70662 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "70664",
+      "nombre": "Pulsera enchapada plata infantil Luna",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 95,
+      "estado": "visible",
+      "imagenes": [
+        "70664 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "70666",
+      "nombre": "Pulsera enchapada plata infantil Sol",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 95,
+      "estado": "visible",
+      "imagenes": [
+        "70666 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "710492",
+      "nombre": "Pulsera enchapada plata infantil corazón",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 125,
+      "estado": "visible",
+      "imagenes": [
+        "710492 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "710002",
+      "nombre": "Pulsera enchapada plata infantil corazón",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 115,
+      "estado": "visible",
+      "imagenes": [
+        "710002 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "710042",
+      "nombre": "Pulsera enchapada plata infantil corazón",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 125,
+      "estado": "visible",
+      "imagenes": [
+        "710042 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Rosado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "711032",
+      "nombre": "Pulsera enchapada plata infantil Chapita",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 130,
+      "estado": "visible",
+      "imagenes": [
+        "711032 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "70302",
+      "nombre": "Pulsera enchapada plata infantil",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 185,
+      "estado": "visible",
+      "imagenes": [
+        "70302 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "70303",
+      "nombre": "Pulsera enchapada plata infantil",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 185,
+      "estado": "visible",
+      "imagenes": [
+        "70303 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "70072",
+      "nombre": "Pulsera enchapada plata infantil Elefante",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 185,
+      "estado": "visible",
+      "imagenes": [
+        "70072 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "40082",
+      "nombre": "Pulsera enchapada plata infantil corazón",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 175,
+      "estado": "visible",
+      "imagenes": [
+        "40082 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
       "codigo": "55960B",
       "nombre": "Caravanas enchapadas en oro Mariposa",
       "descripcion": "Enchapado infantil",
@@ -14782,6 +15211,44 @@
       "variantes": {}
     },
     {
+      "codigo": "L010911",
+      "nombre": "Gargantilla enchapada en oro infantil",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "30cm",
+      "precio": 185,
+      "estado": "visible",
+      "imagenes": [
+        "L010911 1.jpg",
+        "L010911 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "RC09931",
+      "nombre": "Gargantilla enchapada en oro infantil",
+      "descripcion": "Enchapado infantil",
+      "categoria": "Z Enchapado",
+      "medidas": "30cm",
+      "precio": 185,
+      "estado": "visible",
+      "imagenes": [
+        "RC09931 1.jpg",
+        "RC09931 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
       "codigo": "40162",
       "nombre": "Gargantilla enchapada Punto de luz",
       "descripcion": "Gargantilla enchapada",
@@ -14831,6 +15298,83 @@
       "estado": "visible",
       "imagenes": [
         "61392 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "56032PI",
+      "nombre": "Gargantilla enchapada en plata flor",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 185,
+      "estado": "visible",
+      "imagenes": [
+        "56032PI 1.jpg",
+        "56032PI 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "50142PI",
+      "nombre": "Gargantilla enchapada en plata Brillo",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 215,
+      "estado": "visible",
+      "imagenes": [
+        "50142PI 1.jpg",
+        "50142PI 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "PL01051",
+      "nombre": "Gargantilla enchapada en plata Rana",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 235,
+      "estado": "visible",
+      "imagenes": [
+        "PL01051 1.jpg",
+        "PL01051 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Blanco": true,
+        "Verde": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "510162",
+      "nombre": "Gargantilla enchapada en plata Corazon",
+      "descripcion": "Gargantilla enchapada",
+      "categoria": "Z Enchapado",
+      "medidas": "",
+      "precio": 150,
+      "estado": "visible",
+      "imagenes": [
+        "510162 1.jpg",
+        "510162 2.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": false,
