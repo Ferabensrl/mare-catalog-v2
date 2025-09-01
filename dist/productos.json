@@ -1,6 +1,6 @@
 {
-  "version": 1756737247719,
-  "timestamp": "2025-09-01T14:34:07.719Z",
+  "version": 1756746251644,
+  "timestamp": "2025-09-01T17:04:11.644Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -6557,38 +6557,16 @@
       "variantes": {}
     },
     {
-      "codigo": "PULS0001",
-      "nombre": "Pulsera acero",
+      "codigo": "PULS1001",
+      "nombre": "Pulsera acero con dije enchapado",
       "descripcion": "Pulsera acero",
       "categoria": "Acero",
       "medidas": "",
       "precio": 195,
       "estado": "visible",
       "imagenes": [
-        "PULS0001 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {
-        "C2": true,
-        "C5": true,
-        "C6": true,
-        "C7": true,
-        "C8": true,
-        "C9": true
-      }
-    },
-    {
-      "codigo": "PULS0002",
-      "nombre": "Pulsera acero",
-      "descripcion": "Pulsera acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "PULS0002 1.jpg"
+        "PULS1001 1.jpg",
+        "PULS1001 2.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -6598,8 +6576,14 @@
         "C2": true,
         "C3": true,
         "C4": true,
-        "C5": true
-      }
+        "C5": true,
+        "C6": true,
+        "C7": true,
+        "C8": true,
+        "C9": true,
+        "C10": true
+      },
+      "imagenVariantes": "PULS1001 VARIANTES.jpg"
     },
     {
       "codigo": "PULS6151",
