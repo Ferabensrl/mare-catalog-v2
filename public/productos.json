@@ -1,6 +1,6 @@
 {
-  "version": 1756736928264,
-  "timestamp": "2025-09-01T14:28:48.264Z",
+  "version": 1756737239558,
+  "timestamp": "2025-09-01T14:33:59.558Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -14071,7 +14071,7 @@
       "variantes": {}
     },
     {
-      "codigo": "L010921",
+      "codigo": "L010931",
       "nombre": "Pulsera enchapada oro infantil Estrellas",
       "descripcion": "Enchapado infantil",
       "categoria": "Z Enchapado",
@@ -14079,7 +14079,7 @@
       "precio": 105,
       "estado": "visible",
       "imagenes": [
-        "L010921 1.jpg"
+        "L010931 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
