@@ -1,6 +1,6 @@
 // sw.js - Service Worker para MARÉ Catálogo PWA
 // Versión del cache - incrementar cuando haya cambios importantes
-const CACHE_VERSION = 'mare-v1.5.0-update-' + Date.now();
+const CACHE_VERSION = 'mare-v1.6.0-boton-restaurar-moviles';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
 const IMAGES_CACHE = `${CACHE_VERSION}-images`;
@@ -104,11 +104,11 @@ async function handleRequest(request) {
       return await cacheFirstStrategy(request, IMAGES_CACHE);
     }
 
-    // 4. ARCHIVOS JS/CSS (generados por Vite)
+    // 4. ARCHIVOS JS/CSS (generados por Vite) - Network First para actualizaciones inmediatas
     if (pathname.startsWith('/assets/') || 
         pathname.endsWith('.js') || 
         pathname.endsWith('.css')) {
-      return await cacheFirstStrategy(request, STATIC_CACHE);
+      return await networkFirstStrategy(request, STATIC_CACHE);
     }
 
     // 5. OTROS ARCHIVOS - Network first
