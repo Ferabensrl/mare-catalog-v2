@@ -455,6 +455,7 @@
                 return;
             }
 
+
             log('🎉 ¡Proceso completo finalizado exitosamente!', 'success');
             setLoading(false);
         }
@@ -472,7 +473,13 @@
                 return;
             }
 
-            if (!await ejecutarComando('git add public/productos.json', 'Agregando productos al staging')) {
+            // Hacer build para actualizar el JavaScript con cache busting
+            if (!await ejecutarComando('npm run build', 'Build de la aplicación')) {
+                setLoading(false);
+                return;
+            }
+
+            if (!await ejecutarComando('git add public/productos.json dist/', 'Agregando productos y build al staging')) {
                 setLoading(false);
                 return;
             }
@@ -486,6 +493,7 @@
                 setLoading(false);
                 return;
             }
+
 
             log('🎉 ¡Productos actualizados exitosamente!', 'success');
             setLoading(false);
@@ -656,6 +664,7 @@
             log('🎉 ¡Website limpiado exitosamente! Repositorio optimizado', 'success');
             setLoading(false);
         }
+
 
         // Cargar mensaje actual al inicio
         window.addEventListener('load', async () => {

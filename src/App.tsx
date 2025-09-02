@@ -1565,7 +1565,7 @@ const App = () => {
               {hasLastOrder() && (
                 <button
                   onClick={restoreLastOrder}
-                  className="hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium hover:opacity-80 transition-all"
+                  className="flex items-center gap-1 px-2 sm:px-3 py-2 rounded-lg text-xs sm:text-sm font-medium hover:opacity-80 transition-all"
                   style={{ backgroundColor: '#8F6A50', color: 'white' }}
                   title="Restaurar último pedido enviado (24h)"
                   aria-label="Restaurar último pedido"
@@ -1578,7 +1578,7 @@ const App = () => {
               {cart.length > 0 && (
                 <button
                   onClick={confirmClearCart}
-                  className="hidden sm:flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium hover:opacity-80 transition-all"
+                  className="flex items-center gap-1 px-2 sm:px-3 py-2 rounded-lg text-xs sm:text-sm font-medium hover:opacity-80 transition-all"
                   style={{ backgroundColor: '#f87171', color: 'white' }}
                   title="Limpiar todo el pedido"
                   aria-label="Limpiar todo el pedido"
