@@ -1,6 +1,6 @@
 {
-  "version": 1756852901364,
-  "timestamp": "2025-09-02T22:41:41.364Z",
+  "version": 1757946725648,
+  "timestamp": "2025-09-15T14:32:05.648Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -94,7 +94,6 @@
       "permitirSurtido": true,
       "colores": {},
       "variantes": {
-        "C1": true,
         "C2": true,
         "C3": true,
         "C4": true,
@@ -102,26 +101,6 @@
         "C6": true
       },
       "imagenVariantes": "CBB008 VARIANTES.jpg"
-    },
-    {
-      "codigo": "G02",
-      "nombre": "100pcs banditas elasticas",
-      "descripcion": "Banditas elasticas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 25,
-      "estado": "visible",
-      "imagenes": [
-        "G02 1.jpg",
-        "G02 2.jpg",
-        "G02 3.jpg",
-        "G02 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {},
-      "imagenVariantes": "G02 VARIANTES.jpg"
     },
     {
       "codigo": "B003",
@@ -316,25 +295,6 @@
         "3220 1.jpg",
         "3220 2.jpg",
         "3220 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "HC0001",
-      "nombre": "Colero con luz led",
-      "descripcion": "Colero",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 35,
-      "estado": "visible",
-      "imagenes": [
-        "HC0001 1.jpg",
-        "HC0001 2.jpg",
-        "HC0001 3.jpg",
-        "HC0001 4.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -639,9 +599,7 @@
       "permitirSurtido": true,
       "colores": {},
       "variantes": {
-        "C1": true,
         "C2": true,
-        "C3": true,
         "C4": true,
         "C5": true,
         "C6": true
@@ -802,25 +760,6 @@
       "colores": {},
       "variantes": {},
       "imagenVariantes": "D251 VARIANTES.jpg"
-    },
-    {
-      "codigo": "D218",
-      "nombre": "Pinza",
-      "descripcion": "Pinza",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 50,
-      "estado": "visible",
-      "imagenes": [
-        "D218 1.jpg",
-        "D218 2.jpg",
-        "D218 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {},
-      "imagenVariantes": "D218 VARIANTES.jpg"
     },
     {
       "codigo": "D286",
@@ -1917,24 +1856,6 @@
       "estado": "visible",
       "imagenes": [
         "B043 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "B227",
-      "nombre": "Set colitas x 2",
-      "descripcion": "Set colitas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 33,
-      "estado": "visible",
-      "imagenes": [
-        "B227 1.jpg",
-        "B227 2.jpg",
-        "B227 3.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -3454,22 +3375,6 @@
       "variantes": {}
     },
     {
-      "codigo": "EA0008-2",
-      "nombre": "Abridores acero dorado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 60,
-      "estado": "visible",
-      "imagenes": [
-        "EA0008-2 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "EA0016",
       "nombre": "Abridores acero",
       "descripcion": "Caravanas acero",
@@ -3960,9 +3865,8 @@
         "XL00384 2.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
-        "Dorado": true,
         "Plateado": true
       },
       "variantes": {},
@@ -4200,10 +4104,7 @@
       "colores": {},
       "variantes": {
         "C1": true,
-        "C2": true,
-        "C3": true,
-        "C4": true,
-        "C5": true
+        "C2": true
       }
     },
     {
@@ -4753,23 +4654,6 @@
       "variantes": {}
     },
     {
-      "codigo": "310904P",
-      "nombre": "Cadena acero y dije enchapado Angel",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 175,
-      "estado": "visible",
-      "imagenes": [
-        "310904P 1.jpg",
-        "310904P 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "310904M",
       "nombre": "Cadena acero y dije enchapado Angel",
       "descripcion": "Gargantilla acero",
@@ -4814,23 +4698,6 @@
       "imagenes": [
         "310904GG 1.jpg",
         "310904GG 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "312614M",
-      "nombre": "Cadena acero y dije enchapado Virgen",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 235,
-      "estado": "visible",
-      "imagenes": [
-        "312614M 1.jpg",
-        "312614M 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -5018,23 +4885,6 @@
       "imagenes": [
         "310464P 1.jpg",
         "310464P 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "36494G",
-      "nombre": "Cadena acero y dije enchapado Virgen",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 215,
-      "estado": "visible",
-      "imagenes": [
-        "36494G 1.jpg",
-        "36494G 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -6413,24 +6263,6 @@
       "variantes": {}
     },
     {
-      "codigo": "FN25229",
-      "nombre": "Pulsera acero",
-      "descripcion": "Pulsera acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 85,
-      "estado": "visible",
-      "imagenes": [
-        "FN25229 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "PULS6789",
       "nombre": "Pulsera acero",
       "descripcion": "Pulsera acero",
@@ -7058,8 +6890,7 @@
       "colores": {},
       "variantes": {
         "C1": true,
-        "C2": true,
-        "C3": true
+        "C2": true
       },
       "imagenVariantes": "W280 VARIANTES.jpg"
     },
@@ -7254,7 +7085,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Nude": true,
         "Celeste": true,
         "Rosado": true,
@@ -8224,24 +8054,6 @@
       },
       "variantes": {},
       "imagenVariantes": "BAG9307 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FN1031",
-      "nombre": "Porta laptop",
-      "descripcion": "Morral Hombre",
-      "categoria": "Caballero",
-      "medidas": "36 x 27 x 3,5cm",
-      "precio": 650,
-      "estado": "visible",
-      "imagenes": [
-        "FN1031 1.jpg",
-        "FN1031 2.jpg",
-        "FN1031 3.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
     },
     {
       "codigo": "BAG9309",
@@ -9869,29 +9681,6 @@
       "imagenVariantes": "LB676 VARIANTES.jpg"
     },
     {
-      "codigo": "B1102",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "20 x 10 x 4cm",
-      "precio": 290,
-      "estado": "visible",
-      "imagenes": [
-        "B1102 1.jpg",
-        "B1102 2.jpg",
-        "B1102 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Celeste": true,
-        "Rosado": true,
-        "Beige": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B1102 VARIANTES.jpg"
-    },
-    {
       "codigo": "B11015",
       "nombre": "Bandolera dama",
       "descripcion": "Bandolera",
@@ -10585,7 +10374,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Blanco": true,
         "Verde claro": true
       },
@@ -10808,7 +10596,6 @@
       "colores": {
         "Negro": true,
         "Rosado": true,
-        "Beige": true,
         "Verde Agua": true
       },
       "variantes": {},
@@ -11039,7 +10826,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Amarillo": true,
         "Azul": true
       },
@@ -11185,11 +10971,7 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Verde": true,
-        "Lila": true,
-        "Rosado": true,
-        "Rojo": true,
-        "Rosa Viejo": true
+        "Verde": true
       },
       "variantes": {},
       "imagenVariantes": "H003 VARIANTES.jpg"
@@ -11450,29 +11232,6 @@
       "imagenVariantes": "B1202 VARIANTES.jpg"
     },
     {
-      "codigo": "B6008",
-      "nombre": "Bolso grande sport",
-      "descripcion": "Bolsos",
-      "categoria": "Marroquineria",
-      "medidas": "50 X 23 X 29CM",
-      "precio": 790,
-      "estado": "visible",
-      "imagenes": [
-        "B6008 1.jpg",
-        "B6008 2.jpg",
-        "B6008 3.jpg",
-        "B6008 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Blanco": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B6008 VARIANTES.jpg"
-    },
-    {
       "codigo": "FN5011",
       "nombre": "Bolso grande sport",
       "descripcion": "Bolsos",
@@ -11488,8 +11247,7 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
-        "Verde Agua": true
+        "Negro": true
       },
       "variantes": {},
       "imagenVariantes": "FN5011 VARIANTES.jpg"
@@ -11778,7 +11536,6 @@
       "colores": {
         "Negro": true,
         "Rosado": true,
-        "Marron Claro": true,
         "Crudo": true
       },
       "variantes": {},
@@ -12773,38 +12530,6 @@
       "variantes": {}
     },
     {
-      "codigo": "RELH011-3",
-      "nombre": "Reloj hombre metal",
-      "descripcion": "Reloj hombre",
-      "categoria": "Relojes",
-      "medidas": "",
-      "precio": 1,
-      "estado": "Poco stock",
-      "imagenes": [
-        "RELH011-3 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "RELH011-2",
-      "nombre": "Reloj hombre metal",
-      "descripcion": "Reloj hombre",
-      "categoria": "Relojes",
-      "medidas": "",
-      "precio": 1,
-      "estado": "Poco stock",
-      "imagenes": [
-        "RELH011-2 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "BOX009",
       "nombre": "Caja anillo",
       "descripcion": "Caja anillo",
@@ -12982,7 +12707,6 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Bordeaux": true,
         "Azul": true
       },
       "variantes": {}
@@ -13144,22 +12868,6 @@
       "estado": "visible",
       "imagenes": [
         "179383 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "14224",
-      "nombre": "Anillo enchapado",
-      "descripcion": "Anillo enchapado",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 125,
-      "estado": "visible",
-      "imagenes": [
-        "14224 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
