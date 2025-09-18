@@ -1,6 +1,6 @@
 {
-  "version": 1757946732974,
-  "timestamp": "2025-09-15T14:32:12.974Z",
+  "version": 1758226144265,
+  "timestamp": "2025-09-18T20:09:04.265Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -319,8 +319,7 @@
       "colores": {
         "Negro": true,
         "Verde": true,
-        "Rosado": true,
-        "Beige": true
+        "Rosado": true
       },
       "variantes": {},
       "imagenVariantes": "C042 VARIANTES.jpg"
@@ -342,11 +341,11 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Lila": true,
+        "Beige": true,
         "Gris": true,
         "Rojo": true,
-        "Verde Agua": true,
-        "Salmon": true
+        "Azul": true,
+        "Verde Agua": true
       },
       "variantes": {},
       "imagenVariantes": "C071 VARIANTES.jpg"
@@ -2078,40 +2077,12 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Blanco": true,
         "Rosado": true,
         "Fucsia": true,
         "Rojo": true
       },
       "variantes": {},
       "imagenVariantes": "D061 VARIANTES.jpg"
-    },
-    {
-      "codigo": "D063",
-      "nombre": "Set pinzas x2",
-      "descripcion": "Set pinzas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 60,
-      "estado": "visible",
-      "imagenes": [
-        "D063 1.jpg",
-        "D063 2.jpg",
-        "D063 3.jpg",
-        "D063 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {
-        "C1": true,
-        "C2": true,
-        "C3": true,
-        "C4": true,
-        "C5": true,
-        "C6": true
-      },
-      "imagenVariantes": "D063 VARIANTES.jpg"
     },
     {
       "codigo": "D241",
@@ -2879,55 +2850,6 @@
       "variantes": {}
     },
     {
-      "codigo": "EA22004-8MM",
-      "nombre": "Aros acero 8mm",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "8mm",
-      "precio": 22,
-      "estado": "visible",
-      "imagenes": [
-        "EA22004-8MM 1.jpg",
-        "EA22004-8MM 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "EA22004-12MM",
-      "nombre": "Aros acero 12mm",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "12mm",
-      "precio": 25,
-      "estado": "visible",
-      "imagenes": [
-        "EA22004-12MM 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "EA22004-16MM",
-      "nombre": "Aros acero 16mm",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "16mm",
-      "precio": 28,
-      "estado": "visible",
-      "imagenes": [
-        "EA22004-16MM 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "24005",
       "nombre": "Aros acero",
       "descripcion": "Caravanas acero",
@@ -3247,22 +3169,6 @@
       "variantes": {}
     },
     {
-      "codigo": "EA0007-2",
-      "nombre": "Abridores acero dorado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 60,
-      "estado": "visible",
-      "imagenes": [
-        "EA0007-2 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "EA0001",
       "nombre": "Abridores acero dorado",
       "descripcion": "Caravanas acero",
@@ -3304,22 +3210,6 @@
       "estado": "visible",
       "imagenes": [
         "EA0006-2 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "EA0004",
-      "nombre": "Abridores acero dorado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 60,
-      "estado": "visible",
-      "imagenes": [
-        "EA0004 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -4722,23 +4612,6 @@
       "variantes": {}
     },
     {
-      "codigo": "312614GG",
-      "nombre": "Cadena acero y dije enchapado Virgen",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 445,
-      "estado": "visible",
-      "imagenes": [
-        "312614GG 1.jpg",
-        "312614GG 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "313434P",
       "nombre": "Cadena acero y dije enchapado Cruz combinada",
       "descripcion": "Gargantilla acero",
@@ -5693,24 +5566,6 @@
       "variantes": {}
     },
     {
-      "codigo": "GARG0211",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 125,
-      "estado": "visible",
-      "imagenes": [
-        "GARG0211 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "GARG0187",
       "nombre": "Gargantilla acero",
       "descripcion": "Gargantilla acero",
@@ -6272,22 +6127,6 @@
       "estado": "visible",
       "imagenes": [
         "PULS6789 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "PULS6791",
-      "nombre": "Pulsera acero",
-      "descripcion": "Pulsera acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 95,
-      "estado": "visible",
-      "imagenes": [
-        "PULS6791 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -7049,27 +6888,6 @@
       "imagenVariantes": "W0004 VARIANTES.jpg"
     },
     {
-      "codigo": "BILL5327",
-      "nombre": "Billetera dama",
-      "descripcion": "Billetera dama larga",
-      "categoria": "Billeteras",
-      "medidas": "19 x 9,5cm",
-      "precio": 265,
-      "estado": "visible",
-      "imagenes": [
-        "BILL5327 1.jpg",
-        "BILL5327 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Rosado": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BILL5327 VARIANTES.jpg"
-    },
-    {
       "codigo": "W2001",
       "nombre": "Billetera dama",
       "descripcion": "Billetera dama larga",
@@ -7210,8 +7028,7 @@
         "Rosado": true,
         "Marron Claro": true,
         "Bordeaux": true,
-        "Rojo": true,
-        "Azul": true
+        "Rojo": true
       },
       "variantes": {},
       "imagenVariantes": "W1281 VARIANTES.jpg"
@@ -7311,12 +7128,10 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Celeste": true,
         "Rosado": true,
         "Rojo": true,
-        "Rosa Viejo": true,
-        "Azul": true
+        "Rosa Viejo": true
       },
       "variantes": {},
       "imagenVariantes": "W801 VARIANTES.jpg"
@@ -8628,30 +8443,6 @@
       "imagenVariantes": "GS9203 VARIANTES.jpg"
     },
     {
-      "codigo": "GS9215",
-      "nombre": "Lentes de dama",
-      "descripcion": "XLentes de dama",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "GS9215 1.jpg",
-        "GS9215 2.jpg",
-        "GS9215 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {
-        "C1": true,
-        "C2": true,
-        "C3": true,
-        "C4": true
-      },
-      "imagenVariantes": "GS9215 VARIANTES.jpg"
-    },
-    {
       "codigo": "GS9217",
       "nombre": "Lentes de dama",
       "descripcion": "XLentes de dama",
@@ -8711,8 +8502,7 @@
       "colores": {},
       "variantes": {
         "C1": true,
-        "C2": true,
-        "C3": true
+        "C2": true
       },
       "imagenVariantes": "9226 VARIANTES.jpg"
     },
@@ -8737,25 +8527,6 @@
       "variantes": {}
     },
     {
-      "codigo": "4309",
-      "nombre": "Lentes de dama",
-      "descripcion": "XLentes de dama",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 285,
-      "estado": "Poco stock",
-      "imagenes": [
-        "4309 1.jpg",
-        "4309 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Negro": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "FN2412",
       "nombre": "Lentes de dama",
       "descripcion": "XLentes de dama",
@@ -8769,9 +8540,7 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Blanco": true,
-        "Marron Oscuro": true,
-        "Gris": true
+        "Marron Oscuro": true
       },
       "variantes": {}
     },
@@ -8970,29 +8739,6 @@
       "imagenVariantes": "FNG6111 VARIANTES.jpg"
     },
     {
-      "codigo": "GS9205",
-      "nombre": "Lentes unisex",
-      "descripcion": "XLentes unisex",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 220,
-      "estado": "visible",
-      "imagenes": [
-        "GS9205 1.jpg",
-        "GS9205 2.jpg",
-        "GS9205 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Plateado": true,
-        "Marron Claro": true
-      },
-      "variantes": {},
-      "imagenVariantes": "GS9205 VARIANTES.jpg"
-    },
-    {
       "codigo": "GS9206",
       "nombre": "Lentes unisex",
       "descripcion": "XLentes unisex",
@@ -9012,26 +8758,6 @@
       },
       "variantes": {},
       "imagenVariantes": "GS9206 VARIANTES.jpg"
-    },
-    {
-      "codigo": "GS9219",
-      "nombre": "Lentes unisex",
-      "descripcion": "XLentes unisex",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 285,
-      "estado": "visible",
-      "imagenes": [
-        "GS9219 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Plateado": true,
-        "Celeste": true
-      },
-      "variantes": {},
-      "imagenVariantes": "GS9219 VARIANTES.jpg"
     },
     {
       "codigo": "GS9216",
@@ -10374,7 +10100,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Blanco": true,
         "Verde claro": true
       },
       "variantes": {},
