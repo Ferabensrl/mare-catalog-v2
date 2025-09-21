@@ -1,6 +1,6 @@
 {
-  "version": 1758226144265,
-  "timestamp": "2025-09-18T20:09:04.265Z",
+  "version": 1758466113629,
+  "timestamp": "2025-09-21T14:48:33.629Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -302,29 +302,6 @@
       "variantes": {}
     },
     {
-      "codigo": "C042",
-      "nombre": "Diademas",
-      "descripcion": "Diademas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 75,
-      "estado": "visible",
-      "imagenes": [
-        "C042 1.jpg",
-        "C042 2.jpg",
-        "C042 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Verde": true,
-        "Rosado": true
-      },
-      "variantes": {},
-      "imagenVariantes": "C042 VARIANTES.jpg"
-    },
-    {
       "codigo": "C071",
       "nombre": "Diademas",
       "descripcion": "Diademas",
@@ -342,10 +319,8 @@
       "colores": {
         "Negro": true,
         "Beige": true,
-        "Gris": true,
         "Rojo": true,
-        "Azul": true,
-        "Verde Agua": true
+        "Azul": true
       },
       "variantes": {},
       "imagenVariantes": "C071 VARIANTES.jpg"
@@ -357,7 +332,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 79,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "C069 1.jpg",
         "C069 2.jpg",
@@ -365,7 +340,10 @@
       ],
       "sinColor": false,
       "permitirSurtido": true,
-      "colores": {},
+      "colores": {
+        "Rosado": true,
+        "Beige": true
+      },
       "variantes": {}
     },
     {
@@ -539,7 +517,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 29,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "D089 1.jpg",
         "D089 2.jpg"
@@ -547,9 +525,7 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
-        "Blanco": true,
-        "Marron Claro": true
+        "Blanco": true
       },
       "variantes": {},
       "imagenVariantes": "D089 VARIANTES.jpg"
@@ -1441,8 +1417,7 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Tonos marrones": true,
-        "Tonos pastel": true
+        "Tonos marrones": true
       },
       "variantes": {}
     },
@@ -1878,22 +1853,6 @@
       ],
       "sinColor": false,
       "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "PELOH004",
-      "nombre": "Set de ondulines",
-      "descripcion": "Set de ondulines",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 25,
-      "estado": "visible",
-      "imagenes": [
-        "PELOH004 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
       "colores": {},
       "variantes": {}
     },
@@ -11112,8 +11071,7 @@
         "Negro": true,
         "Verde": true,
         "Lila": true,
-        "Rosado": true,
-        "Beige": true
+        "Rosado": true
       },
       "variantes": {},
       "imagenVariantes": "FNB1024 VARIANTES.jpg"
