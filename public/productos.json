@@ -1,6 +1,6 @@
 {
-  "version": 1758633844954,
-  "timestamp": "2025-09-23T13:24:04.954Z",
+  "version": 1758634613903,
+  "timestamp": "2025-09-23T13:36:53.903Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -2802,23 +2802,6 @@
       "estado": "visible",
       "imagenes": [
         "EA22002-8 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "24005",
-      "nombre": "Aros acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 50,
-      "estado": "inactivo",
-      "imagenes": [
-        "24005 1.jpg",
-        "24005 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
