@@ -1,6 +1,6 @@
 {
-  "version": 1758799968107,
-  "timestamp": "2025-09-25T11:32:48.107Z",
+  "version": 1758996756621,
+  "timestamp": "2025-09-27T18:12:36.621Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -737,25 +737,6 @@
       "imagenVariantes": "D251 VARIANTES.jpg"
     },
     {
-      "codigo": "D286",
-      "nombre": "Pinza",
-      "descripcion": "Pinza",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 75,
-      "estado": "visible",
-      "imagenes": [
-        "D286 1.jpg",
-        "D286 2.jpg",
-        "D286 3.jpg",
-        "D286 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "3216",
       "nombre": "Set colitas 20pcs",
       "descripcion": "Set colitas",
@@ -777,7 +758,6 @@
       "colores": {
         "Negro": true,
         "Tonos marrones": true,
-        "Tonos pastel": true,
         "Varios colores": true
       },
       "variantes": {},
@@ -1327,8 +1307,7 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Tonos marrones": true,
-        "Tonos pastel": true
+        "Tonos marrones": true
       },
       "variantes": {}
     },
@@ -2894,29 +2873,6 @@
       "permitirSurtido": false,
       "colores": {},
       "variantes": {}
-    },
-    {
-      "codigo": "ER0019",
-      "nombre": "Aros de acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 125,
-      "estado": "visible",
-      "imagenes": [
-        "ER0019 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {
-        "C1": true,
-        "C2": true,
-        "C3": true,
-        "C4": true,
-        "C5": true
-      },
-      "imagenVariantes": "ER0019 VARIANTES.jpg"
     },
     {
       "codigo": "ER0024",
@@ -6432,7 +6388,6 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Verde": true,
         "Celeste": true,
         "Marron Claro": true,
         "Rojo": true,
@@ -7045,10 +7000,8 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Verde": true,
         "Celeste": true,
         "Marron Claro": true,
-        "Rojo": true,
         "Rosa Viejo": true
       },
       "variantes": {},
@@ -8224,22 +8177,6 @@
         "C5": true
       },
       "imagenVariantes": "PASH5007 VARIANTES.jpg"
-    },
-    {
-      "codigo": "25157",
-      "nombre": "Prendedor",
-      "descripcion": "Prendedor para pashminas",
-      "categoria": "Lana",
-      "medidas": "",
-      "precio": 45,
-      "estado": "visible",
-      "imagenes": [
-        "25157 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
     },
     {
       "codigo": "25161",
@@ -9608,8 +9545,7 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Terracota": true,
-        "Petroleo": true
+        "Terracota": true
       },
       "variantes": {},
       "imagenVariantes": "LB1057 VARIANTES.jpg"
@@ -10244,8 +10180,7 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Beige": true,
-        "Crudo": true
+        "Beige": true
       },
       "variantes": {},
       "imagenVariantes": "FN5021 VARIANTES.jpg"
@@ -10517,12 +10452,10 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Rosado": true,
         "Gris": true,
         "Verde claro": true,
-        "Rojo": true,
-        "Rosa Viejo": true
+        "Rojo": true
       },
       "variantes": {},
       "imagenVariantes": "H001 VARIANTES.jpg"
