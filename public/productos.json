@@ -1,6 +1,6 @@
 {
-  "version": 1758996756621,
-  "timestamp": "2025-09-27T18:12:36.621Z",
+  "version": 1759262001004,
+  "timestamp": "2025-09-30T19:53:21.004Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -341,7 +341,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Rosado": true,
         "Beige": true
       },
       "variantes": {}
@@ -509,26 +508,6 @@
       "permitirSurtido": true,
       "colores": {},
       "variantes": {}
-    },
-    {
-      "codigo": "D089",
-      "nombre": "Pinza",
-      "descripcion": "Pinza",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 29,
-      "estado": "Poco stock",
-      "imagenes": [
-        "D089 1.jpg",
-        "D089 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Blanco": true
-      },
-      "variantes": {},
-      "imagenVariantes": "D089 VARIANTES.jpg"
     },
     {
       "codigo": "D131",
@@ -3259,22 +3238,6 @@
       "variantes": {}
     },
     {
-      "codigo": "EA7007-2",
-      "nombre": "Abridores acero dorado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 60,
-      "estado": "visible",
-      "imagenes": [
-        "EA7007-2 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "FN2201",
       "nombre": "Caravanas acero",
       "descripcion": "Caravanas acero",
@@ -4435,23 +4398,6 @@
       "imagenes": [
         "310124M 1.jpg",
         "310124M 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "310904M",
-      "nombre": "Cadena acero y dije enchapado Angel",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 235,
-      "estado": "visible",
-      "imagenes": [
-        "310904M 1.jpg",
-        "310904M 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -6859,29 +6805,6 @@
       "imagenVariantes": "FN368 VARIANTES.jpg"
     },
     {
-      "codigo": "FN362",
-      "nombre": "Billetera dama",
-      "descripcion": "Billetera dama larga",
-      "categoria": "Billeteras",
-      "medidas": "",
-      "precio": 220,
-      "estado": "visible",
-      "imagenes": [
-        "FN362 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Blanco": true,
-        "Rosado": true,
-        "Marron Claro": true,
-        "Rojo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FN362 VARIANTES.jpg"
-    },
-    {
       "codigo": "FN360",
       "nombre": "Billetera dama",
       "descripcion": "Billetera dama larga",
@@ -8568,7 +8491,6 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Dorado": true,
         "Plateado": true
       },
       "variantes": {},
@@ -8587,11 +8509,9 @@
         "GS9216 2.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
-        "Negro": true,
-        "Dorado": true,
-        "Plateado": true
+        "Dorado": true
       },
       "variantes": {},
       "imagenVariantes": "GS9216 VARIANTES.jpg"
@@ -10428,8 +10348,7 @@
       "colores": {
         "Beige": true,
         "Gris": true,
-        "Azul": true,
-        "Salmon": true
+        "Azul": true
       },
       "variantes": {},
       "imagenVariantes": "BAG6535 VARIANTES.jpg"
@@ -11069,7 +10988,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Rosado": true,
         "Crudo": true
       },
@@ -11120,9 +11038,7 @@
         "C1": true,
         "C2": true,
         "C3": true,
-        "C4": true,
-        "C5": true,
-        "C6": true
+        "C4": true
       },
       "imagenVariantes": "UB6210 VARIANTES.jpg"
     },
@@ -11445,22 +11361,6 @@
       "estado": "Poco stock",
       "imagenes": [
         "RELW4003 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "RELW4006",
-      "nombre": "Reloj dama cuero",
-      "descripcion": "Reloj dama",
-      "categoria": "Relojes",
-      "medidas": "",
-      "precio": 1,
-      "estado": "Poco stock",
-      "imagenes": [
-        "RELW4006 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
