@@ -1,6 +1,6 @@
 {
-  "version": 1759262001004,
-  "timestamp": "2025-09-30T19:53:21.004Z",
+  "version": 1759431710986,
+  "timestamp": "2025-10-02T19:01:50.986Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -297,8 +297,10 @@
         "3220 3.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
+      "permitirSurtido": false,
+      "colores": {
+        "Blanco": true
+      },
       "variantes": {}
     },
     {
@@ -808,27 +810,6 @@
       "variantes": {}
     },
     {
-      "codigo": "B006",
-      "nombre": "Set scrunchies x2",
-      "descripcion": "Set colitas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 33,
-      "estado": "visible",
-      "imagenes": [
-        "B006 1.jpg",
-        "B006 2.jpg",
-        "B006 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Beige": true,
-        "Marron Oscuro": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "B007",
       "nombre": "Set colitas x5",
       "descripcion": "Set colitas",
@@ -944,8 +925,10 @@
         "B033 3.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
+      "permitirSurtido": false,
+      "colores": {
+        "Negro": true
+      },
       "variantes": {}
     },
     {
@@ -8202,27 +8185,6 @@
       "imagenVariantes": "HS6801 VARIANTES.jpg"
     },
     {
-      "codigo": "GS9201",
-      "nombre": "Lentes caballero",
-      "descripcion": "XLentes caballero",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 285,
-      "estado": "visible",
-      "imagenes": [
-        "GS9201 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Dorado": true,
-        "Plateado": true
-      },
-      "variantes": {},
-      "imagenVariantes": "GS9201 VARIANTES.jpg"
-    },
-    {
       "codigo": "GS9203",
       "nombre": "Lentes caballero",
       "descripcion": "XLentes caballero",
@@ -8243,26 +8205,6 @@
       },
       "variantes": {},
       "imagenVariantes": "GS9203 VARIANTES.jpg"
-    },
-    {
-      "codigo": "9220",
-      "nombre": "Lentes de dama",
-      "descripcion": "XLentes de dama",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 220,
-      "estado": "visible",
-      "imagenes": [
-        "9220 1.jpg",
-        "9220 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Negro": true
-      },
-      "variantes": {},
-      "imagenVariantes": "9220 VARIANTES.jpg"
     },
     {
       "codigo": "FN2412",
@@ -9185,9 +9127,9 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
+        "Verde": true,
         "Rosado": true,
-        "Beige": true,
-        "Petroleo": true
+        "Beige": true
       },
       "variantes": {},
       "imagenVariantes": "FN5005 VARIANTES.jpg"
@@ -9712,8 +9654,7 @@
       "colores": {
         "Celeste": true,
         "Rosado": true,
-        "Gris": true,
-        "Mostaza": true
+        "Gris": true
       },
       "variantes": {},
       "imagenVariantes": "B1362 VARIANTES.jpg"
