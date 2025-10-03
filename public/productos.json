@@ -1,6 +1,6 @@
 {
-  "version": 1759431710986,
-  "timestamp": "2025-10-02T19:01:50.986Z",
+  "version": 1759520535574,
+  "timestamp": "2025-10-03T19:42:15.574Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -7649,29 +7649,6 @@
       "imagenVariantes": "LD8075 VARIANTES.jpg"
     },
     {
-      "codigo": "BAG9307",
-      "nombre": "Morral Hombre",
-      "descripcion": "Morral hombre",
-      "categoria": "Caballero",
-      "medidas": "24 X 18 X 11CM",
-      "precio": 395,
-      "estado": "Poco stock",
-      "imagenes": [
-        "BAG9307 1.jpg",
-        "BAG9307 2.jpg",
-        "BAG9307 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Verde": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BAG9307 VARIANTES.jpg"
-    },
-    {
       "codigo": "BAG9309",
       "nombre": "Morral Hombre",
       "descripcion": "Morral Hombre",
@@ -8231,7 +8208,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 145,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25390 1.jpg"
       ],
@@ -8252,7 +8229,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 110,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25393 1.jpg"
       ],
@@ -8274,7 +8251,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 145,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25392 1.jpg"
       ],
@@ -8290,7 +8267,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 110,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25395 1.jpg"
       ],
@@ -8312,7 +8289,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 110,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25394 1.jpg"
       ],
@@ -8334,7 +8311,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 110,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25406 1.jpg"
       ],
@@ -8350,7 +8327,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 145,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25508 1.jpg"
       ],
@@ -8366,7 +8343,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 145,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25510 1.jpg"
       ],
@@ -8523,7 +8500,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 245,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25382 1.jpg"
       ],
@@ -8542,7 +8519,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 245,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25381 1.jpg"
       ],
@@ -8561,7 +8538,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 245,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25384 1.jpg"
       ],
@@ -8582,7 +8559,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 245,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25383 1.jpg"
       ],
@@ -8602,7 +8579,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 245,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25386 1.jpg"
       ],
@@ -8622,7 +8599,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 245,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25385 1.jpg"
       ],
@@ -8642,7 +8619,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 245,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25388 1.jpg"
       ],
@@ -8663,7 +8640,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 245,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25389 1.jpg"
       ],
@@ -8684,7 +8661,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 220,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25397 1.jpg"
       ],
@@ -8703,7 +8680,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 195,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25400 1.jpg"
       ],
@@ -8724,7 +8701,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 220,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25399 1.jpg"
       ],
@@ -8743,7 +8720,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 195,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25402 1.jpg"
       ],
@@ -8762,7 +8739,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 195,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25401 1.jpg"
       ],
@@ -8782,7 +8759,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 285,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25404 1.jpg"
       ],
@@ -8801,7 +8778,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 195,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25403 1.jpg"
       ],
@@ -8820,7 +8797,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 285,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25408 1.jpg"
       ],
@@ -8839,7 +8816,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 245,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25410 1.jpg"
       ],
@@ -8859,7 +8836,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 245,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25412 1.jpg"
       ],
@@ -8879,7 +8856,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 245,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25413 1.jpg"
       ],
@@ -8899,7 +8876,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 245,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25411 1.jpg"
       ],
@@ -8919,7 +8896,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 245,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25414 1.jpg"
       ],
@@ -8939,7 +8916,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 245,
-      "estado": "Preventa",
+      "estado": "visible",
       "imagenes": [
         "SG25426 1.jpg"
       ],
@@ -9773,7 +9750,7 @@
         "B1101 5.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
         "Verde claro": true
       },
