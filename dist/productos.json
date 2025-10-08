@@ -1,44 +1,1822 @@
 {
-  "version": 1759937500286,
-  "timestamp": "2025-10-08T15:31:40.286Z",
+  "version": 1759937820378,
+  "timestamp": "2025-10-08T15:37:00.378Z",
   "productos": [
     {
-      "codigo": "BAG2002",
-      "nombre": "Bandolera unicornio",
-      "descripcion": "Bandolera infantil",
-      "categoria": "A Infantil",
-      "medidas": "",
-      "precio": 395,
+      "codigo": "LD1207",
+      "nombre": "Bandolera",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "20 X 16 X 12CM",
+      "precio": 495,
       "estado": "visible",
       "imagenes": [
-        "BAG2002 1.jpg",
-        "BAG2002 2.jpg",
-        "BAG2002 3.jpg"
+        "LD1207 1.jpg",
+        "LD1207 2.jpg",
+        "LD1207 3.jpg",
+        "LD1207 4.jpg",
+        "LD1207 5.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Tonos pastel": true,
+        "Negro": true,
+        "Nude": true,
+        "Verde claro": true,
+        "Bordeaux": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LD1207 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LB676",
+      "nombre": "Bandolera de dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "",
+      "precio": 390,
+      "estado": "visible",
+      "imagenes": [
+        "LB676 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Blanco": true,
+        "Beige": true,
+        "Bordeaux": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LB676 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B11015",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "16 X 20 X 12CM",
+      "precio": 395,
+      "estado": "visible",
+      "imagenes": [
+        "B11015 1.jpg",
+        "B11015 2.jpg",
+        "B11015 3.jpg",
+        "B11015 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Nude": true,
+        "Amarillo": true,
+        "Rosado": true,
+        "Rojo": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B11015 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FN5005",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "17 X 11 X 5CM",
+      "precio": 380,
+      "estado": "visible",
+      "imagenes": [
+        "FN5005 1.jpg",
+        "FN5005 2.jpg",
+        "FN5005 3.jpg",
+        "FN5005 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Verde": true,
+        "Rosado": true,
+        "Beige": true
+      },
+      "variantes": {},
+      "imagenVariantes": "FN5005 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LB5005",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "20 X 14 X 7CM",
+      "precio": 395,
+      "estado": "visible",
+      "imagenes": [
+        "LB5005 1.jpg",
+        "LB5005 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Lila": true,
+        "Celeste": true,
+        "Gris": true,
+        "Bordeaux": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LB5005 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B1003",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "",
+      "precio": 395,
+      "estado": "visible",
+      "imagenes": [
+        "B1003 1.jpg",
+        "B1003 2.jpg",
+        "B1003 3.jpg",
+        "B1003 4.jpg",
+        "B1003 5.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Verde": true,
+        "Celeste": true,
+        "Rosado": true,
+        "Fucsia": true,
+        "Terracota": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B1003 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LB251",
+      "nombre": "Bandolera dama/riñonera",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "17 x 15 x 11cm",
+      "precio": 395,
+      "estado": "visible",
+      "imagenes": [
+        "LB251 1.jpg",
+        "LB251 2.jpg",
+        "LB251 3.jpg",
+        "LB251 4.jpg",
+        "LB251 5.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Lila": true,
+        "Celeste": true,
+        "Rosado": true,
+        "Gris": true,
+        "Terracota": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LB251 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FN4009",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "",
+      "precio": 485,
+      "estado": "visible",
+      "imagenes": [
+        "FN4009 1.jpg",
+        "FN4009 2.jpg",
+        "FN4009 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Verde Agua": true,
+        "Salmon": true
+      },
+      "variantes": {},
+      "imagenVariantes": "FN4009 VARIANTES.jpg"
+    },
+    {
+      "codigo": "9101",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "",
+      "precio": 595,
+      "estado": "visible",
+      "imagenes": [
+        "9101 1.jpg",
+        "9101 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Amarillo": true,
+        "Lila": true,
+        "Rojo": true,
+        "Rosa Viejo": true,
+        "Petroleo": true
+      },
+      "variantes": {},
+      "imagenVariantes": "9101 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LB270",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "22 X 13 X 22CM",
+      "precio": 650,
+      "estado": "visible",
+      "imagenes": [
+        "LB270 1.jpg",
+        "LB270 2.jpg",
+        "LB270 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Rosado": true,
+        "Rojo": true,
+        "Petroleo": true,
+        "Azul": true,
+        "Mostaza": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LB270 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LB5003",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "23 X 6 X 17CM",
+      "precio": 490,
+      "estado": "visible",
+      "imagenes": [
+        "LB5003 1.jpg",
+        "LB5003 2.jpg",
+        "LB5003 3.jpg",
+        "LB5003 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Lila": true,
+        "Rosado": true,
+        "Gris": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LB5003 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B011",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "27 x 13 x 19cm",
+      "precio": 695,
+      "estado": "visible",
+      "imagenes": [
+        "B011 1.jpg",
+        "B011 2.jpg",
+        "B011 3.jpg",
+        "B011 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Celeste": true,
+        "Rosa Viejo": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B011 VARIANTES.jpg"
+    },
+    {
+      "codigo": "BAG003",
+      "nombre": "Bandolera/Mochila",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "32 x 25 x 14cm",
+      "precio": 950,
+      "estado": "visible",
+      "imagenes": [
+        "BAG003 1.jpg",
+        "BAG003 2.jpg",
+        "BAG003 3.jpg",
+        "BAG003 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Rosado": true,
+        "Terracota": true,
+        "Bordeaux": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "BAG003 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B1005",
+      "nombre": "Bandolera / Bolso",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "",
+      "precio": 750,
+      "estado": "visible",
+      "imagenes": [
+        "B1005 1.jpg",
+        "B1005 2.jpg",
+        "B1005 3.jpg",
+        "B1005 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Celeste": true,
+        "Rosado": true,
+        "Terracota": true,
+        "Rosa Viejo": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B1005 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LB1057",
+      "nombre": "Bandolera / Bolso",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "23 X 21 X 15CM",
+      "precio": 695,
+      "estado": "visible",
+      "imagenes": [
+        "LB1057 1.jpg",
+        "LB1057 2.jpg",
+        "LB1057 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Terracota": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LB1057 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LB318",
+      "nombre": "Bandolera / Bolso",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "25 X 19 X 12CM",
+      "precio": 695,
+      "estado": "visible",
+      "imagenes": [
+        "LB318 1.jpg",
+        "LB318 2.jpg",
+        "LB318 3.jpg",
+        "LB318 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Rosado": true,
+        "Beige": true,
+        "Bordeaux": true,
+        "Rosa Viejo": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LB318 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LB1091",
+      "nombre": "Bandolera / Bolso",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "",
+      "precio": 695,
+      "estado": "visible",
+      "imagenes": [
+        "LB1091 1.jpg",
+        "LB1091 2.jpg",
+        "LB1091 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Rosado": true,
+        "Beige": true,
+        "Rosa Viejo": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LB1091 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LB670",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "",
+      "precio": 595,
+      "estado": "visible",
+      "imagenes": [
+        "LB670 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Rosado": true,
+        "Verde claro": true,
+        "Azul": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "LB252",
+      "nombre": "Bandolera / Bolso",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "28 X 20 X 13CM",
+      "precio": 590,
+      "estado": "visible",
+      "imagenes": [
+        "LB252 1.jpg",
+        "LB252 2.jpg",
+        "LB252 3.jpg",
+        "LB252 4.jpg",
+        "LB252 5.jpg",
+        "LB252 6.jpg",
+        "LB252 7.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Nude": true,
+        "Celeste": true,
+        "Terracota": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LB252 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LB1049",
+      "nombre": "Bandolera / Bolso",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "",
+      "precio": 595,
+      "estado": "visible",
+      "imagenes": [
+        "LB1049 1.jpg",
+        "LB1049 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Lila": true,
+        "Rosado": true,
+        "Beige": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LB1049 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LB327",
+      "nombre": "Bandolera / Bolso",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "26 X 19 X 14CM",
+      "precio": 695,
+      "estado": "visible",
+      "imagenes": [
+        "LB327 1.jpg",
+        "LB327 2.jpg",
+        "LB327 3.jpg",
+        "LB327 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Lila": true,
+        "Rosado": true,
+        "Beige": true,
+        "Petroleo": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LB327 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LB650",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "22 X 9 X 16CM",
+      "precio": 590,
+      "estado": "visible",
+      "imagenes": [
+        "LB650 1.jpg",
+        "LB650 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Verde": true,
+        "Rosado": true,
+        "Gris": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LB650 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B3001",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "22 X16 X 6,6CM",
+      "precio": 690,
+      "estado": "visible",
+      "imagenes": [
+        "B3001 1.jpg",
+        "B3001 2.jpg",
+        "B3001 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Blanco": true,
+        "Marron Oscuro": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B3001 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B1007",
+      "nombre": "Bandolera / Bolso",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "",
+      "precio": 650,
+      "estado": "visible",
+      "imagenes": [
+        "B1007 1.jpg",
+        "B1007 2.jpg",
+        "B1007 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Verde": true,
+        "Rosado": true,
+        "Gris": true,
+        "Petroleo": true,
+        "Mostaza": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B1007 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B1362",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "27 X 19 X 10CM",
+      "precio": 595,
+      "estado": "visible",
+      "imagenes": [
+        "B1362 1.jpg",
+        "B1362 2.jpg",
+        "B1362 3.jpg",
+        "B1362 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Celeste": true,
+        "Rosado": true,
+        "Gris": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B1362 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FN4008",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "20 X 15 X 10CM",
+      "precio": 590,
+      "estado": "visible",
+      "imagenes": [
+        "FN4008 1.jpg",
+        "FN4008 2.jpg",
+        "FN4008 3.jpg",
+        "FN4008 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Verde": true,
+        "Petroleo": true,
+        "Mostaza": true
+      },
+      "variantes": {},
+      "imagenVariantes": "FN4008 VARIANTES.jpg"
+    },
+    {
+      "codigo": "BAG2507",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "25 X 18 X 13CM",
+      "precio": 545,
+      "estado": "visible",
+      "imagenes": [
+        "BAG2507 1.jpg",
+        "BAG2507 2.jpg",
+        "BAG2507 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Lila": true,
+        "Azul": true,
+        "Verde Agua": true
+      },
+      "variantes": {},
+      "imagenVariantes": "BAG2507 VARIANTES.jpg"
+    },
+    {
+      "codigo": "BAG016",
+      "nombre": "Bolso dama sport",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "29 x 22 x 10cm",
+      "precio": 295,
+      "estado": "Poco stock",
+      "imagenes": [
+        "BAG016 1.jpg",
+        "BAG016 2.jpg",
+        "BAG016 3.jpg",
+        "BAG016 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Blanco": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "BAG016 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B11014",
+      "nombre": "Bandolera / Bolso",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "28 X 20 X 13CM",
+      "precio": 595,
+      "estado": "visible",
+      "imagenes": [
+        "B11014 1.jpg",
+        "B11014 2.jpg",
+        "B11014 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Lila": true,
+        "Celeste": true,
+        "Rosado": true,
+        "Gris": true,
+        "Terracota": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B11014 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B1101",
+      "nombre": "Bandolera / Bolso",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "23 X 17 X 12CM",
+      "precio": 550,
+      "estado": "Poco stock",
+      "imagenes": [
+        "B1101 1.jpg",
+        "B1101 2.jpg",
+        "B1101 3.jpg",
+        "B1101 4.jpg",
+        "B1101 5.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Verde claro": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B1101 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B013",
+      "nombre": "Bandolera / Bolso",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "27 X 13 X 20CM",
+      "precio": 550,
+      "estado": "Poco stock",
+      "imagenes": [
+        "B013 1.jpg",
+        "B013 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Verde": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B013 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B6001",
+      "nombre": "Bandolera / Bolso",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "25 X 13 X 19CM",
+      "precio": 595,
+      "estado": "visible",
+      "imagenes": [
+        "B6001 1.jpg",
+        "B6001 2.jpg",
+        "B6001 3.jpg",
+        "B6001 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Celeste": true,
+        "Bordeaux": true,
+        "Rosa Viejo": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B6001 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B6004",
+      "nombre": "Bandolera / Bolso",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "26 X 19 X 13CM",
+      "precio": 650,
+      "estado": "visible",
+      "imagenes": [
+        "B6004 1.jpg",
+        "B6004 2.jpg",
+        "B6004 3.jpg",
+        "B6004 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Nude": true,
+        "Verde": true,
+        "Petroleo": true,
+        "Mostaza": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B6004 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B6007",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "24 X 13 X 18CM",
+      "precio": 595,
+      "estado": "visible",
+      "imagenes": [
+        "B6007 1.jpg",
+        "B6007 2.jpg",
+        "B6007 3.jpg",
+        "B6007 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Nude": true,
+        "Verde": true,
+        "Lila": true,
+        "Rosado": true,
+        "Mostaza": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B6007 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B152402",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "25 X 15 X 9CM",
+      "precio": 595,
+      "estado": "visible",
+      "imagenes": [
+        "B152402 1.jpg",
+        "B152402 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Lila": true,
+        "Verde claro": true,
+        "Combinado": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B152402 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FNB1020",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "16 X 20 X 3CM",
+      "precio": 490,
+      "estado": "visible",
+      "imagenes": [
+        "FNB1020 1.jpg",
+        "FNB1020 2.jpg",
+        "FNB1020 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Beige": true,
+        "Bordeaux": true,
+        "Verde Agua": true
+      },
+      "variantes": {},
+      "imagenVariantes": "FNB1020 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FNB1033",
+      "nombre": "Bandolera / Bolso",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "24 X 20 X 13CM",
+      "precio": 550,
+      "estado": "visible",
+      "imagenes": [
+        "FNB1033 1.jpg",
+        "FNB1033 2.jpg",
+        "FNB1033 3.jpg",
+        "FNB1033 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Beige": true,
+        "Bordeaux": true,
+        "Rosa Viejo": true,
+        "Verde Agua": true
+      },
+      "variantes": {},
+      "imagenVariantes": "FNB1033 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FNB1034",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "19 X 19 X 4CM",
+      "precio": 495,
+      "estado": "visible",
+      "imagenes": [
+        "FNB1034 1.jpg",
+        "FNB1034 2.jpg",
+        "FNB1034 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Rosado": true,
+        "Beige": true,
+        "Azul": true,
+        "Verde Agua": true
+      },
+      "variantes": {},
+      "imagenVariantes": "FNB1034 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FNB2000",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "20 X 13 X 2CM",
+      "precio": 495,
+      "estado": "visible",
+      "imagenes": [
+        "FNB2000 1.jpg",
+        "FNB2000 2.jpg",
+        "FNB2000 3.jpg",
+        "FNB2000 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Rosado": true,
+        "Verde Agua": true
+      },
+      "variantes": {},
+      "imagenVariantes": "FNB2000 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FNB2001",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "24 X 13 X 11CM",
+      "precio": 545,
+      "estado": "visible",
+      "imagenes": [
+        "FNB2001 1.jpg",
+        "FNB2001 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Rosado": true,
+        "Beige": true,
+        "Verde Agua": true
+      },
+      "variantes": {},
+      "imagenVariantes": "FNB2001 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FN5021",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "23 X 16,5 X 8CM",
+      "precio": 595,
+      "estado": "visible",
+      "imagenes": [
+        "FN5021 1.jpg",
+        "FN5021 2.jpg",
+        "FN5021 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Beige": true
+      },
+      "variantes": {},
+      "imagenVariantes": "FN5021 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B1119",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "24 X 8 X 19CM",
+      "precio": 425,
+      "estado": "visible",
+      "imagenes": [
+        "B1119 1.jpg",
+        "B1119 2.jpg",
+        "B1119 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Verde": true,
+        "Rosado": true,
+        "Gris": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B1119 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B1119-2",
+      "nombre": "Bandolera dama",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "24 X 8 X 19CM",
+      "precio": 425,
+      "estado": "visible",
+      "imagenes": [
+        "B1119-2 1.jpg",
+        "B1119-2 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Rosado": true,
+        "Verde Agua": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B1119-2 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B1120",
+      "nombre": "Bolso dama sport",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "",
+      "precio": 295,
+      "estado": "visible",
+      "imagenes": [
+        "B1120 1.jpg",
+        "B1120 2.jpg",
+        "B1120 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Blanco": true,
+        "Rosado": true,
+        "Rojo": true,
+        "Petroleo": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B1120 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LB5019",
+      "nombre": "Bolsos",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "24 x 10 x 22cm",
+      "precio": 750,
+      "estado": "visible",
+      "imagenes": [
+        "LB5019 1.jpg",
+        "LB5019 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Verde": true,
+        "Rosado": true,
+        "Marron Claro": true,
+        "Gris": true,
+        "Bordeaux": true,
+        "Crudo": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LB5019 VARIANTES.jpg"
+    },
+    {
+      "codigo": "BAG1417",
+      "nombre": "Bandolera",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "",
+      "precio": 390,
+      "estado": "Poco stock",
+      "imagenes": [
+        "BAG1417 1.jpg",
+        "BAG1417 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Fucsia": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "BAG1004",
+      "nombre": "Bandolera",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "29 X 13 X 22CM",
+      "precio": 590,
+      "estado": "Poco stock",
+      "imagenes": [
+        "BAG1004 1.jpg",
+        "BAG1004 2.jpg",
+        "BAG1004 3.jpg",
+        "BAG1004 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Rosado": true,
+        "Petroleo": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "BAG9501",
+      "nombre": "Bandolera",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "26 x 22 x 12cm",
+      "precio": 490,
+      "estado": "Poco stock",
+      "imagenes": [
+        "BAG9501 1.jpg",
+        "BAG9501 2.jpg",
+        "BAG9501 3.jpg",
+        "BAG9501 4.jpg",
+        "BAG9501 5.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Blanco": true,
+        "Varios colores": true,
+        "Verde": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "BAG9501 VARIANTES.jpg"
+    },
+    {
+      "codigo": "BAG9504",
+      "nombre": "Bandolera",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "26 X 21 X 13CM",
+      "precio": 490,
+      "estado": "Poco stock",
+      "imagenes": [
+        "BAG9504 1.jpg",
+        "BAG9504 2.jpg",
+        "BAG9504 3.jpg",
+        "BAG9504 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Amarillo": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "BAG9504 VARIANTES.jpg"
+    },
+    {
+      "codigo": "BAG9505",
+      "nombre": "Bandolera",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "24 X 17 X 6CM",
+      "precio": 285,
+      "estado": "visible",
+      "imagenes": [
+        "BAG9505 1.jpg",
+        "BAG9505 2.jpg",
+        "BAG9505 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {},
+      "imagenVariantes": "BAG9505 VARIANTES.jpg"
+    },
+    {
+      "codigo": "BAG6534",
+      "nombre": "Bandolera",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "19 X 12 X 7,5CM",
+      "precio": 450,
+      "estado": "Poco stock",
+      "imagenes": [
+        "BAG6534 1.jpg",
+        "BAG6534 2.jpg",
+        "BAG6534 3.jpg",
+        "BAG6534 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Blanco": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "BAG6535",
+      "nombre": "Bandolera",
+      "descripcion": "Bandolera",
+      "categoria": "A Marroquineria",
+      "medidas": "17 X 11 X 6CM",
+      "precio": 385,
+      "estado": "Poco stock",
+      "imagenes": [
+        "BAG6535 1.jpg",
+        "BAG6535 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Beige": true,
+        "Gris": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "BAG6535 VARIANTES.jpg"
+    },
+    {
+      "codigo": "H001",
+      "nombre": "Bandolera para celular",
+      "descripcion": "Bandolera para celular",
+      "categoria": "A Marroquineria",
+      "medidas": "19,5 X 11 X 4,5CM",
+      "precio": 175,
+      "estado": "visible",
+      "imagenes": [
+        "H001 1.jpg",
+        "H001 2.jpg",
+        "H001 3.jpg",
+        "H001 4.jpg",
+        "H001 5.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Rosado": true,
+        "Gris": true,
+        "Verde claro": true,
+        "Rojo": true
+      },
+      "variantes": {},
+      "imagenVariantes": "H001 VARIANTES.jpg"
+    },
+    {
+      "codigo": "H002",
+      "nombre": "Bandolera para celular",
+      "descripcion": "Bandolera para celular",
+      "categoria": "A Marroquineria",
+      "medidas": "18 X 13,5 X 2CM",
+      "precio": 130,
+      "estado": "visible",
+      "imagenes": [
+        "H002 1.jpg",
+        "H002 2.jpg",
+        "H002 3.jpg",
+        "H002 4.jpg",
+        "H002 5.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Lila": true,
+        "Rosado": true,
+        "Gris": true,
+        "Rojo": true,
+        "Rosa Viejo": true
+      },
+      "variantes": {},
+      "imagenVariantes": "H002 VARIANTES.jpg"
+    },
+    {
+      "codigo": "H003",
+      "nombre": "Bandolera para celular",
+      "descripcion": "Bandolera para celular",
+      "categoria": "A Marroquineria",
+      "medidas": "18 X 11,5 X 2CM",
+      "precio": 130,
+      "estado": "visible",
+      "imagenes": [
+        "H003 1.jpg",
+        "H003 2.jpg",
+        "H003 3.jpg",
+        "H003 4.jpg",
+        "H003 5.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Verde": true
+      },
+      "variantes": {},
+      "imagenVariantes": "H003 VARIANTES.jpg"
+    },
+    {
+      "codigo": "H0045",
+      "nombre": "Bandolera para celular",
+      "descripcion": "Bandolera para celular",
+      "categoria": "A Marroquineria",
+      "medidas": "19 X 10,5 X 4CM",
+      "precio": 395,
+      "estado": "visible",
+      "imagenes": [
+        "H0045 1.jpg",
+        "H0045 2.jpg",
+        "H0045 3.jpg",
+        "H0045 4.jpg",
+        "H0045 5.jpg",
+        "H0045 6.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Rosado": true,
+        "Gris": true,
+        "Rojo": true
+      },
+      "variantes": {},
+      "imagenVariantes": "H0045 VARIANTES.jpg"
+    },
+    {
+      "codigo": "H005",
+      "nombre": "Bandolera para celular",
+      "descripcion": "Bandolera para celular",
+      "categoria": "A Marroquineria",
+      "medidas": "18 X 11,5 X 6CM",
+      "precio": 295,
+      "estado": "visible",
+      "imagenes": [
+        "H005 1.jpg",
+        "H005 2.jpg",
+        "H005 3.jpg",
+        "H005 4.jpg",
+        "H005 5.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Rosado": true,
+        "Marron Claro": true,
+        "Rojo": true,
+        "Verde Agua": true
+      },
+      "variantes": {},
+      "imagenVariantes": "H005 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LD7044",
+      "nombre": "Bolso de dama impermeable",
+      "descripcion": "Bolsos",
+      "categoria": "A Marroquineria",
+      "medidas": "37 x 16 x 32 Cm",
+      "precio": 595,
+      "estado": "visible",
+      "imagenes": [
+        "LD7044 1.jpg",
+        "LD7044 2.jpg",
+        "LD7044 3.jpg",
+        "LD7044 4.jpg",
+        "LD7044 5.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Beige": true,
+        "Marron Claro": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LD7044 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LD1214",
+      "nombre": "Bolso de tela",
+      "descripcion": "Bolsos",
+      "categoria": "A Marroquineria",
+      "medidas": "30 x 27 x 10cm",
+      "precio": 850,
+      "estado": "visible",
+      "imagenes": [
+        "LD1214 1.jpg",
+        "LD1214 2.jpg",
+        "LD1214 3.jpg",
+        "LD1214 4.jpg",
+        "LD1214 5.jpg",
+        "LD1214 6.jpg",
+        "LD1214 7.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Blanco": true,
+        "Marron Oscuro": true,
+        "Gris": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LD1214 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LD6305",
+      "nombre": "Bolso / Mochila",
+      "descripcion": "Bolsos",
+      "categoria": "A Marroquineria",
+      "medidas": "",
+      "precio": 695,
+      "estado": "visible",
+      "imagenes": [
+        "LD6305 1.jpg",
+        "LD6305 2.jpg",
+        "LD6305 3.jpg",
+        "LD6305 4.jpg",
+        "LD6305 5.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Beige": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LD6305 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LD8861",
+      "nombre": "Bolso casual / urban",
+      "descripcion": "Bolsos",
+      "categoria": "A Marroquineria",
+      "medidas": "35 x 27 x 12cm",
+      "precio": 850,
+      "estado": "visible",
+      "imagenes": [
+        "LD8861 1.jpg",
+        "LD8861 2.jpg",
+        "LD8861 3.jpg",
+        "LD8861 4.jpg",
+        "LD8861 5.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Verde": true,
+        "Beige": true,
+        "Azul": true,
+        "Mostaza": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LD8861 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LB6620",
+      "nombre": "Bolso / Bandolera",
+      "descripcion": "Bolsos",
+      "categoria": "A Marroquineria",
+      "medidas": "",
+      "precio": 595,
+      "estado": "visible",
+      "imagenes": [
+        "LB6620 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Blanco": true,
+        "Beige": true,
+        "Terracota": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LB6620 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LB233",
+      "nombre": "Bolsos",
+      "descripcion": "Bolsos",
+      "categoria": "A Marroquineria",
+      "medidas": "32 X 13 X 34",
+      "precio": 790,
+      "estado": "visible",
+      "imagenes": [
+        "LB233 1.jpg",
+        "LB233 2.jpg",
+        "LB233 3.jpg",
+        "LB233 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
         "Lila": true,
         "Rosado": true
       },
       "variantes": {},
-      "imagenVariantes": "BAG2002 VARIANTES.jpg"
+      "imagenVariantes": "LB233 VARIANTES.jpg"
     },
     {
-      "codigo": "W383-1",
-      "nombre": "Bandolera/Billetera juvenil",
-      "descripcion": "Bandolera juvenil",
-      "categoria": "A Infantil",
-      "medidas": "13 x 11 x 1cm",
-      "precio": 145,
+      "codigo": "LB5632",
+      "nombre": "Bolso grande",
+      "descripcion": "Bolsos",
+      "categoria": "A Marroquineria",
+      "medidas": "",
+      "precio": 590,
       "estado": "visible",
       "imagenes": [
-        "W383-1 1.jpg",
-        "W383-1 2.jpg",
-        "W383-1 3.jpg",
-        "W383-1 4.jpg",
-        "W383-1 5.jpg"
+        "LB5632 1.jpg",
+        "LB5632 2.jpg",
+        "LB5632 3.jpg",
+        "LB5632 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Verde": true,
+        "Gris": true,
+        "Rojo": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LB5632 VARIANTES.jpg"
+    },
+    {
+      "codigo": "B1202",
+      "nombre": "Bolso lona",
+      "descripcion": "Bolsos",
+      "categoria": "A Marroquineria",
+      "medidas": "36 x 32 x 12cm",
+      "precio": 790,
+      "estado": "visible",
+      "imagenes": [
+        "B1202 1.jpg",
+        "B1202 2.jpg",
+        "B1202 3.jpg",
+        "B1202 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Celeste": true,
+        "Fucsia": true
+      },
+      "variantes": {},
+      "imagenVariantes": "B1202 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FN5011",
+      "nombre": "Bolso grande sport",
+      "descripcion": "Bolsos",
+      "categoria": "A Marroquineria",
+      "medidas": "47 X 25 X 23CM",
+      "precio": 650,
+      "estado": "Poco stock",
+      "imagenes": [
+        "FN5011 1.jpg",
+        "FN5011 2.jpg",
+        "FN5011 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true
+      },
+      "variantes": {},
+      "imagenVariantes": "FN5011 VARIANTES.jpg"
+    },
+    {
+      "codigo": "BP2001",
+      "nombre": "Cartera casual",
+      "descripcion": "Cartera",
+      "categoria": "A Marroquineria",
+      "medidas": "23 x 19 x 11,5cm",
+      "precio": 790,
+      "estado": "visible",
+      "imagenes": [
+        "BP2001 1.jpg",
+        "BP2001 2.jpg",
+        "BP2001 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Celeste": true,
+        "Beige": true,
+        "Bordeaux": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "BP2001 VARIANTES.jpg"
+    },
+    {
+      "codigo": "BAG1033",
+      "nombre": "Cartera casual",
+      "descripcion": "Cartera",
+      "categoria": "A Marroquineria",
+      "medidas": "25 X 20 X 13CM",
+      "precio": 850,
+      "estado": "visible",
+      "imagenes": [
+        "BAG1033 1.jpg",
+        "BAG1033 2.jpg",
+        "BAG1033 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Bordeaux": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "BAG1033 VARIANTES.jpg"
+    },
+    {
+      "codigo": "BP2010",
+      "nombre": "Cartera juvenil",
+      "descripcion": "Cartera",
+      "categoria": "A Marroquineria",
+      "medidas": "23 x 16 x 12cm",
+      "precio": 790,
+      "estado": "Poco stock",
+      "imagenes": [
+        "BP2010 1.jpg",
+        "BP2010 2.jpg",
+        "BP2010 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Blanco": true,
+        "Verde": true,
+        "Celeste": true,
+        "Rosado": true
+      },
+      "variantes": {},
+      "imagenVariantes": "BP2010 VARIANTES.jpg"
+    },
+    {
+      "codigo": "BAG26",
+      "nombre": "Cartera peluche",
+      "descripcion": "Cartera",
+      "categoria": "A Marroquineria",
+      "medidas": "18 x 11cm",
+      "precio": 350,
+      "estado": "visible",
+      "imagenes": [
+        "BAG26 1.jpg",
+        "BAG26 2.jpg",
+        "BAG26 3.jpg",
+        "BAG26 4.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {},
+      "imagenVariantes": "BAG26 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LD5531",
+      "nombre": "Mochila lisa impermeable",
+      "descripcion": "Mochilas",
+      "categoria": "A Marroquineria",
+      "medidas": "27 x 22 x 12cm",
+      "precio": 695,
+      "estado": "visible",
+      "imagenes": [
+        "LD5531 1.jpg",
+        "LD5531 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Gris": true,
+        "Verde claro": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "LD5531 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FNB1024",
+      "nombre": "Mochila lisa impermeable",
+      "descripcion": "Mochilas",
+      "categoria": "A Marroquineria",
+      "medidas": "28 x 22 x 12CM",
+      "precio": 790,
+      "estado": "visible",
+      "imagenes": [
+        "FNB1024 1.jpg",
+        "FNB1024 2.jpg",
+        "FNB1024 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Verde": true,
+        "Lila": true,
+        "Rosado": true
+      },
+      "variantes": {},
+      "imagenVariantes": "FNB1024 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FN5012",
+      "nombre": "Mochila lisa impermeable",
+      "descripcion": "Mochilas",
+      "categoria": "A Marroquineria",
+      "medidas": "34 X 28 X 15CM",
+      "precio": 690,
+      "estado": "visible",
+      "imagenes": [
+        "FN5012 1.jpg",
+        "FN5012 2.jpg",
+        "FN5012 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Verde": true,
+        "Celeste": true,
+        "Rosado": true,
+        "Bordeaux": true,
+        "Azul": true
+      },
+      "variantes": {},
+      "imagenVariantes": "FN5012 VARIANTES.jpg"
+    },
+    {
+      "codigo": "BAG9018",
+      "nombre": "Mochila lisa con llavero",
+      "descripcion": "Mochilas",
+      "categoria": "A Marroquineria",
+      "medidas": "41 x 30 x 12cm",
+      "precio": 450,
+      "estado": "visible",
+      "imagenes": [
+        "BAG9018 1.jpg",
+        "BAG9018 2.jpg",
+        "BAG9018 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Celeste": true,
+        "Rosado": true,
+        "Verde claro": true,
+        "Salmon": true
+      },
+      "variantes": {},
+      "imagenVariantes": "BAG9018 VARIANTES.jpg"
+    },
+    {
+      "codigo": "LB6308",
+      "nombre": "Mochila/Bolso",
+      "descripcion": "Mochilas",
+      "categoria": "A Marroquineria",
+      "medidas": "35 x 39 x 16cm",
+      "precio": 550,
+      "estado": "visible",
+      "imagenes": [
+        "LB6308 1.jpg",
+        "LB6308 2.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -48,59 +1826,81 @@
         "C2": true,
         "C3": true,
         "C4": true,
-        "C5": true
+        "C5": true,
+        "C6": true
       },
-      "imagenVariantes": "W383-1 VARIANTES.jpg"
+      "imagenVariantes": "LB6308 VARIANTES.jpg"
     },
     {
-      "codigo": "FN8104",
-      "nombre": "Bandolera gatita",
-      "descripcion": "Bandolera juvenil",
-      "categoria": "A Infantil",
-      "medidas": "17,5 x 14 x 6cm",
-      "precio": 295,
+      "codigo": "FN5018",
+      "nombre": "Bolsito / Necessaire",
+      "descripcion": "Porta cosmeticos",
+      "categoria": "A Marroquineria",
+      "medidas": "",
+      "precio": 395,
       "estado": "visible",
       "imagenes": [
-        "FN8104 1.jpg",
-        "FN8104 2.jpg",
-        "FN8104 3.jpg",
-        "FN8104 4.jpg"
+        "FN5018 1.jpg",
+        "FN5018 2.jpg",
+        "FN5018 3.jpg",
+        "FN5018 4.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Blanco": true,
-        "Rosado": true,
-        "Fucsia": true
+        "Negro": true,
+        "Crudo": true,
+        "Combinado": true
       },
       "variantes": {},
-      "imagenVariantes": "FN8104 VARIANTES.jpg"
+      "imagenVariantes": "FN5018 VARIANTES.jpg"
     },
     {
-      "codigo": "CBB008",
-      "nombre": "Bandolera silicona",
-      "descripcion": "Bandolera juvenil",
-      "categoria": "A Infantil",
+      "codigo": "CS7101",
+      "nombre": "Porta cosmeticos",
+      "descripcion": "Porta cosmeticos",
+      "categoria": "A Marroquineria",
+      "medidas": "",
+      "precio": 345,
+      "estado": "visible",
+      "imagenes": [
+        "CS7101 1.jpg",
+        "CS7101 2.jpg",
+        "CS7101 3.jpg",
+        "CS7101 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Blanco": true,
+        "Amarillo": true,
+        "Rosado": true
+      },
+      "variantes": {},
+      "imagenVariantes": "CS7101 VARIANTES.jpg"
+    },
+    {
+      "codigo": "COSMETIC001",
+      "nombre": "Porta cosmeticos",
+      "descripcion": "Porta cosmeticos",
+      "categoria": "A Marroquineria",
       "medidas": "",
       "precio": 295,
       "estado": "visible",
       "imagenes": [
-        "CBB008 1.jpg",
-        "CBB008 2.jpg",
-        "CBB008 3.jpg",
-        "CBB008 4.jpg"
+        "COSMETIC001 1.jpg",
+        "COSMETIC001 2.jpg",
+        "COSMETIC001 3.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
-      "colores": {},
-      "variantes": {
-        "C2": true,
-        "C3": true,
-        "C4": true,
-        "C5": true,
-        "C6": true
+      "colores": {
+        "Rosado": true,
+        "Crudo": true
       },
-      "imagenVariantes": "CBB008 VARIANTES.jpg"
+      "variantes": {},
+      "imagenVariantes": "COSMETIC001 VARIANTES.jpg"
     },
     {
       "codigo": "B003",
@@ -7886,6 +9686,106 @@
       "imagenVariantes": "LB008 VARIANTES.jpg"
     },
     {
+      "codigo": "BAG2002",
+      "nombre": "Bandolera unicornio",
+      "descripcion": "Bandolera infantil",
+      "categoria": "Infantil",
+      "medidas": "",
+      "precio": 395,
+      "estado": "visible",
+      "imagenes": [
+        "BAG2002 1.jpg",
+        "BAG2002 2.jpg",
+        "BAG2002 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Tonos pastel": true,
+        "Lila": true,
+        "Rosado": true
+      },
+      "variantes": {},
+      "imagenVariantes": "BAG2002 VARIANTES.jpg"
+    },
+    {
+      "codigo": "W383-1",
+      "nombre": "Bandolera/Billetera juvenil",
+      "descripcion": "Bandolera juvenil",
+      "categoria": "Infantil",
+      "medidas": "13 x 11 x 1cm",
+      "precio": 145,
+      "estado": "visible",
+      "imagenes": [
+        "W383-1 1.jpg",
+        "W383-1 2.jpg",
+        "W383-1 3.jpg",
+        "W383-1 4.jpg",
+        "W383-1 5.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {
+        "C1": true,
+        "C2": true,
+        "C3": true,
+        "C4": true,
+        "C5": true
+      },
+      "imagenVariantes": "W383-1 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FN8104",
+      "nombre": "Bandolera gatita",
+      "descripcion": "Bandolera juvenil",
+      "categoria": "Infantil",
+      "medidas": "17,5 x 14 x 6cm",
+      "precio": 295,
+      "estado": "visible",
+      "imagenes": [
+        "FN8104 1.jpg",
+        "FN8104 2.jpg",
+        "FN8104 3.jpg",
+        "FN8104 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Blanco": true,
+        "Rosado": true,
+        "Fucsia": true
+      },
+      "variantes": {},
+      "imagenVariantes": "FN8104 VARIANTES.jpg"
+    },
+    {
+      "codigo": "CBB008",
+      "nombre": "Bandolera silicona",
+      "descripcion": "Bandolera juvenil",
+      "categoria": "Infantil",
+      "medidas": "",
+      "precio": 295,
+      "estado": "visible",
+      "imagenes": [
+        "CBB008 1.jpg",
+        "CBB008 2.jpg",
+        "CBB008 3.jpg",
+        "CBB008 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {
+        "C2": true,
+        "C3": true,
+        "C4": true,
+        "C5": true,
+        "C6": true
+      },
+      "imagenVariantes": "CBB008 VARIANTES.jpg"
+    },
+    {
       "codigo": "BUF033",
       "nombre": "Bufanda hombre",
       "descripcion": "Bufanda hombre",
@@ -8956,1906 +10856,6 @@
       },
       "variantes": {},
       "imagenVariantes": "H008 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LD1207",
-      "nombre": "Bandolera",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "20 X 16 X 12CM",
-      "precio": 495,
-      "estado": "visible",
-      "imagenes": [
-        "LD1207 1.jpg",
-        "LD1207 2.jpg",
-        "LD1207 3.jpg",
-        "LD1207 4.jpg",
-        "LD1207 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Nude": true,
-        "Verde claro": true,
-        "Bordeaux": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LD1207 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB676",
-      "nombre": "Bandolera de dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 390,
-      "estado": "visible",
-      "imagenes": [
-        "LB676 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Blanco": true,
-        "Beige": true,
-        "Bordeaux": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LB676 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B11015",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "16 X 20 X 12CM",
-      "precio": 395,
-      "estado": "visible",
-      "imagenes": [
-        "B11015 1.jpg",
-        "B11015 2.jpg",
-        "B11015 3.jpg",
-        "B11015 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Nude": true,
-        "Amarillo": true,
-        "Rosado": true,
-        "Rojo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B11015 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FN5005",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "17 X 11 X 5CM",
-      "precio": 380,
-      "estado": "visible",
-      "imagenes": [
-        "FN5005 1.jpg",
-        "FN5005 2.jpg",
-        "FN5005 3.jpg",
-        "FN5005 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Verde": true,
-        "Rosado": true,
-        "Beige": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FN5005 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB5005",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "20 X 14 X 7CM",
-      "precio": 395,
-      "estado": "visible",
-      "imagenes": [
-        "LB5005 1.jpg",
-        "LB5005 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Lila": true,
-        "Celeste": true,
-        "Gris": true,
-        "Bordeaux": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LB5005 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B1003",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 395,
-      "estado": "visible",
-      "imagenes": [
-        "B1003 1.jpg",
-        "B1003 2.jpg",
-        "B1003 3.jpg",
-        "B1003 4.jpg",
-        "B1003 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Verde": true,
-        "Celeste": true,
-        "Rosado": true,
-        "Fucsia": true,
-        "Terracota": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B1003 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB251",
-      "nombre": "Bandolera dama/riñonera",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "17 x 15 x 11cm",
-      "precio": 395,
-      "estado": "visible",
-      "imagenes": [
-        "LB251 1.jpg",
-        "LB251 2.jpg",
-        "LB251 3.jpg",
-        "LB251 4.jpg",
-        "LB251 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Lila": true,
-        "Celeste": true,
-        "Rosado": true,
-        "Gris": true,
-        "Terracota": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LB251 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FN4009",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 485,
-      "estado": "visible",
-      "imagenes": [
-        "FN4009 1.jpg",
-        "FN4009 2.jpg",
-        "FN4009 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Verde Agua": true,
-        "Salmon": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FN4009 VARIANTES.jpg"
-    },
-    {
-      "codigo": "9101",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 595,
-      "estado": "visible",
-      "imagenes": [
-        "9101 1.jpg",
-        "9101 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Amarillo": true,
-        "Lila": true,
-        "Rojo": true,
-        "Rosa Viejo": true,
-        "Petroleo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "9101 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB270",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "22 X 13 X 22CM",
-      "precio": 650,
-      "estado": "visible",
-      "imagenes": [
-        "LB270 1.jpg",
-        "LB270 2.jpg",
-        "LB270 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Rosado": true,
-        "Rojo": true,
-        "Petroleo": true,
-        "Azul": true,
-        "Mostaza": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LB270 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB5003",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "23 X 6 X 17CM",
-      "precio": 490,
-      "estado": "visible",
-      "imagenes": [
-        "LB5003 1.jpg",
-        "LB5003 2.jpg",
-        "LB5003 3.jpg",
-        "LB5003 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Lila": true,
-        "Rosado": true,
-        "Gris": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LB5003 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B011",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "27 x 13 x 19cm",
-      "precio": 695,
-      "estado": "visible",
-      "imagenes": [
-        "B011 1.jpg",
-        "B011 2.jpg",
-        "B011 3.jpg",
-        "B011 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Celeste": true,
-        "Rosa Viejo": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B011 VARIANTES.jpg"
-    },
-    {
-      "codigo": "BAG003",
-      "nombre": "Bandolera/Mochila",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "32 x 25 x 14cm",
-      "precio": 950,
-      "estado": "visible",
-      "imagenes": [
-        "BAG003 1.jpg",
-        "BAG003 2.jpg",
-        "BAG003 3.jpg",
-        "BAG003 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Rosado": true,
-        "Terracota": true,
-        "Bordeaux": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BAG003 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B1005",
-      "nombre": "Bandolera / Bolso",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 750,
-      "estado": "visible",
-      "imagenes": [
-        "B1005 1.jpg",
-        "B1005 2.jpg",
-        "B1005 3.jpg",
-        "B1005 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Celeste": true,
-        "Rosado": true,
-        "Terracota": true,
-        "Rosa Viejo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B1005 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB1057",
-      "nombre": "Bandolera / Bolso",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "23 X 21 X 15CM",
-      "precio": 695,
-      "estado": "visible",
-      "imagenes": [
-        "LB1057 1.jpg",
-        "LB1057 2.jpg",
-        "LB1057 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Terracota": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LB1057 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB318",
-      "nombre": "Bandolera / Bolso",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "25 X 19 X 12CM",
-      "precio": 695,
-      "estado": "visible",
-      "imagenes": [
-        "LB318 1.jpg",
-        "LB318 2.jpg",
-        "LB318 3.jpg",
-        "LB318 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Rosado": true,
-        "Beige": true,
-        "Bordeaux": true,
-        "Rosa Viejo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LB318 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB1091",
-      "nombre": "Bandolera / Bolso",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 695,
-      "estado": "visible",
-      "imagenes": [
-        "LB1091 1.jpg",
-        "LB1091 2.jpg",
-        "LB1091 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Rosado": true,
-        "Beige": true,
-        "Rosa Viejo": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LB1091 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB670",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 595,
-      "estado": "visible",
-      "imagenes": [
-        "LB670 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Rosado": true,
-        "Verde claro": true,
-        "Azul": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "LB252",
-      "nombre": "Bandolera / Bolso",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "28 X 20 X 13CM",
-      "precio": 590,
-      "estado": "visible",
-      "imagenes": [
-        "LB252 1.jpg",
-        "LB252 2.jpg",
-        "LB252 3.jpg",
-        "LB252 4.jpg",
-        "LB252 5.jpg",
-        "LB252 6.jpg",
-        "LB252 7.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Nude": true,
-        "Celeste": true,
-        "Terracota": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LB252 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB1049",
-      "nombre": "Bandolera / Bolso",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 595,
-      "estado": "visible",
-      "imagenes": [
-        "LB1049 1.jpg",
-        "LB1049 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Lila": true,
-        "Rosado": true,
-        "Beige": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LB1049 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB327",
-      "nombre": "Bandolera / Bolso",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "26 X 19 X 14CM",
-      "precio": 695,
-      "estado": "visible",
-      "imagenes": [
-        "LB327 1.jpg",
-        "LB327 2.jpg",
-        "LB327 3.jpg",
-        "LB327 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Lila": true,
-        "Rosado": true,
-        "Beige": true,
-        "Petroleo": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LB327 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB650",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "22 X 9 X 16CM",
-      "precio": 590,
-      "estado": "visible",
-      "imagenes": [
-        "LB650 1.jpg",
-        "LB650 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Verde": true,
-        "Rosado": true,
-        "Gris": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LB650 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B3001",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "22 X16 X 6,6CM",
-      "precio": 690,
-      "estado": "visible",
-      "imagenes": [
-        "B3001 1.jpg",
-        "B3001 2.jpg",
-        "B3001 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Blanco": true,
-        "Marron Oscuro": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B3001 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B1007",
-      "nombre": "Bandolera / Bolso",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 650,
-      "estado": "visible",
-      "imagenes": [
-        "B1007 1.jpg",
-        "B1007 2.jpg",
-        "B1007 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Verde": true,
-        "Rosado": true,
-        "Gris": true,
-        "Petroleo": true,
-        "Mostaza": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B1007 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B1362",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "27 X 19 X 10CM",
-      "precio": 595,
-      "estado": "visible",
-      "imagenes": [
-        "B1362 1.jpg",
-        "B1362 2.jpg",
-        "B1362 3.jpg",
-        "B1362 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Celeste": true,
-        "Rosado": true,
-        "Gris": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B1362 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FN4008",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "20 X 15 X 10CM",
-      "precio": 590,
-      "estado": "visible",
-      "imagenes": [
-        "FN4008 1.jpg",
-        "FN4008 2.jpg",
-        "FN4008 3.jpg",
-        "FN4008 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Verde": true,
-        "Petroleo": true,
-        "Mostaza": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FN4008 VARIANTES.jpg"
-    },
-    {
-      "codigo": "BAG2507",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "25 X 18 X 13CM",
-      "precio": 545,
-      "estado": "visible",
-      "imagenes": [
-        "BAG2507 1.jpg",
-        "BAG2507 2.jpg",
-        "BAG2507 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Lila": true,
-        "Azul": true,
-        "Verde Agua": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BAG2507 VARIANTES.jpg"
-    },
-    {
-      "codigo": "BAG016",
-      "nombre": "Bolso dama sport",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "29 x 22 x 10cm",
-      "precio": 295,
-      "estado": "Poco stock",
-      "imagenes": [
-        "BAG016 1.jpg",
-        "BAG016 2.jpg",
-        "BAG016 3.jpg",
-        "BAG016 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Blanco": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BAG016 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B11014",
-      "nombre": "Bandolera / Bolso",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "28 X 20 X 13CM",
-      "precio": 595,
-      "estado": "visible",
-      "imagenes": [
-        "B11014 1.jpg",
-        "B11014 2.jpg",
-        "B11014 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Lila": true,
-        "Celeste": true,
-        "Rosado": true,
-        "Gris": true,
-        "Terracota": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B11014 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B1101",
-      "nombre": "Bandolera / Bolso",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "23 X 17 X 12CM",
-      "precio": 550,
-      "estado": "Poco stock",
-      "imagenes": [
-        "B1101 1.jpg",
-        "B1101 2.jpg",
-        "B1101 3.jpg",
-        "B1101 4.jpg",
-        "B1101 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Verde claro": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B1101 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B013",
-      "nombre": "Bandolera / Bolso",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "27 X 13 X 20CM",
-      "precio": 550,
-      "estado": "Poco stock",
-      "imagenes": [
-        "B013 1.jpg",
-        "B013 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Verde": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B013 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B6001",
-      "nombre": "Bandolera / Bolso",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "25 X 13 X 19CM",
-      "precio": 595,
-      "estado": "visible",
-      "imagenes": [
-        "B6001 1.jpg",
-        "B6001 2.jpg",
-        "B6001 3.jpg",
-        "B6001 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Celeste": true,
-        "Bordeaux": true,
-        "Rosa Viejo": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B6001 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B6004",
-      "nombre": "Bandolera / Bolso",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "26 X 19 X 13CM",
-      "precio": 650,
-      "estado": "visible",
-      "imagenes": [
-        "B6004 1.jpg",
-        "B6004 2.jpg",
-        "B6004 3.jpg",
-        "B6004 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Nude": true,
-        "Verde": true,
-        "Petroleo": true,
-        "Mostaza": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B6004 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B6007",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "24 X 13 X 18CM",
-      "precio": 595,
-      "estado": "visible",
-      "imagenes": [
-        "B6007 1.jpg",
-        "B6007 2.jpg",
-        "B6007 3.jpg",
-        "B6007 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Nude": true,
-        "Verde": true,
-        "Lila": true,
-        "Rosado": true,
-        "Mostaza": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B6007 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B152402",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "25 X 15 X 9CM",
-      "precio": 595,
-      "estado": "visible",
-      "imagenes": [
-        "B152402 1.jpg",
-        "B152402 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Lila": true,
-        "Verde claro": true,
-        "Combinado": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B152402 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FNB1020",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "16 X 20 X 3CM",
-      "precio": 490,
-      "estado": "visible",
-      "imagenes": [
-        "FNB1020 1.jpg",
-        "FNB1020 2.jpg",
-        "FNB1020 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Beige": true,
-        "Bordeaux": true,
-        "Verde Agua": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FNB1020 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FNB1033",
-      "nombre": "Bandolera / Bolso",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "24 X 20 X 13CM",
-      "precio": 550,
-      "estado": "visible",
-      "imagenes": [
-        "FNB1033 1.jpg",
-        "FNB1033 2.jpg",
-        "FNB1033 3.jpg",
-        "FNB1033 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Beige": true,
-        "Bordeaux": true,
-        "Rosa Viejo": true,
-        "Verde Agua": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FNB1033 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FNB1034",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "19 X 19 X 4CM",
-      "precio": 495,
-      "estado": "visible",
-      "imagenes": [
-        "FNB1034 1.jpg",
-        "FNB1034 2.jpg",
-        "FNB1034 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Rosado": true,
-        "Beige": true,
-        "Azul": true,
-        "Verde Agua": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FNB1034 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FNB2000",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "20 X 13 X 2CM",
-      "precio": 495,
-      "estado": "visible",
-      "imagenes": [
-        "FNB2000 1.jpg",
-        "FNB2000 2.jpg",
-        "FNB2000 3.jpg",
-        "FNB2000 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Rosado": true,
-        "Verde Agua": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FNB2000 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FNB2001",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "24 X 13 X 11CM",
-      "precio": 545,
-      "estado": "visible",
-      "imagenes": [
-        "FNB2001 1.jpg",
-        "FNB2001 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Rosado": true,
-        "Beige": true,
-        "Verde Agua": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FNB2001 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FN5021",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "23 X 16,5 X 8CM",
-      "precio": 595,
-      "estado": "visible",
-      "imagenes": [
-        "FN5021 1.jpg",
-        "FN5021 2.jpg",
-        "FN5021 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Beige": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FN5021 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B1119",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "24 X 8 X 19CM",
-      "precio": 425,
-      "estado": "visible",
-      "imagenes": [
-        "B1119 1.jpg",
-        "B1119 2.jpg",
-        "B1119 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Verde": true,
-        "Rosado": true,
-        "Gris": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B1119 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B1119-2",
-      "nombre": "Bandolera dama",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "24 X 8 X 19CM",
-      "precio": 425,
-      "estado": "visible",
-      "imagenes": [
-        "B1119-2 1.jpg",
-        "B1119-2 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Rosado": true,
-        "Verde Agua": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B1119-2 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B1120",
-      "nombre": "Bolso dama sport",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 295,
-      "estado": "visible",
-      "imagenes": [
-        "B1120 1.jpg",
-        "B1120 2.jpg",
-        "B1120 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Blanco": true,
-        "Rosado": true,
-        "Rojo": true,
-        "Petroleo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B1120 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB5019",
-      "nombre": "Bolsos",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "24 x 10 x 22cm",
-      "precio": 750,
-      "estado": "visible",
-      "imagenes": [
-        "LB5019 1.jpg",
-        "LB5019 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Verde": true,
-        "Rosado": true,
-        "Marron Claro": true,
-        "Gris": true,
-        "Bordeaux": true,
-        "Crudo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LB5019 VARIANTES.jpg"
-    },
-    {
-      "codigo": "BAG1417",
-      "nombre": "Bandolera",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 390,
-      "estado": "Poco stock",
-      "imagenes": [
-        "BAG1417 1.jpg",
-        "BAG1417 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Fucsia": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "BAG1004",
-      "nombre": "Bandolera",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "29 X 13 X 22CM",
-      "precio": 590,
-      "estado": "Poco stock",
-      "imagenes": [
-        "BAG1004 1.jpg",
-        "BAG1004 2.jpg",
-        "BAG1004 3.jpg",
-        "BAG1004 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Rosado": true,
-        "Petroleo": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "BAG9501",
-      "nombre": "Bandolera",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "26 x 22 x 12cm",
-      "precio": 490,
-      "estado": "Poco stock",
-      "imagenes": [
-        "BAG9501 1.jpg",
-        "BAG9501 2.jpg",
-        "BAG9501 3.jpg",
-        "BAG9501 4.jpg",
-        "BAG9501 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Blanco": true,
-        "Varios colores": true,
-        "Verde": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BAG9501 VARIANTES.jpg"
-    },
-    {
-      "codigo": "BAG9504",
-      "nombre": "Bandolera",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "26 X 21 X 13CM",
-      "precio": 490,
-      "estado": "Poco stock",
-      "imagenes": [
-        "BAG9504 1.jpg",
-        "BAG9504 2.jpg",
-        "BAG9504 3.jpg",
-        "BAG9504 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Amarillo": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BAG9504 VARIANTES.jpg"
-    },
-    {
-      "codigo": "BAG9505",
-      "nombre": "Bandolera",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "24 X 17 X 6CM",
-      "precio": 285,
-      "estado": "visible",
-      "imagenes": [
-        "BAG9505 1.jpg",
-        "BAG9505 2.jpg",
-        "BAG9505 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {},
-      "imagenVariantes": "BAG9505 VARIANTES.jpg"
-    },
-    {
-      "codigo": "BAG6534",
-      "nombre": "Bandolera",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "19 X 12 X 7,5CM",
-      "precio": 450,
-      "estado": "Poco stock",
-      "imagenes": [
-        "BAG6534 1.jpg",
-        "BAG6534 2.jpg",
-        "BAG6534 3.jpg",
-        "BAG6534 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Blanco": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "BAG6535",
-      "nombre": "Bandolera",
-      "descripcion": "Bandolera",
-      "categoria": "Marroquineria",
-      "medidas": "17 X 11 X 6CM",
-      "precio": 385,
-      "estado": "Poco stock",
-      "imagenes": [
-        "BAG6535 1.jpg",
-        "BAG6535 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Beige": true,
-        "Gris": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BAG6535 VARIANTES.jpg"
-    },
-    {
-      "codigo": "H001",
-      "nombre": "Bandolera para celular",
-      "descripcion": "Bandolera para celular",
-      "categoria": "Marroquineria",
-      "medidas": "19,5 X 11 X 4,5CM",
-      "precio": 175,
-      "estado": "visible",
-      "imagenes": [
-        "H001 1.jpg",
-        "H001 2.jpg",
-        "H001 3.jpg",
-        "H001 4.jpg",
-        "H001 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Rosado": true,
-        "Gris": true,
-        "Verde claro": true,
-        "Rojo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "H001 VARIANTES.jpg"
-    },
-    {
-      "codigo": "H002",
-      "nombre": "Bandolera para celular",
-      "descripcion": "Bandolera para celular",
-      "categoria": "Marroquineria",
-      "medidas": "18 X 13,5 X 2CM",
-      "precio": 130,
-      "estado": "visible",
-      "imagenes": [
-        "H002 1.jpg",
-        "H002 2.jpg",
-        "H002 3.jpg",
-        "H002 4.jpg",
-        "H002 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Lila": true,
-        "Rosado": true,
-        "Gris": true,
-        "Rojo": true,
-        "Rosa Viejo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "H002 VARIANTES.jpg"
-    },
-    {
-      "codigo": "H003",
-      "nombre": "Bandolera para celular",
-      "descripcion": "Bandolera para celular",
-      "categoria": "Marroquineria",
-      "medidas": "18 X 11,5 X 2CM",
-      "precio": 130,
-      "estado": "visible",
-      "imagenes": [
-        "H003 1.jpg",
-        "H003 2.jpg",
-        "H003 3.jpg",
-        "H003 4.jpg",
-        "H003 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Verde": true
-      },
-      "variantes": {},
-      "imagenVariantes": "H003 VARIANTES.jpg"
-    },
-    {
-      "codigo": "H0045",
-      "nombre": "Bandolera para celular",
-      "descripcion": "Bandolera para celular",
-      "categoria": "Marroquineria",
-      "medidas": "19 X 10,5 X 4CM",
-      "precio": 395,
-      "estado": "visible",
-      "imagenes": [
-        "H0045 1.jpg",
-        "H0045 2.jpg",
-        "H0045 3.jpg",
-        "H0045 4.jpg",
-        "H0045 5.jpg",
-        "H0045 6.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Rosado": true,
-        "Gris": true,
-        "Rojo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "H0045 VARIANTES.jpg"
-    },
-    {
-      "codigo": "H005",
-      "nombre": "Bandolera para celular",
-      "descripcion": "Bandolera para celular",
-      "categoria": "Marroquineria",
-      "medidas": "18 X 11,5 X 6CM",
-      "precio": 295,
-      "estado": "visible",
-      "imagenes": [
-        "H005 1.jpg",
-        "H005 2.jpg",
-        "H005 3.jpg",
-        "H005 4.jpg",
-        "H005 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Rosado": true,
-        "Marron Claro": true,
-        "Rojo": true,
-        "Verde Agua": true
-      },
-      "variantes": {},
-      "imagenVariantes": "H005 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LD7044",
-      "nombre": "Bolso de dama impermeable",
-      "descripcion": "Bolsos",
-      "categoria": "Marroquineria",
-      "medidas": "37 x 16 x 32 Cm",
-      "precio": 595,
-      "estado": "visible",
-      "imagenes": [
-        "LD7044 1.jpg",
-        "LD7044 2.jpg",
-        "LD7044 3.jpg",
-        "LD7044 4.jpg",
-        "LD7044 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Beige": true,
-        "Marron Claro": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LD7044 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LD1214",
-      "nombre": "Bolso de tela",
-      "descripcion": "Bolsos",
-      "categoria": "Marroquineria",
-      "medidas": "30 x 27 x 10cm",
-      "precio": 850,
-      "estado": "visible",
-      "imagenes": [
-        "LD1214 1.jpg",
-        "LD1214 2.jpg",
-        "LD1214 3.jpg",
-        "LD1214 4.jpg",
-        "LD1214 5.jpg",
-        "LD1214 6.jpg",
-        "LD1214 7.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Blanco": true,
-        "Marron Oscuro": true,
-        "Gris": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LD1214 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LD6305",
-      "nombre": "Bolso / Mochila",
-      "descripcion": "Bolsos",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 695,
-      "estado": "visible",
-      "imagenes": [
-        "LD6305 1.jpg",
-        "LD6305 2.jpg",
-        "LD6305 3.jpg",
-        "LD6305 4.jpg",
-        "LD6305 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Beige": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LD6305 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LD8861",
-      "nombre": "Bolso casual / urban",
-      "descripcion": "Bolsos",
-      "categoria": "Marroquineria",
-      "medidas": "35 x 27 x 12cm",
-      "precio": 850,
-      "estado": "visible",
-      "imagenes": [
-        "LD8861 1.jpg",
-        "LD8861 2.jpg",
-        "LD8861 3.jpg",
-        "LD8861 4.jpg",
-        "LD8861 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Verde": true,
-        "Beige": true,
-        "Azul": true,
-        "Mostaza": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LD8861 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB6620",
-      "nombre": "Bolso / Bandolera",
-      "descripcion": "Bolsos",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 595,
-      "estado": "visible",
-      "imagenes": [
-        "LB6620 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Blanco": true,
-        "Beige": true,
-        "Terracota": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LB6620 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB233",
-      "nombre": "Bolsos",
-      "descripcion": "Bolsos",
-      "categoria": "Marroquineria",
-      "medidas": "32 X 13 X 34",
-      "precio": 790,
-      "estado": "visible",
-      "imagenes": [
-        "LB233 1.jpg",
-        "LB233 2.jpg",
-        "LB233 3.jpg",
-        "LB233 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Lila": true,
-        "Rosado": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LB233 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB5632",
-      "nombre": "Bolso grande",
-      "descripcion": "Bolsos",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 590,
-      "estado": "visible",
-      "imagenes": [
-        "LB5632 1.jpg",
-        "LB5632 2.jpg",
-        "LB5632 3.jpg",
-        "LB5632 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Verde": true,
-        "Gris": true,
-        "Rojo": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LB5632 VARIANTES.jpg"
-    },
-    {
-      "codigo": "B1202",
-      "nombre": "Bolso lona",
-      "descripcion": "Bolsos",
-      "categoria": "Marroquineria",
-      "medidas": "36 x 32 x 12cm",
-      "precio": 790,
-      "estado": "visible",
-      "imagenes": [
-        "B1202 1.jpg",
-        "B1202 2.jpg",
-        "B1202 3.jpg",
-        "B1202 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Celeste": true,
-        "Fucsia": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B1202 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FN5011",
-      "nombre": "Bolso grande sport",
-      "descripcion": "Bolsos",
-      "categoria": "Marroquineria",
-      "medidas": "47 X 25 X 23CM",
-      "precio": 650,
-      "estado": "Poco stock",
-      "imagenes": [
-        "FN5011 1.jpg",
-        "FN5011 2.jpg",
-        "FN5011 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FN5011 VARIANTES.jpg"
-    },
-    {
-      "codigo": "BP2001",
-      "nombre": "Cartera casual",
-      "descripcion": "Cartera",
-      "categoria": "Marroquineria",
-      "medidas": "23 x 19 x 11,5cm",
-      "precio": 790,
-      "estado": "visible",
-      "imagenes": [
-        "BP2001 1.jpg",
-        "BP2001 2.jpg",
-        "BP2001 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Celeste": true,
-        "Beige": true,
-        "Bordeaux": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BP2001 VARIANTES.jpg"
-    },
-    {
-      "codigo": "BAG1033",
-      "nombre": "Cartera casual",
-      "descripcion": "Cartera",
-      "categoria": "Marroquineria",
-      "medidas": "25 X 20 X 13CM",
-      "precio": 850,
-      "estado": "visible",
-      "imagenes": [
-        "BAG1033 1.jpg",
-        "BAG1033 2.jpg",
-        "BAG1033 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Bordeaux": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BAG1033 VARIANTES.jpg"
-    },
-    {
-      "codigo": "BP2010",
-      "nombre": "Cartera juvenil",
-      "descripcion": "Cartera",
-      "categoria": "Marroquineria",
-      "medidas": "23 x 16 x 12cm",
-      "precio": 790,
-      "estado": "Poco stock",
-      "imagenes": [
-        "BP2010 1.jpg",
-        "BP2010 2.jpg",
-        "BP2010 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Blanco": true,
-        "Verde": true,
-        "Celeste": true,
-        "Rosado": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BP2010 VARIANTES.jpg"
-    },
-    {
-      "codigo": "BAG26",
-      "nombre": "Cartera peluche",
-      "descripcion": "Cartera",
-      "categoria": "Marroquineria",
-      "medidas": "18 x 11cm",
-      "precio": 350,
-      "estado": "visible",
-      "imagenes": [
-        "BAG26 1.jpg",
-        "BAG26 2.jpg",
-        "BAG26 3.jpg",
-        "BAG26 4.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {},
-      "imagenVariantes": "BAG26 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LD5531",
-      "nombre": "Mochila lisa impermeable",
-      "descripcion": "Mochilas",
-      "categoria": "Marroquineria",
-      "medidas": "27 x 22 x 12cm",
-      "precio": 695,
-      "estado": "visible",
-      "imagenes": [
-        "LD5531 1.jpg",
-        "LD5531 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Gris": true,
-        "Verde claro": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "LD5531 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FNB1024",
-      "nombre": "Mochila lisa impermeable",
-      "descripcion": "Mochilas",
-      "categoria": "Marroquineria",
-      "medidas": "28 x 22 x 12CM",
-      "precio": 790,
-      "estado": "visible",
-      "imagenes": [
-        "FNB1024 1.jpg",
-        "FNB1024 2.jpg",
-        "FNB1024 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Verde": true,
-        "Lila": true,
-        "Rosado": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FNB1024 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FN5012",
-      "nombre": "Mochila lisa impermeable",
-      "descripcion": "Mochilas",
-      "categoria": "Marroquineria",
-      "medidas": "34 X 28 X 15CM",
-      "precio": 690,
-      "estado": "visible",
-      "imagenes": [
-        "FN5012 1.jpg",
-        "FN5012 2.jpg",
-        "FN5012 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Verde": true,
-        "Celeste": true,
-        "Rosado": true,
-        "Bordeaux": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FN5012 VARIANTES.jpg"
-    },
-    {
-      "codigo": "BAG9018",
-      "nombre": "Mochila lisa con llavero",
-      "descripcion": "Mochilas",
-      "categoria": "Marroquineria",
-      "medidas": "41 x 30 x 12cm",
-      "precio": 450,
-      "estado": "visible",
-      "imagenes": [
-        "BAG9018 1.jpg",
-        "BAG9018 2.jpg",
-        "BAG9018 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Celeste": true,
-        "Rosado": true,
-        "Verde claro": true,
-        "Salmon": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BAG9018 VARIANTES.jpg"
-    },
-    {
-      "codigo": "LB6308",
-      "nombre": "Mochila/Bolso",
-      "descripcion": "Mochilas",
-      "categoria": "Marroquineria",
-      "medidas": "35 x 39 x 16cm",
-      "precio": 550,
-      "estado": "visible",
-      "imagenes": [
-        "LB6308 1.jpg",
-        "LB6308 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {
-        "C1": true,
-        "C2": true,
-        "C3": true,
-        "C4": true,
-        "C5": true,
-        "C6": true
-      },
-      "imagenVariantes": "LB6308 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FN5018",
-      "nombre": "Bolsito / Necessaire",
-      "descripcion": "Porta cosmeticos",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 395,
-      "estado": "visible",
-      "imagenes": [
-        "FN5018 1.jpg",
-        "FN5018 2.jpg",
-        "FN5018 3.jpg",
-        "FN5018 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Crudo": true,
-        "Combinado": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FN5018 VARIANTES.jpg"
-    },
-    {
-      "codigo": "CS7101",
-      "nombre": "Porta cosmeticos",
-      "descripcion": "Porta cosmeticos",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 345,
-      "estado": "visible",
-      "imagenes": [
-        "CS7101 1.jpg",
-        "CS7101 2.jpg",
-        "CS7101 3.jpg",
-        "CS7101 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Blanco": true,
-        "Amarillo": true,
-        "Rosado": true
-      },
-      "variantes": {},
-      "imagenVariantes": "CS7101 VARIANTES.jpg"
-    },
-    {
-      "codigo": "COSMETIC001",
-      "nombre": "Porta cosmeticos",
-      "descripcion": "Porta cosmeticos",
-      "categoria": "Marroquineria",
-      "medidas": "",
-      "precio": 295,
-      "estado": "visible",
-      "imagenes": [
-        "COSMETIC001 1.jpg",
-        "COSMETIC001 2.jpg",
-        "COSMETIC001 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Rosado": true,
-        "Crudo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "COSMETIC001 VARIANTES.jpg"
     },
     {
       "codigo": "UB6208",
