@@ -1,6 +1,6 @@
 {
-  "version": 1759520535574,
-  "timestamp": "2025-10-03T19:42:15.574Z",
+  "version": 1759937500286,
+  "timestamp": "2025-10-08T15:31:40.286Z",
   "productos": [
     {
       "codigo": "BAG2002",
@@ -737,9 +737,7 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
-        "Tonos marrones": true,
-        "Varios colores": true
+        "Negro": true
       },
       "variantes": {},
       "imagenVariantes": "3216 VARIANTES.jpg"
@@ -2718,22 +2716,6 @@
       "variantes": {}
     },
     {
-      "codigo": "EA22002-10",
-      "nombre": "Caravanas acero plateado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "10mm",
-      "precio": 45,
-      "estado": "visible",
-      "imagenes": [
-        "EA22002-10 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "EA22002-8",
       "nombre": "Caravanas acero plateado",
       "descripcion": "Caravanas acero",
@@ -3022,22 +3004,6 @@
       "estado": "visible",
       "imagenes": [
         "EA0007 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "EA0001",
-      "nombre": "Abridores acero dorado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 60,
-      "estado": "visible",
-      "imagenes": [
-        "EA0001 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -7690,7 +7656,6 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Blanco": true,
         "Beige": true,
         "Marron Claro": true,
         "Marron Oscuro": true
@@ -8469,26 +8434,6 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Marron Oscuro": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "FN1924",
-      "nombre": "Lentes unisex",
-      "descripcion": "XLentes unisex",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 285,
-      "estado": "visible",
-      "imagenes": [
-        "FN1924 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Verde": true,
         "Marron Oscuro": true
       },
       "variantes": {}
@@ -12100,38 +12045,6 @@
       "variantes": {}
     },
     {
-      "codigo": "13605",
-      "nombre": "Anillo enchapado",
-      "descripcion": "Anillo enchapado",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 95,
-      "estado": "visible",
-      "imagenes": [
-        "13605 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "13274",
-      "nombre": "Anillo enchapado",
-      "descripcion": "Anillo enchapado",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 135,
-      "estado": "visible",
-      "imagenes": [
-        "13274 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "76263",
       "nombre": "Anillo enchapado",
       "descripcion": "Anillo enchapado",
@@ -12180,22 +12093,6 @@
       "variantes": {}
     },
     {
-      "codigo": "172023",
-      "nombre": "Anillo enchapado",
-      "descripcion": "Anillo enchapado",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 135,
-      "estado": "visible",
-      "imagenes": [
-        "172023 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "172243",
       "nombre": "Anillo enchapado",
       "descripcion": "Anillo enchapado",
@@ -12205,22 +12102,6 @@
       "estado": "visible",
       "imagenes": [
         "172243 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "179383",
-      "nombre": "Anillo enchapado",
-      "descripcion": "Anillo enchapado",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 135,
-      "estado": "visible",
-      "imagenes": [
-        "179383 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -12269,22 +12150,6 @@
       "estado": "visible",
       "imagenes": [
         "13394 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "13544",
-      "nombre": "Anillo enchapado",
-      "descripcion": "Anillo enchapado",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 165,
-      "estado": "visible",
-      "imagenes": [
-        "13544 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -12365,22 +12230,6 @@
       "estado": "visible",
       "imagenes": [
         "70173 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "70193",
-      "nombre": "Anillo enchapado",
-      "descripcion": "Anillo enchapado",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 175,
-      "estado": "visible",
-      "imagenes": [
-        "70193 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -12493,22 +12342,6 @@
       "estado": "visible",
       "imagenes": [
         "73383 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "85713",
-      "nombre": "Anillo enchapado",
-      "descripcion": "Anillo enchapado",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "85713 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -12728,7 +12561,7 @@
       "descripcion": "Caravanas enchapadas oro",
       "categoria": "Z Enchapado",
       "medidas": "",
-      "precio": 105,
+      "precio": 130,
       "estado": "visible",
       "imagenes": [
         "56030B 1.jpg"
