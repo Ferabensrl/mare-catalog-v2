@@ -1,6 +1,6 @@
 {
-  "version": 1759937820378,
-  "timestamp": "2025-10-08T15:37:00.378Z",
+  "version": 1760212796918,
+  "timestamp": "2025-10-11T19:59:56.918Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -4214,7 +4214,6 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Tonos marrones": true,
         "Varios colores": true
       },
       "variantes": {}
