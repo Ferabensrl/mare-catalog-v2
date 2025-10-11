@@ -1,6 +1,31 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ShoppingCart, Plus, Minus, Filter, X, Eye, EyeOff, MessageCircle, Mail, Search, Grid, List, ZoomIn, ChevronLeft, ChevronRight, ChevronDown, Info, Download, Check } from 'lucide-react';
+import { ShoppingCart, Plus, Minus, Filter, X, Eye, EyeOff, MessageCircle, Mail, Search, Grid, List, ZoomIn, ChevronLeft, ChevronRight, ChevronDown, Info, Download, Check, Send } from 'lucide-react';
 import { jsPDF } from 'jspdf';
+
+// NUEVOS IMPORTS - Integración Catálogo → ERP
+import {
+  supabase,
+  pedidosRecibidosService,
+  PedidoRecibido,
+  PedidoRecibidoProducto,
+  generarNumeroPedido,
+  validarPedido
+} from './lib/supabaseClient';
+
+import {
+  guardarPedidoOffline,
+  iniciarMonitorConexion,
+  hayInternet,
+  cantidadPedidosPendientes,
+  obtenerEstadoSistema
+} from './lib/offlineSync';
+
+import {
+  generarComprobantePDF,
+  descargarPDF,
+  compartirPDF,
+  DatosPDF
+} from './lib/pdfGenerator';
 
 // Tipos TypeScript
 
@@ -867,22 +892,266 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
     }
   };
 
+  /**
+   * ============================================
+   * FUNCIÓN PRINCIPAL: Enviar Pedido Directo
+   * ============================================
+   * Envía el pedido directamente a Supabase con:
+   * - Generación automática de PDF
+   * - Modo offline automático
+   * - Triple respaldo de seguridad
+   */
+  const handleEnviarPedidoDirecto = async () => {
+    setIsLoading(true);
+
+    try {
+      // ============================================
+      // 1. VALIDACIONES INICIALES
+      // ============================================
+      if (cart.length === 0) {
+        alert('❌ El carrito está vacío.\n\nAgrega productos antes de enviar.');
+        setIsLoading(false);
+        return;
+      }
+
+      if (!clientName || clientName.trim() === '') {
+        alert('❌ Error: No hay datos de cliente.\n\nPor favor recarga la página e inicia sesión nuevamente.');
+        setIsLoading(false);
+        return;
+      }
+
+      console.log('🚀 [Pedido] Iniciando envío directo...');
+      console.log('📋 [Pedido] Cliente:', clientName);
+      console.log('📦 [Pedido] Productos en carrito:', cart.length);
+      console.log('💰 [Pedido] Total:', totalPrice);
+
+      // ============================================
+      // 2. GENERAR NÚMERO DE PEDIDO ÚNICO
+      // ============================================
+      const numeroPedido = generarNumeroPedido();
+      console.log('🔢 [Pedido] Número generado:', numeroPedido);
+
+      // ============================================
+      // 3. CONSTRUIR ARRAY DE PRODUCTOS
+      // ============================================
+      const productos: PedidoRecibidoProducto[] = cart.map(item => {
+        // Filtrar solo variantes con cantidad > 0
+        const variantesValidas = Object.entries(item.selecciones)
+          .filter(([_, cantidad]) => cantidad > 0)
+          .map(([color, cantidad]) => ({
+            color,
+            cantidad
+          }));
+
+        return {
+          codigo: item.producto.codigo,
+          nombre: item.producto.nombre,
+          precio_unitario: item.producto.precio,
+          descripcion: item.producto.descripcion || '',
+          categoria: item.producto.categoria || '',
+          variantes: variantesValidas,
+          surtido: item.surtido || 0,
+          comentario: item.comentario || ''
+        };
+      });
+
+      console.log('📊 [Pedido] Productos procesados:', productos.length);
+
+      // ============================================
+      // 4. CONSTRUIR OBJETO PEDIDO COMPLETO
+      // ============================================
+      const pedido: PedidoRecibido = {
+        numero: numeroPedido,
+        cliente_nombre: clientName,
+        cliente_telefono: '',
+        cliente_direccion: '',
+        fecha_pedido: new Date().toISOString(),
+        estado: 'recibido',
+        origen: 'catalogo_web',
+        productos: productos,
+        comentario_final: comentarioFinal || '',
+        total: totalPrice
+      };
+
+      // ============================================
+      // 5. VALIDAR PEDIDO
+      // ============================================
+      const validacion = validarPedido(pedido);
+      if (!validacion.valido) {
+        console.error('❌ [Pedido] Validación falló:', validacion.errores);
+        alert(
+          `❌ Error en el pedido:\n\n` +
+          validacion.errores.join('\n') +
+          `\n\nPor favor corrige estos problemas e intenta nuevamente.`
+        );
+        setIsLoading(false);
+        return;
+      }
+
+      console.log('✅ [Pedido] Validación exitosa');
+
+      // ============================================
+      // 6. GENERAR PDF (SIEMPRE, online u offline)
+      // ============================================
+      console.log('📄 [PDF] Generando comprobante...');
+
+      const datosPDF: DatosPDF = {
+        pedido,
+        clienteNombre: clientName
+      };
+
+      const pdf = generarComprobantePDF(datosPDF);
+      console.log('✅ [PDF] Comprobante generado');
+
+      // ============================================
+      // 7. VERIFICAR CONEXIÓN Y ENVIAR
+      // ============================================
+      const tieneInternet = hayInternet();
+      console.log(`📡 [Conexión] Estado: ${tieneInternet ? 'Online' : 'Offline'}`);
+
+      if (tieneInternet) {
+        // ============================================
+        // FLUJO ONLINE
+        // ============================================
+        console.log('🌐 [Online] Intentando enviar a Supabase...');
+
+        try {
+          // Enviar a Supabase
+          const resultado = await pedidosRecibidosService.insert(pedido);
+
+          console.log('✅ [Online] Pedido enviado exitosamente a Supabase');
+          console.log('🆔 [Online] ID del pedido:', resultado.id);
+
+          // Descargar PDF
+          descargarPDF(pdf, numeroPedido);
+          console.log('📥 [PDF] Comprobante descargado');
+
+          // Intentar compartir en móviles (opcional, no bloqueante)
+          try {
+            await compartirPDF(pdf, numeroPedido);
+          } catch (shareError) {
+            console.log('ℹ️ [PDF] Compartir no disponible o cancelado por usuario');
+          }
+
+          // Guardar último pedido para restaurar (24h)
+          saveLastOrder();
+
+          // Limpiar carrito
+          onClearCart();
+          onClose();
+
+          // Notificar éxito
+          alert(
+            `✅ ¡Pedido enviado exitosamente!\n\n` +
+            `📝 Número: ${numeroPedido}\n` +
+            `💰 Total: $${pedido.total.toLocaleString('es-AR')}\n` +
+            `📦 Productos: ${cart.length}\n\n` +
+            `✓ Pedido registrado en el sistema ERP\n` +
+            `✓ PDF de comprobante descargado\n` +
+            `✓ Depósito será notificado automáticamente`
+          );
+
+        } catch (error) {
+          // ============================================
+          // ERROR EN ENVÍO ONLINE → Guardar offline
+          // ============================================
+          console.error('❌ [Online] Error al enviar a Supabase:', error);
+          console.log('💾 [Offline] Guardando en cola offline...');
+
+          // Guardar en cola offline
+          const idOffline = guardarPedidoOffline(pedido);
+          console.log('✅ [Offline] Pedido guardado con ID:', idOffline);
+
+          // Descargar PDF de todas formas
+          descargarPDF(pdf, numeroPedido);
+
+          // Guardar último pedido
+          saveLastOrder();
+
+          // Limpiar carrito
+          onClearCart();
+          onClose();
+
+          // Notificar que se guardó offline
+          const errorMsg = error instanceof Error ? error.message : 'Error desconocido';
+          alert(
+            `⚠️ Error de conexión con el servidor\n\n` +
+            `📝 Número: ${numeroPedido}\n` +
+            `💾 Tu pedido se guardó localmente\n\n` +
+            `✓ Se enviará automáticamente cuando haya conexión\n` +
+            `✓ PDF de comprobante descargado\n` +
+            `✓ No es necesario que hagas nada más\n\n` +
+            `Detalle del error: ${errorMsg}`
+          );
+        }
+
+      } else {
+        // ============================================
+        // FLUJO OFFLINE (Sin internet desde el inicio)
+        // ============================================
+        console.log('📴 [Offline] Sin conexión detectada desde el inicio');
+
+        // Guardar en localStorage
+        const idOffline = guardarPedidoOffline(pedido);
+        console.log('💾 [Offline] Pedido guardado con ID:', idOffline);
+
+        // Descargar PDF
+        descargarPDF(pdf, numeroPedido);
+        console.log('📥 [PDF] Comprobante descargado');
+
+        // Guardar último pedido
+        saveLastOrder();
+
+        // Limpiar carrito
+        onClearCart();
+        onClose();
+
+        // Notificar
+        alert(
+          `📴 Sin conexión a internet\n\n` +
+          `📝 Número: ${numeroPedido}\n` +
+          `💾 Tu pedido se guardó localmente\n\n` +
+          `✓ Se enviará automáticamente al ERP cuando haya conexión\n` +
+          `✓ PDF de comprobante descargado\n` +
+          `✓ El sistema detectará cuando haya internet\n\n` +
+          `Puedes seguir trabajando normalmente.`
+        );
+      }
+
+    } catch (error) {
+      // ============================================
+      // ERROR CRÍTICO (no debería pasar)
+      // ============================================
+      console.error('💥 [Error Crítico] Error inesperado:', error);
+
+      alert(
+        `❌ Error crítico inesperado\n\n` +
+        `Por favor intenta nuevamente.\n` +
+        `Si el problema persiste, contacta a soporte.\n\n` +
+        `Detalle: ${error instanceof Error ? error.message : 'Error desconocido'}`
+      );
+
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
   const handleWhatsAppSend = async () => {
     setIsLoading(true);
     const message = onGenerateWhatsApp(comentarioFinal);
-    
+
     // Guardar último pedido antes de limpiar
     saveLastOrder();
-    
+
     // Abrir WhatsApp
     window.open(`https://wa.me/59897998999?text=${message}`, '_blank');
-    
+
     // Mostrar mensaje de confirmación y resetear después de un momento
     setTimeout(() => {
       setIsLoading(false);
       onClearCart(); // Limpiar el carrito
       onClose(); // Cerrar el modal
-      
+
       // Mostrar notificación de éxito
       alert('¡Pedido enviado por WhatsApp! 🎉\n\nLa aplicación se ha reiniciado para un nuevo pedido.');
     }, 1500);
@@ -1105,41 +1374,59 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
               </div>
             )}
 
-            {/* Botones de envío - siempre visibles */}
-            <div className="flex flex-col gap-2 sm:gap-3">
-              <button
-                onClick={handleWhatsAppSend}
-                disabled={isLoading}
-                className="w-full bg-green-600 text-white py-3 sm:py-3 rounded-lg font-medium hover:bg-green-700 disabled:bg-green-400 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
-              >
-                <MessageCircle size={18} />
-                {isLoading ? 'Enviando...' : 'Enviar por WhatsApp'}
-              </button>
-              <button
-                onClick={handleEmailSend}
-                disabled={isLoading}
-                className="w-full bg-blue-600 text-white py-3 sm:py-3 rounded-lg font-medium hover:bg-blue-700 disabled:bg-blue-400 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
-              >
-                <Mail size={18} />
-                {isLoading ? 'Enviando...' : 'Enviar por Email'}
-              </button>
-              <button
-                onClick={handlePdfDownload}
-                disabled={isLoading}
-                className="w-full bg-amber-600 text-white py-3 sm:py-3 rounded-lg font-medium hover:bg-amber-700 disabled:bg-amber-400 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
-              >
-                <Download size={18} />
-                Descargar pedido en PDF
-              </button>
-              <button
-                onClick={handleWhatsAppPdf}
-                disabled={isLoading}
-                className="w-full bg-green-700 text-white py-3 sm:py-3 rounded-lg font-medium hover:bg-green-800 disabled:bg-green-400 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2 text-sm sm:text-base"
-              >
-                <MessageCircle size={18} />
-                Enviar PDF por WhatsApp
-              </button>
-            </div>
+            {/* ============================================
+                BOTÓN PRINCIPAL: Envío Directo al ERP
+                ============================================ */}
+            <button
+              onClick={handleEnviarPedidoDirecto}
+              disabled={isLoading}
+              className="w-full bg-green-600 text-white py-3 sm:py-3 rounded-lg font-medium hover:bg-green-700 disabled:bg-green-400 disabled:cursor-not-allowed transition-colors flex items-center justify-center gap-2 text-sm sm:text-base shadow-lg"
+            >
+              <Send size={18} />
+              {isLoading ? 'Enviando...' : '📤 Enviar Pedido a Maré'}
+            </button>
+
+            {/* ============================================
+                BOTONES ALTERNATIVOS (colapsados)
+                ============================================ */}
+            <details className="border rounded-lg p-2 mt-2">
+              <summary className="text-sm font-medium text-gray-700 cursor-pointer hover:text-gray-900">
+                📱 Opciones alternativas de envío (método anterior)
+              </summary>
+
+              <div className="mt-3 space-y-2">
+                <button
+                  onClick={handleWhatsAppSend}
+                  disabled={isLoading}
+                  className="w-full bg-gray-500 text-white py-2 rounded-lg text-sm hover:bg-gray-600 disabled:bg-gray-400 transition-colors flex items-center justify-center gap-2"
+                >
+                  <MessageCircle size={16} />
+                  Enviar por WhatsApp (solo texto)
+                </button>
+
+                <button
+                  onClick={handleEmailSend}
+                  disabled={isLoading}
+                  className="w-full bg-blue-600 text-white py-2 rounded-lg text-sm hover:bg-blue-700 disabled:bg-blue-400 transition-colors flex items-center justify-center gap-2"
+                >
+                  <Mail size={16} />
+                  Enviar por Email
+                </button>
+
+                <button
+                  onClick={handlePdfDownload}
+                  disabled={isLoading}
+                  className="w-full bg-amber-600 text-white py-2 rounded-lg text-sm hover:bg-amber-700 disabled:bg-amber-400 transition-colors flex items-center justify-center gap-2"
+                >
+                  <Download size={16} />
+                  Solo descargar PDF
+                </button>
+
+                <div className="text-xs text-gray-500 italic pt-2 border-t">
+                  ℹ️ Estos métodos son respaldo. El botón principal "Enviar Pedido a Maré" es el recomendado.
+                </div>
+              </div>
+            </details>
           </div>
         )}
       </div>
@@ -1296,16 +1583,31 @@ const App = () => {
     if (selectedCategory !== 'todas') {
       filtered = filtered.filter(product => product.categoria === selectedCategory);
     }
-    
+
     if (searchTerm) {
-      filtered = filtered.filter(product => 
+      filtered = filtered.filter(product =>
         product.nombre.toLowerCase().includes(searchTerm.toLowerCase()) ||
         product.codigo.toLowerCase().includes(searchTerm.toLowerCase())
       );
     }
-    
+
     setFilteredProducts(filtered);
   }, [products, selectedCategory, selectedEstado, searchTerm]);
+
+  // ============================================
+  // MONITOR DE SINCRONIZACIÓN OFFLINE
+  // ============================================
+  // Iniciar monitor automático al cargar la app
+  useEffect(() => {
+    console.log('🚀 [App] Iniciando monitor de sincronización offline...');
+
+    const cleanup = iniciarMonitorConexion();
+
+    return () => {
+      console.log('🛑 [App] Deteniendo monitor de sincronización...');
+      cleanup();
+    };
+  }, []);
 
   const handleLogin = (data: LoginData) => {
     setLoginData(data);
@@ -1573,7 +1875,18 @@ const App = () => {
                   🔄 Restaurar
                 </button>
               )}
-              
+
+              {/* Indicador de pedidos pendientes offline */}
+              {cantidadPedidosPendientes() > 0 && (
+                <div
+                  className="flex items-center gap-1 px-2 sm:px-3 py-2 rounded-lg text-xs sm:text-sm font-medium"
+                  style={{ backgroundColor: '#fbbf24', color: '#92400e' }}
+                  title={`${cantidadPedidosPendientes()} pedido(s) esperando conexión`}
+                >
+                  ⏳ {cantidadPedidosPendientes()}
+                </div>
+              )}
+
               {/* Botón Limpiar Pedido */}
               {cart.length > 0 && (
                 <button
