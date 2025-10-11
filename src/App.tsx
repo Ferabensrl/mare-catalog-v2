@@ -1046,9 +1046,7 @@ const CartModal = ({ cart, onClose, onRemoveItem, onUpdateComment, onUpdateQuant
             `📝 Número: ${numeroPedido}\n` +
             `💰 Total: $${pedido.total.toLocaleString('es-AR')}\n` +
             `📦 Productos: ${cart.length}\n\n` +
-            `✓ Pedido registrado en el sistema ERP\n` +
-            `✓ PDF de comprobante descargado\n` +
-            `✓ Depósito será notificado automáticamente`
+            `🎉 ¡Gracias por tu pedido!`
           );
 
         } catch (error) {
