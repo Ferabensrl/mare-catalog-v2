@@ -1,6 +1,6 @@
 {
-  "version": 1760212796918,
-  "timestamp": "2025-10-11T19:59:56.918Z",
+  "version": 1760213642992,
+  "timestamp": "2025-10-11T20:14:02.992Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -2335,32 +2335,6 @@
         "Salmon": true
       },
       "variantes": {}
-    },
-    {
-      "codigo": "D141",
-      "nombre": "Pinza perlas",
-      "descripcion": "Pinza",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 55,
-      "estado": "visible",
-      "imagenes": [
-        "D141 1.jpg",
-        "D141 2.jpg",
-        "D141 3.jpg",
-        "D141 4.jpg",
-        "D141 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {
-        "C2": true,
-        "C4": true,
-        "C5": true,
-        "C6": true
-      },
-      "imagenVariantes": "D141 VARIANTES.jpg"
     },
     {
       "codigo": "D146",
@@ -8056,7 +8030,6 @@
         "Negro": true,
         "Amarillo": true,
         "Verde": true,
-        "Celeste": true,
         "Rosado": true,
         "Beige": true,
         "Rojo": true
@@ -8595,7 +8568,7 @@
         "Negro": true,
         "Rosado": true,
         "Marron Claro": true,
-        "Bordeaux": true,
+        "Gris": true,
         "Rojo": true
       },
       "variantes": {},
