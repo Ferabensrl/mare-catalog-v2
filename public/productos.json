@@ -1,6 +1,6 @@
 {
-  "version": 1760213642992,
-  "timestamp": "2025-10-11T20:14:02.992Z",
+  "version": 1760412848741,
+  "timestamp": "2025-10-14T03:34:08.741Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -1099,10 +1099,10 @@
       "colores": {
         "Negro": true,
         "Verde": true,
+        "Lila": true,
         "Rosado": true,
         "Marron Claro": true,
-        "Gris": true,
-        "Bordeaux": true,
+        "Terracota": true,
         "Crudo": true
       },
       "variantes": {},
@@ -1359,7 +1359,6 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Rosado": true,
         "Gris": true,
         "Rojo": true
       },
@@ -1977,24 +1976,6 @@
       "variantes": {}
     },
     {
-      "codigo": "B375",
-      "nombre": "Colero c perlas y cristal",
-      "descripcion": "Colero",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 49,
-      "estado": "visible",
-      "imagenes": [
-        "B375 1.jpg",
-        "B375 2.jpg",
-        "B375 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "B428",
       "nombre": "Colero",
       "descripcion": "Colero",
@@ -2126,26 +2107,6 @@
       },
       "variantes": {},
       "imagenVariantes": "C071 VARIANTES.jpg"
-    },
-    {
-      "codigo": "C069",
-      "nombre": "Diademas",
-      "descripcion": "Diademas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 79,
-      "estado": "Poco stock",
-      "imagenes": [
-        "C069 1.jpg",
-        "C069 2.jpg",
-        "C069 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Beige": true
-      },
-      "variantes": {}
     },
     {
       "codigo": "C113",
@@ -2343,7 +2304,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 35,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "D146 1.jpg",
         "D146 2.jpg",
@@ -2390,24 +2351,6 @@
         "D156 3.jpg",
         "D156 4.jpg",
         "D156 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "D180",
-      "nombre": "Pinza",
-      "descripcion": "Pinza",
-      "categoria": "Accesorios para pelo",
-      "medidas": "6cm",
-      "precio": 35,
-      "estado": "visible",
-      "imagenes": [
-        "D180 1.jpg",
-        "D180 2.jpg",
-        "D180 3.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -2681,26 +2624,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "B033",
-      "nombre": "Set colitas x3",
-      "descripcion": "Set colitas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 33,
-      "estado": "visible",
-      "imagenes": [
-        "B033 1.jpg",
-        "B033 2.jpg",
-        "B033 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Negro": true
-      },
       "variantes": {}
     },
     {
@@ -3063,8 +2986,7 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Tonos marrones": true,
-        "Tonos pastel": true
+        "Tonos marrones": true
       },
       "variantes": {}
     },
@@ -3388,7 +3310,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 33,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "B452 1.jpg",
         "B452 2.jpg",
@@ -3397,7 +3319,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Tonos marrones": true,
         "Tonos pastel": true,
         "Varios colores": true
@@ -3674,7 +3595,6 @@
       "permitirSurtido": true,
       "colores": {},
       "variantes": {
-        "C1": true,
         "C2": true,
         "C3": true,
         "C4": true
@@ -4704,22 +4624,6 @@
       "variantes": {}
     },
     {
-      "codigo": "ER6050",
-      "nombre": "Caravanas acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "ER6050 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "ER6051",
       "nombre": "Caravanas acero",
       "descripcion": "Caravanas acero",
@@ -4857,22 +4761,6 @@
       "estado": "visible",
       "imagenes": [
         "EA0008 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "EA0016",
-      "nombre": "Abridores acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 55,
-      "estado": "visible",
-      "imagenes": [
-        "EA0016 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -8028,11 +7916,9 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Amarillo": true,
         "Verde": true,
         "Rosado": true,
-        "Beige": true,
-        "Rojo": true
+        "Beige": true
       },
       "variantes": {},
       "imagenVariantes": "W292 VARIANTES.jpg"
@@ -9999,28 +9885,6 @@
       "imagenVariantes": "HS6801 VARIANTES.jpg"
     },
     {
-      "codigo": "GS9203",
-      "nombre": "Lentes caballero",
-      "descripcion": "XLentes caballero",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 285,
-      "estado": "visible",
-      "imagenes": [
-        "GS9203 1.jpg",
-        "GS9203 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Dorado": true,
-        "Rojo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "GS9203 VARIANTES.jpg"
-    },
-    {
       "codigo": "FN2412",
       "nombre": "Lentes de dama",
       "descripcion": "XLentes de dama",
@@ -10190,26 +10054,6 @@
       "variantes": {}
     },
     {
-      "codigo": "GS9211",
-      "nombre": "Lentes infantiles polarizados",
-      "descripcion": "XLentes infantiles polarizados",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 175,
-      "estado": "visible",
-      "imagenes": [
-        "GS9211 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Rojo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "GS9211 VARIANTES.jpg"
-    },
-    {
       "codigo": "FNG6111",
       "nombre": "Lentes unisex",
       "descripcion": "XLentes unisex",
@@ -10253,26 +10097,6 @@
       "imagenVariantes": "GS9206 VARIANTES.jpg"
     },
     {
-      "codigo": "GS9216",
-      "nombre": "Lentes unisex",
-      "descripcion": "XLentes unisex",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 285,
-      "estado": "visible",
-      "imagenes": [
-        "GS9216 1.jpg",
-        "GS9216 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {},
-      "imagenVariantes": "GS9216 VARIANTES.jpg"
-    },
-    {
       "codigo": "FN1524",
       "nombre": "Lentes unisex",
       "descripcion": "XLentes unisex",
@@ -10282,25 +10106,6 @@
       "estado": "visible",
       "imagenes": [
         "FN1524 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Marron Oscuro": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "FN2124",
-      "nombre": "Lentes unisex",
-      "descripcion": "XLentes unisex",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 285,
-      "estado": "visible",
-      "imagenes": [
-        "FN2124 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
