@@ -1,6 +1,6 @@
 {
-  "version": 1760412848741,
-  "timestamp": "2025-10-14T03:34:08.741Z",
+  "version": 1760726407081,
+  "timestamp": "2025-10-17T18:40:07.081Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -298,7 +298,7 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Celeste": true,
+        "Gris": true,
         "Rosa Viejo": true,
         "Azul": true
       },
@@ -1358,7 +1358,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Gris": true,
         "Rojo": true
       },
@@ -1537,7 +1536,6 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Lila": true,
         "Rosado": true
       },
       "variantes": {},
@@ -1770,7 +1768,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Verde": true,
         "Celeste": true,
         "Rosado": true,
@@ -2298,26 +2295,6 @@
       "variantes": {}
     },
     {
-      "codigo": "D146",
-      "nombre": "Pinza",
-      "descripcion": "Pinza",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 35,
-      "estado": "Poco stock",
-      "imagenes": [
-        "D146 1.jpg",
-        "D146 2.jpg",
-        "D146 3.jpg",
-        "D146 4.jpg",
-        "D146 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "D153",
       "nombre": "Pinza",
       "descripcion": "Pinza",
@@ -2755,7 +2732,7 @@
     },
     {
       "codigo": "B087",
-      "nombre": "Set colitas x2",
+      "nombre": "Set colitas x4",
       "descripcion": "Set colitas",
       "categoria": "Accesorios para pelo",
       "medidas": "",
@@ -2774,7 +2751,7 @@
     },
     {
       "codigo": "B097",
-      "nombre": "Set colitas x2",
+      "nombre": "Set colitas x3",
       "descripcion": "Set colitas",
       "categoria": "Accesorios para pelo",
       "medidas": "",
@@ -2992,7 +2969,7 @@
     },
     {
       "codigo": "B171",
-      "nombre": "Set colitas x2",
+      "nombre": "Set colitas x5",
       "descripcion": "Set colitas",
       "categoria": "Accesorios para pelo",
       "medidas": "",
@@ -4544,22 +4521,6 @@
       "variantes": {}
     },
     {
-      "codigo": "24002",
-      "nombre": "Set de brillos x3",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 79,
-      "estado": "visible",
-      "imagenes": [
-        "24002 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "ER004",
       "nombre": "Set caravanas x3",
       "descripcion": "Caravanas acero",
@@ -5024,24 +4985,6 @@
       "sinColor": true,
       "permitirSurtido": false,
       "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "G6924",
-      "nombre": "Conjunto acero",
-      "descripcion": "Conjunto acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "G6924 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
       "variantes": {}
     },
     {
@@ -8607,9 +8550,7 @@
       "colores": {
         "Negro": true,
         "Rosado": true,
-        "Gris": true,
         "Rojo": true,
-        "Rosa Viejo": true,
         "Azul": true,
         "Mostaza": true
       },
@@ -9637,7 +9578,6 @@
       "variantes": {
         "C2": true,
         "C3": true,
-        "C4": true,
         "C5": true,
         "C6": true
       },
@@ -11822,22 +11762,6 @@
       "variantes": {}
     },
     {
-      "codigo": "76263",
-      "nombre": "Anillo enchapado",
-      "descripcion": "Anillo enchapado",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 135,
-      "estado": "visible",
-      "imagenes": [
-        "76263 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "76833",
       "nombre": "Anillo enchapado",
       "descripcion": "Anillo enchapado",
@@ -12039,22 +11963,6 @@
       "estado": "visible",
       "imagenes": [
         "AN03864 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "13944",
-      "nombre": "Anillo enchapado",
-      "descripcion": "Anillo enchapado",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "13944 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -13325,22 +13233,6 @@
       "estado": "visible",
       "imagenes": [
         "PL70221 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "L010931",
-      "nombre": "Pulsera enchapada oro infantil Estrellas",
-      "descripcion": "Enchapado infantil",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "L010931 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
