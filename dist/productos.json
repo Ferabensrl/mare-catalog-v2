@@ -1,6 +1,6 @@
 {
-  "version": 1760726407081,
-  "timestamp": "2025-10-17T18:40:07.081Z",
+  "version": 1760727809717,
+  "timestamp": "2025-10-17T19:03:29.717Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -2410,6 +2410,25 @@
       "colores": {},
       "variantes": {},
       "imagenVariantes": "D251 VARIANTES.jpg"
+    },
+    {
+      "codigo": "D218",
+      "nombre": "Pinza",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 50,
+      "estado": "visible",
+      "imagenes": [
+        "D218 1.jpg",
+        "D218 2.jpg",
+        "D218 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {},
+      "imagenVariantes": "D218 VARIANTES.jpg"
     },
     {
       "codigo": "3216",
