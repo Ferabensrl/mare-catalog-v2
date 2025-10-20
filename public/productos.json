@@ -1,6 +1,6 @@
 {
-  "version": 1760727809717,
-  "timestamp": "2025-10-17T19:03:29.717Z",
+  "version": 1760978611659,
+  "timestamp": "2025-10-20T16:43:31.659Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -2597,25 +2597,6 @@
         "B024 2.jpg",
         "B024 3.jpg",
         "B024 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "B029",
-      "nombre": "Set colitas x3",
-      "descripcion": "Set colitas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 33,
-      "estado": "visible",
-      "imagenes": [
-        "B029 1.jpg",
-        "B029 2.jpg",
-        "B029 3.jpg",
-        "B029 4.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
