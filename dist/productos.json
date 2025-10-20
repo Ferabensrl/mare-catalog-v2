@@ -1,6 +1,6 @@
 {
-  "version": 1760979293218,
-  "timestamp": "2025-10-20T16:54:53.218Z",
+  "version": 1761003619033,
+  "timestamp": "2025-10-20T23:40:19.033Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -5747,23 +5747,6 @@
       "imagenes": [
         "35894G 1.jpg",
         "35894G 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "310114P",
-      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 150,
-      "estado": "visible",
-      "imagenes": [
-        "310114P 1.jpg",
-        "310114P 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -12680,7 +12663,6 @@
       "sinColor": false,
       "permitirSurtido": false,
       "colores": {
-        "Negro": true,
         "Blanco": true
       },
       "variantes": {}
@@ -12727,22 +12709,6 @@
       "estado": "visible",
       "imagenes": [
         "210322 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "20522",
-      "nombre": "Zirconia chica enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 85,
-      "estado": "visible",
-      "imagenes": [
-        "20522 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -14906,9 +14872,12 @@
         "510610PI 2.jpg",
         "510610PI 3.jpg"
       ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Blanco": true,
+        "Rosado": true
+      },
       "variantes": {}
     },
     {
