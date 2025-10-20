@@ -1,6 +1,6 @@
 {
-  "version": 1760978611659,
-  "timestamp": "2025-10-20T16:43:31.659Z",
+  "version": 1760979293218,
+  "timestamp": "2025-10-20T16:54:53.218Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -11768,7 +11768,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 135,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "76833 1.jpg"
       ],
@@ -11784,7 +11784,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 135,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "170393 1.jpg"
       ],
@@ -11800,7 +11800,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 135,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "172243 1.jpg"
       ],
@@ -11816,7 +11816,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 165,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "13324 1.jpg"
       ],
@@ -11832,7 +11832,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 180,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "13344 1.jpg"
       ],
@@ -11848,7 +11848,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 165,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "13394 1.jpg"
       ],
@@ -11864,7 +11864,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 165,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "14054 1.jpg"
       ],
@@ -11880,7 +11880,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 165,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "14294 1.jpg"
       ],
@@ -11896,7 +11896,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 165,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "14354 1.jpg"
       ],
@@ -11912,7 +11912,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 245,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "13464 1.jpg"
       ],
@@ -11928,7 +11928,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 175,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "70173 1.jpg"
       ],
@@ -11944,7 +11944,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 175,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "73583 1.jpg"
       ],
@@ -11960,7 +11960,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 175,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "AN03864 1.jpg"
       ],
@@ -11976,7 +11976,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 195,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "14394 1.jpg"
       ],
@@ -11992,7 +11992,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 195,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "14395 1.jpg"
       ],
@@ -12008,7 +12008,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 195,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "14396 1.jpg"
       ],
@@ -12024,7 +12024,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 195,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "73383 1.jpg"
       ],
@@ -12040,7 +12040,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 225,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "14484 1.jpg"
       ],
@@ -12056,7 +12056,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 235,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "77723 1.jpg"
       ],
@@ -12072,7 +12072,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 245,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "13594 1.jpg"
       ],
@@ -12088,7 +12088,7 @@
       "categoria": "Z Enchapado",
       "medidas": "",
       "precio": 245,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "14444 1.jpg"
       ],
