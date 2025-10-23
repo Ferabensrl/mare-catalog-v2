@@ -1,6 +1,6 @@
 {
-  "version": 1761235223971,
-  "timestamp": "2025-10-23T16:00:23.971Z",
+  "version": 1761239537457,
+  "timestamp": "2025-10-23T17:12:17.457Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -10770,6 +10770,28 @@
       "variantes": {}
     },
     {
+      "codigo": "SG25407",
+      "nombre": "Lentes de sol polarizados",
+      "descripcion": "XLentes unisex",
+      "categoria": "Lentes de sol",
+      "medidas": "",
+      "precio": 285,
+      "estado": "visible",
+      "imagenes": [
+        "SG25407 1.jpg",
+        "SG25407 2.jpg",
+        "SG25407 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Tonos marrones": true
+      },
+      "variantes": {},
+      "imagenVariantes": "SG25407 VARIANTES.jpg"
+    },
+    {
       "codigo": "SG25408",
       "nombre": "Lentes de sol polarizados",
       "descripcion": "XLentes unisex",
@@ -10858,6 +10880,26 @@
       "estado": "visible",
       "imagenes": [
         "SG25411 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Animal Print": true,
+        "Gris": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "SG25415",
+      "nombre": "Lentes de sol",
+      "descripcion": "XLentes unisex",
+      "categoria": "Lentes de sol",
+      "medidas": "",
+      "precio": 245,
+      "estado": "visible",
+      "imagenes": [
+        "SG25415 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
