@@ -1,6 +1,6 @@
 {
-  "version": 1761239537457,
-  "timestamp": "2025-10-23T17:12:17.457Z",
+  "version": 1761585901451,
+  "timestamp": "2025-10-27T17:25:01.451Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -6951,24 +6951,6 @@
       "variantes": {}
     },
     {
-      "codigo": "NK1015",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "NK1015 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "NK1018",
       "nombre": "Gargantilla acero",
       "descripcion": "Gargantilla acero",
@@ -6978,24 +6960,6 @@
       "estado": "visible",
       "imagenes": [
         "NK1018 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "NK1019",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 165,
-      "estado": "visible",
-      "imagenes": [
-        "NK1019 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": false,
@@ -7451,25 +7415,6 @@
       "permitirSurtido": false,
       "colores": {
         "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "XL004311",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "XL004311 1.jpg",
-        "XL004311 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
       },
       "variantes": {}
     },
@@ -8236,22 +8181,6 @@
       "estado": "visible",
       "imagenes": [
         "BR6019 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "BR6015",
-      "nombre": "Brazalete acero",
-      "descripcion": "Pulsera acero 2",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 225,
-      "estado": "visible",
-      "imagenes": [
-        "BR6015 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -9549,9 +9478,7 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
-        "Marron Claro": true,
-        "Marron Oscuro": true
+        "Negro": true
       },
       "variantes": {},
       "imagenVariantes": "CINTO1555 VARIANTES.jpg"
