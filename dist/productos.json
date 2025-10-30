@@ -1,6 +1,6 @@
 {
-  "version": 1761585901451,
-  "timestamp": "2025-10-27T17:25:01.451Z",
+  "version": 1761841766497,
+  "timestamp": "2025-10-30T16:29:26.497Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -2038,30 +2038,6 @@
       "variantes": {}
     },
     {
-      "codigo": "B451",
-      "nombre": "Colero",
-      "descripcion": "Colero",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 45,
-      "estado": "visible",
-      "imagenes": [
-        "B451 1.jpg",
-        "B451 2.jpg",
-        "B451 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Blanco": true,
-        "Marron Claro": true,
-        "Marron Oscuro": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B451 VARIANTES.jpg"
-    },
-    {
       "codigo": "FN25733",
       "nombre": "Colero",
       "descripcion": "Colero",
@@ -2393,26 +2369,6 @@
         "Marron Oscuro": true,
         "Salmon": true
       },
-      "variantes": {}
-    },
-    {
-      "codigo": "D153",
-      "nombre": "Pinza",
-      "descripcion": "Pinza",
-      "categoria": "Accesorios para pelo",
-      "medidas": "12cm",
-      "precio": 60,
-      "estado": "visible",
-      "imagenes": [
-        "D153 1.jpg",
-        "D153 2.jpg",
-        "D153 3.jpg",
-        "D153 4.jpg",
-        "D153 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
       "variantes": {}
     },
     {
@@ -3777,8 +3733,7 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Tonos marrones": true,
-        "Tonos pastel": true
+        "Tonos marrones": true
       },
       "variantes": {},
       "imagenVariantes": "B477 VARIANTES.jpg"
@@ -3873,8 +3828,8 @@
         "100324 3.jpg",
         "100324 4.jpg"
       ],
-      "sinColor": true,
-      "permitirSurtido": false,
+      "sinColor": false,
+      "permitirSurtido": true,
       "colores": {},
       "variantes": {}
     },
@@ -3894,14 +3849,7 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {
-        "C1": true,
-        "C2": true,
-        "C3": true,
-        "C4": true,
-        "C5": true,
-        "C6": true
-      },
+      "variantes": {},
       "imagenVariantes": "H0011 VARIANTES.jpg"
     },
     {
@@ -3945,11 +3893,7 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {
-        "C2": true,
-        "C3": true,
-        "C4": true
-      },
+      "variantes": {},
       "imagenVariantes": "100390 VARIANTES.jpg"
     },
     {
@@ -3996,11 +3940,7 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {
-        "C1": true,
-        "C2": true,
-        "C3": true
-      },
+      "variantes": {},
       "imagenVariantes": "100387 VARIANTES.jpg"
     },
     {
@@ -4881,22 +4821,6 @@
       "variantes": {}
     },
     {
-      "codigo": "ER0024",
-      "nombre": "Set de aros dorados",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 135,
-      "estado": "visible",
-      "imagenes": [
-        "ER0024 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "24001",
       "nombre": "Set de brillos x3",
       "descripcion": "Caravanas acero",
@@ -5098,22 +5022,6 @@
       "estado": "visible",
       "imagenes": [
         "EA0008 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "EA0016-2",
-      "nombre": "Abridores acero dorado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 60,
-      "estado": "visible",
-      "imagenes": [
-        "EA0016-2 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -6252,23 +6160,6 @@
       "imagenes": [
         "312044G 1.jpg",
         "312044G 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "311034P",
-      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 210,
-      "estado": "visible",
-      "imagenes": [
-        "311034P 1.jpg",
-        "311034P 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -8256,7 +8147,6 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Marron Claro": true,
         "Marron Oscuro": true,
         "Bordeaux": true,
         "Azul": true
@@ -8311,8 +8201,7 @@
         "Celeste": true,
         "Beige": true,
         "Marron Claro": true,
-        "Bordeaux": true,
-        "Verde Agua": true
+        "Bordeaux": true
       },
       "variantes": {},
       "imagenVariantes": "W307-2B VARIANTES.jpg"
@@ -12887,22 +12776,6 @@
       "variantes": {}
     },
     {
-      "codigo": "212090",
-      "nombre": "Caravanas enchapadas oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 130,
-      "estado": "visible",
-      "imagenes": [
-        "212090 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "510350",
       "nombre": "Caravanas enchapadas oro",
       "descripcion": "Caravanas enchapadas oro",
@@ -12919,22 +12792,6 @@
         "Negro": true,
         "Blanco": true
       },
-      "variantes": {}
-    },
-    {
-      "codigo": "210720",
-      "nombre": "Caravanas enchapadas oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 75,
-      "estado": "visible",
-      "imagenes": [
-        "210720 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
       "variantes": {}
     },
     {
@@ -13253,22 +13110,6 @@
       "variantes": {}
     },
     {
-      "codigo": "26292",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "26292 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "25862",
       "nombre": "Caravanas enchapadas plata",
       "descripcion": "Caravanas enchapadas plata",
@@ -13486,22 +13327,6 @@
       "estado": "visible",
       "imagenes": [
         "24992 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "212232",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "212232 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -13982,22 +13807,6 @@
       "estado": "visible",
       "imagenes": [
         "40082 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "55960B",
-      "nombre": "Caravanas enchapadas en oro Mariposa",
-      "descripcion": "Enchapado infantil",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "55960B 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -15046,23 +14855,6 @@
       "imagenes": [
         "311850 1.jpg",
         "311850 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "311240",
-      "nombre": "Gargantilla enchapada 15 años",
-      "descripcion": "Gargantilla enchapada",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 255,
-      "estado": "visible",
-      "imagenes": [
-        "311240 1.jpg",
-        "311240 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
