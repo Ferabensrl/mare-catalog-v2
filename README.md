@@ -50,3 +50,4 @@ Presiona el botón **📷 Ver solo imágenes grandes** en la barra superior para
 Vuelve a presionarlo para restablecer la vista completa.
 # Deploy trigger 1754948416
 # Trigger deploy jue., 14 de ago. de 2025 10:05:01 p. m.
+# Test post-reorganización FERABEN_MARE - 30 Oct 2025
