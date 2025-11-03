@@ -1,6 +1,6 @@
 {
-  "version": 1761850982799,
-  "timestamp": "2025-10-30T19:03:02.799Z",
+  "version": 1762182022332,
+  "timestamp": "2025-11-03T15:00:22.332Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -1771,7 +1771,6 @@
         "Verde": true,
         "Celeste": true,
         "Rosado": true,
-        "Bordeaux": true,
         "Azul": true
       },
       "variantes": {},
@@ -3922,26 +3921,6 @@
         "C6": true
       },
       "imagenVariantes": "100325 VARIANTES.jpg"
-    },
-    {
-      "codigo": "100387",
-      "nombre": "Set x 2 pinzas",
-      "descripcion": "Set de pinzas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 45,
-      "estado": "visible",
-      "imagenes": [
-        "100387 1.jpg",
-        "100387 2.jpg",
-        "100387 3.jpg",
-        "100387 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {},
-      "imagenVariantes": "100387 VARIANTES.jpg"
     },
     {
       "codigo": "D061",
@@ -10270,25 +10249,6 @@
       "imagenVariantes": "GS9206 VARIANTES.jpg"
     },
     {
-      "codigo": "FN1524",
-      "nombre": "Lentes unisex",
-      "descripcion": "XLentes unisex",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 285,
-      "estado": "visible",
-      "imagenes": [
-        "FN1524 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Marron Oscuro": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "SG25382",
       "nombre": "Lentes de sol polarizados",
       "descripcion": "XLentes unisex",
@@ -10465,27 +10425,6 @@
       "colores": {
         "Negro": true,
         "Verde": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "SG25400",
-      "nombre": "Lentes de sol",
-      "descripcion": "XLentes unisex",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "SG25400 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Tonos marrones": true,
-        "Animal Print": true,
-        "Gris": true
       },
       "variantes": {}
     },
@@ -12862,22 +12801,6 @@
       "variantes": {}
     },
     {
-      "codigo": "214592",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "214592 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "23442",
       "nombre": "Caravanas enchapadas plata",
       "descripcion": "Caravanas enchapadas plata",
@@ -12937,22 +12860,6 @@
       "estado": "visible",
       "imagenes": [
         "50142B 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "210722",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 50,
-      "estado": "visible",
-      "imagenes": [
-        "210722 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -13091,22 +12998,6 @@
       "colores": {
         "Plateado": true
       },
-      "variantes": {}
-    },
-    {
-      "codigo": "20492",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 130,
-      "estado": "visible",
-      "imagenes": [
-        "20492 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
       "variantes": {}
     },
     {
