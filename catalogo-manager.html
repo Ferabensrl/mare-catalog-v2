@@ -608,23 +608,23 @@
             log('🌐 Sincronizando catálogo B2B → Website institucional...');
             
             // 1. Ejecutar sincronización del catálogo hacia website
-            if (!await ejecutarComando('cd "C:\\Users\\Usuario\\mare-website" && node sync-catalogo.js', 'Sincronización de productos a website')) {
+            if (!await ejecutarComando('cd "C:\\Users\\Usuario\\FERABEN_MARE\\mare-website" && node sync-catalogo.js', 'Sincronización de productos a website')) {
                 setLoading(false);
                 return;
             }
 
             // 2. Cambiar al directorio del website y hacer git workflow
             log('📁 Cambiando al repositorio del website...');
-            
-            if (!await ejecutarComando('cd "C:\\Users\\Usuario\\mare-website" && git add .', 'Agregando cambios del website al staging')) {
+
+            if (!await ejecutarComando('cd "C:\\Users\\Usuario\\FERABEN_MARE\\mare-website" && git add .', 'Agregando cambios del website al staging')) {
                 setLoading(false);
                 return;
             }
 
             // Hacer commit si hay cambios (git commit -a falla silenciosamente si no hay cambios)
-            await ejecutarComando(`cd "C:\\Users\\Usuario\\mare-website" && git commit -a -m "${commitMsg}"`, 'Commit del website');
+            await ejecutarComando(`cd "C:\\Users\\Usuario\\FERABEN_MARE\\mare-website" && git commit -a -m "${commitMsg}"`, 'Commit del website');
 
-            if (!await ejecutarComando('cd "C:\\Users\\Usuario\\mare-website" && git push origin main', 'Push del website')) {
+            if (!await ejecutarComando('cd "C:\\Users\\Usuario\\FERABEN_MARE\\mare-website" && git push origin main', 'Push del website')) {
                 setLoading(false);
                 return;
             }
@@ -640,7 +640,7 @@
             const commitMsg = document.getElementById('websiteLimpiarCommit').value || 'Limpio imágenes no utilizadas del website';
             
             log('🧹 Limpiando imágenes huérfanas del website...');
-            
+
             // 1. Ejecutar limpieza de imágenes del website
             if (!await ejecutarComando('node limpiar-website.js', 'Limpieza de imágenes del website')) {
                 setLoading(false);
@@ -648,15 +648,15 @@
             }
 
             // 2. Git workflow en el website
-            if (!await ejecutarComando('cd "C:\\Users\\Usuario\\mare-website" && git add public/imagenes/', 'Agregando cambios del website al staging')) {
+            if (!await ejecutarComando('cd "C:\\Users\\Usuario\\FERABEN_MARE\\mare-website" && git add public/imagenes/', 'Agregando cambios del website al staging')) {
                 setLoading(false);
                 return;
             }
 
             // Hacer commit si hay cambios (git commit -a falla silenciosamente si no hay cambios)
-            await ejecutarComando(`cd "C:\\Users\\Usuario\\mare-website" && git commit -a -m "${commitMsg}"`, 'Commit de limpieza del website');
+            await ejecutarComando(`cd "C:\\Users\\Usuario\\FERABEN_MARE\\mare-website" && git commit -a -m "${commitMsg}"`, 'Commit de limpieza del website');
 
-            if (!await ejecutarComando('cd "C:\\Users\\Usuario\\mare-website" && git push origin main', 'Push de limpieza del website')) {
+            if (!await ejecutarComando('cd "C:\\Users\\Usuario\\FERABEN_MARE\\mare-website" && git push origin main', 'Push de limpieza del website')) {
                 setLoading(false);
                 return;
             }
