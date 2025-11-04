@@ -242,6 +242,125 @@
         .hidden {
             display: none;
         }
+
+        /* Estilos del Panel de Estadísticas */
+        .stats-panel {
+            background: linear-gradient(135deg, #F9F7F4 0%, #F5F0E8 100%);
+            border-radius: 15px;
+            padding: 25px;
+            margin-bottom: 30px;
+            border: 2px solid #D4B5A0;
+        }
+
+        .stats-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .stats-header h3 {
+            color: #6B4E37;
+            font-size: 1.5em;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .stats-toggle {
+            background: #D4B5A0;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9em;
+            transition: all 0.3s ease;
+        }
+
+        .stats-toggle:hover {
+            background: #8F6A50;
+        }
+
+        .stats-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .stats-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            border-left: 4px solid #D4B5A0;
+            transition: transform 0.3s ease;
+        }
+
+        .stats-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+        }
+
+        .stats-card h4 {
+            color: #8F6A50;
+            margin: 0 0 15px 0;
+            font-size: 1.1em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .stats-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+
+        .stats-item:last-child {
+            border-bottom: none;
+        }
+
+        .stats-label {
+            color: #6B4E37;
+            font-size: 0.95em;
+        }
+
+        .stats-value {
+            color: #8F6A50;
+            font-weight: 600;
+        }
+
+        .stats-badge {
+            display: inline-block;
+            padding: 3px 10px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: 600;
+        }
+
+        .badge-success {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .badge-warning {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .badge-danger {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .badge-info {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
     </style>
 </head>
 <body>
@@ -252,6 +371,75 @@
         </div>
 
         <div class="main-content">
+            <!-- Panel de Estadísticas -->
+            <div class="stats-panel">
+                <div class="stats-header" onclick="toggleStats()">
+                    <h3>📊 Estadísticas del Sistema</h3>
+                    <button class="stats-toggle" onclick="event.stopPropagation(); cargarEstadisticas()">🔄 Actualizar</button>
+                </div>
+                <div class="stats-content" id="statsContent">
+                    <div class="stats-card">
+                        <h4>🛍️ Catálogo B2B</h4>
+                        <div class="stats-item">
+                            <span class="stats-label">Total Productos:</span>
+                            <span class="stats-value" id="catalogoProductos">-</span>
+                        </div>
+                        <div class="stats-item">
+                            <span class="stats-label">Categorías:</span>
+                            <span class="stats-value" id="catalogoCategorias">-</span>
+                        </div>
+                        <div class="stats-item">
+                            <span class="stats-label">Imágenes:</span>
+                            <span class="stats-value" id="catalogoImagenes">-</span>
+                        </div>
+                        <div class="stats-item">
+                            <span class="stats-label">Sin imágenes:</span>
+                            <span class="stats-value" id="catalogoSinImagenes">-</span>
+                        </div>
+                        <div class="stats-item">
+                            <span class="stats-label">Con variantes:</span>
+                            <span class="stats-value" id="catalogoVariantes">-</span>
+                        </div>
+                        <div class="stats-item">
+                            <span class="stats-label">Última actualización:</span>
+                            <span class="stats-value" id="catalogoFecha" style="font-size: 0.85em;">-</span>
+                        </div>
+                    </div>
+
+                    <div class="stats-card">
+                        <h4>🌐 Website Institucional</h4>
+                        <div class="stats-item">
+                            <span class="stats-label">Total Productos:</span>
+                            <span class="stats-value" id="websiteProductos">-</span>
+                        </div>
+                        <div class="stats-item">
+                            <span class="stats-label">Imágenes:</span>
+                            <span class="stats-value" id="websiteImagenes">-</span>
+                        </div>
+                        <div class="stats-item">
+                            <span class="stats-label">Última sincronización:</span>
+                            <span class="stats-value" id="websiteFecha" style="font-size: 0.85em;">-</span>
+                        </div>
+                    </div>
+
+                    <div class="stats-card">
+                        <h4>⚖️ Sincronización</h4>
+                        <div class="stats-item">
+                            <span class="stats-label">Diferencia Productos:</span>
+                            <span class="stats-value" id="difProductos">-</span>
+                        </div>
+                        <div class="stats-item">
+                            <span class="stats-label">Diferencia Imágenes:</span>
+                            <span class="stats-value" id="difImagenes">-</span>
+                        </div>
+                        <div class="stats-item">
+                            <span class="stats-label">Estado:</span>
+                            <span class="stats-value" id="estadoSync">-</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <!-- Sección de Mensaje Promocional -->
             <div class="mensaje-section">
                 <h3>📢 Mensaje Promocional</h3>
@@ -666,7 +854,90 @@
         }
 
 
-        // Cargar mensaje actual al inicio
+        // Función para toggle del panel de estadísticas
+        function toggleStats() {
+            const statsContent = document.getElementById('statsContent');
+            statsContent.classList.toggle('hidden');
+        }
+
+        // Función para cargar estadísticas
+        async function cargarEstadisticas() {
+            try {
+                const response = await fetch('/estadisticas');
+                if (!response.ok) {
+                    throw new Error('Error obteniendo estadísticas');
+                }
+
+                const stats = await response.json();
+
+                // Actualizar estadísticas del CATÁLOGO
+                document.getElementById('catalogoProductos').textContent = stats.catalogo.productos;
+                document.getElementById('catalogoCategorias').textContent = stats.catalogo.categorias;
+                document.getElementById('catalogoImagenes').textContent =
+                    `${stats.catalogo.imagenes.count} (${stats.catalogo.imagenes.sizeMB} MB)`;
+
+                const sinImagenes = stats.catalogo.sinImagenes;
+                const sinImagenesEl = document.getElementById('catalogoSinImagenes');
+                sinImagenesEl.textContent = sinImagenes;
+                sinImagenesEl.innerHTML = sinImagenes > 0
+                    ? `<span class="stats-badge badge-warning">${sinImagenes}</span>`
+                    : `<span class="stats-badge badge-success">${sinImagenes}</span>`;
+
+                document.getElementById('catalogoVariantes').textContent = stats.catalogo.conVariantes;
+
+                if (stats.catalogo.ultimaActualizacion) {
+                    const fecha = new Date(stats.catalogo.ultimaActualizacion);
+                    document.getElementById('catalogoFecha').textContent =
+                        fecha.toLocaleDateString('es-UY') + ' ' + fecha.toLocaleTimeString('es-UY');
+                }
+
+                // Actualizar estadísticas del WEBSITE
+                document.getElementById('websiteProductos').textContent = stats.website.productos;
+                document.getElementById('websiteImagenes').textContent =
+                    `${stats.website.imagenes.count} (${stats.website.imagenes.sizeMB} MB)`;
+
+                if (stats.website.ultimaSincronizacion) {
+                    const fecha = new Date(stats.website.ultimaSincronizacion);
+                    document.getElementById('websiteFecha').textContent =
+                        fecha.toLocaleDateString('es-UY') + ' ' + fecha.toLocaleTimeString('es-UY');
+                }
+
+                // Actualizar DIFERENCIAS
+                const difProductos = stats.diferencias.productos;
+                const difProductosEl = document.getElementById('difProductos');
+                if (difProductos === 0) {
+                    difProductosEl.innerHTML = '<span class="stats-badge badge-success">Sincronizado ✓</span>';
+                } else if (difProductos > 0) {
+                    difProductosEl.innerHTML = `<span class="stats-badge badge-warning">+${difProductos} sin sincronizar</span>`;
+                } else {
+                    difProductosEl.innerHTML = `<span class="stats-badge badge-info">${difProductos}</span>`;
+                }
+
+                const difImagenes = stats.diferencias.imagenes;
+                const difImagenesEl = document.getElementById('difImagenes');
+                if (difImagenes === 0) {
+                    difImagenesEl.innerHTML = '<span class="stats-badge badge-success">Sincronizado ✓</span>';
+                } else if (difImagenes > 0) {
+                    difImagenesEl.innerHTML = `<span class="stats-badge badge-warning">+${difImagenes} sin sincronizar</span>`;
+                } else {
+                    difImagenesEl.innerHTML = `<span class="stats-badge badge-info">${difImagenes}</span>`;
+                }
+
+                // Estado general
+                const estadoSyncEl = document.getElementById('estadoSync');
+                if (difProductos === 0 && difImagenes === 0) {
+                    estadoSyncEl.innerHTML = '<span class="stats-badge badge-success">✓ Sincronizado</span>';
+                } else {
+                    estadoSyncEl.innerHTML = '<span class="stats-badge badge-warning">⚠ Desincronizado</span>';
+                }
+
+            } catch (error) {
+                console.error('Error cargando estadísticas:', error);
+                log('❌ Error cargando estadísticas', 'error');
+            }
+        }
+
+        // Cargar mensaje actual y estadísticas al inicio
         window.addEventListener('load', async () => {
             try {
                 const response = await fetch('/mensaje-actual');
@@ -677,7 +948,21 @@
             } catch (error) {
                 console.log('No se pudo cargar el mensaje actual');
             }
+
+            // Cargar estadísticas iniciales
+            await cargarEstadisticas();
         });
+
+        // Auto-actualizar estadísticas después de cada operación exitosa
+        const originalEjecutarComando = ejecutarComando;
+        ejecutarComando = async function(...args) {
+            const result = await originalEjecutarComando.apply(this, args);
+            if (result) {
+                // Esperar un poco para que los archivos se actualicen
+                setTimeout(() => cargarEstadisticas(), 1000);
+            }
+            return result;
+        };
     </script>
 </body>
 </html>

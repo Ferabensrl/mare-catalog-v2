@@ -116,7 +116,7 @@ app.post('/ejecutar', async (req, res) => {
 app.get('/mensaje-actual', (req, res) => {
     try {
         const mensajePath = './mensaje.txt';
-        
+
         if (fs.existsSync(mensajePath)) {
             const mensaje = fs.readFileSync(mensajePath, 'utf8').trim();
             res.json({ mensaje });
@@ -126,6 +126,101 @@ app.get('/mensaje-actual', (req, res) => {
     } catch (error) {
         console.error('Error leyendo mensaje:', error);
         res.json({ mensaje: '' });
+    }
+});
+
+// Ruta para obtener estadísticas del catálogo y website
+app.get('/estadisticas', (req, res) => {
+    try {
+        const stats = {
+            catalogo: {
+                productos: 0,
+                categorias: 0,
+                imagenes: { count: 0, sizeMB: 0 },
+                sinImagenes: 0,
+                conVariantes: 0,
+                ultimaActualizacion: null
+            },
+            website: {
+                productos: 0,
+                imagenes: { count: 0, sizeMB: 0 },
+                ultimaSincronizacion: null
+            },
+            diferencias: {
+                productos: 0,
+                imagenes: 0
+            }
+        };
+
+        // Estadísticas del CATÁLOGO
+        const catalogoPath = path.join(__dirname, 'public', 'productos.json');
+        if (fs.existsSync(catalogoPath)) {
+            const catalogoData = JSON.parse(fs.readFileSync(catalogoPath, 'utf8'));
+            const productos = catalogoData.productos || catalogoData;
+
+            stats.catalogo.productos = productos.length;
+            stats.catalogo.categorias = new Set(productos.map(p => p.categoria)).size;
+            stats.catalogo.sinImagenes = productos.filter(p => !p.imagenes || p.imagenes.length === 0).length;
+            stats.catalogo.conVariantes = productos.filter(p => p.imagenVariantes || (p.variantes && Object.keys(p.variantes).length > 0)).length;
+
+            // Fecha de última modificación del archivo
+            const catalogoStats = fs.statSync(catalogoPath);
+            stats.catalogo.ultimaActualizacion = catalogoStats.mtime;
+        }
+
+        // Estadísticas de IMÁGENES del catálogo
+        const imagenesPath = path.join(__dirname, 'public', 'imagenes');
+        if (fs.existsSync(imagenesPath)) {
+            const archivos = fs.readdirSync(imagenesPath);
+            stats.catalogo.imagenes.count = archivos.length;
+
+            let totalSize = 0;
+            archivos.forEach(file => {
+                const filePath = path.join(imagenesPath, file);
+                const fileStats = fs.statSync(filePath);
+                if (fileStats.isFile()) {
+                    totalSize += fileStats.size;
+                }
+            });
+            stats.catalogo.imagenes.sizeMB = (totalSize / (1024 * 1024)).toFixed(2);
+        }
+
+        // Estadísticas del WEBSITE
+        const websitePath = 'C:\\Users\\Usuario\\FERABEN_MARE\\mare-website\\src\\data\\productos-web.json';
+        if (fs.existsSync(websitePath)) {
+            const websiteData = JSON.parse(fs.readFileSync(websitePath, 'utf8'));
+            stats.website.productos = websiteData.length;
+
+            const websiteStats = fs.statSync(websitePath);
+            stats.website.ultimaSincronizacion = websiteStats.mtime;
+        }
+
+        // Estadísticas de IMÁGENES del website
+        const websiteImagenesPath = 'C:\\Users\\Usuario\\FERABEN_MARE\\mare-website\\public\\imagenes';
+        if (fs.existsSync(websiteImagenesPath)) {
+            const archivos = fs.readdirSync(websiteImagenesPath);
+            stats.website.imagenes.count = archivos.length;
+
+            let totalSize = 0;
+            archivos.forEach(file => {
+                const filePath = path.join(websiteImagenesPath, file);
+                const fileStats = fs.statSync(filePath);
+                if (fileStats.isFile()) {
+                    totalSize += fileStats.size;
+                }
+            });
+            stats.website.imagenes.sizeMB = (totalSize / (1024 * 1024)).toFixed(2);
+        }
+
+        // Calcular diferencias
+        stats.diferencias.productos = stats.catalogo.productos - stats.website.productos;
+        stats.diferencias.imagenes = stats.catalogo.imagenes.count - stats.website.imagenes.count;
+
+        res.json(stats);
+
+    } catch (error) {
+        console.error('Error obteniendo estadísticas:', error);
+        res.status(500).json({ error: 'Error obteniendo estadísticas' });
     }
 });
 
