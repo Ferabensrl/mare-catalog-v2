@@ -8,8 +8,8 @@ import path from 'path';
 
 // Configuración
 const CONFIG = {
-    websiteProductosPath: 'C:\\Users\\Usuario\\mare-website\\src\\data\\productos-web.json',
-    websiteImagenesPath: 'C:\\Users\\Usuario\\mare-website\\public\\imagenes\\',
+    websiteProductosPath: 'C:\\Users\\Usuario\\FERABEN_MARE\\mare-website\\src\\data\\productos-web.json',
+    websiteImagenesPath: 'C:\\Users\\Usuario\\FERABEN_MARE\\mare-website\\public\\imagenes\\',
     imagenesEspeciales: [
         'destacado-nueva-coleccion.jpg',
         'destacado-tips-estilo.jpg', 
