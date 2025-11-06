@@ -1,6 +1,6 @@
 {
-  "version": 1762182022332,
-  "timestamp": "2025-11-03T15:00:22.332Z",
+  "version": 1762430656182,
+  "timestamp": "2025-11-06T12:04:16.183Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -1972,6 +1972,25 @@
       "variantes": {}
     },
     {
+      "codigo": "HC0001",
+      "nombre": "Colero con luz led",
+      "descripcion": "Colero",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 35,
+      "estado": "Preventa",
+      "imagenes": [
+        "HC0001 1.jpg",
+        "HC0001 2.jpg",
+        "HC0001 3.jpg",
+        "HC0001 4.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
       "codigo": "B428",
       "nombre": "Colero",
       "descripcion": "Colero",
@@ -3037,8 +3056,10 @@
         "B071 4.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
+      "permitirSurtido": false,
+      "colores": {
+        "Negro": true
+      },
       "variantes": {}
     },
     {
@@ -3917,7 +3938,6 @@
         "C2": true,
         "C3": true,
         "C4": true,
-        "C5": true,
         "C6": true
       },
       "imagenVariantes": "100325 VARIANTES.jpg"
@@ -8360,7 +8380,6 @@
         "Negro": true,
         "Blanco": true,
         "Verde": true,
-        "Rosado": true,
         "Marron Claro": true,
         "Azul": true
       },
@@ -8635,7 +8654,6 @@
       "colores": {
         "Negro": true,
         "Plateado": true,
-        "Verde": true,
         "Celeste": true,
         "Marron Claro": true
       },
@@ -11130,38 +11148,6 @@
       "variantes": {}
     },
     {
-      "codigo": "RELW4002",
-      "nombre": "Reloj dama goma",
-      "descripcion": "Reloj dama",
-      "categoria": "Relojes",
-      "medidas": "",
-      "precio": 1,
-      "estado": "Poco stock",
-      "imagenes": [
-        "RELW4002 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "RELW4003",
-      "nombre": "Reloj dama cuero",
-      "descripcion": "Reloj dama",
-      "categoria": "Relojes",
-      "medidas": "",
-      "precio": 1,
-      "estado": "Poco stock",
-      "imagenes": [
-        "RELW4003 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "RELW4004",
       "nombre": "Reloj dama cuero",
       "descripcion": "Reloj dama",
@@ -13026,22 +13012,6 @@
       "estado": "visible",
       "imagenes": [
         "25632 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "26602",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 130,
-      "estado": "visible",
-      "imagenes": [
-        "26602 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
