@@ -1,6 +1,6 @@
 {
-  "version": 1762430656182,
-  "timestamp": "2025-11-06T12:04:16.183Z",
+  "version": 1762431960334,
+  "timestamp": "2025-11-06T12:26:00.334Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -1978,7 +1978,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 35,
-      "estado": "Preventa",
+      "estado": "Poco stock",
       "imagenes": [
         "HC0001 1.jpg",
         "HC0001 2.jpg",
