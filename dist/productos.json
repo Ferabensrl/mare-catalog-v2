@@ -1,6 +1,6 @@
 {
-  "version": 1762431960334,
-  "timestamp": "2025-11-06T12:26:00.334Z",
+  "version": 1762829395169,
+  "timestamp": "2025-11-11T02:49:55.169Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -4669,22 +4669,6 @@
       "variantes": {}
     },
     {
-      "codigo": "EA22003-1",
-      "nombre": "Aros acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 40,
-      "estado": "visible",
-      "imagenes": [
-        "EA22003-1 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "EA33001-8",
       "nombre": "Caravanas acero dorado",
       "descripcion": "Caravanas acero",
@@ -4845,38 +4829,6 @@
       "estado": "visible",
       "imagenes": [
         "ER004 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "ER0016",
-      "nombre": "Set caravanas x3",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 135,
-      "estado": "visible",
-      "imagenes": [
-        "ER0016 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "ER0017",
-      "nombre": "Set caravanas x3",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 135,
-      "estado": "visible",
-      "imagenes": [
-        "ER0017 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -8020,10 +7972,9 @@
         "SZ0136 2.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
-        "Negro": true,
-        "Blanco": true
+        "Dorado": true
       },
       "variantes": {},
       "imagenVariantes": "SZ0136 VARIANTES.jpg"
@@ -8755,7 +8706,7 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Blanco": true,
+        "Celeste": true,
         "Rosado": true,
         "Marron Claro": true,
         "Gris": true
@@ -10498,28 +10449,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Animal Print": true,
         "Beige": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "SG25404",
-      "nombre": "Lentes de sol polarizados",
-      "descripcion": "XLentes unisex",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 285,
-      "estado": "visible",
-      "imagenes": [
-        "SG25404 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Tonos marrones": true
       },
       "variantes": {}
     },
