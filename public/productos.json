@@ -1,6 +1,6 @@
 {
-  "version": 1762829395169,
-  "timestamp": "2025-11-11T02:49:55.169Z",
+  "version": 1762905862820,
+  "timestamp": "2025-11-12T00:04:22.820Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -10812,7 +10812,7 @@
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW002-A 1.jpg"
@@ -10820,7 +10820,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW002-A VARIANTES.jpg"
     },
     {
       "codigo": "RELW002-B",
@@ -10828,7 +10829,7 @@
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW002-B 1.jpg"
@@ -10836,7 +10837,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW002-B VARIANTES.jpg"
     },
     {
       "codigo": "RELW002-C",
@@ -10844,7 +10846,7 @@
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW002-C 1.jpg"
@@ -10852,7 +10854,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW002-C VARIANTES.jpg"
     },
     {
       "codigo": "RELW002-D",
@@ -10860,7 +10863,7 @@
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW002-D 1.jpg"
@@ -10868,7 +10871,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW002-D VARIANTES.jpg"
     },
     {
       "codigo": "RELW002-E",
@@ -10876,7 +10880,7 @@
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW002-E 1.jpg"
@@ -10884,7 +10888,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW002-E VARIANTES.jpg"
     },
     {
       "codigo": "RELW003-A",
@@ -10892,7 +10897,7 @@
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW003-A 1.jpg"
@@ -10900,7 +10905,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW003-A VARIANTES.jpg"
     },
     {
       "codigo": "RELW003-B",
@@ -10908,7 +10914,7 @@
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW003-B 1.jpg"
@@ -10916,15 +10922,16 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW003-B VARIANTES.jpg"
     },
     {
       "codigo": "RELW003-C",
-      "nombre": "Reloj dama cuero",
+      "nombre": "Reloj dama goma",
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW003-C 1.jpg"
@@ -10932,15 +10939,16 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW003-C VARIANTES.jpg"
     },
     {
       "codigo": "RELW003-D",
-      "nombre": "Reloj dama cuero",
+      "nombre": "Reloj dama goma",
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW003-D 1.jpg"
@@ -10948,7 +10956,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW003-D VARIANTES.jpg"
     },
     {
       "codigo": "RELW003-E",
@@ -10956,7 +10965,7 @@
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW003-E 1.jpg"
@@ -10964,7 +10973,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW003-E VARIANTES.jpg"
     },
     {
       "codigo": "RELW003-F",
@@ -10972,7 +10982,7 @@
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW003-F 1.jpg"
@@ -10980,15 +10990,16 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW003-F VARIANTES.jpg"
     },
     {
       "codigo": "RELW003-G",
-      "nombre": "Reloj dama cuero",
+      "nombre": "Reloj dama goma",
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW003-G 1.jpg"
@@ -10996,7 +11007,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW003-G VARIANTES.jpg"
     },
     {
       "codigo": "RELW003-H",
@@ -11004,7 +11016,7 @@
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW003-H 1.jpg"
@@ -11012,7 +11024,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW003-H VARIANTES.jpg"
     },
     {
       "codigo": "RELW006-A",
@@ -11020,7 +11033,7 @@
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW006-A 1.jpg"
@@ -11028,7 +11041,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW006-A VARIANTES.jpg"
     },
     {
       "codigo": "RELW006-B",
@@ -11036,7 +11050,7 @@
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW006-B 1.jpg"
@@ -11044,7 +11058,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW006-B VARIANTES.jpg"
     },
     {
       "codigo": "RELW006-C",
@@ -11052,7 +11067,7 @@
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW006-C 1.jpg"
@@ -11060,7 +11075,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW006-C VARIANTES.jpg"
     },
     {
       "codigo": "RELW006-D",
@@ -11068,7 +11084,7 @@
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELW006-D 1.jpg"
@@ -11076,7 +11092,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELW006-D VARIANTES.jpg"
     },
     {
       "codigo": "RELW4004",
@@ -11084,7 +11101,7 @@
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "Poco stock",
       "imagenes": [
         "RELW4004 1.jpg"
@@ -11100,7 +11117,7 @@
       "descripcion": "Reloj dama",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "Poco stock",
       "imagenes": [
         "RELW4001 1.jpg"
@@ -11265,7 +11282,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH001-A 1.jpg"
@@ -11273,7 +11290,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELH001-A VARIANTES.jpg"
     },
     {
       "codigo": "RELH001-B",
@@ -11281,7 +11299,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH001-B 1.jpg"
@@ -11289,7 +11307,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELH001-B VARIANTES.jpg"
     },
     {
       "codigo": "RELH001-C",
@@ -11297,7 +11316,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH001-C 1.jpg"
@@ -11305,7 +11324,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELH001-C VARIANTES.jpg"
     },
     {
       "codigo": "RELH002-A",
@@ -11313,7 +11333,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH002-A 1.jpg"
@@ -11321,7 +11341,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELH002-A VARIANTES.jpg"
     },
     {
       "codigo": "RELH002-B",
@@ -11329,7 +11350,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH002-B 1.jpg"
@@ -11337,7 +11358,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELH002-B VARIANTES.jpg"
     },
     {
       "codigo": "RELH002-C",
@@ -11345,7 +11367,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH002-C 1.jpg"
@@ -11353,7 +11375,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELH002-C VARIANTES.jpg"
     },
     {
       "codigo": "RELH003-A",
@@ -11361,7 +11384,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH003-A 1.jpg"
@@ -11369,7 +11392,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELH003-A VARIANTES.jpg"
     },
     {
       "codigo": "RELH003-B",
@@ -11377,7 +11401,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH003-B 1.jpg"
@@ -11385,7 +11409,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELH003-B VARIANTES.jpg"
     },
     {
       "codigo": "RELH003-C",
@@ -11393,7 +11418,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH003-C 1.jpg"
@@ -11401,7 +11426,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELH003-C VARIANTES.jpg"
     },
     {
       "codigo": "RELH007-A",
@@ -11409,7 +11435,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH007-A 1.jpg"
@@ -11417,7 +11443,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELH007-A VARIANTES.jpg"
     },
     {
       "codigo": "RELH007-B",
@@ -11425,7 +11452,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH007-B 1.jpg"
@@ -11433,7 +11460,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELH007-B VARIANTES.jpg"
     },
     {
       "codigo": "RELH007-C",
@@ -11441,7 +11469,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH007-C 1.jpg"
@@ -11449,7 +11477,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "RELH007-C VARIANTES.jpg"
     },
     {
       "codigo": "RELH008-A",
@@ -11457,7 +11486,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH008-A 1.jpg"
@@ -11465,7 +11494,11 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {
+        "C1": true,
+        "C2": true
+      },
+      "imagenVariantes": "RELH008-A VARIANTES.jpg"
     },
     {
       "codigo": "RELH008-B",
@@ -11473,7 +11506,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH008-B 1.jpg"
@@ -11481,7 +11514,11 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {
+        "C1": true,
+        "C2": true
+      },
+      "imagenVariantes": "RELH008-B VARIANTES.jpg"
     },
     {
       "codigo": "RELH008-C",
@@ -11489,7 +11526,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH008-C 1.jpg"
@@ -11497,7 +11534,11 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {
+        "C1": true,
+        "C2": true
+      },
+      "imagenVariantes": "RELH008-C VARIANTES.jpg"
     },
     {
       "codigo": "RELH008-D",
@@ -11505,7 +11546,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH008-D 1.jpg"
@@ -11513,7 +11554,11 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {
+        "C1": true,
+        "C2": true
+      },
+      "imagenVariantes": "RELH008-D VARIANTES.jpg"
     },
     {
       "codigo": "RELH008-E",
@@ -11521,7 +11566,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "visible",
       "imagenes": [
         "RELH008-E 1.jpg"
@@ -11529,7 +11574,11 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {}
+      "variantes": {
+        "C1": true,
+        "C2": true
+      },
+      "imagenVariantes": "RELH008-E VARIANTES.jpg"
     },
     {
       "codigo": "RELH03K",
@@ -11537,7 +11586,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "Poco stock",
       "imagenes": [
         "RELH03K 1.jpg"
@@ -11553,7 +11602,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "Poco stock",
       "imagenes": [
         "RELH03M 1.jpg"
@@ -11569,7 +11618,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "Poco stock",
       "imagenes": [
         "RELH1125 1.jpg"
@@ -11585,7 +11634,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "Poco stock",
       "imagenes": [
         "RELH1128 1.jpg"
@@ -11601,7 +11650,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "Poco stock",
       "imagenes": [
         "RELH1124 1.jpg"
@@ -11617,7 +11666,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "Poco stock",
       "imagenes": [
         "RELH1126 1.jpg"
@@ -11633,7 +11682,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "Poco stock",
       "imagenes": [
         "RELH1127 1.jpg"
@@ -11649,7 +11698,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "Poco stock",
       "imagenes": [
         "RELH1121 1.jpg"
@@ -11665,7 +11714,7 @@
       "descripcion": "Reloj hombre",
       "categoria": "Relojes",
       "medidas": "",
-      "precio": 1,
+      "precio": 295,
       "estado": "Poco stock",
       "imagenes": [
         "RELH1123 1.jpg"
