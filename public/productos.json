@@ -1,6 +1,6 @@
 {
-  "version": 1762905862820,
-  "timestamp": "2025-11-12T00:04:22.820Z",
+  "version": 1762976195741,
+  "timestamp": "2025-11-12T19:36:35.741Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -11726,7 +11726,7 @@
     },
     {
       "codigo": "BOX009",
-      "nombre": "Caja anillo",
+      "nombre": "Caja anillo 5 X 5 X 3CM",
       "descripcion": "Caja anillo",
       "categoria": "x Estuches",
       "medidas": "5 X 5 X 3CM",
@@ -11738,7 +11738,8 @@
       "sinColor": true,
       "permitirSurtido": false,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "BOX009 VARIANTES.jpg"
     },
     {
       "codigo": "BOX0087",
@@ -11790,7 +11791,7 @@
     },
     {
       "codigo": "BOX008",
-      "nombre": "Caja conjunto chica",
+      "nombre": "Caja conjunto chica 5 X 8 X 2.8CM",
       "descripcion": "Caja conjunto",
       "categoria": "x Estuches",
       "medidas": "5 X 8 X 2.8CM",
@@ -11802,11 +11803,12 @@
       "sinColor": true,
       "permitirSurtido": false,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "BOX008 VARIANTES.jpg"
     },
     {
       "codigo": "BOX006",
-      "nombre": "Caja conjunto grande",
+      "nombre": "Caja conjunto grande 7 X 9 X 3CM",
       "descripcion": "Caja conjunto",
       "categoria": "x Estuches",
       "medidas": "7 X 9 X 3CM",
@@ -11818,7 +11820,8 @@
       "sinColor": true,
       "permitirSurtido": false,
       "colores": {},
-      "variantes": {}
+      "variantes": {},
+      "imagenVariantes": "BOX006 VARIANTES.jpg"
     },
     {
       "codigo": "BOX5894",
