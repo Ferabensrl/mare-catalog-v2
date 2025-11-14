@@ -1,6 +1,6 @@
 {
-  "version": 1762976195741,
-  "timestamp": "2025-11-12T19:36:35.741Z",
+  "version": 1763083933331,
+  "timestamp": "2025-11-14T01:32:13.331Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -1535,8 +1535,7 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
-        "Rosado": true
+        "Negro": true
       },
       "variantes": {},
       "imagenVariantes": "LB233 VARIANTES.jpg"
@@ -1777,31 +1776,6 @@
       "imagenVariantes": "FN5012 VARIANTES.jpg"
     },
     {
-      "codigo": "BAG9018",
-      "nombre": "Mochila lisa con llavero",
-      "descripcion": "Mochilas",
-      "categoria": "A Marroquineria",
-      "medidas": "41 x 30 x 12cm",
-      "precio": 450,
-      "estado": "visible",
-      "imagenes": [
-        "BAG9018 1.jpg",
-        "BAG9018 2.jpg",
-        "BAG9018 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Celeste": true,
-        "Rosado": true,
-        "Verde claro": true,
-        "Salmon": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BAG9018 VARIANTES.jpg"
-    },
-    {
       "codigo": "LB6308",
       "nombre": "Mochila/Bolso",
       "descripcion": "Mochilas",
@@ -1874,28 +1848,6 @@
       },
       "variantes": {},
       "imagenVariantes": "CS7101 VARIANTES.jpg"
-    },
-    {
-      "codigo": "COSMETIC001",
-      "nombre": "Porta cosmeticos",
-      "descripcion": "Porta cosmeticos",
-      "categoria": "A Marroquineria",
-      "medidas": "",
-      "precio": 295,
-      "estado": "visible",
-      "imagenes": [
-        "COSMETIC001 1.jpg",
-        "COSMETIC001 2.jpg",
-        "COSMETIC001 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Rosado": true,
-        "Crudo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "COSMETIC001 VARIANTES.jpg"
     },
     {
       "codigo": "B003",
@@ -3959,7 +3911,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Rosado": true,
         "Fucsia": true,
         "Rojo": true
       },
@@ -4900,22 +4851,6 @@
       "variantes": {}
     },
     {
-      "codigo": "EA0007",
-      "nombre": "Abridores acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 55,
-      "estado": "visible",
-      "imagenes": [
-        "EA0007 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "EA0006",
       "nombre": "Abridores acero",
       "descripcion": "Caravanas acero",
@@ -4948,22 +4883,6 @@
       "variantes": {}
     },
     {
-      "codigo": "EA0004-2",
-      "nombre": "Abridores acero dorado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 60,
-      "estado": "visible",
-      "imagenes": [
-        "EA0004-2 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "EA0008",
       "nombre": "Abridores acero",
       "descripcion": "Caravanas acero",
@@ -4980,22 +4899,6 @@
       "variantes": {}
     },
     {
-      "codigo": "EA0022-2",
-      "nombre": "Abridores acero dorado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 60,
-      "estado": "visible",
-      "imagenes": [
-        "EA0022-2 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "EA7008-2",
       "nombre": "Abridores acero dorado",
       "descripcion": "Caravanas acero",
@@ -5005,38 +4908,6 @@
       "estado": "visible",
       "imagenes": [
         "EA7008-2 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "EA7006",
-      "nombre": "Abridores acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 55,
-      "estado": "visible",
-      "imagenes": [
-        "EA7006 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "EA7006-2",
-      "nombre": "Abridores acero dorado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 60,
-      "estado": "visible",
-      "imagenes": [
-        "EA7006-2 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -5394,26 +5265,6 @@
         "Dorado": true
       },
       "variantes": {}
-    },
-    {
-      "codigo": "XL1087-2",
-      "nombre": "Gargantilla acero dorado",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "XL1087-2 1.jpg",
-        "XL1087-2 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {},
-      "imagenVariantes": "XL1087-2 VARIANTES.jpg"
     },
     {
       "codigo": "XL1421-1",
@@ -8443,7 +8294,7 @@
       "categoria": "Billeteras",
       "medidas": "19,5 X 10 X 2,5CM",
       "precio": 195,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "W0004 1.jpg",
         "W0004 2.jpg",
@@ -8454,10 +8305,7 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Verde": true,
-        "Lila": true,
         "Celeste": true,
-        "Rosado": true,
         "Marron Claro": true,
         "Gris": true
       },
@@ -10196,26 +10044,6 @@
       },
       "variantes": {},
       "imagenVariantes": "FNG6111 VARIANTES.jpg"
-    },
-    {
-      "codigo": "GS9206",
-      "nombre": "Lentes unisex",
-      "descripcion": "XLentes unisex",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 220,
-      "estado": "visible",
-      "imagenes": [
-        "GS9206 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Plateado": true
-      },
-      "variantes": {},
-      "imagenVariantes": "GS9206 VARIANTES.jpg"
     },
     {
       "codigo": "SG25382",
