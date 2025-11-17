@@ -1,6 +1,6 @@
 {
-  "version": 1763083933331,
-  "timestamp": "2025-11-14T01:32:13.331Z",
+  "version": 1763391073953,
+  "timestamp": "2025-11-17T14:51:13.953Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -4739,6 +4739,208 @@
       "imagenVariantes": "ER0014 VARIANTES.jpg"
     },
     {
+      "codigo": "FN25294",
+      "nombre": "Caravanas acero hoja",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 65,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25294 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25295",
+      "nombre": "Caravanas acero Arbol",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 65,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25295 1.jpg",
+        "FN25295 2.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25120",
+      "nombre": "Aros acero",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 75,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25120 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25007",
+      "nombre": "Aros acero",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 120,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25007 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25269",
+      "nombre": "Caravanas acero",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 120,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25269 1.jpg",
+        "FN25269 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25239",
+      "nombre": "Caravanas acero",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 105,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25239 1.jpg",
+        "FN25239 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25051",
+      "nombre": "Caravanas acero",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 135,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25051 1.jpg",
+        "FN25051 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25343",
+      "nombre": "Caravanas acero",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 120,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25343 1.jpg",
+        "FN25343 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25485",
+      "nombre": "Caravanas acero",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 120,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25485 1.jpg",
+        "FN25485 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25080",
+      "nombre": "Aros acero 2,2cm",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "22mm",
+      "precio": 105,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25080 1.jpg",
+        "FN25080 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25290",
+      "nombre": "Caravanas acero",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 85,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25290 1.jpg",
+        "FN25290 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
       "codigo": "ER8007",
       "nombre": "Caravanas acero",
       "descripcion": "Caravanas acero",
@@ -4851,6 +5053,60 @@
       "variantes": {}
     },
     {
+      "codigo": "FN25266",
+      "nombre": "Abridores acero",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 65,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25266 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25268",
+      "nombre": "Abridores acero",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 65,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25268 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25270",
+      "nombre": "Abridores acero",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 65,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25270 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
       "codigo": "EA0006",
       "nombre": "Abridores acero",
       "descripcion": "Caravanas acero",
@@ -4915,6 +5171,26 @@
       "variantes": {}
     },
     {
+      "codigo": "FN25077",
+      "nombre": "Caravanas acero",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 50,
+      "estado": "visible",
+      "imagenes": [
+        "FN25077 1.jpg",
+        "FN25077 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Blanco": true
+      },
+      "variantes": {}
+    },
+    {
       "codigo": "FN2201",
       "nombre": "Caravanas acero",
       "descripcion": "Caravanas acero",
@@ -4945,6 +5221,63 @@
       "permitirSurtido": true,
       "colores": {
         "Dorado": true,
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25362",
+      "nombre": "Aros acero 15mm",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "1,5CM",
+      "precio": 36,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25362 1.jpg",
+        "FN25362 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25363",
+      "nombre": "Aros acero 20mm",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "2CM",
+      "precio": 42,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25363 1.jpg",
+        "FN25363 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25365",
+      "nombre": "Aros acero 25mm",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "2,5CM",
+      "precio": 48,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25365 1.jpg",
+        "FN25365 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
         "Plateado": true
       },
       "variantes": {}
@@ -7291,6 +7624,54 @@
       ],
       "sinColor": true,
       "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25278",
+      "nombre": "Pulsera acero",
+      "descripcion": "Pulsera acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 145,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25278 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25279",
+      "nombre": "Pulsera acero",
+      "descripcion": "Pulsera acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 145,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25279 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25281",
+      "nombre": "Pulsera acero",
+      "descripcion": "Pulsera acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 145,
+      "estado": "Novedad",
+      "imagenes": [
+        "FN25281 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
       "colores": {},
       "variantes": {}
     },
@@ -10245,6 +10626,26 @@
       "variantes": {}
     },
     {
+      "codigo": "SG2425",
+      "nombre": "Lentes de sol",
+      "descripcion": "XLentes unisex",
+      "categoria": "Lentes de sol",
+      "medidas": "",
+      "precio": 220,
+      "estado": "visible",
+      "imagenes": [
+        "SG2425 1.jpg",
+        "SG2425 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Animal Print": true
+      },
+      "variantes": {}
+    },
+    {
       "codigo": "SG25402",
       "nombre": "Lentes de sol",
       "descripcion": "XLentes unisex",
@@ -10339,6 +10740,105 @@
       "colores": {
         "Negro": true,
         "Tonos marrones": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "SG25417",
+      "nombre": "Lentes de sol",
+      "descripcion": "XLentes unisex",
+      "categoria": "Lentes de sol",
+      "medidas": "",
+      "precio": 330,
+      "estado": "Novedad",
+      "imagenes": [
+        "SG25417 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Tonos marrones": true,
+        "Gris": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "SG25418",
+      "nombre": "Lentes de sol",
+      "descripcion": "XLentes unisex",
+      "categoria": "Lentes de sol",
+      "medidas": "",
+      "precio": 330,
+      "estado": "Novedad",
+      "imagenes": [
+        "SG25418 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Marron Claro": true,
+        "Marron Oscuro": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "SG25419",
+      "nombre": "Lentes de sol",
+      "descripcion": "XLentes unisex",
+      "categoria": "Lentes de sol",
+      "medidas": "",
+      "precio": 330,
+      "estado": "Novedad",
+      "imagenes": [
+        "SG25419 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Tonos marrones": true,
+        "Lila": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "SG25420",
+      "nombre": "Lentes de sol",
+      "descripcion": "XLentes unisex",
+      "categoria": "Lentes de sol",
+      "medidas": "",
+      "precio": 330,
+      "estado": "Novedad",
+      "imagenes": [
+        "SG25420 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {
+        "Negro": true,
+        "Tonos marrones": true,
+        "Gris": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "SG2725",
+      "nombre": "Lentes de sol polarizados",
+      "descripcion": "XLentes unisex",
+      "categoria": "Lentes de sol",
+      "medidas": "",
+      "precio": 245,
+      "estado": "visible",
+      "imagenes": [
+        "SG2725 1.jpg",
+        "SG2725 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Negro": true
       },
       "variantes": {}
     },
