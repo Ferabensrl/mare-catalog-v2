@@ -1,6 +1,6 @@
 {
-  "version": 1763551705791,
-  "timestamp": "2025-11-19T11:28:25.791Z",
+  "version": 1763555612674,
+  "timestamp": "2025-11-19T12:33:32.674Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -37,7 +37,11 @@
       "precio": 390,
       "estado": "visible",
       "imagenes": [
-        "LB676 1.jpg"
+        "LB676 1.jpg",
+        "LB676 2.jpg",
+        "LB676 3.jpg",
+        "LB676 4.jpg",
+        "LB676 5.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -1506,7 +1510,8 @@
       "precio": 595,
       "estado": "visible",
       "imagenes": [
-        "LB6620 1.jpg"
+        "LB6620 1.jpg",
+        "LB6620 2.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -5564,7 +5569,8 @@
       "precio": 130,
       "estado": "visible",
       "imagenes": [
-        "NK5294-22 1.jpg"
+        "NK5294-22 1.jpg",
+        "NK5294-22 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
