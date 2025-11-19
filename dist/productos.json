@@ -1,6 +1,6 @@
 {
-  "version": 1763391413247,
-  "timestamp": "2025-11-17T14:56:53.247Z",
+  "version": 1763551705791,
+  "timestamp": "2025-11-19T11:28:25.791Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -1092,7 +1092,10 @@
       "estado": "visible",
       "imagenes": [
         "LB5019 1.jpg",
-        "LB5019 2.jpg"
+        "LB5019 2.jpg",
+        "LB5019 3.jpg",
+        "LB5019 4.jpg",
+        "LB5019 5.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -1307,7 +1310,6 @@
       "colores": {
         "Negro": true,
         "Lila": true,
-        "Rosado": true,
         "Gris": true,
         "Rojo": true,
         "Rosa Viejo": true
@@ -1982,25 +1984,6 @@
         "B433 3.jpg",
         "B433 4.jpg",
         "B433 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "B446",
-      "nombre": "Colero",
-      "descripcion": "Colero",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 33,
-      "estado": "visible",
-      "imagenes": [
-        "B446 1.jpg",
-        "B446 2.jpg",
-        "B446 3.jpg",
-        "B446 4.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -3806,25 +3789,6 @@
       "variantes": {}
     },
     {
-      "codigo": "H0011",
-      "nombre": "Set pinzas x4",
-      "descripcion": "Set de pinzas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 42,
-      "estado": "visible",
-      "imagenes": [
-        "H0011 1.jpg",
-        "H0011 2.jpg",
-        "H0011 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {},
-      "imagenVariantes": "H0011 VARIANTES.jpg"
-    },
-    {
       "codigo": "H0018",
       "nombre": "Set x 3 pinzas",
       "descripcion": "Set de pinzas",
@@ -5107,22 +5071,6 @@
       "variantes": {}
     },
     {
-      "codigo": "EA0006",
-      "nombre": "Abridores acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 55,
-      "estado": "visible",
-      "imagenes": [
-        "EA0006 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "EA0006-2",
       "nombre": "Abridores acero dorado",
       "descripcion": "Caravanas acero",
@@ -5132,22 +5080,6 @@
       "estado": "visible",
       "imagenes": [
         "EA0006-2 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "EA0008",
-      "nombre": "Abridores acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 55,
-      "estado": "visible",
-      "imagenes": [
-        "EA0008 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -5427,22 +5359,6 @@
       "variantes": {}
     },
     {
-      "codigo": "FN25308",
-      "nombre": "Caravanas acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 40,
-      "estado": "visible",
-      "imagenes": [
-        "FN25308 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "FN24242",
       "nombre": "Caravanas acero",
       "descripcion": "Caravanas acero",
@@ -5484,22 +5400,6 @@
       "estado": "visible",
       "imagenes": [
         "252406 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "252409",
-      "nombre": "Aros acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 85,
-      "estado": "visible",
-      "imagenes": [
-        "252409 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -6567,23 +6467,6 @@
       "imagenes": [
         "310424G 1.jpg",
         "310424G 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "35564",
-      "nombre": "Cadena acero y dije enchapado Buho",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 175,
-      "estado": "visible",
-      "imagenes": [
-        "35564 1.jpg",
-        "35564 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -8694,32 +8577,6 @@
       "imagenVariantes": "W0004 VARIANTES.jpg"
     },
     {
-      "codigo": "W2001",
-      "nombre": "Billetera dama",
-      "descripcion": "Billetera dama larga",
-      "categoria": "Billeteras",
-      "medidas": "19 X 10 X 3CM",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "W2001 1.jpg",
-        "W2001 2.jpg",
-        "W2001 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Nude": true,
-        "Celeste": true,
-        "Rosado": true,
-        "Beige": true,
-        "Bordeaux": true,
-        "Rosa Viejo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "W2001 VARIANTES.jpg"
-    },
-    {
       "codigo": "W2002",
       "nombre": "Billetera dama jean",
       "descripcion": "Billetera dama larga",
@@ -8742,30 +8599,6 @@
         "C3": true
       },
       "imagenVariantes": "W2002 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FN368",
-      "nombre": "Billetera dama",
-      "descripcion": "Billetera dama larga",
-      "categoria": "Billeteras",
-      "medidas": "",
-      "precio": 220,
-      "estado": "visible",
-      "imagenes": [
-        "FN368 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Amarillo": true,
-        "Celeste": true,
-        "Rosado": true,
-        "Marron Claro": true,
-        "Verde Agua": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FN368 VARIANTES.jpg"
     },
     {
       "codigo": "FN360",
@@ -13148,22 +12981,6 @@
       "variantes": {}
     },
     {
-      "codigo": "50142B",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 120,
-      "estado": "visible",
-      "imagenes": [
-        "50142B 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "210322",
       "nombre": "Caravanas enchapadas plata",
       "descripcion": "Caravanas enchapadas plata",
@@ -13590,22 +13407,6 @@
       "variantes": {}
     },
     {
-      "codigo": "PL70221",
-      "nombre": "Pulsera enchapada oro infantil Mariposa",
-      "descripcion": "Enchapado infantil",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "PL70221 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "70660",
       "nombre": "Pulsera enchapada oro infantil Luna",
       "descripcion": "Enchapado infantil",
@@ -13740,22 +13541,6 @@
       "variantes": {}
     },
     {
-      "codigo": "70310",
-      "nombre": "Pulsera enchapada oro infantil perlitas y brillo",
-      "descripcion": "Enchapado infantil",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "70310 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "PL70231",
       "nombre": "Pulsera enchapada oro infantil Emoji",
       "descripcion": "Enchapado infantil",
@@ -13849,22 +13634,6 @@
       "estado": "visible",
       "imagenes": [
         "70666 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "710492",
-      "nombre": "Pulsera enchapada plata infantil corazón",
-      "descripcion": "Enchapado infantil",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 125,
-      "estado": "visible",
-      "imagenes": [
-        "710492 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -14457,8 +14226,7 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Varios colores": true,
-        "Rosado": true
+        "Varios colores": true
       },
       "variantes": {}
     },
@@ -14496,8 +14264,7 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Varios colores": true,
-        "Rosado": true
+        "Varios colores": true
       },
       "variantes": {}
     },
@@ -15242,8 +15009,7 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Blanco": true,
-        "Rosado": true
+        "Blanco": true
       },
       "variantes": {}
     },
