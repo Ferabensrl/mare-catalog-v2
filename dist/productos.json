@@ -1,6 +1,6 @@
 {
-  "version": 1763555612674,
-  "timestamp": "2025-11-19T12:33:32.674Z",
+  "version": 1763689018407,
+  "timestamp": "2025-11-21T01:36:58.407Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -74,8 +74,7 @@
         "Negro": true,
         "Nude": true,
         "Amarillo": true,
-        "Rosado": true,
-        "Rojo": true
+        "Rosado": true
       },
       "variantes": {},
       "imagenVariantes": "B11015 VARIANTES.jpg"
@@ -202,8 +201,7 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Verde Agua": true,
-        "Salmon": true
+        "Verde Agua": true
       },
       "variantes": {},
       "imagenVariantes": "FN4009 VARIANTES.jpg"
@@ -695,7 +693,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Blanco": true,
         "Azul": true
       },
       "variantes": {},
@@ -1776,8 +1773,7 @@
       "colores": {
         "Verde": true,
         "Celeste": true,
-        "Rosado": true,
-        "Azul": true
+        "Rosado": true
       },
       "variantes": {},
       "imagenVariantes": "FN5012 VARIANTES.jpg"
@@ -4539,23 +4535,6 @@
       "variantes": {}
     },
     {
-      "codigo": "EA33001-10",
-      "nombre": "Caravanas acero dorado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "10mm",
-      "precio": 48,
-      "estado": "visible",
-      "imagenes": [
-        "EA33001-10 1.jpg",
-        "EA33001-10 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "EA22003-2",
       "nombre": "Aros acero dorado",
       "descripcion": "Caravanas acero",
@@ -4598,22 +4577,6 @@
       "estado": "visible",
       "imagenes": [
         "EA33001-8 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "EA22002-8",
-      "nombre": "Caravanas acero plateado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "8mm",
-      "precio": 40,
-      "estado": "visible",
-      "imagenes": [
-        "EA22002-8 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -4698,7 +4661,6 @@
       "permitirSurtido": true,
       "colores": {},
       "variantes": {
-        "C1": true,
         "C2": true,
         "C3": true,
         "C4": true,
@@ -5073,22 +5035,6 @@
       "colores": {
         "Plateado": true
       },
-      "variantes": {}
-    },
-    {
-      "codigo": "EA0006-2",
-      "nombre": "Abridores acero dorado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 60,
-      "estado": "visible",
-      "imagenes": [
-        "EA0006-2 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
       "variantes": {}
     },
     {
@@ -5969,23 +5915,6 @@
       "variantes": {}
     },
     {
-      "codigo": "312264P",
-      "nombre": "Cadena acero y dije enchapado flor de liz",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "312264P 1.jpg",
-        "312264P 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "312264M",
       "nombre": "Cadena acero y dije enchapado flor de liz",
       "descripcion": "Gargantilla acero",
@@ -6167,23 +6096,6 @@
       "imagenes": [
         "312044P 1.jpg",
         "312044P 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "312044M",
-      "nombre": "Cadena acero y dije enchapado Flor",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 210,
-      "estado": "visible",
-      "imagenes": [
-        "312044M 1.jpg",
-        "312044M 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -7353,24 +7265,6 @@
       "variantes": {}
     },
     {
-      "codigo": "COLLAR0030",
-      "nombre": "Gargantilla bijou",
-      "descripcion": "Gargantilla bijou",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 125,
-      "estado": "visible",
-      "imagenes": [
-        "COLLAR0030 1.jpg",
-        "COLLAR0030 2.jpg",
-        "COLLAR0030 3.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "SL0077",
       "nombre": "Pulsera acero",
       "descripcion": "Pulsera acero",
@@ -7476,27 +7370,6 @@
       "permitirSurtido": false,
       "colores": {},
       "variantes": {}
-    },
-    {
-      "codigo": "SL0074",
-      "nombre": "Pulsera acero",
-      "descripcion": "Pulsera acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "SL0074 1.jpg",
-        "SL0074 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Dorado": true,
-        "Plateado": true
-      },
-      "variantes": {},
-      "imagenVariantes": "SL0074 VARIANTES.jpg"
     },
     {
       "codigo": "SL0259",
@@ -8127,22 +8000,6 @@
       "imagenes": [
         "SZ0162 1.jpg",
         "SZ0162 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "BR6019",
-      "nombre": "Brazalete acero",
-      "descripcion": "Pulsera acero 2",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 225,
-      "estado": "visible",
-      "imagenes": [
-        "BR6019 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -10446,25 +10303,6 @@
       "variantes": {}
     },
     {
-      "codigo": "SG25399",
-      "nombre": "Lentes de sol polarizados",
-      "descripcion": "XLentes unisex",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 220,
-      "estado": "visible",
-      "imagenes": [
-        "SG25399 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Verde": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "SG2425",
       "nombre": "Lentes de sol",
       "descripcion": "XLentes unisex",
@@ -10500,25 +10338,6 @@
       "colores": {
         "Negro": true,
         "Animal Print": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "SG25401",
-      "nombre": "Lentes de sol",
-      "descripcion": "XLentes unisex",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "SG25401 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Animal Print": true,
-        "Beige": true
       },
       "variantes": {}
     },
@@ -12755,22 +12574,6 @@
       "variantes": {}
     },
     {
-      "codigo": "212900",
-      "nombre": "Caravanas enchapadas oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "212900 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "211550",
       "nombre": "Caravanas enchapadas oro",
       "descripcion": "Caravanas enchapadas oro",
@@ -13354,22 +13157,6 @@
       "estado": "visible",
       "imagenes": [
         "23312 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "211262",
-      "nombre": "Clip enchapadas plata",
-      "descripcion": "Clip enchapados",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 120,
-      "estado": "visible",
-      "imagenes": [
-        "211262 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -14487,25 +14274,6 @@
       "variantes": {}
     },
     {
-      "codigo": "L010911",
-      "nombre": "Gargantilla enchapada en oro infantil",
-      "descripcion": "Enchapado infantil",
-      "categoria": "Z Enchapado",
-      "medidas": "30cm",
-      "precio": 185,
-      "estado": "visible",
-      "imagenes": [
-        "L010911 1.jpg",
-        "L010911 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "RC09931",
       "nombre": "Gargantilla enchapada en oro infantil",
       "descripcion": "Enchapado infantil",
@@ -14523,28 +14291,6 @@
         "Dorado": true
       },
       "variantes": {}
-    },
-    {
-      "codigo": "40162",
-      "nombre": "Gargantilla enchapada Punto de luz",
-      "descripcion": "Gargantilla enchapada",
-      "categoria": "Z Enchapado",
-      "medidas": "40+5cm",
-      "precio": 275,
-      "estado": "visible",
-      "imagenes": [
-        "40162 1.jpg",
-        "40162 2.jpg",
-        "40162 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {
-        "C1": true,
-        "C2": true
-      },
-      "imagenVariantes": "40162 VARIANTES.jpg"
     },
     {
       "codigo": "60512",
