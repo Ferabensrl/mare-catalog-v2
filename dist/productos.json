@@ -1,6 +1,6 @@
 {
-  "version": 1763689018407,
-  "timestamp": "2025-11-21T01:36:58.407Z",
+  "version": 1763942477489,
+  "timestamp": "2025-11-24T00:01:17.489Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -71,7 +71,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Nude": true,
         "Amarillo": true,
         "Rosado": true
@@ -864,8 +863,7 @@
       "colores": {
         "Negro": true,
         "Lila": true,
-        "Verde claro": true,
-        "Combinado": true
+        "Verde claro": true
       },
       "variantes": {},
       "imagenVariantes": "B152402 VARIANTES.jpg"
@@ -1258,7 +1256,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Beige": true,
         "Gris": true,
         "Azul": true
       },
@@ -1310,10 +1307,8 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Lila": true,
         "Gris": true,
-        "Rojo": true,
-        "Rosa Viejo": true
+        "Rojo": true
       },
       "variantes": {},
       "imagenVariantes": "H002 VARIANTES.jpg"
@@ -1361,6 +1356,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
+        "Negro": true,
+        "Rosado": true,
         "Gris": true,
         "Rojo": true
       },
@@ -1385,7 +1382,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Rosado": true,
         "Marron Claro": true,
         "Rojo": true,
@@ -1821,8 +1817,7 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Crudo": true,
-        "Combinado": true
+        "Crudo": true
       },
       "variantes": {},
       "imagenVariantes": "FN5018 VARIANTES.jpg"
@@ -2250,28 +2245,12 @@
       "imagenVariantes": "C037 VARIANTES.jpg"
     },
     {
-      "codigo": "C013",
+      "codigo": "C013-1",
       "nombre": "Vincha negra plastico lisa",
       "descripcion": "Diademas",
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 20,
-      "estado": "visible",
-      "imagenes": [
-        "C013 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "C013-1",
-      "nombre": "Vincha negra plastico ancha",
-      "descripcion": "Diademas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 24,
       "estado": "visible",
       "imagenes": [
         "C013-1 1.jpg"
@@ -2282,21 +2261,18 @@
       "variantes": {}
     },
     {
-      "codigo": "D035",
-      "nombre": "Pinza",
-      "descripcion": "Pinza",
+      "codigo": "C013-3",
+      "nombre": "Vincha negra plastico ancha",
+      "descripcion": "Diademas",
       "categoria": "Accesorios para pelo",
       "medidas": "",
-      "precio": 50,
+      "precio": 24,
       "estado": "visible",
       "imagenes": [
-        "D035 1.jpg",
-        "D035 2.jpg",
-        "D035 3.jpg",
-        "D035 4.jpg"
+        "C013-3 1.jpg"
       ],
-      "sinColor": false,
-      "permitirSurtido": true,
+      "sinColor": true,
+      "permitirSurtido": false,
       "colores": {},
       "variantes": {}
     },
@@ -3567,28 +3543,6 @@
       "variantes": {}
     },
     {
-      "codigo": "B452",
-      "nombre": "Set coleros x4",
-      "descripcion": "Set colitas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 33,
-      "estado": "Poco stock",
-      "imagenes": [
-        "B452 1.jpg",
-        "B452 2.jpg",
-        "B452 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Tonos marrones": true,
-        "Tonos pastel": true,
-        "Varios colores": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "B458",
       "nombre": "Set coleros x2",
       "descripcion": "Set colitas",
@@ -3812,26 +3766,6 @@
       },
       "variantes": {},
       "imagenVariantes": "H0018 VARIANTES.jpg"
-    },
-    {
-      "codigo": "100390",
-      "nombre": "Set x3 pinzas",
-      "descripcion": "Set de pinzas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 49,
-      "estado": "visible",
-      "imagenes": [
-        "100390 1.jpg",
-        "100390 2.jpg",
-        "100390 3.jpg",
-        "100390 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {},
-      "imagenVariantes": "100390 VARIANTES.jpg"
     },
     {
       "codigo": "100325",
@@ -4888,22 +4822,6 @@
       "variantes": {}
     },
     {
-      "codigo": "24001",
-      "nombre": "Set de brillos x3",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 79,
-      "estado": "visible",
-      "imagenes": [
-        "24001 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "ER004",
       "nombre": "Set caravanas x3",
       "descripcion": "Caravanas acero",
@@ -4916,22 +4834,6 @@
       ],
       "sinColor": false,
       "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "ER6068",
-      "nombre": "Caravanas acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "ER6068 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
       "colores": {},
       "variantes": {}
     },
@@ -6419,23 +6321,6 @@
       "imagenes": [
         "36494GG 1.jpg",
         "36494GG 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "312774M",
-      "nombre": "Cadena acero y dije enchapado Flor",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 215,
-      "estado": "visible",
-      "imagenes": [
-        "312774M 1.jpg",
-        "312774M 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -8124,7 +8009,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Lila": true,
         "Celeste": true,
         "Beige": true,
@@ -8178,7 +8062,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Rosado": true,
         "Fucsia": true,
         "Marron Claro": true,
@@ -9684,8 +9567,7 @@
       "variantes": {
         "C2": true,
         "C3": true,
-        "C5": true,
-        "C6": true
+        "C5": true
       },
       "imagenVariantes": "CBB008 VARIANTES.jpg"
     },
@@ -13450,24 +13332,6 @@
       "variantes": {}
     },
     {
-      "codigo": "710042",
-      "nombre": "Pulsera enchapada plata infantil corazón",
-      "descripcion": "Enchapado infantil",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 125,
-      "estado": "visible",
-      "imagenes": [
-        "710042 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Rosado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "711032",
       "nombre": "Pulsera enchapada plata infantil Chapita",
       "descripcion": "Enchapado infantil",
@@ -14406,25 +14270,6 @@
       "variantes": {}
     },
     {
-      "codigo": "30860",
-      "nombre": "Gargantilla enchapada Ojo turco",
-      "descripcion": "Gargantilla enchapada",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 225,
-      "estado": "visible",
-      "imagenes": [
-        "30860 1.jpg",
-        "30860 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "313230",
       "nombre": "Gargantilla enchapada Trebol",
       "descripcion": "Gargantilla enchapada",
@@ -14766,23 +14611,6 @@
       "variantes": {}
     },
     {
-      "codigo": "56000PI",
-      "nombre": "Gargantilla enchapada corazón",
-      "descripcion": "Gargantilla enchapada",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 235,
-      "estado": "visible",
-      "imagenes": [
-        "56000PI 1.jpg",
-        "56000PI 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "510530PI",
       "nombre": "Gargantilla enchapada",
       "descripcion": "Gargantilla enchapada",
@@ -14890,22 +14718,6 @@
       "colores": {
         "Plateado": true
       },
-      "variantes": {}
-    },
-    {
-      "codigo": "310440",
-      "nombre": "Manito prendedor",
-      "descripcion": "Manito prendedor",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 165,
-      "estado": "visible",
-      "imagenes": [
-        "310440 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
       "variantes": {}
     }
   ]
