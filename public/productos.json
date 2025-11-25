@@ -1,6 +1,6 @@
 {
-  "version": 1764035197988,
-  "timestamp": "2025-11-25T01:46:37.988Z",
+  "version": 1764112713069,
+  "timestamp": "2025-11-25T23:18:33.069Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -1029,8 +1029,7 @@
       "permitirSurtido": true,
       "colores": {
         "Verde": true,
-        "Rosado": true,
-        "Gris": true
+        "Rosado": true
       },
       "variantes": {},
       "imagenVariantes": "B1119 VARIANTES.jpg"
@@ -1169,10 +1168,7 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Blanco": true,
-        "Varios colores": true,
-        "Verde": true,
-        "Azul": true
+        "Verde": true
       },
       "variantes": {},
       "imagenVariantes": "BAG9501 VARIANTES.jpg"
@@ -1922,25 +1918,6 @@
       "variantes": {}
     },
     {
-      "codigo": "HC0001",
-      "nombre": "Colero con luz led",
-      "descripcion": "Colero",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 35,
-      "estado": "Poco stock",
-      "imagenes": [
-        "HC0001 1.jpg",
-        "HC0001 2.jpg",
-        "HC0001 3.jpg",
-        "HC0001 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "B428",
       "nombre": "Colero",
       "descripcion": "Colero",
@@ -2087,26 +2064,6 @@
       "colores": {},
       "variantes": {},
       "imagenVariantes": "FN25745 VARIANTES.jpg"
-    },
-    {
-      "codigo": "3220",
-      "nombre": "Colero con caritas",
-      "descripcion": "Colero",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 60,
-      "estado": "visible",
-      "imagenes": [
-        "3220 1.jpg",
-        "3220 2.jpg",
-        "3220 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Blanco": true
-      },
-      "variantes": {}
     },
     {
       "codigo": "C071",
@@ -5886,23 +5843,6 @@
       "imagenes": [
         "310114M 1.jpg",
         "310114M 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "312044P",
-      "nombre": "Cadena acero y dije enchapado Flor",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 150,
-      "estado": "visible",
-      "imagenes": [
-        "312044P 1.jpg",
-        "312044P 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -12054,22 +11994,6 @@
       "variantes": {}
     },
     {
-      "codigo": "55130",
-      "nombre": "Caravanas enchapadas oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "55130 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "211270",
       "nombre": "Caravanas enchapadas oro",
       "descripcion": "Caravanas enchapadas oro",
@@ -12134,24 +12058,6 @@
       "estado": "visible",
       "imagenes": [
         "28430 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "27910",
-      "nombre": "Caravanas enchapadas oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 75,
-      "estado": "visible",
-      "imagenes": [
-        "27910 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": false,
@@ -12928,22 +12834,6 @@
       "estado": "visible",
       "imagenes": [
         "23572 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "23312",
-      "nombre": "Clip enchapadas plata",
-      "descripcion": "Clip enchapados",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "23312 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
