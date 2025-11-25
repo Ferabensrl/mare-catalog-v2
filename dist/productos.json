@@ -1,6 +1,6 @@
 {
-  "version": 1763942477489,
-  "timestamp": "2025-11-24T00:01:17.489Z",
+  "version": 1764035197988,
+  "timestamp": "2025-11-25T01:46:37.988Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -2169,25 +2169,6 @@
       "variantes": {}
     },
     {
-      "codigo": "C038",
-      "nombre": "Diademas",
-      "descripcion": "Diademas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 29,
-      "estado": "visible",
-      "imagenes": [
-        "C038 1.jpg",
-        "C038 2.jpg",
-        "C038 3.jpg",
-        "C038 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "C040",
       "nombre": "Diademas",
       "descripcion": "Diademas",
@@ -2670,25 +2651,6 @@
       "colores": {},
       "variantes": {},
       "imagenVariantes": "D251 VARIANTES.jpg"
-    },
-    {
-      "codigo": "D218",
-      "nombre": "Pinza",
-      "descripcion": "Pinza",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 50,
-      "estado": "visible",
-      "imagenes": [
-        "D218 1.jpg",
-        "D218 2.jpg",
-        "D218 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {},
-      "imagenVariantes": "D218 VARIANTES.jpg"
     },
     {
       "codigo": "3216",
@@ -3725,25 +3687,6 @@
       "variantes": {}
     },
     {
-      "codigo": "100324",
-      "nombre": "Set x 6 pinzas chicas",
-      "descripcion": "Set de pinzas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 65,
-      "estado": "visible",
-      "imagenes": [
-        "100324 1.jpg",
-        "100324 2.jpg",
-        "100324 3.jpg",
-        "100324 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "H0018",
       "nombre": "Set x 3 pinzas",
       "descripcion": "Set de pinzas",
@@ -3809,10 +3752,7 @@
       ],
       "sinColor": false,
       "permitirSurtido": true,
-      "colores": {
-        "Fucsia": true,
-        "Rojo": true
-      },
+      "colores": {},
       "variantes": {},
       "imagenVariantes": "D061 VARIANTES.jpg"
     },
@@ -3908,25 +3848,6 @@
         "G41 2.jpg",
         "G41 3.jpg",
         "G41 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "G52",
-      "nombre": "Set pinzas x2",
-      "descripcion": "Set pinzas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 42,
-      "estado": "visible",
-      "imagenes": [
-        "G52 1.jpg",
-        "G52 2.jpg",
-        "G52 3.jpg",
-        "G52 4.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -4495,22 +4416,6 @@
       "estado": "visible",
       "imagenes": [
         "EA22001 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "EA33001-8",
-      "nombre": "Caravanas acero dorado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "8mm",
-      "precio": 45,
-      "estado": "visible",
-      "imagenes": [
-        "EA33001-8 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
