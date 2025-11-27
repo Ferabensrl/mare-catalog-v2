@@ -1,6 +1,6 @@
 {
-  "version": 1764112713069,
-  "timestamp": "2025-11-25T23:18:33.069Z",
+  "version": 1764202274026,
+  "timestamp": "2025-11-27T00:11:14.026Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -570,7 +570,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Blanco": true,
         "Marron Oscuro": true
       },
@@ -1004,9 +1003,8 @@
         "FN5021 3.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
-        "Negro": true,
         "Beige": true
       },
       "variantes": {},
@@ -2212,31 +2210,6 @@
       "sinColor": true,
       "permitirSurtido": false,
       "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "D131",
-      "nombre": "Pinza varios diseños",
-      "descripcion": "Pinza",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 45,
-      "estado": "visible",
-      "imagenes": [
-        "D131 1.jpg",
-        "D131 2.jpg",
-        "D131 3.jpg",
-        "D131 4.jpg",
-        "D131 5.jpg",
-        "D131 6.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Marron Oscuro": true,
-        "Salmon": true
-      },
       "variantes": {}
     },
     {
@@ -9386,7 +9359,6 @@
       "permitirSurtido": true,
       "colores": {
         "Blanco": true,
-        "Rosado": true,
         "Fucsia": true
       },
       "variantes": {},
@@ -11602,25 +11574,6 @@
       "colores": {},
       "variantes": {},
       "imagenVariantes": "CAJRE008 VARIANTES.jpg"
-    },
-    {
-      "codigo": "J1808",
-      "nombre": "Caja relojes",
-      "descripcion": "Caja relojes",
-      "categoria": "x Estuches",
-      "medidas": "",
-      "precio": 40,
-      "estado": "visible",
-      "imagenes": [
-        "J1808 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Azul": true
-      },
-      "variantes": {}
     },
     {
       "codigo": "ESTUCHE3179",
