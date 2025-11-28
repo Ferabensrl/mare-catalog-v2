@@ -1,6 +1,6 @@
 {
-  "version": 1764334788555,
-  "timestamp": "2025-11-28T12:59:48.555Z",
+  "version": 1764338322755,
+  "timestamp": "2025-11-28T13:58:42.755Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -1861,10 +1861,11 @@
       "descripcion": "Colero",
       "categoria": "Accesorios para pelo",
       "medidas": "",
-      "precio": 22,
+      "precio": 25,
       "estado": "visible",
       "imagenes": [
-        "B332 1.jpg"
+        "B332 1.jpg",
+        "B332 2.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -2821,6 +2822,24 @@
       "variantes": {}
     },
     {
+      "codigo": "B201",
+      "nombre": "Set colitas x2",
+      "descripcion": "Set colitas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 33,
+      "estado": "visible",
+      "imagenes": [
+        "B201 1.jpg",
+        "B201 2.jpg",
+        "B201 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
       "codigo": "B071",
       "nombre": "Set colitas x2",
       "descripcion": "Set colitas",
@@ -3004,7 +3023,8 @@
       "precio": 33,
       "estado": "visible",
       "imagenes": [
-        "B139 1.jpg"
+        "B139 1.jpg",
+        "B139 2.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -3065,28 +3085,6 @@
         "B161 2.jpg",
         "B161 3.jpg",
         "B161 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Tonos marrones": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "B027",
-      "nombre": "Set colitas x2",
-      "descripcion": "Set colitas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 33,
-      "estado": "visible",
-      "imagenes": [
-        "B027 1.jpg",
-        "B027 2.jpg",
-        "B027 3.jpg",
-        "B027 4.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -3191,7 +3189,8 @@
       "precio": 23,
       "estado": "visible",
       "imagenes": [
-        "B203 1.jpg"
+        "B203 1.jpg",
+        "B203 2.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -3286,7 +3285,8 @@
       "precio": 33,
       "estado": "visible",
       "imagenes": [
-        "B233 1.jpg"
+        "B233 1.jpg",
+        "B233 2.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -3305,7 +3305,9 @@
       "precio": 39,
       "estado": "visible",
       "imagenes": [
-        "B246 1.jpg"
+        "B246 1.jpg",
+        "B246 2.jpg",
+        "B246 3.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -3325,7 +3327,8 @@
       "precio": 33,
       "estado": "visible",
       "imagenes": [
-        "B277 1.jpg"
+        "B277 1.jpg",
+        "B277 2.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -3791,7 +3794,8 @@
       "precio": 35,
       "estado": "visible",
       "imagenes": [
-        "G55 1.jpg"
+        "G55 1.jpg",
+        "G55 2.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
