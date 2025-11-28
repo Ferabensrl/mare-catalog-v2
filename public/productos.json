@@ -1,6 +1,6 @@
 {
-  "version": 1764202274026,
-  "timestamp": "2025-11-27T00:11:14.026Z",
+  "version": 1764334788555,
+  "timestamp": "2025-11-28T12:59:48.555Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -473,8 +473,7 @@
       "permitirSurtido": true,
       "colores": {
         "Nude": true,
-        "Celeste": true,
-        "Terracota": true
+        "Celeste": true
       },
       "variantes": {},
       "imagenVariantes": "LB252 VARIANTES.jpg"
@@ -1149,29 +1148,6 @@
       "variantes": {}
     },
     {
-      "codigo": "BAG9501",
-      "nombre": "Bandolera",
-      "descripcion": "Bandolera",
-      "categoria": "A Marroquineria",
-      "medidas": "26 x 22 x 12cm",
-      "precio": 490,
-      "estado": "Poco stock",
-      "imagenes": [
-        "BAG9501 1.jpg",
-        "BAG9501 2.jpg",
-        "BAG9501 3.jpg",
-        "BAG9501 4.jpg",
-        "BAG9501 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Verde": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BAG9501 VARIANTES.jpg"
-    },
-    {
       "codigo": "BAG9504",
       "nombre": "Bandolera",
       "descripcion": "Bandolera",
@@ -1577,7 +1553,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Celeste": true,
         "Fucsia": true
       },
@@ -4317,23 +4292,6 @@
       "colores": {
         "Dorado": true
       },
-      "variantes": {}
-    },
-    {
-      "codigo": "EA22003-2",
-      "nombre": "Aros acero dorado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 48,
-      "estado": "visible",
-      "imagenes": [
-        "EA22003-2 1.jpg",
-        "EA22003-2 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
       "variantes": {}
     },
     {
@@ -10012,25 +9970,6 @@
       "imagenes": [
         "SG2425 1.jpg",
         "SG2425 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Animal Print": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "SG25402",
-      "nombre": "Lentes de sol",
-      "descripcion": "XLentes unisex",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "SG25402 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
