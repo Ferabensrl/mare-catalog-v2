@@ -1,6 +1,6 @@
 {
-  "version": 1764338322755,
-  "timestamp": "2025-11-28T13:58:42.755Z",
+  "version": 1764374566151,
+  "timestamp": "2025-11-29T00:02:46.151Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -2760,7 +2760,8 @@
       "imagenes": [
         "B045 1.jpg",
         "B045 2.jpg",
-        "B045 3.jpg"
+        "B045 3.jpg",
+        "B045 4.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -7790,7 +7791,6 @@
       "permitirSurtido": true,
       "colores": {
         "Lila": true,
-        "Celeste": true,
         "Beige": true,
         "Marron Claro": true,
         "Bordeaux": true
