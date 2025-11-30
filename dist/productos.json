@@ -1,6 +1,6 @@
 {
-  "version": 1764374566151,
-  "timestamp": "2025-11-29T00:02:46.151Z",
+  "version": 1764546267967,
+  "timestamp": "2025-11-30T23:44:27.967Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -12478,22 +12478,6 @@
       "variantes": {}
     },
     {
-      "codigo": "21512",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 185,
-      "estado": "visible",
-      "imagenes": [
-        "21512 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "20732",
       "nombre": "Caravanas enchapadas plata",
       "descripcion": "Caravanas enchapadas plata",
@@ -13000,22 +12984,6 @@
       "estado": "visible",
       "imagenes": [
         "70666 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "710002",
-      "nombre": "Pulsera enchapada plata infantil corazón",
-      "descripcion": "Enchapado infantil",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 115,
-      "estado": "visible",
-      "imagenes": [
-        "710002 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
