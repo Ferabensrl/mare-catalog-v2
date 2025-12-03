@@ -1,6 +1,6 @@
 {
-  "version": 1764729065498,
-  "timestamp": "2025-12-03T02:31:05.498Z",
+  "version": 1764805333368,
+  "timestamp": "2025-12-03T23:42:13.368Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -1905,7 +1905,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 33,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25733 1.jpg"
       ],
@@ -1922,7 +1922,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 33,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25748 1.jpg"
       ],
@@ -1939,7 +1939,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 43,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25706 1.jpg"
       ],
@@ -1956,7 +1956,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 43,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25742 1.jpg"
       ],
@@ -1973,7 +1973,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 43,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25704 1.jpg"
       ],
@@ -1990,7 +1990,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 43,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25745 1.jpg"
       ],
@@ -1999,6 +1999,70 @@
       "colores": {},
       "variantes": {},
       "imagenVariantes": "FN25745 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FN25053",
+      "nombre": "Colero",
+      "descripcion": "Colero",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 35,
+      "estado": "visible",
+      "imagenes": [
+        "FN25053 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25964",
+      "nombre": "Diademas unicornio",
+      "descripcion": "Diademas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 24,
+      "estado": "visible",
+      "imagenes": [
+        "FN25964 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25981",
+      "nombre": "Diademas gatita",
+      "descripcion": "Diademas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 22,
+      "estado": "visible",
+      "imagenes": [
+        "FN25981 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25968",
+      "nombre": "Diademas Corazones",
+      "descripcion": "Diademas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 22,
+      "estado": "visible",
+      "imagenes": [
+        "FN25968 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
     },
     {
       "codigo": "C071",
@@ -2192,7 +2256,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 33,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25753 1.jpg"
       ],
@@ -2209,7 +2273,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 48,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25758 1.jpg"
       ],
@@ -2226,7 +2290,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 42,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25780 1.jpg"
       ],
@@ -2243,7 +2307,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 33,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25751 1.jpg"
       ],
@@ -2254,30 +2318,13 @@
       "imagenVariantes": "FN25751 VARIANTES.jpg"
     },
     {
-      "codigo": "FN25771",
-      "nombre": "Pinza 6cm",
-      "descripcion": "Pinza",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 35,
-      "estado": "Novedad",
-      "imagenes": [
-        "FN25771 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {},
-      "imagenVariantes": "FN25771 VARIANTES.jpg"
-    },
-    {
       "codigo": "FN25779",
       "nombre": "Pinza 10cm",
       "descripcion": "Pinza",
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 48,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25779 1.jpg",
         "FN25779 2.jpg"
@@ -2295,7 +2342,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 42,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25773 1.jpg"
       ],
@@ -2312,7 +2359,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 35,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25772 1.jpg"
       ],
@@ -2329,7 +2376,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 48,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25770 1.jpg"
       ],
@@ -2346,7 +2393,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 48,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25802 1.jpg"
       ],
@@ -2363,7 +2410,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 42,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25778 1.jpg"
       ],
@@ -2380,7 +2427,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 30,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25707 1.jpg"
       ],
@@ -2391,13 +2438,189 @@
       "imagenVariantes": "FN25707 VARIANTES.jpg"
     },
     {
+      "codigo": "FN2489",
+      "nombre": "Pinza 4cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 28,
+      "estado": "visible",
+      "imagenes": [
+        "FN2489 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN2495",
+      "nombre": "Pinza 4cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 28,
+      "estado": "visible",
+      "imagenes": [
+        "FN2495 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25195",
+      "nombre": "Pinza 4,5cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 25,
+      "estado": "visible",
+      "imagenes": [
+        "FN25195 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN251016",
+      "nombre": "Pinza 4,5cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 25,
+      "estado": "visible",
+      "imagenes": [
+        "FN251016 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN251019",
+      "nombre": "Pinza 4,5cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 25,
+      "estado": "visible",
+      "imagenes": [
+        "FN251019 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN251017",
+      "nombre": "Pinza 4,5cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 25,
+      "estado": "visible",
+      "imagenes": [
+        "FN251017 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN251031",
+      "nombre": "Pinza 4,5cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 25,
+      "estado": "visible",
+      "imagenes": [
+        "FN251031 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN251045",
+      "nombre": "Pinza 4,5cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 25,
+      "estado": "visible",
+      "imagenes": [
+        "FN251045 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN251037",
+      "nombre": "Pinza 4,5cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 25,
+      "estado": "visible",
+      "imagenes": [
+        "FN251037 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN251046",
+      "nombre": "Pinza 6cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 33,
+      "estado": "visible",
+      "imagenes": [
+        "FN251046 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN251030",
+      "nombre": "Pinza 6cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 30,
+      "estado": "visible",
+      "imagenes": [
+        "FN251030 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
       "codigo": "FN25774",
       "nombre": "Pinza 5,5cm",
       "descripcion": "Pinza",
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 33,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25774 1.jpg"
       ],
@@ -2408,13 +2631,45 @@
       "imagenVariantes": "FN25774 VARIANTES.jpg"
     },
     {
+      "codigo": "FN251043",
+      "nombre": "Pinza 6cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 33,
+      "estado": "visible",
+      "imagenes": [
+        "FN251043 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN251008",
+      "nombre": "Pinza 8cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 35,
+      "estado": "visible",
+      "imagenes": [
+        "FN251008 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
       "codigo": "FN25752",
       "nombre": "Pinza 9cm",
       "descripcion": "Pinza",
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 42,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25752 1.jpg"
       ],
@@ -2431,7 +2686,7 @@
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 42,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25775 1.jpg"
       ],
@@ -2440,6 +2695,22 @@
       "colores": {},
       "variantes": {},
       "imagenVariantes": "FN25775 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FN251002",
+      "nombre": "Pinza 11cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 50,
+      "estado": "visible",
+      "imagenes": [
+        "FN251002 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
     },
     {
       "codigo": "D230",
@@ -2875,6 +3146,38 @@
       "variantes": {}
     },
     {
+      "codigo": "FN25312",
+      "nombre": "Set x 5 colitas",
+      "descripcion": "Set colitas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 50,
+      "estado": "visible",
+      "imagenes": [
+        "FN25312 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25253",
+      "nombre": "Set x 5 colitas",
+      "descripcion": "Set colitas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 35,
+      "estado": "visible",
+      "imagenes": [
+        "FN25253 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
       "codigo": "B103",
       "nombre": "Set colitas x10",
       "descripcion": "Set colitas",
@@ -3103,6 +3406,70 @@
       "variantes": {}
     },
     {
+      "codigo": "FN25030",
+      "nombre": "Set colitas x10",
+      "descripcion": "Set colitas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 25,
+      "estado": "visible",
+      "imagenes": [
+        "FN25030 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25316",
+      "nombre": "Set colitas x30",
+      "descripcion": "Set colitas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 38,
+      "estado": "visible",
+      "imagenes": [
+        "FN25316 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25317",
+      "nombre": "Set colitas x30",
+      "descripcion": "Set colitas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 38,
+      "estado": "visible",
+      "imagenes": [
+        "FN25317 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25318",
+      "nombre": "Set colitas x30",
+      "descripcion": "Set colitas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 38,
+      "estado": "visible",
+      "imagenes": [
+        "FN25318 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
       "codigo": "B196",
       "nombre": "Set colitas x5",
       "descripcion": "Set colitas",
@@ -3136,6 +3503,90 @@
       ],
       "sinColor": false,
       "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25243",
+      "nombre": "Set colitas x6",
+      "descripcion": "Set colitas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 55,
+      "estado": "visible",
+      "imagenes": [
+        "FN25243 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25011",
+      "nombre": "Set colitas x6",
+      "descripcion": "Set colitas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 30,
+      "estado": "visible",
+      "imagenes": [
+        "FN25011 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Tonos marrones": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25002",
+      "nombre": "Set colitas x5",
+      "descripcion": "Set colitas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 30,
+      "estado": "visible",
+      "imagenes": [
+        "FN25002 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Tonos marrones": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25010",
+      "nombre": "Set colitas x6",
+      "descripcion": "Set colitas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 30,
+      "estado": "visible",
+      "imagenes": [
+        "FN25010 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25003",
+      "nombre": "Set colitas x5",
+      "descripcion": "Set colitas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 30,
+      "estado": "visible",
+      "imagenes": [
+        "FN25003 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
       "colores": {},
       "variantes": {}
     },
@@ -3601,6 +4052,22 @@
       "imagenVariantes": "D061 VARIANTES.jpg"
     },
     {
+      "codigo": "FN25283",
+      "nombre": "Set accesorios para pelo",
+      "descripcion": "Set pinzas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 55,
+      "estado": "visible",
+      "imagenes": [
+        "FN25283 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
       "codigo": "D241",
       "nombre": "Set x 2 pinzas",
       "descripcion": "Set pinzas",
@@ -3722,6 +4189,22 @@
       "imagenVariantes": "G54 VARIANTES.jpg"
     },
     {
+      "codigo": "FN251199",
+      "nombre": "Set pinzas x2",
+      "descripcion": "Set pinzas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 60,
+      "estado": "visible",
+      "imagenes": [
+        "FN251199 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
       "codigo": "G55",
       "nombre": "Set pinzas x3",
       "descripcion": "Set pinzas",
@@ -3820,6 +4303,22 @@
         "D046 1.jpg",
         "D046 2.jpg",
         "D046 3.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25455",
+      "nombre": "Set sapitos x5",
+      "descripcion": "Set sapitos",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 55,
+      "estado": "visible",
+      "imagenes": [
+        "FN25455 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -4327,7 +4826,7 @@
       "categoria": "Acero",
       "medidas": "",
       "precio": 65,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25294 1.jpg"
       ],
@@ -4343,7 +4842,7 @@
       "categoria": "Acero",
       "medidas": "",
       "precio": 65,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25295 1.jpg",
         "FN25295 2.jpg"
@@ -4360,7 +4859,7 @@
       "categoria": "Acero",
       "medidas": "",
       "precio": 75,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25120 1.jpg"
       ],
@@ -4378,7 +4877,7 @@
       "categoria": "Acero",
       "medidas": "",
       "precio": 120,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25007 1.jpg"
       ],
@@ -4396,7 +4895,7 @@
       "categoria": "Acero",
       "medidas": "",
       "precio": 120,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25269 1.jpg",
         "FN25269 2.jpg"
@@ -4415,7 +4914,7 @@
       "categoria": "Acero",
       "medidas": "",
       "precio": 105,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25239 1.jpg",
         "FN25239 2.jpg"
@@ -4434,7 +4933,7 @@
       "categoria": "Acero",
       "medidas": "",
       "precio": 135,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25051 1.jpg",
         "FN25051 2.jpg"
@@ -4453,7 +4952,7 @@
       "categoria": "Acero",
       "medidas": "",
       "precio": 120,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25343 1.jpg",
         "FN25343 2.jpg"
@@ -4472,7 +4971,7 @@
       "categoria": "Acero",
       "medidas": "",
       "precio": 120,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25485 1.jpg",
         "FN25485 2.jpg"
@@ -4491,7 +4990,7 @@
       "categoria": "Acero",
       "medidas": "22mm",
       "precio": 105,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25080 1.jpg",
         "FN25080 2.jpg"
@@ -4510,7 +5009,7 @@
       "categoria": "Acero",
       "medidas": "",
       "precio": 85,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25290 1.jpg",
         "FN25290 2.jpg"
@@ -4519,6 +5018,96 @@
       "permitirSurtido": false,
       "colores": {
         "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN251158",
+      "nombre": "Caravanas acero",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 75,
+      "estado": "visible",
+      "imagenes": [
+        "FN251158 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN24003",
+      "nombre": "Set x 3 brillos acero 3 tamaños",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 79,
+      "estado": "visible",
+      "imagenes": [
+        "FN24003 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Plateado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "7651-6",
+      "nombre": "Perlas acero dorado 6mm",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 35,
+      "estado": "visible",
+      "imagenes": [
+        "7651-6 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "7651-8",
+      "nombre": "Perlas acero dorado 8mm",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 38,
+      "estado": "visible",
+      "imagenes": [
+        "7651-8 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "7651-10",
+      "nombre": "Perlas acero dorado 10mm",
+      "descripcion": "Caravanas acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 40,
+      "estado": "visible",
+      "imagenes": [
+        "7651-10 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Dorado": true
       },
       "variantes": {}
     },
@@ -4609,7 +5198,7 @@
       "categoria": "Acero",
       "medidas": "",
       "precio": 65,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25266 1.jpg"
       ],
@@ -4627,7 +5216,7 @@
       "categoria": "Acero",
       "medidas": "",
       "precio": 65,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25268 1.jpg"
       ],
@@ -4645,7 +5234,7 @@
       "categoria": "Acero",
       "medidas": "",
       "precio": 65,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25270 1.jpg"
       ],
@@ -4734,7 +5323,7 @@
       "categoria": "Acero",
       "medidas": "1,5CM",
       "precio": 36,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25362 1.jpg",
         "FN25362 2.jpg"
@@ -4753,7 +5342,7 @@
       "categoria": "Acero",
       "medidas": "2CM",
       "precio": 42,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25363 1.jpg",
         "FN25363 2.jpg"
@@ -4772,7 +5361,7 @@
       "categoria": "Acero",
       "medidas": "2,5CM",
       "precio": 48,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25365 1.jpg",
         "FN25365 2.jpg"
@@ -6907,7 +7496,7 @@
       "categoria": "Acero",
       "medidas": "",
       "precio": 145,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25278 1.jpg"
       ],
@@ -6923,7 +7512,7 @@
       "categoria": "Acero",
       "medidas": "",
       "precio": 145,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25279 1.jpg"
       ],
@@ -6939,9 +7528,57 @@
       "categoria": "Acero",
       "medidas": "",
       "precio": 145,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "FN25281 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN251170",
+      "nombre": "Pulsera acero",
+      "descripcion": "Pulsera acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 145,
+      "estado": "visible",
+      "imagenes": [
+        "FN251170 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN251162",
+      "nombre": "Pulsera acero",
+      "descripcion": "Pulsera acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 145,
+      "estado": "visible",
+      "imagenes": [
+        "FN251162 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN251169",
+      "nombre": "Pulsera acero",
+      "descripcion": "Pulsera acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 145,
+      "estado": "visible",
+      "imagenes": [
+        "FN251169 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -9853,7 +10490,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 330,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "SG25417 1.jpg"
       ],
@@ -9873,7 +10510,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 330,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "SG25418 1.jpg"
       ],
@@ -9893,7 +10530,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 330,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "SG25419 1.jpg"
       ],
@@ -9913,7 +10550,7 @@
       "categoria": "Lentes de sol",
       "medidas": "",
       "precio": 330,
-      "estado": "Novedad",
+      "estado": "visible",
       "imagenes": [
         "SG25420 1.jpg"
       ],
