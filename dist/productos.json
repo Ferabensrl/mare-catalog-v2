@@ -1,6 +1,6 @@
 {
-  "version": 1764723108542,
-  "timestamp": "2025-12-03T00:51:48.542Z",
+  "version": 1764729065498,
+  "timestamp": "2025-12-03T02:31:05.498Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -189,14 +189,14 @@
       "categoria": "A Marroquineria",
       "medidas": "",
       "precio": 485,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "FN4009 1.jpg",
         "FN4009 2.jpg",
         "FN4009 3.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
         "Verde Agua": true
       },
@@ -662,7 +662,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Lila": true,
         "Azul": true,
         "Verde Agua": true
@@ -685,7 +684,7 @@
         "BAG016 4.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
         "Azul": true
       },
@@ -755,7 +754,7 @@
         "B013 2.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
         "Verde": true
       },
@@ -1260,7 +1259,7 @@
       "categoria": "A Marroquineria",
       "medidas": "18 X 13,5 X 2CM",
       "precio": 130,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "H002 1.jpg",
         "H002 2.jpg",
@@ -1269,7 +1268,7 @@
         "H002 5.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
         "Gris": true,
         "Rojo": true
@@ -1489,7 +1488,7 @@
       "categoria": "A Marroquineria",
       "medidas": "32 X 13 X 34",
       "precio": 790,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "LB233 1.jpg",
         "LB233 2.jpg",
@@ -1497,7 +1496,7 @@
         "LB233 4.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
         "Negro": true
       },
@@ -1594,7 +1593,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Bordeaux": true,
         "Azul": true
       },
@@ -1876,13 +1874,7 @@
       ],
       "sinColor": false,
       "permitirSurtido": true,
-      "colores": {
-        "Amarillo": true,
-        "Verde": true,
-        "Lila": true,
-        "Celeste": true,
-        "Rosado": true
-      },
+      "colores": {},
       "variantes": {},
       "imagenVariantes": "B428 VARIANTES.jpg"
     },
@@ -2023,11 +2015,7 @@
       ],
       "sinColor": false,
       "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Beige": true,
-        "Azul": true
-      },
+      "colores": {},
       "variantes": {},
       "imagenVariantes": "C071 VARIANTES.jpg"
     },
@@ -2617,7 +2605,8 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Tonos marrones": true
+        "Tonos marrones": true,
+        "Varios colores": true
       },
       "variantes": {},
       "imagenVariantes": "B007 VARIANTES.jpg"
@@ -4067,22 +4056,6 @@
       "variantes": {}
     },
     {
-      "codigo": "NK0008-2MM-50",
-      "nombre": "Cadena acero rolo cuadrado",
-      "descripcion": "Cadena acero",
-      "categoria": "Acero",
-      "medidas": "2mm / 50cm",
-      "precio": 65,
-      "estado": "visible",
-      "imagenes": [
-        "NK0008-2MM-50 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "NK0055-0,4MM-50",
       "nombre": "Cadena acero fina",
       "descripcion": "Cadena acero",
@@ -5001,42 +4974,6 @@
       "sinColor": true,
       "permitirSurtido": false,
       "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "G6932",
-      "nombre": "Conjunto acero",
-      "descripcion": "Conjunto acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "G6932 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "G6964",
-      "nombre": "Conjunto acero",
-      "descripcion": "Conjunto acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 120,
-      "estado": "visible",
-      "imagenes": [
-        "G6964 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Plateado": true
-      },
       "variantes": {}
     },
     {
@@ -7430,50 +7367,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
-      "variantes": {
-        "C1": true,
-        "C2": true,
-        "C3": true,
-        "C4": true,
-        "C5": true,
-        "C6": true,
-        "C7": true,
-        "C9": true,
-        "C10": true
-      },
+      "variantes": {},
       "imagenVariantes": "PULS1001 VARIANTES.jpg"
-    },
-    {
-      "codigo": "PULS6151",
-      "nombre": "Pulsera acero",
-      "descripcion": "Pulsera acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 185,
-      "estado": "visible",
-      "imagenes": [
-        "PULS6151 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "PULS6147",
-      "nombre": "Pulsera acero",
-      "descripcion": "Pulsera acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 185,
-      "estado": "visible",
-      "imagenes": [
-        "PULS6147 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
     },
     {
       "codigo": "SZ989-2",
@@ -7688,7 +7583,7 @@
       "categoria": "Billeteras",
       "medidas": "11,5 x 9 x 2cm",
       "precio": 235,
-      "estado": "visible",
+      "estado": "Poco stock",
       "imagenes": [
         "W307-2B 1.jpg",
         "W307-2B 2.jpg",
