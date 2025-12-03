@@ -1,6 +1,6 @@
 {
-  "version": 1764805467672,
-  "timestamp": "2025-12-03T23:44:27.672Z",
+  "version": 1764806159910,
+  "timestamp": "2025-12-03T23:55:59.910Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -2470,7 +2470,7 @@
       "variantes": {}
     },
     {
-      "codigo": "FN25195",
+      "codigo": "FN252195",
       "nombre": "Pinza 4,5cm",
       "descripcion": "Pinza",
       "categoria": "Accesorios para pelo",
@@ -2478,7 +2478,7 @@
       "precio": 25,
       "estado": "visible",
       "imagenes": [
-        "FN25195 1.jpg"
+        "FN252195 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -7380,25 +7380,6 @@
       "permitirSurtido": false,
       "colores": {
         "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "XL003788",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "XL003788 1.jpg",
-        "XL003788 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
       },
       "variantes": {}
     },
