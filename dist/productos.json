@@ -1,6 +1,6 @@
 {
-  "version": 1764806159910,
-  "timestamp": "2025-12-03T23:55:59.910Z",
+  "version": 1764934769921,
+  "timestamp": "2025-12-05T11:39:29.921Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -6934,24 +6934,6 @@
       "variantes": {}
     },
     {
-      "codigo": "NK1021",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 165,
-      "estado": "visible",
-      "imagenes": [
-        "NK1021 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "NK1022",
       "nombre": "Gargantilla acero",
       "descripcion": "Gargantilla acero",
@@ -8039,26 +8021,6 @@
         "Dorado": true
       },
       "variantes": {}
-    },
-    {
-      "codigo": "SZ0136",
-      "nombre": "Brazalete acero dorado",
-      "descripcion": "Pulsera acero 2",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 225,
-      "estado": "visible",
-      "imagenes": [
-        "SZ0136 1.jpg",
-        "SZ0136 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {},
-      "imagenVariantes": "SZ0136 VARIANTES.jpg"
     },
     {
       "codigo": "SZ0467",
@@ -10011,24 +9973,6 @@
       },
       "variantes": {},
       "imagenVariantes": "HS6801 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FN2412",
-      "nombre": "Lentes de dama",
-      "descripcion": "XLentes de dama",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 285,
-      "estado": "visible",
-      "imagenes": [
-        "FN2412 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Marron Oscuro": true
-      },
-      "variantes": {}
     },
     {
       "codigo": "SG25390",
