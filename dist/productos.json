@@ -1,6 +1,6 @@
 {
-  "version": 1764934769921,
-  "timestamp": "2025-12-05T11:39:29.921Z",
+  "version": 1765060106659,
+  "timestamp": "2025-12-06T22:28:26.659Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -71,7 +71,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Nude": true,
         "Amarillo": true,
         "Rosado": true
       },
@@ -1206,27 +1205,6 @@
       "variantes": {}
     },
     {
-      "codigo": "BAG6535",
-      "nombre": "Bandolera",
-      "descripcion": "Bandolera",
-      "categoria": "A Marroquineria",
-      "medidas": "17 X 11 X 6CM",
-      "precio": 385,
-      "estado": "Poco stock",
-      "imagenes": [
-        "BAG6535 1.jpg",
-        "BAG6535 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Gris": true,
-        "Azul": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BAG6535 VARIANTES.jpg"
-    },
-    {
       "codigo": "H001",
       "nombre": "Bandolera para celular",
       "descripcion": "Bandolera para celular",
@@ -1704,7 +1682,6 @@
       "permitirSurtido": true,
       "colores": {
         "Verde": true,
-        "Celeste": true,
         "Rosado": true
       },
       "variantes": {},
@@ -1805,24 +1782,6 @@
       "imagenVariantes": "B003 VARIANTES.jpg"
     },
     {
-      "codigo": "B269",
-      "nombre": "Set 2 Coleros con detalles",
-      "descripcion": "Colero",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 40,
-      "estado": "visible",
-      "imagenes": [
-        "B269 1.jpg",
-        "B269 2.jpg",
-        "B269 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "B332",
       "nombre": "Colero",
       "descripcion": "Colero",
@@ -1833,25 +1792,6 @@
       "imagenes": [
         "B332 1.jpg",
         "B332 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "B362",
-      "nombre": "Colero",
-      "descripcion": "Colero",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 25,
-      "estado": "visible",
-      "imagenes": [
-        "B362 1.jpg",
-        "B362 2.jpg",
-        "B362 3.jpg",
-        "B362 4.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -2017,6 +1957,23 @@
       "variantes": {}
     },
     {
+      "codigo": "FN25128",
+      "nombre": "Diademas",
+      "descripcion": "Diademas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 20,
+      "estado": "visible",
+      "imagenes": [
+        "FN25128 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {},
+      "imagenVariantes": "FN25128 VARIANTES.jpg"
+    },
+    {
       "codigo": "FN25964",
       "nombre": "Diademas unicornio",
       "descripcion": "Diademas",
@@ -2178,6 +2135,44 @@
       "imagenVariantes": "C037 VARIANTES.jpg"
     },
     {
+      "codigo": "FN25318",
+      "nombre": "Tiara Carey 0,8cm",
+      "descripcion": "Diademas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 30,
+      "estado": "visible",
+      "imagenes": [
+        "FN25318 1.jpg",
+        "FN25318 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Animal Print": true
+      },
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25329",
+      "nombre": "Tiara Carey 1,3cm",
+      "descripcion": "Diademas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 35,
+      "estado": "visible",
+      "imagenes": [
+        "FN25329 1.jpg",
+        "FN25329 2.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": false,
+      "colores": {
+        "Animal Print": true
+      },
+      "variantes": {}
+    },
+    {
       "codigo": "C013-1",
       "nombre": "Vincha negra plastico lisa",
       "descripcion": "Diademas",
@@ -2248,6 +2243,40 @@
       "permitirSurtido": true,
       "colores": {},
       "variantes": {}
+    },
+    {
+      "codigo": "FN25116",
+      "nombre": "Pinza 4,5cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "4,5cm",
+      "precio": 33,
+      "estado": "visible",
+      "imagenes": [
+        "FN25116 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {},
+      "imagenVariantes": "FN25116 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FN25111",
+      "nombre": "Pinza 3,5cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "3,5cm",
+      "precio": 29,
+      "estado": "visible",
+      "imagenes": [
+        "FN25111 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {},
+      "imagenVariantes": "FN25111 VARIANTES.jpg"
     },
     {
       "codigo": "FN25753",
@@ -2334,6 +2363,22 @@
       "colores": {},
       "variantes": {},
       "imagenVariantes": "FN25779 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FN25513",
+      "nombre": "Pinza 12cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 42,
+      "estado": "visible",
+      "imagenes": [
+        "FN25513 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
     },
     {
       "codigo": "FN25773",
@@ -2503,11 +2548,11 @@
     },
     {
       "codigo": "FN251019",
-      "nombre": "Pinza 4,5cm",
+      "nombre": "Pinza 4cm",
       "descripcion": "Pinza",
       "categoria": "Accesorios para pelo",
       "medidas": "",
-      "precio": 25,
+      "precio": 23,
       "estado": "visible",
       "imagenes": [
         "FN251019 1.jpg"
@@ -2519,11 +2564,11 @@
     },
     {
       "codigo": "FN251017",
-      "nombre": "Pinza 4,5cm",
+      "nombre": "Pinza 4cm",
       "descripcion": "Pinza",
       "categoria": "Accesorios para pelo",
       "medidas": "",
-      "precio": 25,
+      "precio": 23,
       "estado": "visible",
       "imagenes": [
         "FN251017 1.jpg"
@@ -2551,11 +2596,11 @@
     },
     {
       "codigo": "FN251045",
-      "nombre": "Pinza 4,5cm",
+      "nombre": "Pinza 4cm",
       "descripcion": "Pinza",
       "categoria": "Accesorios para pelo",
       "medidas": "",
-      "precio": 25,
+      "precio": 23,
       "estado": "visible",
       "imagenes": [
         "FN251045 1.jpg"
@@ -2567,11 +2612,11 @@
     },
     {
       "codigo": "FN251037",
-      "nombre": "Pinza 4,5cm",
+      "nombre": "Pinza 4cm",
       "descripcion": "Pinza",
       "categoria": "Accesorios para pelo",
       "medidas": "",
-      "precio": 25,
+      "precio": 23,
       "estado": "visible",
       "imagenes": [
         "FN251037 1.jpg"
@@ -2614,25 +2659,41 @@
       "variantes": {}
     },
     {
-      "codigo": "FN25774",
-      "nombre": "Pinza 5,5cm",
+      "codigo": "FN25394",
+      "nombre": "Pinza 4cm",
+      "descripcion": "Pinza",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 25,
+      "estado": "visible",
+      "imagenes": [
+        "FN25394 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25600",
+      "nombre": "Pinza 6cm",
       "descripcion": "Pinza",
       "categoria": "Accesorios para pelo",
       "medidas": "",
       "precio": 33,
       "estado": "visible",
       "imagenes": [
-        "FN25774 1.jpg"
+        "FN25600 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {},
       "variantes": {},
-      "imagenVariantes": "FN25774 VARIANTES.jpg"
+      "imagenVariantes": "FN25600 VARIANTES.jpg"
     },
     {
       "codigo": "FN251043",
-      "nombre": "Pinza 6cm",
+      "nombre": "Pinza 6,5cm",
       "descripcion": "Pinza",
       "categoria": "Accesorios para pelo",
       "medidas": "",
@@ -2698,7 +2759,7 @@
     },
     {
       "codigo": "FN251002",
-      "nombre": "Pinza 11cm",
+      "nombre": "Pinza 12cm",
       "descripcion": "Pinza",
       "categoria": "Accesorios para pelo",
       "medidas": "",
@@ -2811,7 +2872,6 @@
       "permitirSurtido": true,
       "colores": {
         "Negro": true,
-        "Tonos marrones": true,
         "Varios colores": true
       },
       "variantes": {},
@@ -3768,6 +3828,40 @@
       "variantes": {}
     },
     {
+      "codigo": "FN25297",
+      "nombre": "Set colitas x2",
+      "descripcion": "Set colitas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 40,
+      "estado": "visible",
+      "imagenes": [
+        "FN25297 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {},
+      "imagenVariantes": "FN25297 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FN25065",
+      "nombre": "Set colitas x2",
+      "descripcion": "Set colitas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 40,
+      "estado": "visible",
+      "imagenes": [
+        "FN25065 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {},
+      "imagenVariantes": "FN25065 VARIANTES.jpg"
+    },
+    {
       "codigo": "B379",
       "nombre": "Set coleros x2",
       "descripcion": "Set colitas",
@@ -4050,6 +4144,54 @@
       "colores": {},
       "variantes": {},
       "imagenVariantes": "D061 VARIANTES.jpg"
+    },
+    {
+      "codigo": "FN25190",
+      "nombre": "Set pinzas x 6",
+      "descripcion": "Set pinzas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 55,
+      "estado": "visible",
+      "imagenes": [
+        "FN25190 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25186",
+      "nombre": "Set pinzas x 6",
+      "descripcion": "Set pinzas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 55,
+      "estado": "visible",
+      "imagenes": [
+        "FN25186 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN25187",
+      "nombre": "Set pinzas x 6",
+      "descripcion": "Set pinzas",
+      "categoria": "Accesorios para pelo",
+      "medidas": "",
+      "precio": 55,
+      "estado": "visible",
+      "imagenes": [
+        "FN25187 1.jpg"
+      ],
+      "sinColor": true,
+      "permitirSurtido": false,
+      "colores": {},
+      "variantes": {}
     },
     {
       "codigo": "FN25283",
@@ -5312,25 +5454,6 @@
       "permitirSurtido": true,
       "colores": {
         "Dorado": true,
-        "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "FN25362",
-      "nombre": "Aros acero 15mm",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "1,5CM",
-      "precio": 36,
-      "estado": "visible",
-      "imagenes": [
-        "FN25362 1.jpg",
-        "FN25362 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
         "Plateado": true
       },
       "variantes": {}
@@ -7069,24 +7192,6 @@
       "estado": "visible",
       "imagenes": [
         "NKG2010 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "NKG2011",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 165,
-      "estado": "visible",
-      "imagenes": [
-        "NKG2011 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": false,
