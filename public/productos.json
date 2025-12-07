@@ -1,6 +1,6 @@
 {
-  "version": 1765060106659,
-  "timestamp": "2025-12-06T22:28:26.659Z",
+  "version": 1765067296508,
+  "timestamp": "2025-12-07T00:28:16.508Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -2135,7 +2135,7 @@
       "imagenVariantes": "C037 VARIANTES.jpg"
     },
     {
-      "codigo": "FN25318",
+      "codigo": "FN25328",
       "nombre": "Tiara Carey 0,8cm",
       "descripcion": "Diademas",
       "categoria": "Accesorios para pelo",
@@ -2143,8 +2143,8 @@
       "precio": 30,
       "estado": "visible",
       "imagenes": [
-        "FN25318 1.jpg",
-        "FN25318 2.jpg"
+        "FN25328 1.jpg",
+        "FN25328 2.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": false,
@@ -2170,38 +2170,6 @@
       "colores": {
         "Animal Print": true
       },
-      "variantes": {}
-    },
-    {
-      "codigo": "C013-1",
-      "nombre": "Vincha negra plastico lisa",
-      "descripcion": "Diademas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 20,
-      "estado": "visible",
-      "imagenes": [
-        "C013-1 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "C013-3",
-      "nombre": "Vincha negra plastico ancha",
-      "descripcion": "Diademas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 24,
-      "estado": "visible",
-      "imagenes": [
-        "C013-3 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
       "variantes": {}
     },
     {
@@ -2413,23 +2381,6 @@
       "colores": {},
       "variantes": {},
       "imagenVariantes": "FN25772 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FN25770",
-      "nombre": "Pinza 10,5cm",
-      "descripcion": "Pinza",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 48,
-      "estado": "visible",
-      "imagenes": [
-        "FN25770 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {},
-      "imagenVariantes": "FN25770 VARIANTES.jpg"
     },
     {
       "codigo": "FN25802",
