@@ -1,6 +1,6 @@
 {
-  "version": 1765067296508,
-  "timestamp": "2025-12-07T00:28:16.508Z",
+  "version": 1765142262107,
+  "timestamp": "2025-12-07T21:17:42.107Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -1657,7 +1657,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Verde": true,
         "Lila": true,
         "Rosado": true
@@ -5058,25 +5057,6 @@
       "variantes": {}
     },
     {
-      "codigo": "FN25485",
-      "nombre": "Caravanas acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 120,
-      "estado": "visible",
-      "imagenes": [
-        "FN25485 1.jpg",
-        "FN25485 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "FN25080",
       "nombre": "Aros acero 2,2cm",
       "descripcion": "Caravanas acero",
@@ -6451,23 +6431,6 @@
       "variantes": {}
     },
     {
-      "codigo": "310904G",
-      "nombre": "Cadena acero y dije enchapado Angel",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 375,
-      "estado": "visible",
-      "imagenes": [
-        "310904G 1.jpg",
-        "310904G 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "310904GG",
       "nombre": "Cadena acero y dije enchapado Angel",
       "descripcion": "Gargantilla acero",
@@ -6670,45 +6633,6 @@
       "permitirSurtido": false,
       "colores": {},
       "variantes": {}
-    },
-    {
-      "codigo": "311924",
-      "nombre": "Cadena acero y dije enchapado Libelula",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 310,
-      "estado": "visible",
-      "imagenes": [
-        "311924 1.jpg",
-        "311924 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "312334",
-      "nombre": "Cadena acero y dije enchapado Niña y Niño",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 215,
-      "estado": "visible",
-      "imagenes": [
-        "312334 1.jpg",
-        "312334 2.jpg",
-        "312334 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {
-        "C1": true,
-        "C2": true
-      },
-      "imagenVariantes": "312334 VARIANTES.jpg"
     },
     {
       "codigo": "312274",
@@ -10182,29 +10106,6 @@
       "variantes": {}
     },
     {
-      "codigo": "FNG6111",
-      "nombre": "Lentes unisex",
-      "descripcion": "XLentes unisex",
-      "categoria": "Lentes de sol",
-      "medidas": "",
-      "precio": 245,
-      "estado": "visible",
-      "imagenes": [
-        "FNG6111 1.jpg",
-        "FNG6111 2.jpg",
-        "FNG6111 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Verde": true,
-        "Celeste": true,
-        "Rosado": true
-      },
-      "variantes": {},
-      "imagenVariantes": "FNG6111 VARIANTES.jpg"
-    },
-    {
       "codigo": "SG25382",
       "nombre": "Lentes de sol polarizados",
       "descripcion": "XLentes unisex",
@@ -12918,22 +12819,6 @@
       "variantes": {}
     },
     {
-      "codigo": "25862",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 130,
-      "estado": "visible",
-      "imagenes": [
-        "25862 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "25632",
       "nombre": "Caravanas enchapadas plata",
       "descripcion": "Caravanas enchapadas plata",
@@ -13410,22 +13295,6 @@
       "variantes": {}
     },
     {
-      "codigo": "70302",
-      "nombre": "Pulsera enchapada plata infantil",
-      "descripcion": "Enchapado infantil",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 185,
-      "estado": "visible",
-      "imagenes": [
-        "70302 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "70303",
       "nombre": "Pulsera enchapada plata infantil",
       "descripcion": "Enchapado infantil",
@@ -13721,22 +13590,6 @@
       "variantes": {}
     },
     {
-      "codigo": "28290",
-      "nombre": "Caravanas enchapadas en oro Gatita",
-      "descripcion": "Enchapado infantil",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "28290 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "12980",
       "nombre": "Anillo enchapado en oro Unicornio",
       "descripcion": "Enchapado infantil",
@@ -13929,24 +13782,6 @@
       "sinColor": true,
       "permitirSurtido": false,
       "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "510340B",
-      "nombre": "Caravanas enchapadas en oro Mariposa",
-      "descripcion": "Enchapado infantil",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "510340B 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Varios colores": true
-      },
       "variantes": {}
     },
     {
