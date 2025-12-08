@@ -1,6 +1,6 @@
 {
-  "version": 1765235329892,
-  "timestamp": "2025-12-08T23:08:49.892Z",
+  "version": 1765235823185,
+  "timestamp": "2025-12-08T23:17:03.185Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -8193,7 +8193,7 @@
         "W280 3.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {},
       "variantes": {
         "C1": true,
