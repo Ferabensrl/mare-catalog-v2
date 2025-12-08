@@ -1,6 +1,6 @@
 {
-  "version": 1765142262107,
-  "timestamp": "2025-12-07T21:17:42.107Z",
+  "version": 1765235329892,
+  "timestamp": "2025-12-08T23:08:49.892Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -94,7 +94,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Verde": true,
         "Rosado": true,
         "Beige": true
@@ -563,7 +562,7 @@
         "B3001 3.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
         "Blanco": true,
         "Marron Oscuro": true
@@ -2185,26 +2184,6 @@
         "D156 3.jpg",
         "D156 4.jpg",
         "D156 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "D187",
-      "nombre": "Pinza perlas",
-      "descripcion": "Pinza",
-      "categoria": "Accesorios para pelo",
-      "medidas": "7,5cm",
-      "precio": 45,
-      "estado": "visible",
-      "imagenes": [
-        "D187 1.jpg",
-        "D187 2.jpg",
-        "D187 3.jpg",
-        "D187 4.jpg",
-        "D187 5.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -4076,26 +4055,6 @@
       "imagenVariantes": "100325 VARIANTES.jpg"
     },
     {
-      "codigo": "D061",
-      "nombre": "Set pinzas x2 chicas",
-      "descripcion": "Set pinzas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 45,
-      "estado": "visible",
-      "imagenes": [
-        "D061 1.jpg",
-        "D061 2.jpg",
-        "D061 3.jpg",
-        "D061 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {},
-      "imagenVariantes": "D061 VARIANTES.jpg"
-    },
-    {
       "codigo": "FN25190",
       "nombre": "Set pinzas x 6",
       "descripcion": "Set pinzas",
@@ -4942,24 +4901,6 @@
       "sinColor": true,
       "permitirSurtido": false,
       "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "FN25120",
-      "nombre": "Aros acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 75,
-      "estado": "visible",
-      "imagenes": [
-        "FN25120 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
       "variantes": {}
     },
     {
@@ -7040,24 +6981,6 @@
       "variantes": {}
     },
     {
-      "codigo": "NKG2008",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 165,
-      "estado": "visible",
-      "imagenes": [
-        "NKG2008 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "NKG2010",
       "nombre": "Gargantilla acero",
       "descripcion": "Gargantilla acero",
@@ -7211,24 +7134,6 @@
       "estado": "visible",
       "imagenes": [
         "FN0519 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "GARG0244",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 165,
-      "estado": "visible",
-      "imagenes": [
-        "GARG0244 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": false,
@@ -7951,23 +7856,6 @@
       "imagenVariantes": "PULS1001 VARIANTES.jpg"
     },
     {
-      "codigo": "SZ989-2",
-      "nombre": "Brazalete acero dorado",
-      "descripcion": "Pulsera acero 2",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 169,
-      "estado": "visible",
-      "imagenes": [
-        "SZ989-2 1.jpg",
-        "SZ989-2 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "SZ0154",
       "nombre": "Brazalete acero dorado",
       "descripcion": "Pulsera acero 2",
@@ -8154,9 +8042,7 @@
       "permitirSurtido": true,
       "colores": {
         "Lila": true,
-        "Beige": true,
-        "Marron Claro": true,
-        "Bordeaux": true
+        "Marron Claro": true
       },
       "variantes": {},
       "imagenVariantes": "W307-2B VARIANTES.jpg"
