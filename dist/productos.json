@@ -1,6 +1,6 @@
 {
-  "version": 1765235823185,
-  "timestamp": "2025-12-08T23:17:03.185Z",
+  "version": 1765464104928,
+  "timestamp": "2025-12-11T14:41:44.928Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -2168,26 +2168,6 @@
       "colores": {
         "Animal Print": true
       },
-      "variantes": {}
-    },
-    {
-      "codigo": "D156",
-      "nombre": "Pinza",
-      "descripcion": "Pinza",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 45,
-      "estado": "visible",
-      "imagenes": [
-        "D156 1.jpg",
-        "D156 2.jpg",
-        "D156 3.jpg",
-        "D156 4.jpg",
-        "D156 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
       "variantes": {}
     },
     {
@@ -12874,22 +12854,6 @@
       "estado": "visible",
       "imagenes": [
         "29132 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "24992",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 75,
-      "estado": "visible",
-      "imagenes": [
-        "24992 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
