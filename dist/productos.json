@@ -1,6 +1,6 @@
 {
-  "version": 1765464104928,
-  "timestamp": "2025-12-11T14:41:44.928Z",
+  "version": 1765543092714,
+  "timestamp": "2025-12-12T12:38:12.714Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -951,7 +951,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Rosado": true,
         "Verde Agua": true
       },
@@ -1725,9 +1724,8 @@
         "FN5018 4.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
-        "Negro": true,
         "Crudo": true
       },
       "variantes": {},
@@ -6062,23 +6060,6 @@
       "variantes": {}
     },
     {
-      "codigo": "312264M",
-      "nombre": "Cadena acero y dije enchapado flor de liz",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 260,
-      "estado": "visible",
-      "imagenes": [
-        "312264M 1.jpg",
-        "312264M 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "312264G",
       "nombre": "Cadena acero y dije enchapado flor de liz",
       "descripcion": "Gargantilla acero",
@@ -6250,23 +6231,6 @@
       "variantes": {}
     },
     {
-      "codigo": "311034G",
-      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 275,
-      "estado": "visible",
-      "imagenes": [
-        "311034G 1.jpg",
-        "311034G 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "312074P",
       "nombre": "Cadena acero y dije enchapado flor de liz",
       "descripcion": "Gargantilla acero",
@@ -6311,23 +6275,6 @@
       "imagenes": [
         "312074G 1.jpg",
         "312074G 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "310124P",
-      "nombre": "Cadena acero y dije enchapado Luna y estrellas",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 215,
-      "estado": "visible",
-      "imagenes": [
-        "310124P 1.jpg",
-        "310124P 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -6447,23 +6394,6 @@
       "imagenes": [
         "55174PI 1.jpg",
         "55174PI 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "310424P",
-      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 150,
-      "estado": "visible",
-      "imagenes": [
-        "310424P 1.jpg",
-        "310424P 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -6607,23 +6537,6 @@
       "variantes": {}
     },
     {
-      "codigo": "55134PI",
-      "nombre": "Cadena acero y dije enchapado Infinito",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 150,
-      "estado": "visible",
-      "imagenes": [
-        "55134PI 1.jpg",
-        "55134PI 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "311684G",
       "nombre": "Cadena acero y dije enchapado Libelula",
       "descripcion": "Gargantilla acero",
@@ -6740,26 +6653,6 @@
       "sinColor": true,
       "permitirSurtido": false,
       "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "FN5257-2",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "FN5257-2 1.jpg",
-        "FN5257-2 2.jpg",
-        "FN5257-2 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
       "variantes": {}
     },
     {
