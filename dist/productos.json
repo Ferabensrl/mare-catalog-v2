@@ -1,6 +1,6 @@
 {
-  "version": 1765543092714,
-  "timestamp": "2025-12-12T12:38:12.714Z",
+  "version": 1765578221357,
+  "timestamp": "2025-12-12T22:23:41.357Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -5632,26 +5632,6 @@
       "variantes": {}
     },
     {
-      "codigo": "XL00384",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 165,
-      "estado": "visible",
-      "imagenes": [
-        "XL00384 1.jpg",
-        "XL00384 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Plateado": true
-      },
-      "variantes": {},
-      "imagenVariantes": "XL00384 VARIANTES.jpg"
-    },
-    {
       "codigo": "NK5294-22",
       "nombre": "Gargantilla acero",
       "descripcion": "Gargantilla acero",
@@ -5662,22 +5642,6 @@
       "imagenes": [
         "NK5294-22 1.jpg",
         "NK5294-22 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "NK5294-23",
-      "nombre": "Gargantilla acero dorado",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "NK5294-23 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -6809,24 +6773,6 @@
       "estado": "visible",
       "imagenes": [
         "NK1030 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "NK8009",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "NK8009 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": false,
