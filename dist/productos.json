@@ -1,6 +1,6 @@
 {
-  "version": 1765578221357,
-  "timestamp": "2025-12-12T22:23:41.357Z",
+  "version": 1765731102595,
+  "timestamp": "2025-12-14T16:51:42.595Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -119,7 +119,7 @@
         "Negro": true,
         "Lila": true,
         "Celeste": true,
-        "Gris": true,
+        "Marron Claro": true,
         "Bordeaux": true
       },
       "variantes": {},
@@ -9335,11 +9335,9 @@
         "BAG2002 3.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
-        "Tonos pastel": true,
-        "Lila": true,
-        "Rosado": true
+        "Lila": true
       },
       "variantes": {},
       "imagenVariantes": "BAG2002 VARIANTES.jpg"
@@ -10408,7 +10406,6 @@
       "permitirSurtido": true,
       "colores": {},
       "variantes": {
-        "C1": true,
         "C2": true,
         "C3": true,
         "C4": true,
