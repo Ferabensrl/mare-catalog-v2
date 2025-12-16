@@ -1,6 +1,6 @@
 {
-  "version": 1765731102595,
-  "timestamp": "2025-12-14T16:51:42.595Z",
+  "version": 1765854101198,
+  "timestamp": "2025-12-16T03:01:41.198Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -1322,7 +1322,6 @@
       "permitirSurtido": true,
       "colores": {
         "Rosado": true,
-        "Marron Claro": true,
         "Rojo": true,
         "Verde Agua": true
       },
@@ -9411,8 +9410,7 @@
       "colores": {},
       "variantes": {
         "C2": true,
-        "C3": true,
-        "C5": true
+        "C3": true
       },
       "imagenVariantes": "CBB008 VARIANTES.jpg"
     },
@@ -14171,26 +14169,6 @@
       "sinColor": true,
       "permitirSurtido": false,
       "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "510610PI",
-      "nombre": "Gargantilla enchapada corazón",
-      "descripcion": "Gargantilla enchapada",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "510610PI 1.jpg",
-        "510610PI 2.jpg",
-        "510610PI 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Blanco": true
-      },
       "variantes": {}
     },
     {
