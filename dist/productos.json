@@ -1,6 +1,6 @@
 {
-  "version": 1765854101198,
-  "timestamp": "2025-12-16T03:01:41.198Z",
+  "version": 1766064895476,
+  "timestamp": "2025-12-18T13:34:55.476Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -116,7 +116,6 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Negro": true,
         "Lila": true,
         "Celeste": true,
         "Marron Claro": true,
@@ -517,7 +516,6 @@
         "Negro": true,
         "Lila": true,
         "Rosado": true,
-        "Beige": true,
         "Petroleo": true,
         "Azul": true
       },
@@ -1091,8 +1089,7 @@
         "Lila": true,
         "Rosado": true,
         "Marron Claro": true,
-        "Terracota": true,
-        "Crudo": true
+        "Terracota": true
       },
       "variantes": {},
       "imagenVariantes": "LB5019 VARIANTES.jpg"
@@ -7156,22 +7153,6 @@
       "variantes": {}
     },
     {
-      "codigo": "FN25278",
-      "nombre": "Pulsera acero",
-      "descripcion": "Pulsera acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "FN25278 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "FN25279",
       "nombre": "Pulsera acero",
       "descripcion": "Pulsera acero",
@@ -8170,30 +8151,6 @@
       "imagenVariantes": "W0004 VARIANTES.jpg"
     },
     {
-      "codigo": "W2002",
-      "nombre": "Billetera dama jean",
-      "descripcion": "Billetera dama larga",
-      "categoria": "Billeteras",
-      "medidas": "19 X 10 X 2CM",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "W2002 1.jpg",
-        "W2002 2.jpg",
-        "W2002 3.jpg",
-        "W2002 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {
-        "C1": true,
-        "C2": true,
-        "C3": true
-      },
-      "imagenVariantes": "W2002 VARIANTES.jpg"
-    },
-    {
       "codigo": "FN360",
       "nombre": "Billetera dama",
       "descripcion": "Billetera dama larga",
@@ -8653,29 +8610,6 @@
       "imagenVariantes": "BILLH016 VARIANTES.jpg"
     },
     {
-      "codigo": "BILLH022",
-      "nombre": "Billetera de hombre",
-      "descripcion": "Billetera de hombre",
-      "categoria": "Caballero",
-      "medidas": "12,5 X 9,5 X 2,5CM",
-      "precio": 235,
-      "estado": "visible",
-      "imagenes": [
-        "BILLH022 1.jpg",
-        "BILLH022 2.jpg",
-        "BILLH022 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Marron Claro": true,
-        "Marron Oscuro": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BILLH022 VARIANTES.jpg"
-    },
-    {
       "codigo": "BILLH2712",
       "nombre": "Billetera de hombre",
       "descripcion": "Billetera de hombre",
@@ -8723,32 +8657,6 @@
       },
       "variantes": {},
       "imagenVariantes": "BILLH5502 VARIANTES.jpg"
-    },
-    {
-      "codigo": "BILLH5505",
-      "nombre": "Billetera de hombre",
-      "descripcion": "Billetera de hombre",
-      "categoria": "Caballero",
-      "medidas": "11,5 X 9,5 X 2,5CM",
-      "precio": 265,
-      "estado": "visible",
-      "imagenes": [
-        "BILLH5505 1.jpg",
-        "BILLH5505 2.jpg",
-        "BILLH5505 3.jpg",
-        "BILLH5505 4.jpg",
-        "BILLH5505 5.jpg",
-        "BILLH5505 6.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Marron Claro": true,
-        "Marron Oscuro": true
-      },
-      "variantes": {},
-      "imagenVariantes": "BILLH5505 VARIANTES.jpg"
     },
     {
       "codigo": "BILLH5516",
@@ -8937,24 +8845,6 @@
       },
       "variantes": {},
       "imagenVariantes": "MB005 VARIANTES.jpg"
-    },
-    {
-      "codigo": "FN2121",
-      "nombre": "Cinto hombre",
-      "descripcion": "Cinto hombre",
-      "categoria": "Caballero",
-      "medidas": "120 x 3,6cm",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "FN2121 1.jpg",
-        "FN2121 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {},
-      "imagenVariantes": "FN2121 VARIANTES.jpg"
     },
     {
       "codigo": "CINTO1555",
@@ -10693,23 +10583,6 @@
       "colores": {},
       "variantes": {},
       "imagenVariantes": "RELW006-A VARIANTES.jpg"
-    },
-    {
-      "codigo": "RELW006-B",
-      "nombre": "Reloj dama goma",
-      "descripcion": "Reloj dama",
-      "categoria": "Relojes",
-      "medidas": "",
-      "precio": 295,
-      "estado": "visible",
-      "imagenes": [
-        "RELW006-B 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {},
-      "imagenVariantes": "RELW006-B VARIANTES.jpg"
     },
     {
       "codigo": "RELW006-C",
