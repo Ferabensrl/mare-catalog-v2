@@ -1,6 +1,6 @@
 {
-  "version": 1766064895476,
-  "timestamp": "2025-12-18T13:34:55.476Z",
+  "version": 1766339349789,
+  "timestamp": "2025-12-21T17:49:09.789Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -715,29 +715,6 @@
       "imagenVariantes": "B11014 VARIANTES.jpg"
     },
     {
-      "codigo": "B1101",
-      "nombre": "Bandolera / Bolso",
-      "descripcion": "Bandolera",
-      "categoria": "A Marroquineria",
-      "medidas": "23 X 17 X 12CM",
-      "precio": 550,
-      "estado": "Poco stock",
-      "imagenes": [
-        "B1101 1.jpg",
-        "B1101 2.jpg",
-        "B1101 3.jpg",
-        "B1101 4.jpg",
-        "B1101 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Verde claro": true
-      },
-      "variantes": {},
-      "imagenVariantes": "B1101 VARIANTES.jpg"
-    },
-    {
       "codigo": "B013",
       "nombre": "Bandolera / Bolso",
       "descripcion": "Bandolera",
@@ -1034,9 +1011,9 @@
         "B1119-2 2.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
-        "Rosado": true,
+        "Lila": true,
         "Verde Agua": true
       },
       "variantes": {},
@@ -1649,10 +1626,9 @@
         "FNB1024 3.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
         "Verde": true,
-        "Lila": true,
         "Rosado": true
       },
       "variantes": {},
@@ -4991,25 +4967,6 @@
       "variantes": {}
     },
     {
-      "codigo": "FN25290",
-      "nombre": "Caravanas acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 85,
-      "estado": "visible",
-      "imagenes": [
-        "FN25290 1.jpg",
-        "FN25290 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "FN251158",
       "nombre": "Caravanas acero",
       "descripcion": "Caravanas acero",
@@ -5300,25 +5257,6 @@
       "permitirSurtido": true,
       "colores": {
         "Dorado": true,
-        "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "FN25363",
-      "nombre": "Aros acero 20mm",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "2CM",
-      "precio": 42,
-      "estado": "visible",
-      "imagenes": [
-        "FN25363 1.jpg",
-        "FN25363 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
         "Plateado": true
       },
       "variantes": {}
@@ -9273,10 +9211,9 @@
         "FN8104 4.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
-        "Blanco": true,
-        "Fucsia": true
+        "Blanco": true
       },
       "variantes": {},
       "imagenVariantes": "FN8104 VARIANTES.jpg"
@@ -13131,22 +13068,6 @@
       "variantes": {}
     },
     {
-      "codigo": "28292",
-      "nombre": "Caravanas enchapadas en plata Gatita",
-      "descripcion": "Enchapado infantil",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 85,
-      "estado": "visible",
-      "imagenes": [
-        "28292 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "12980",
       "nombre": "Anillo enchapado en oro Unicornio",
       "descripcion": "Enchapado infantil",
@@ -13607,24 +13528,6 @@
       "permitirSurtido": false,
       "colores": {
         "Dorado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "60512",
-      "nombre": "Gargantilla enchapada",
-      "descripcion": "Gargantilla enchapada",
-      "categoria": "Z Enchapado",
-      "medidas": "40+5cm",
-      "precio": 235,
-      "estado": "visible",
-      "imagenes": [
-        "60512 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Plateado": true
       },
       "variantes": {}
     },
