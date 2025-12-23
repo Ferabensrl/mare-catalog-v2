@@ -1,6 +1,6 @@
 {
-  "version": 1766339349789,
-  "timestamp": "2025-12-21T17:49:09.789Z",
+  "version": 1766448476069,
+  "timestamp": "2025-12-23T00:07:56.069Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -2883,24 +2883,6 @@
       "variantes": {}
     },
     {
-      "codigo": "B040",
-      "nombre": "Set colitas x2",
-      "descripcion": "Set colitas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 33,
-      "estado": "visible",
-      "imagenes": [
-        "B040 1.jpg",
-        "B040 2.jpg",
-        "B040 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "B045",
       "nombre": "Set colitas x6",
       "descripcion": "Set colitas",
@@ -2948,25 +2930,6 @@
       "estado": "visible",
       "imagenes": [
         "B070 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "B061",
-      "nombre": "Set colitas x2",
-      "descripcion": "Set colitas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 29,
-      "estado": "visible",
-      "imagenes": [
-        "B061 1.jpg",
-        "B061 2.jpg",
-        "B061 3.jpg",
-        "B061 4.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -3571,25 +3534,6 @@
       "variantes": {}
     },
     {
-      "codigo": "B215",
-      "nombre": "Set colitas x2",
-      "descripcion": "Set colitas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 33,
-      "estado": "visible",
-      "imagenes": [
-        "B215 1.jpg",
-        "B215 2.jpg",
-        "B215 3.jpg",
-        "B215 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "B162",
       "nombre": "Set colitas x2",
       "descripcion": "Set colitas",
@@ -3939,24 +3883,6 @@
       ],
       "sinColor": false,
       "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "G05",
-      "nombre": "Set ondulines 20pcs",
-      "descripcion": "Set de ondulines",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 45,
-      "estado": "visible",
-      "imagenes": [
-        "G05 1.jpg",
-        "G05 2.jpg",
-        "G05 3.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
       "colores": {},
       "variantes": {}
     },
@@ -6384,23 +6310,6 @@
       "variantes": {}
     },
     {
-      "codigo": "312274",
-      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 235,
-      "estado": "visible",
-      "imagenes": [
-        "312274 1.jpg",
-        "312274 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "312344",
       "nombre": "Cadena acero y dije enchapado Flor",
       "descripcion": "Gargantilla acero",
@@ -6496,23 +6405,6 @@
       "imagenes": [
         "35614M 1.jpg",
         "35614M 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "311054P",
-      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 215,
-      "estado": "visible",
-      "imagenes": [
-        "311054P 1.jpg",
-        "311054P 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
