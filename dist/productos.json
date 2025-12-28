@@ -1,6 +1,6 @@
 {
-  "version": 1766834473583,
-  "timestamp": "2025-12-27T11:21:13.583Z",
+  "version": 1766940868698,
+  "timestamp": "2025-12-28T16:54:28.698Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -2003,24 +2003,6 @@
       "colores": {},
       "variantes": {},
       "imagenVariantes": "C071 VARIANTES.jpg"
-    },
-    {
-      "codigo": "C113",
-      "nombre": "Diademas",
-      "descripcion": "Diademas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 59,
-      "estado": "visible",
-      "imagenes": [
-        "C113 1.jpg",
-        "C113 2.jpg",
-        "C113 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
     },
     {
       "codigo": "C024",
@@ -4785,25 +4767,6 @@
       "variantes": {}
     },
     {
-      "codigo": "FN25080",
-      "nombre": "Aros acero 2,2cm",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "22mm",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "FN25080 1.jpg",
-        "FN25080 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "FN251158",
       "nombre": "Caravanas acero",
       "descripcion": "Caravanas acero",
@@ -5259,22 +5222,6 @@
       "colores": {
         "Dorado": true
       },
-      "variantes": {}
-    },
-    {
-      "codigo": "FN24242",
-      "nombre": "Caravanas acero",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 50,
-      "estado": "visible",
-      "imagenes": [
-        "FN24242 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
       "variantes": {}
     },
     {
@@ -6465,24 +6412,6 @@
       "variantes": {}
     },
     {
-      "codigo": "NK1027",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 145,
-      "estado": "visible",
-      "imagenes": [
-        "NK1027 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "NK8013",
       "nombre": "Gargantilla acero",
       "descripcion": "Gargantilla acero",
@@ -6910,7 +6839,7 @@
       "variantes": {}
     },
     {
-      "codigo": "FN25281",
+      "codigo": "FN25908",
       "nombre": "Pulsera acero",
       "descripcion": "Pulsera acero",
       "categoria": "Acero",
@@ -6918,7 +6847,7 @@
       "precio": 145,
       "estado": "visible",
       "imagenes": [
-        "FN25281 1.jpg"
+        "FN25908 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -6974,6 +6903,70 @@
       "variantes": {}
     },
     {
+      "codigo": "FN251155",
+      "nombre": "Pulsera acero",
+      "descripcion": "Pulsera acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 145,
+      "estado": "visible",
+      "imagenes": [
+        "FN251155 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN251161",
+      "nombre": "Pulsera acero",
+      "descripcion": "Pulsera acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 145,
+      "estado": "visible",
+      "imagenes": [
+        "FN251161 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN251163",
+      "nombre": "Pulsera acero",
+      "descripcion": "Pulsera acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 145,
+      "estado": "visible",
+      "imagenes": [
+        "FN251163 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
+      "codigo": "FN251164",
+      "nombre": "Pulsera acero",
+      "descripcion": "Pulsera acero",
+      "categoria": "Acero",
+      "medidas": "",
+      "precio": 145,
+      "estado": "visible",
+      "imagenes": [
+        "FN251164 1.jpg"
+      ],
+      "sinColor": false,
+      "permitirSurtido": true,
+      "colores": {},
+      "variantes": {}
+    },
+    {
       "codigo": "BR3013",
       "nombre": "Pulsera acero varios diseños",
       "descripcion": "Pulsera acero",
@@ -7000,22 +6993,6 @@
       "imagenes": [
         "BR8894-1 1.jpg",
         "BR8894-1 2.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "BR8894-2",
-      "nombre": "Pulsera acero con cuentas",
-      "descripcion": "Pulsera acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 165,
-      "estado": "visible",
-      "imagenes": [
-        "BR8894-2 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -7394,23 +7371,6 @@
       "colores": {},
       "variantes": {},
       "imagenVariantes": "PULS1001 VARIANTES.jpg"
-    },
-    {
-      "codigo": "SZ0154",
-      "nombre": "Brazalete acero dorado",
-      "descripcion": "Pulsera acero 2",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 225,
-      "estado": "visible",
-      "imagenes": [
-        "SZ0154 1.jpg",
-        "SZ0154 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
     },
     {
       "codigo": "SZ0078",
@@ -10885,22 +10845,6 @@
       "variantes": {}
     },
     {
-      "codigo": "RELH1124",
-      "nombre": "Reloj hombre cuero",
-      "descripcion": "Reloj hombre",
-      "categoria": "Relojes",
-      "medidas": "",
-      "precio": 295,
-      "estado": "Poco stock",
-      "imagenes": [
-        "RELH1124 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "RELH1126",
       "nombre": "Reloj hombre cuero",
       "descripcion": "Reloj hombre",
@@ -11593,24 +11537,6 @@
       "variantes": {}
     },
     {
-      "codigo": "56070B",
-      "nombre": "Caravanas enchapadas oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "56070B 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "56030B",
       "nombre": "Caravanas enchapadas oro",
       "descripcion": "Caravanas enchapadas oro",
@@ -11832,22 +11758,6 @@
       "estado": "visible",
       "imagenes": [
         "56000B 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "23440",
-      "nombre": "Caravanas enchapadas oro",
-      "descripcion": "Caravanas enchapadas oro",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 105,
-      "estado": "visible",
-      "imagenes": [
-        "23440 1.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
