@@ -1,6 +1,6 @@
 {
-  "version": 1766941324445,
-  "timestamp": "2025-12-28T17:02:04.445Z",
+  "version": 1767355139469,
+  "timestamp": "2026-01-02T11:58:59.469Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -900,7 +900,6 @@
       "colores": {
         "Negro": true,
         "Rosado": true,
-        "Beige": true,
         "Azul": true,
         "Verde Agua": true
       },
@@ -1783,26 +1782,6 @@
       "imagenVariantes": "B428 VARIANTES.jpg"
     },
     {
-      "codigo": "B433",
-      "nombre": "Colero con brillos",
-      "descripcion": "Colero",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 35,
-      "estado": "visible",
-      "imagenes": [
-        "B433 1.jpg",
-        "B433 2.jpg",
-        "B433 3.jpg",
-        "B433 4.jpg",
-        "B433 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "FN25733",
       "nombre": "Colero",
       "descripcion": "Colero",
@@ -2271,22 +2250,6 @@
       "variantes": {}
     },
     {
-      "codigo": "FN2495",
-      "nombre": "Pinza 4cm",
-      "descripcion": "Pinza",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 28,
-      "estado": "visible",
-      "imagenes": [
-        "FN2495 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "FN252195",
       "nombre": "Pinza 4,5cm",
       "descripcion": "Pinza",
@@ -2628,28 +2591,6 @@
       "imagenVariantes": "3216 VARIANTES.jpg"
     },
     {
-      "codigo": "100305",
-      "nombre": "Set colitas x 10",
-      "descripcion": "Set colitas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 40,
-      "estado": "visible",
-      "imagenes": [
-        "100305 1.jpg",
-        "100305 2.jpg",
-        "100305 3.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {
-        "Negro": true,
-        "Varios colores": true
-      },
-      "variantes": {},
-      "imagenVariantes": "100305 VARIANTES.jpg"
-    },
-    {
       "codigo": "100301",
       "nombre": "Set x 5 colitas",
       "descripcion": "Set colitas",
@@ -2986,11 +2927,9 @@
         "B103 3.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
-        "Negro": true,
-        "Tonos marrones": true,
-        "Varios colores": true
+        "Negro": true
       },
       "variantes": {}
     },
@@ -3210,22 +3149,6 @@
       "estado": "visible",
       "imagenes": [
         "FN25030 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "FN25316",
-      "nombre": "Set colitas x30",
-      "descripcion": "Set colitas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 38,
-      "estado": "visible",
-      "imagenes": [
-        "FN25316 1.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -5879,23 +5802,6 @@
       "variantes": {}
     },
     {
-      "codigo": "310114M",
-      "nombre": "Cadena acero y dije enchapado Arbol de la vida",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 275,
-      "estado": "visible",
-      "imagenes": [
-        "310114M 1.jpg",
-        "310114M 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "312044G",
       "nombre": "Cadena acero y dije enchapado Flor",
       "descripcion": "Gargantilla acero",
@@ -6110,23 +6016,6 @@
       "imagenes": [
         "310424G 1.jpg",
         "310424G 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "310464P",
-      "nombre": "Cadena acero y dije enchapado Abeja",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 175,
-      "estado": "visible",
-      "imagenes": [
-        "310464P 1.jpg",
-        "310464P 2.jpg"
       ],
       "sinColor": true,
       "permitirSurtido": false,
@@ -11851,22 +11740,6 @@
       "variantes": {}
     },
     {
-      "codigo": "23442",
-      "nombre": "Caravanas enchapadas plata",
-      "descripcion": "Caravanas enchapadas plata",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 85,
-      "estado": "visible",
-      "imagenes": [
-        "23442 1.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "212092",
       "nombre": "Caravanas enchapadas plata",
       "descripcion": "Caravanas enchapadas plata",
@@ -12310,24 +12183,6 @@
       "sinColor": true,
       "permitirSurtido": false,
       "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "PL02331",
-      "nombre": "Pulsera enchapada oro infantil Mariposa",
-      "descripcion": "Enchapado infantil",
-      "categoria": "Z Enchapado",
-      "medidas": "",
-      "precio": 135,
-      "estado": "visible",
-      "imagenes": [
-        "PL02331 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Rosado": true
-      },
       "variantes": {}
     },
     {
