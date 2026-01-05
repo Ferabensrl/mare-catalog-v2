@@ -1,6 +1,6 @@
 {
-  "version": 1767355139469,
-  "timestamp": "2026-01-02T11:58:59.469Z",
+  "version": 1767615196319,
+  "timestamp": "2026-01-05T12:13:16.319Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -4179,25 +4179,6 @@
       "variantes": {}
     },
     {
-      "codigo": "G06",
-      "nombre": "Set sapitos x3",
-      "descripcion": "Set sapitos",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 30,
-      "estado": "visible",
-      "imagenes": [
-        "G06 1.jpg",
-        "G06 2.jpg",
-        "G06 3.jpg",
-        "G06 4.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "G08",
       "nombre": "Set sapitos x3",
       "descripcion": "Set sapitos",
@@ -6355,24 +6336,6 @@
       "variantes": {}
     },
     {
-      "codigo": "NKG2010",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 195,
-      "estado": "visible",
-      "imagenes": [
-        "NKG2010 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
-      "variantes": {}
-    },
-    {
       "codigo": "NKG8001",
       "nombre": "Gargantilla acero",
       "descripcion": "Gargantilla acero",
@@ -6441,24 +6404,6 @@
       "permitirSurtido": false,
       "colores": {
         "Plateado": true
-      },
-      "variantes": {}
-    },
-    {
-      "codigo": "NKG8011",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 165,
-      "estado": "visible",
-      "imagenes": [
-        "NKG8011 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
       },
       "variantes": {}
     },
