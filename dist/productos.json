@@ -1,6 +1,6 @@
 {
-  "version": 1767615196319,
-  "timestamp": "2026-01-05T12:13:16.319Z",
+  "version": 1767619667802,
+  "timestamp": "2026-01-05T13:27:47.802Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -7323,12 +7323,10 @@
         "W0005 4.jpg"
       ],
       "sinColor": false,
-      "permitirSurtido": true,
+      "permitirSurtido": false,
       "colores": {
         "Negro": true,
-        "Marron Oscuro": true,
-        "Bordeaux": true,
-        "Azul": true
+        "Marron Oscuro": true
       },
       "variantes": {},
       "imagenVariantes": "W0005 VARIANTES.jpg"

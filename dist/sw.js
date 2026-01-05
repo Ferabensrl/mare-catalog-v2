@@ -1,6 +1,6 @@
 // sw.js - Service Worker para MARÉ Catálogo PWA
 // Versión del cache - incrementar cuando haya cambios importantes
-const CACHE_VERSION = 'mare-v1.2.5-auto-1767615196319';
+const CACHE_VERSION = 'mare-v1.2.5-auto-1767619667802';
 const STATIC_CACHE = `${CACHE_VERSION}-static`;
 const DYNAMIC_CACHE = `${CACHE_VERSION}-dynamic`;
 const IMAGES_CACHE = `${CACHE_VERSION}-images`;
