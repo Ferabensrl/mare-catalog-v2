@@ -1,6 +1,6 @@
 {
-  "version": 1767619667802,
-  "timestamp": "2026-01-05T13:27:47.802Z",
+  "version": 1767794604653,
+  "timestamp": "2026-01-07T14:03:24.653Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -116,10 +116,8 @@
       "sinColor": false,
       "permitirSurtido": true,
       "colores": {
-        "Lila": true,
         "Celeste": true,
-        "Marron Claro": true,
-        "Bordeaux": true
+        "Marron Claro": true
       },
       "variantes": {},
       "imagenVariantes": "LB5005 VARIANTES.jpg"
@@ -1172,54 +1170,6 @@
         "Blanco": true
       },
       "variantes": {}
-    },
-    {
-      "codigo": "H001",
-      "nombre": "Bandolera para celular",
-      "descripcion": "Bandolera para celular",
-      "categoria": "A Marroquineria",
-      "medidas": "19,5 X 11 X 4,5CM",
-      "precio": 175,
-      "estado": "visible",
-      "imagenes": [
-        "H001 1.jpg",
-        "H001 2.jpg",
-        "H001 3.jpg",
-        "H001 4.jpg",
-        "H001 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Verde claro": true,
-        "Rojo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "H001 VARIANTES.jpg"
-    },
-    {
-      "codigo": "H002",
-      "nombre": "Bandolera para celular",
-      "descripcion": "Bandolera para celular",
-      "categoria": "A Marroquineria",
-      "medidas": "18 X 13,5 X 2CM",
-      "precio": 130,
-      "estado": "Poco stock",
-      "imagenes": [
-        "H002 1.jpg",
-        "H002 2.jpg",
-        "H002 3.jpg",
-        "H002 4.jpg",
-        "H002 5.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Gris": true,
-        "Rojo": true
-      },
-      "variantes": {},
-      "imagenVariantes": "H002 VARIANTES.jpg"
     },
     {
       "codigo": "H003",
@@ -5254,23 +5204,6 @@
       "variantes": {}
     },
     {
-      "codigo": "NK5294-22",
-      "nombre": "Gargantilla acero",
-      "descripcion": "Gargantilla acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 130,
-      "estado": "visible",
-      "imagenes": [
-        "NK5294-22 1.jpg",
-        "NK5294-22 2.jpg"
-      ],
-      "sinColor": true,
-      "permitirSurtido": false,
-      "colores": {},
-      "variantes": {}
-    },
-    {
       "codigo": "NK5294-24",
       "nombre": "Gargantilla acero",
       "descripcion": "Gargantilla acero",
@@ -8187,8 +8120,7 @@
       "colores": {
         "Negro": true,
         "Marron Claro": true,
-        "Marron Oscuro": true,
-        "Azul": true
+        "Marron Oscuro": true
       },
       "variantes": {},
       "imagenVariantes": "BILLH5516 VARIANTES.jpg"
