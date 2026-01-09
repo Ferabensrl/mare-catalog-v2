@@ -1,6 +1,6 @@
 {
-  "version": 1767794604653,
-  "timestamp": "2026-01-07T14:03:24.653Z",
+  "version": 1767959947333,
+  "timestamp": "2026-01-09T11:59:07.333Z",
   "productos": [
     {
       "codigo": "LD1207",
@@ -3677,26 +3677,6 @@
       "imagenVariantes": "H0018 VARIANTES.jpg"
     },
     {
-      "codigo": "100325",
-      "nombre": "Set x3 pinzas",
-      "descripcion": "Set de pinzas",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 39,
-      "estado": "visible",
-      "imagenes": [
-        "100325 1.jpg",
-        "100325 2.jpg",
-        "100325 3.jpg",
-        "100325 4.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {},
-      "imagenVariantes": "100325 VARIANTES.jpg"
-    },
-    {
       "codigo": "FN25190",
       "nombre": "Set pinzas x 6",
       "descripcion": "Set pinzas",
@@ -4012,25 +3992,6 @@
       "estado": "visible",
       "imagenes": [
         "FN25455 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "D138",
-      "nombre": "Set sapitos x2 estampado",
-      "descripcion": "Set sapitos",
-      "categoria": "Accesorios para pelo",
-      "medidas": "",
-      "precio": 45,
-      "estado": "visible",
-      "imagenes": [
-        "D138 1.jpg",
-        "D138 2.jpg",
-        "D138 3.jpg",
-        "D138 4.jpg"
       ],
       "sinColor": false,
       "permitirSurtido": true,
@@ -4371,24 +4332,6 @@
       "sinColor": true,
       "permitirSurtido": false,
       "colores": {},
-      "variantes": {}
-    },
-    {
-      "codigo": "EA8246",
-      "nombre": "Caravanas acero dorado",
-      "descripcion": "Caravanas acero",
-      "categoria": "Acero",
-      "medidas": "",
-      "precio": 95,
-      "estado": "visible",
-      "imagenes": [
-        "EA8246 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": false,
-      "colores": {
-        "Dorado": true
-      },
       "variantes": {}
     },
     {
@@ -10058,22 +10001,6 @@
       "colores": {},
       "variantes": {},
       "imagenVariantes": "RELW006-D VARIANTES.jpg"
-    },
-    {
-      "codigo": "RELW4004",
-      "nombre": "Reloj dama cuero",
-      "descripcion": "Reloj dama",
-      "categoria": "Relojes",
-      "medidas": "",
-      "precio": 295,
-      "estado": "Poco stock",
-      "imagenes": [
-        "RELW4004 1.jpg"
-      ],
-      "sinColor": false,
-      "permitirSurtido": true,
-      "colores": {},
-      "variantes": {}
     },
     {
       "codigo": "RELW4001",
